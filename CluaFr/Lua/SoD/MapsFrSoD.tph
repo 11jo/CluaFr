@@ -1,0 +1,586 @@
+ACTION_IF FILE_EXISTS_IN_GAME ~bgee.lua~ BEGIN
+	COPY_EXISTING ~bgee.lua~ ~override/bgee.lua~
+
+	// CheatsAreas pour BGEE
+	
+	REPLACE_TEXTUALLY ~{"AR0002", "Temple of Helm (Baldur's Gate)"},~                                                   ~{"AR0002", "(BG)  Temple de Heaum (N)"},~
+	REPLACE_TEXTUALLY ~{"AR0004", "Behren's home, ground floor"},~                                                      ~{"AR0004", "(BG)  Maison de Bheren, L1 (N)"},~
+	REPLACE_TEXTUALLY ~{"AR0005", "Behren's home, second floor (Pixie the Cat)"},~                                      ~{"AR0005", "(BG)  Maison de Bheren, L2 (Ange, le chat) (N)"},~
+	REPLACE_TEXTUALLY ~{"AR0006", "Rinnie's home, ground floor"},~                                                      ~{"AR0006", "(BG)  Maison de Rinnie, L1 (N)"},~
+	REPLACE_TEXTUALLY ~{"AR0007", "Rinnie's home, second floor"},~                                                      ~{"AR0007", "(BG)  Maison de Rinnie, L2 (N)"},~
+	REPLACE_TEXTUALLY ~{"AR0008", "Generic home, ground floor"},~                                                       ~{"AR0008", "(BG)  Maison 1, L1 (N)"},~
+	REPLACE_TEXTUALLY ~{"AR0009", "Generic home, second floor"},~                                                       ~{"AR0009", "(BG)  Maison 1, L2 (N)"},~
+	REPLACE_TEXTUALLY ~{"AR0010", "Jardak's home, ground floor (Drelik the butler)"},~                                  ~{"AR0010", "(BG)  Maison de Jardak, L1 (N)"},~
+	REPLACE_TEXTUALLY ~{"AR0011", "Jardak's home, second floor"},~                                                      ~{"AR0011", "(BG)  Maison de Jardak, L2 (N)"},~
+	REPLACE_TEXTUALLY ~{"AR0012", "Generic home, ground floor"},~                                                       ~{"AR0012", "(BG)  Maison 2, L1 (N)"},~
+	REPLACE_TEXTUALLY ~{"AR0013", "Generic home, second floor"},~                                                       ~{"AR0013", "(BG)  Maison 2, L2 (N)"},~
+	REPLACE_TEXTUALLY ~{"AR0014", "Generic home, ground floor"},~                                                       ~{"AR0014", "(BG)  Maison 3, L1 (N)"},~
+	REPLACE_TEXTUALLY ~{"AR0015", "Generic home, second floor"},~                                                       ~{"AR0015", "(BG)  Maison 3, L2 (N)"},~
+	REPLACE_TEXTUALLY ~{"AR0016", "Generic home, ground floor"},~                                                       ~{"AR0016", "(BG)  Maison 4, L1 (N)"},~
+	REPLACE_TEXTUALLY ~{"AR0017", "Generic home, second floor"},~                                                       ~{"AR0017", "(BG)  Maison 4, L2 (N)"},~
+	REPLACE_TEXTUALLY ~{"AR0018", "Generic home, ground floor"},~                                                       ~{"AR0018", "(BG)  Maison 5, L1 (N)"},~
+	REPLACE_TEXTUALLY ~{"AR0019", "Generic home, second floor"},~                                                       ~{"AR0019", "(BG)  Maison 5, L2 (N)"},~
+	REPLACE_TEXTUALLY ~{"AR0020", "Generic home, ground floor"},~                                                       ~{"AR0020", "(BG)  Maison 6, L1 (N)"},~
+	REPLACE_TEXTUALLY ~{"AR0021", "Generic home, second floor"},~                                                       ~{"AR0021", "(BG)  Maison 6, L2 (N)"},~
+	REPLACE_TEXTUALLY ~{"AR0100", "NW Baldur's Gate (Helm & Cloak, Silvershield Estate)"},~                             ~{"AR0100", "  La Porte de Baldur, NORD-OUEST"},~
+	REPLACE_TEXTUALLY ~{"AR0101", "Silvershield Estate, ground floor"},~                                                ~{"AR0101", "(BG)  Domaine Écudargent, L1 (NO)"},~
+	REPLACE_TEXTUALLY ~{"AR0102", "Silvershield Estate, second floor"},~                                                ~{"AR0102", "(BG)  Domaine Écudargent, L2 Skie (NO)"},~
+	REPLACE_TEXTUALLY ~{"AR0103", "Splurging Sturgeon, ground floor (Lusselyn)"},~                                      ~{"AR0103", "(BG)  Taverne de l'Esturgeon Sautillant, L1 (NE)"},~
+	REPLACE_TEXTUALLY ~{"AR0104", "Splurging Sturgeon, second floor (Mr. Shade)"},~                                     ~{"AR0104", "(BG)  Taverne de l'Esturgeon Sautillant, L2 (NE)"},~
+	REPLACE_TEXTUALLY ~{"AR0105", "Blade and Stars, ground floor (G'axir the Seer, Elkart)"},~                          ~{"AR0105", "(BG)  Auberge de la Lame et des Étoiles, L1 (SE)"},~
+	REPLACE_TEXTUALLY ~{"AR0106", "Blade and Stars, second floor (Maple Willow Aspen)"},~                               ~{"AR0106", "(BG)  Auberge de la Lame et des Étoiles, L2 (SE)"},~
+	REPLACE_TEXTUALLY ~{"AR0107", "Blade and stars, third floor (Reginald Longtooth Worthington III)"},~                ~{"AR0107", "(BG)  Auberge de la Lame et des Étoiles, L3 (SE)"},~
+	REPLACE_TEXTUALLY ~{"AR0108", "Duchal Palace, ground floor"},~                                                      ~{"AR0108", "(BG)  Palais Ducal, L1 (N)"},~
+	REPLACE_TEXTUALLY ~{"AR0109", "Duchal Palace, second floor"},~                                                      ~{"AR0109", "(BG)  Palais Ducal, L2 (N)"},~
+	REPLACE_TEXTUALLY ~{"AR0110", "Duchal Palace, third floor"},~                                                       ~{"AR0110", "(BG)  Palais Ducal, L3 (N)"},~
+	REPLACE_TEXTUALLY ~{"AR0111", "Duchal Palace, basement"},~                                                          ~{"AR0111", "(BG)  Palais Ducal, Sous-sol du palais (N)"},~
+	REPLACE_TEXTUALLY ~{"AR0112", "Undercellars (Slythe, Krystin)"},~                                                   ~{"AR0112", "(BG)  Caves Souterraines, (NE)"},~
+	REPLACE_TEXTUALLY ~{"AR0114", "Blushing Mermaid, ground floor (Larze)"},~                                           ~{"AR0114", "(BG)  Taverne de la Sirène Rougissante, L1 (NE)"},~
+	REPLACE_TEXTUALLY ~{"AR0115", "Blushing Mermaid, second floor"},~                                                   ~{"AR0115", "(BG)  Taverne de la Sirène Rougissante, L2 (NE)"},~
+	REPLACE_TEXTUALLY ~{"AR0116", "Helm & Cloak, ground floor (Gorpel Hind)"},~                                         ~{"AR0116", "(BG)  Auberge du Heaume et de la Cape, L1 (NO)"},~
+	REPLACE_TEXTUALLY ~{"AR0117", "Helm & Cloak, second floor front (Emissary Sarah)"},~                                ~{"AR0117", "(BG)  Auberge du Heaume et de la Cape, L2 (NO)"},~
+	REPLACE_TEXTUALLY ~{"AR0118", "Helm & Cloak, second floor rear"},~                                                  ~{"AR0118", "(BG)  Auberge du Heaume et de la Cape, L3 (NO)"},~
+	REPLACE_TEXTUALLY ~{"AR0119", "Three Old Kegs tavern, ground floor"},~                                              ~{"AR0119", "(BG)  Auberge des Trois Vieilles Chopes, L1 (N)"},~
+	REPLACE_TEXTUALLY ~{"AR0120", "Three Old Kegs tavern, second floor (Skull of Keraph)"},~                            ~{"AR0120", "(BG)  Auberge des Trois Vieilles Chopes, L2 (N)"},~
+	REPLACE_TEXTUALLY ~{"AR0121", "Three Old Kegs tavern, third floor (Areana)"},~                                      ~{"AR0121", "(BG)  Auberge des Trois Vieilles Chopes, L3 (N)"},~
+	REPLACE_TEXTUALLY ~{"AR0123", "Undercity (Temple of Bhaal, old city ruins)"},~                                      ~{"AR0123", "(BG)  Ville souterraine, Ruines (E)"},~
+	REPLACE_TEXTUALLY ~{"AR0125", "Temple of Bhaal (game finale)"},~                                                    ~{"AR0125", "(BG)  Temple de Bhaal, (E)"},~
+	REPLACE_TEXTUALLY ~{"AR0126", "Ragefast's home"},~                                                                  ~{"AR0126", "(BG)  Maison de Ragevite, (O)"},~
+	REPLACE_TEXTUALLY ~{"AR0127", "Merchant League, ground floor (Irlentree)"},~                                        ~{"AR0127", "(BG)  Ligue des Marchands, L1 (SO)"},~
+	REPLACE_TEXTUALLY ~{"AR0128", "Merchant League, second floor (Aldeth, Brandilar, Zorl)"},~                          ~{"AR0128", "(BG)  Ligue des Marchands, L2 (SO)"},~
+	REPLACE_TEXTUALLY ~{"AR0129", "Merchant League, third floor"},~                                                     ~{"AR0129", "(BG)  Ligue des Marchands, L3 (SO)"},~
+	REPLACE_TEXTUALLY ~{"AR0130", "Hall of Wonders (Alora)"},~                                                          ~{"AR0130", "(BG)  Maison des Merveilles, Alora (O)"},~
+	REPLACE_TEXTUALLY ~{"AR0131", "Temple of Gond (Forthel August)"},~                                                  ~{"AR0131", "(BG)  Temple de Gond, (O)"},~
+	REPLACE_TEXTUALLY ~{"AR0132", "Lady's House (Agnasia, Chanthalas Ulbright)"},~                                      ~{"AR0132", "(BG)  Manoir de la Dame, (O)"},~
+	REPLACE_TEXTUALLY ~{"AR0133", "Low Lantern, ground floor"},~                                                        ~{"AR0133", "(BG)  Auberge de la Lanterne assourdie, D1 (S)"},~
+	REPLACE_TEXTUALLY ~{"AR0134", "Low Lantern, first underwater level (Desreta, Vay-ya)"},~                            ~{"AR0134", "(BG)  Auberge de la Lanterne assourdie, D2 (S)"},~
+	REPLACE_TEXTUALLY ~{"AR0135", "Low Lantern, second underwater level (Yago)"},~                                      ~{"AR0135", "(BG)  Auberge de la Lanterne assourdie, D3 (S)"},~
+	REPLACE_TEXTUALLY ~{"AR0136", "Low Lantern, third underwater level"},~                                              ~{"AR0136", "(BG)  Auberge de la Lanterne assourdie, D4 (S)"},~
+	REPLACE_TEXTUALLY ~{"AR0137", "Ramazith's Tower, ground floor"},~                                                   ~{"AR0137", "(BG)  Tour de Ramazith, L1 (N)"},~
+	REPLACE_TEXTUALLY ~{"AR0138", "Ramazith's Tower, sixth (top) floor"},~                                              ~{"AR0138", "(BG)  Tour de Ramazith, L6 (N)"},~
+	REPLACE_TEXTUALLY ~{"AR0139", "Ramazith's Tower, second floor"},~                                                   ~{"AR0139", "(BG)  Tour de Ramazith, L2 (N)"},~
+	REPLACE_TEXTUALLY ~{"AR0140", "Ramazith's Tower, third floor"},~                                                    ~{"AR0140", "(BG)  Tour de Ramazith, L3 (N)"},~
+	REPLACE_TEXTUALLY ~{"AR0141", "Ramazith's Tower, fourth floor"},~                                                   ~{"AR0141", "(BG)  Tour de Ramazith, L4 (N)"},~
+	REPLACE_TEXTUALLY ~{"AR0142", "Ramazith's Tower, fifth floor"},~                                                    ~{"AR0142", "(BG)  Tour de Ramazith, L5 (N)"},~
+	REPLACE_TEXTUALLY ~{"AR0143", "Oberan's Estate, ground floor"},~                                                    ~{"AR0143", "(BG)  Domaine Oberon, L1 (C)"},~
+	REPLACE_TEXTUALLY ~{"AR0144", "Oberan's Estate, second floor"},~                                                    ~{"AR0144", "(BG)  Domaine Oberon, L2 (C)"},~
+	REPLACE_TEXTUALLY ~{"AR0145", "Oberan's Estate, third floor (Helshara, Ithmeera, Delorna)"},~                       ~{"AR0145", "(BG)  Domaine Oberon, L3 (C)"},~
+	REPLACE_TEXTUALLY ~{"AR0146", "Thieves Guild, Maze"},~                                                              ~{"AR0146", "(BG)  Labyrinthe de la Guilde des voleurs, (E)"},~
+	REPLACE_TEXTUALLY ~{"AR0148", "Thieves Guild, front house (fourth from west)"},~                                    ~{"AR0148", "(BG)  Vers la guilde des Voleurs, Entree 5 (E)"},~
+	REPLACE_TEXTUALLY ~{"AR0149", "Ilmater's Shrine"},~                                                                 ~{"AR0149", "(BG)  Chapelle d'Ilmater (NE)"},~
+	REPLACE_TEXTUALLY ~{"AR0150", "Thieves Guild, front house (first from west)"},~                                     ~{"AR0150", "(BG)  Vers la guilde des Voleurs, Entree 2 (E)"},~
+	REPLACE_TEXTUALLY ~{"AR0151", "Thieves Guild, front house (second from west)"},~                                    ~{"AR0151", "(BG)  Vers la guilde des Voleurs, Entree 3 (E)"},~
+	REPLACE_TEXTUALLY ~{"AR0152", "Thieves Guild, front house (third from west)"},~                                     ~{"AR0152", "(BG)  Vers la guilde des Voleurs, Entree 4 (E)"},~
+	REPLACE_TEXTUALLY ~{"AR0153", "Thieves Guild, main area (Alatos, Narlen Darkwalk)"},~                               ~{"AR0153", "(BG)  Guilde des voleurs de l'Ombre, (E)"},~
+	REPLACE_TEXTUALLY ~{"AR0154", "Keexie Tavern, ground floor"},~                                                      ~{"AR0154", "(BG)  Taverne de Keexie, L1 (E)"},~
+	REPLACE_TEXTUALLY ~{"AR0155", "Generic home, ground floor"},~                                                       ~{"AR0155", "(BG)  Maison 3, L1 (NO)"},~
+	REPLACE_TEXTUALLY ~{"AR0156", "Generic home, second floor"},~                                                       ~{"AR0156", "(BG)  Maison 3, L2 (NO)"},~
+	REPLACE_TEXTUALLY ~{"AR0157", "Quinn's home, ground floor"},~                                                       ~{"AR0157", "(BG)  Maison de Quinn, L1 (NO)"},~
+	REPLACE_TEXTUALLY ~{"AR0158", "Quinn's home, second floor"},~                                                       ~{"AR0158", "(BG)  Maison de Quinn,  L2 (NO)"},~
+	REPLACE_TEXTUALLY ~{"AR0159", "Generic home, ground floor"},~                                                       ~{"AR0159", "(BG)  Maison 1, L1 (NO)"},~
+	REPLACE_TEXTUALLY ~{"AR0160", "Generic home, second floor"},~                                                       ~{"AR0160", "(BG)  Maison 1, L2 (NO)"},~
+	REPLACE_TEXTUALLY ~{"AR0161", "Degrodel's home"},~                                                                  ~{"AR0161", "(BG)  Manoir de Degrodel (NO)"},~
+	REPLACE_TEXTUALLY ~{"AR0162", "Louise and Laerta's home"},~                                                         ~{"AR0162", "(BG)  Manoir des jumelles,( Louise et Laerta) L1 (NO)"},~
+	REPLACE_TEXTUALLY ~{"AR0163", "Generic home, ground floor"},~                                                       ~{"AR0163", "(BG)  Maison 2, L1 (NO)"},~
+	REPLACE_TEXTUALLY ~{"AR0164", "Generic home, second floor"},~                                                       ~{"AR0164", "(BG)  Maison 2, L2 (NO)"},~
+	REPLACE_TEXTUALLY ~{"AR0165", "Generic tavern, ground floor (Connoly Finn)"},~                                      ~{"AR0165", "(BG)  Auberge, L1 (NO)"},~
+	REPLACE_TEXTUALLY ~{"AR0166", "Generic tavern, second floor (Borinole Mann)"},~                                     ~{"AR0166", "(BG)  Auberge, L2 (NO)"},~
+	REPLACE_TEXTUALLY ~{"AR0167", "Phierkas's home, ground floor"},~                                                    ~{"AR0167", "(BG)  Maison de Pheirkas, L1 (NO)"},~
+	REPLACE_TEXTUALLY ~{"AR0168", "Phierkas's home, second floor"},~                                                    ~{"AR0168", "(BG)  Maison de Pheirkas, L2 (NO)"},~
+	REPLACE_TEXTUALLY ~{"AR0169", "Generic home, ground floor"},~                                                       ~{"AR0169", "(BG)  Maison 4, L1 (NO)"},~
+	REPLACE_TEXTUALLY ~{"AR0170", "Generic home, second floor"},~                                                       ~{"AR0170", "(BG)  Maison 4, L2 (NO)"},~
+	REPLACE_TEXTUALLY ~{"AR0171", "Keexie Tavern, second floor"},~                                                      ~{"AR0171", "(BG)  Taverne de Keexie, L2 (E)"},~
+	REPLACE_TEXTUALLY ~{"AR0200", "N Baldur's Gate (Ramazith's Tower, Duchal Palace)"},~                                ~{"AR0200", "  La Porte de Baldur, NORD"},~
+	REPLACE_TEXTUALLY ~{"AR0224", "BG Sewers, western area (Schlumpsha the Sewer King)"},~                              ~{"AR0224", "(BG)  Égouts, Ouest (O)"},~
+	REPLACE_TEXTUALLY ~{"AR0225", "BG Sewers, central area (Ratchild)"},~                                               ~{"AR0225", "(BG)  Égouts, Central (C)"},~
+	REPLACE_TEXTUALLY ~{"AR0226", "BG Sewers, eastern area (ogre mage for Scar)"},~                                     ~{"AR0226", "(BG)  Égouts, Est (E)"},~
+	REPLACE_TEXTUALLY ~{"AR0300", "NE Baldur's Gate (Blushing Mermaid, Splurging Sturgeon, Counting House)"},~          ~{"AR0300", "  La Porte de Baldur, NORD-EST"},~
+	REPLACE_TEXTUALLY ~{"AR0302", "Generic home, ground floor"},~                                                       ~{"AR0302", "(BG)  Maison 2, L1 (NE)"},~
+	REPLACE_TEXTUALLY ~{"AR0303", "Generic home, second floor"},~                                                       ~{"AR0303", "(BG)  Maison 2, L2 (NE)"},~
+	REPLACE_TEXTUALLY ~{"AR0304", "Generic store"},~                                                                    ~{"AR0304", "(BG)  Bazar (NE)"},~
+	REPLACE_TEXTUALLY ~{"AR0305", "Generic home, ground floor"},~                                                       ~{"AR0305", "(BG)  Maison 1, L1 (NE)"},~
+	REPLACE_TEXTUALLY ~{"AR0306", "Generic home, second floor"},~                                                       ~{"AR0306", "(BG)  Maison 1, L2 (NE)"},~
+	REPLACE_TEXTUALLY ~{"AR0307", "Counting House, ground floor (Jacil or Ulf)"},~                                      ~{"AR0307", "(BG)  Ligue des marchands, L1 (NE)"},~
+	REPLACE_TEXTUALLY ~{"AR0308", "Counting House, second floor (Captain Kieres)"},~                                    ~{"AR0308", "(BG)  Ligue des marchands, L2 (NE)"},~
+	REPLACE_TEXTUALLY ~{"AR0400", "Farm NE of BG (Wenric, zombie farm)"},~                                              ~{"AR0400", "(SC)  En amont de la Chionthar"},~
+	REPLACE_TEXTUALLY ~{"AR0401", "Wenric's farmhouse"},~                                                               ~{"AR0401", "(SC)  Fermes sur la Chionthar, (Ajantis)"},~
+	REPLACE_TEXTUALLY ~{"AR0500", "Durlag's Tower, exterior"},~                                                         ~{"AR0500", "(ToSC)  Tour de Durlag"},~
+	REPLACE_TEXTUALLY ~{"AR0501", "Durlag's Tower, first subterranean level"},~                                         ~{"AR0501", "(ToSC)  Tour de Durlag, Sous-sol"},~
+	REPLACE_TEXTUALLY ~{"AR0502", "Durlag's Tower, ground floor"},~                                                     ~{"AR0502", "(ToSC)  Tour de Durlag, L1"},~
+	REPLACE_TEXTUALLY ~{"AR0503", "Durlag's Tower, second floor"},~                                                     ~{"AR0503", "(ToSC)  Tour de Durlag, L2"},~
+	REPLACE_TEXTUALLY ~{"AR0504", "Durlag's Tower, third floor (Rigglio)"},~                                            ~{"AR0504", "(ToSC)  Tour de Durlag, L3"},~
+	REPLACE_TEXTUALLY ~{"AR0505", "Durlag's Tower, fourth floor (Kirinhale)"},~                                         ~{"AR0505", "(ToSC)  Tour de Durlag, L4"},~
+	REPLACE_TEXTUALLY ~{"AR0506", "Durlag's Tower, chessboard (fourth subterranean level)"},~                           ~{"AR0506", "(ToSC)  Tour de Durlag, Échiquier"},~
+	REPLACE_TEXTUALLY ~{"AR0507", "Durlag's Tower, cold elemental challenge (fourth subterranean level)"},~             ~{"AR0507", "(ToSC)  Tour de Durlag, Défi glace"},~
+	REPLACE_TEXTUALLY ~{"AR0508", "Durlag's Tower, fire elemental challenge (fourth subterranean level)"},~             ~{"AR0508", "(ToSC)  Tour de Durlag, Défi feu"},~
+	REPLACE_TEXTUALLY ~{"AR0509", "Durlag's Tower, air elemental challenge (fourth subterranean level)"},~              ~{"AR0509", "(ToSC)  Tour de Durlag, Défi air"},~
+	REPLACE_TEXTUALLY ~{"AR0510", "Durlag's Tower, earth elemental challenge (fourth subterranean level)"},~            ~{"AR0510", "(ToSC)  Tour de Durlag, Défi terre"},~
+	REPLACE_TEXTUALLY ~{"AR0511", "Durlag's Tower, second subterranean level (Pride, Avarice, Love, Fear)"},~           ~{"AR0511", "(ToSC)  Tour de Durlag, D1"},~
+	REPLACE_TEXTUALLY ~{"AR0512", "Durlag's Tower, third subterranean level (Kiel, Islanne, door maze)"},~              ~{"AR0512", "(ToSC)  Tour de Durlag, D2"},~
+	REPLACE_TEXTUALLY ~{"AR0513", "Durlag's Tower, fourth subterranean level (leads to elemental challenges)"},~        ~{"AR0513", "(ToSC)  Tour de Durlag, D3"},~
+	REPLACE_TEXTUALLY ~{"AR0514", "Durlag's Tower, fifth subterranean level"},~                                         ~{"AR0514", "(ToSC)  Tour de Durlag, D4"},~
+	REPLACE_TEXTUALLY ~{"AR0515", "Durlag's Tower, stone golem question chamber"},~                                     ~{"AR0515", "(ToSC)  Tour de Durlag, Golem de pierre"},~
+	REPLACE_TEXTUALLY ~{"AR0516", "Durlag's Tower, demon knight chamber (Dalton)"},~                                    ~{"AR0516", "(ToSC)  Tour de Durlag, Chevalier demon"},~
+	REPLACE_TEXTUALLY ~{"AR0600", "W Baldur's Gate (Hall of Wonders, Lady's House, Ragefast's home)"},~                 ~{"AR0600", "  La Porte de Baldur, OUEST"},~
+	REPLACE_TEXTUALLY ~{"AR0601", "Seven Suns, ground floor"},~                                                         ~{"AR0601", "(BG)  Les Sept Soleils, L1 (SO)"},~
+	REPLACE_TEXTUALLY ~{"AR0602", "Seven Suns, second floor"},~                                                         ~{"AR0602", "(BG)  Les Sept Soleils, L2 (SO)"},~
+	REPLACE_TEXTUALLY ~{"AR0603", "Seven Suns, basement (Jhasso)"},~                                                    ~{"AR0603", "(BG)  Les Sept Soleils, Sous-sol (SO)"},~
+	REPLACE_TEXTUALLY ~{"AR0606", "Flaming Fist HQ, basement"},~                                                        ~{"AR0606", "(BG)  Siege du Poing Enflamme, Sous-sol (SO)"},~
+	REPLACE_TEXTUALLY ~{"AR0607", "Flaming Fist HQ, ground floor"},~                                                    ~{"AR0607", "(BG)  Siege du Poing Enflamme, L1 (SO)"},~
+	REPLACE_TEXTUALLY ~{"AR0608", "Flaming Fist HQ, second floor (Duke Eltan)"},~                                       ~{"AR0608", "(BG)  Siege du Poing Enflamme, L2 (SO)"},~
+	REPLACE_TEXTUALLY ~{"AR0609", "Temple of Umberlee (Jalantha Mistmyr)"},~                                            ~{"AR0609", "(BG)  Temple d'Umberlee, (Quais) (S)"},~
+	REPLACE_TEXTUALLY ~{"AR0611", "Iron Throne, basement"},~                                                            ~{"AR0611", "(BG)  Trône de Fer, Sous-sol (S)"},~
+	REPLACE_TEXTUALLY ~{"AR0612", "Iron Throne, second floor (Dra'tan)"},~                                              ~{"AR0612", "(BG)  Trône de Fer, L2 (S)"},~
+	REPLACE_TEXTUALLY ~{"AR0613", "Iron Throne, third floor (Nortuary, Emissary Tar)"},~                                ~{"AR0613", "(BG)  Trône de Fer, L3 (S)"},~
+	REPLACE_TEXTUALLY ~{"AR0614", "Iron Throne, fourth floor (Destus Gurn)"},~                                          ~{"AR0614", "(BG)  Trône de Fer, L4 (S)"},~
+	REPLACE_TEXTUALLY ~{"AR0615", "Iron Throne, fifth (top) floor (chapter five finale)"},~                             ~{"AR0615", "(BG)  Trône de Fer, L5 (S)"},~
+	REPLACE_TEXTUALLY ~{"AR0616", "Iron Throne, ground floor (Triadore)"},~                                             ~{"AR0616", "(BG)  Trône de Fer, L1 (S)"},~
+	REPLACE_TEXTUALLY ~{"AR0617", "Tremain Belde'ar's home, ground floor"},~                                            ~{"AR0617", "(BG)  Maison de Tremain Belde'ar, L1 (O)"},~
+	REPLACE_TEXTUALLY ~{"AR0618", "Tremain Belde'ar's home, second floor"},~                                            ~{"AR0618", "(BG)  Maison de Tremain Belde'ar, L2 (O)"},~
+	REPLACE_TEXTUALLY ~{"AR0619", "Fenten's Home, ground floor"},~                                                      ~{"AR0619", "(BG)  Maison de Fenten, L1 (O)"},~
+	REPLACE_TEXTUALLY ~{"AR0620", "Fenten's Home, second floor"},~                                                      ~{"AR0620", "(BG)  Maison de Fenten, L2 (O)"},~
+	REPLACE_TEXTUALLY ~{"AR0621", "Iron Throne, roof"},~                                                                ~{"AR0621", "(BG)  Trône de Fer, Toit (S)"},~
+	REPLACE_TEXTUALLY ~{"AR0700", "Central Baldur's Gate (marketplace, Oberan's home)"},~                               ~{"AR0700", "  La Porte de Baldur, CENTRE DE LA VILLE"},~
+	REPLACE_TEXTUALLY ~{"AR0702", "Harbormaster's building"},~                                                          ~{"AR0702", "(BG)  Bâtisse du Maître du Port, (Quais) (S)"},~
+	REPLACE_TEXTUALLY ~{"AR0703", "Sorcerous Sundries, ground floor (Halbazzer Drin)"},~                                ~{"AR0703", "(BG)  Bazar Magique, L1 (E)"},~
+	REPLACE_TEXTUALLY ~{"AR0704", "Sorcerous Sundries, second floor"},~                                                 ~{"AR0704", "(BG)  Bazar Magique, L2 (E)"},~
+	REPLACE_TEXTUALLY ~{"AR0705", "Elfsong Tavern, ground floor (Brevlik)"},~                                           ~{"AR0705", "(BG)  Taverne du Chant de l'elfe, L1 (E)"},~
+	REPLACE_TEXTUALLY ~{"AR0706", "Elfsong Tavern, second floor (Alyth, Cyrdemac)"},~                                   ~{"AR0706", "(BG)  Taverne du Chant de l'elfe, L2 (E)"},~
+	REPLACE_TEXTUALLY ~{"AR0707", "Generic home, ground floor"},~                                                       ~{"AR0707", "(BG)  Maison 3, L1 (C)"},~
+	REPLACE_TEXTUALLY ~{"AR0708", "Generic home, second floor"},~                                                       ~{"AR0708", "(BG)  Maison 3, L2 (C)"},~
+	REPLACE_TEXTUALLY ~{"AR0709", "Generic home, ground floor"},~                                                       ~{"AR0709", "(BG)  Maison 2, L1 (C)"},~
+	REPLACE_TEXTUALLY ~{"AR0710", "Generic home, second floor"},~                                                       ~{"AR0710", "(BG)  Maison 2, L2 (C)"},~
+	REPLACE_TEXTUALLY ~{"AR0711", "Generic home, ground floor"},~                                                       ~{"AR0711", "(BG)  Maison 1, L1 (C)"},~
+	REPLACE_TEXTUALLY ~{"AR0712", "Generic home, second floor"},~                                                       ~{"AR0712", "(BG)  Maison 1, L2 (C)"},~
+	REPLACE_TEXTUALLY ~{"AR0713", "Generic home, ground floor"},~                                                       ~{"AR0713", "(BG)  Maison 5, L1 (C)"},~
+	REPLACE_TEXTUALLY ~{"AR0714", "Generic home, second floor"},~                                                       ~{"AR0714", "(BG)  Maison 5, L2 (C)"},~
+	REPLACE_TEXTUALLY ~{"AR0715", "Nadine's home, ground floor"},~                                                      ~{"AR0715", "(BG)  Maison de Nadine, L1 (C)"},~
+	REPLACE_TEXTUALLY ~{"AR0716", "Nadine's home, second floor"},~                                                      ~{"AR0716", "(BG)  Maison de Nadine, L2 (C)"},~
+	REPLACE_TEXTUALLY ~{"AR0717", "Generic home, ground floor"},~                                                       ~{"AR0717", "(BG)  Maison 6, L1 (C)"},~
+	REPLACE_TEXTUALLY ~{"AR0718", "Generic home, second floor"},~                                                       ~{"AR0718", "(BG)  Maison 6, L2 (C)"},~
+	REPLACE_TEXTUALLY ~{"AR0719", "Felonius Gist's home"},~                                                             ~{"AR0719", "(BG)  Manoir de Felonius Gist, (C)"},~
+	REPLACE_TEXTUALLY ~{"AR0720", "Drakon Tavern"},~                                                                    ~{"AR0720", "(BG)  Taverne de Drakon, (C)"},~
+	REPLACE_TEXTUALLY ~{"AR0721", "Warehouse full of rabid chickens"},~                                                 ~{"AR0721", "(BG)  Magasin de volailles, (Poulets enragés) (C)"},~
+	REPLACE_TEXTUALLY ~{"AR0722", "Generic home, ground floor"},~                                                       ~{"AR0722", "(BG)  Maison 4, L1 (C)"},~
+	REPLACE_TEXTUALLY ~{"AR0723", "Generic home, second floor"},~                                                       ~{"AR0723", "(BG)  Maison 4, L2 (C)"},~
+	REPLACE_TEXTUALLY ~{"AR0724", "Marketplace tent (gambling)"},~                                                      ~{"AR0724", "(BG)  Tente de jeux 1, (C)"},~
+	REPLACE_TEXTUALLY ~{"AR0725", "Marketplace tent (gambling)"},~                                                      ~{"AR0725", "(BG)  Tente de jeux 2, (C)"},~
+	REPLACE_TEXTUALLY ~{"AR0726", "Diviner's marketplace tent"},~                                                       ~{"AR0726", "(BG)  Tente du devin, (C)"},~
+	REPLACE_TEXTUALLY ~{"AR0800", "E Baldur's Gate (Sorcerous Sundries, Elfsong Tavern)"},~                             ~{"AR0800", "  La Porte de Baldur, EST"},~
+	REPLACE_TEXTUALLY ~{"AR0801", "Generic home, ground floor"},~                                                       ~{"AR0801", "(BG)  Maison 6, L1 (E)"},~
+	REPLACE_TEXTUALLY ~{"AR0802", "Generic home, second floor"},~                                                       ~{"AR0802", "(BG)  Maison 6, L2 (E)"},~
+	REPLACE_TEXTUALLY ~{"AR0803", "Maltz's Weapon Shop, ground floor"},~                                                ~{"AR0803", "(BG)  Magasin d'armes de Maltz, L1 (E)"},~
+	REPLACE_TEXTUALLY ~{"AR0804", "Maltz's Weapon Shop, second floor"},~                                                ~{"AR0804", "(BG)  Magasin d'armes de Maltz, L2 (E)"},~
+	REPLACE_TEXTUALLY ~{"AR0805", "Arkion's home, ground floor"},~                                                      ~{"AR0805", "(BG)  Maison d'Arkion, L1 (E)"},~
+	REPLACE_TEXTUALLY ~{"AR0806", "Arkion's home, second floor"},~                                                      ~{"AR0806", "(BG)  Maison d'Arkion, L2 (E)"},~
+	REPLACE_TEXTUALLY ~{"AR0807", "Generic inn, ground floor"},~                                                        ~{"AR0807", "(BG)  Auberge, L1 (E)"},~
+	REPLACE_TEXTUALLY ~{"AR0808", "Generic inn, second floor"},~                                                        ~{"AR0808", "(BG)  Auberge, L2 (E)"},~
+	REPLACE_TEXTUALLY ~{"AR0809", "Silence's store"},~                                                                  ~{"AR0809", "(BG)  Magasin du Silence, (E)"},~
+	REPLACE_TEXTUALLY ~{"AR0810", "Luck Aello's store"},~                                                               ~{"AR0810", "(BG)  Magasin d'Aello la Chance, (E)"},~
+	REPLACE_TEXTUALLY ~{"AR0811", "Generic home, ground floor"},~                                                       ~{"AR0811", "(BG)  Maison 1, L1 (E)"},~
+	REPLACE_TEXTUALLY ~{"AR0812", "Generic home, second floor"},~                                                       ~{"AR0812", "(BG)  Maison 1, L2 (E)"},~
+	REPLACE_TEXTUALLY ~{"AR0813", "Nemphre's home, ground floor"},~                                                     ~{"AR0813", "(BG)  Maison de Nemphre, L1 (SE)"},~
+	REPLACE_TEXTUALLY ~{"AR0814", "Nemphre's home, second floor"},~                                                     ~{"AR0814", "(BG)  Maison de Nemphre, L2 (SE)"},~
+	REPLACE_TEXTUALLY ~{"AR0900", "Wyrm's Crossing (bridge to BG, Tenya, Quayle)"},~                                    ~{"AR0900", "(SC)  Travers du Ver, (Quayle)"},~
+	REPLACE_TEXTUALLY ~{"AR0901", "Tenya's home"},~                                                                     ~{"AR0901", "(SC)  Maison de Tenya, (Travers du Ver)"},~
+	REPLACE_TEXTUALLY ~{"AR1000", "Ulgoth's Beard (Shandalar, Ike, Mendas)"},~                                          ~{"AR1000", "  BARBE D'ULGOTH"},~
+	REPLACE_TEXTUALLY ~{"AR1001", "Ulgoth Beard's Inn (Hurgan Stoneblade)"},~                                           ~{"AR1001", "(ToSC)  Auberge de la Barbe d'Ulgoth"},~
+	REPLACE_TEXTUALLY ~{"AR1002", "Aec'Letec cult building, basement (Aec'Letec)"},~                                    ~{"AR1002", "(ToSC)  Aec'Letec le demon, D1 (Barbe d'Ulgoth)"},~
+	REPLACE_TEXTUALLY ~{"AR1003", "Aec'Letec cult building, ground floor"},~                                            ~{"AR1003", "(ToSC)  Culte d'Aec'Letec, L1 (Barbe d'Ulgoth)"},~
+	REPLACE_TEXTUALLY ~{"AR1004", "Mendas's home"},~                                                                    ~{"AR1004", "(ToSC)  Maison de Mendas, (Barbe d'Ulgoth)"},~
+	REPLACE_TEXTUALLY ~{"AR1005", "Therella's home"},~                                                                  ~{"AR1005", "(ToSC)  Maison de Therella, (Barbe d'Ulgoth)"},~
+	REPLACE_TEXTUALLY ~{"AR1006", "Generic home"},~                                                                     ~{"AR1006", "(ToSC)  Maison 2, (Barbe d'Ulgoth"},~
+	REPLACE_TEXTUALLY ~{"AR1007", "Generic home"},~                                                                     ~{"AR1007", "(ToSC)  Maison 1, (Barbe d'Ulgoth"},~
+	REPLACE_TEXTUALLY ~{"AR1008", "Ice island, exterior"},~                                                             ~{"AR1008", "(ToSC)  Île des glaces"},~
+	REPLACE_TEXTUALLY ~{"AR1009", "Ice island, dungeon"},~                                                              ~{"AR1009", "(ToSC)  Île des glaces, Labyrinthe L1"},~
+	REPLACE_TEXTUALLY ~{"AR1010", "Ice island, unused exit area"},~                                                     ~{"AR1010", "(ToSC)  Île des glaces, Labyrinthe L2"},~
+	REPLACE_TEXTUALLY ~{"AR1100", "SW Baldur's Gate (Flaming Fist HQ, Merchant League, Seven Suns)"},~                  ~{"AR1100", "  La Porte de Baldur, SUD-OUEST, (Tiax)"},~
+	REPLACE_TEXTUALLY ~{"AR1101", "Generic home, ground floor (thieves Wiven, Dirk, Meakin and Sath)"},~                ~{"AR1101", "(BG)  Maison de Wiven, L1 (SO)"},~
+	REPLACE_TEXTUALLY ~{"AR1102", "Generic home, second floor"},~                                                       ~{"AR1102", "(BG)  Maison de Wiven, L2 (SO)"},~
+	REPLACE_TEXTUALLY ~{"AR1103", "Generic home, ground floor"},~                                                       ~{"AR1103", "(BG)  Maison 3, L1 (SO)"},~
+	REPLACE_TEXTUALLY ~{"AR1104", "Generic home, second floor"},~                                                       ~{"AR1104", "(BG)  Maison 3, L2 (SO)"},~
+	REPLACE_TEXTUALLY ~{"AR1105", "Generic home, ground floor"},~                                                       ~{"AR1105", "(BG)  Maison 1, L1 (SO)"},~
+	REPLACE_TEXTUALLY ~{"AR1106", "Generic home, second floor"},~                                                       ~{"AR1106", "(BG)  Maison 1, L2 (SO)"},~
+	REPLACE_TEXTUALLY ~{"AR1107", "Generic home, ground floor"},~                                                       ~{"AR1107", "(BG)  Maison 2, L1 (SO)"},~
+	REPLACE_TEXTUALLY ~{"AR1108", "Generic home, second floor"},~                                                       ~{"AR1108", "(BG)  Maison 2, L2 (SO)"},~
+	REPLACE_TEXTUALLY ~{"AR1109", "Generic tavern, ground floor (Phandalyn)"},~                                         ~{"AR1109", "(BG)  Taverne, L1 (SO)"},~
+	REPLACE_TEXTUALLY ~{"AR1110", "Generic tavern, second floor"},~                                                     ~{"AR1110", "(BG)  Taverne, L2 (SO)"},~
+	REPLACE_TEXTUALLY ~{"AR1111", "Sunin's home"},~                                                                     ~{"AR1111", "(BG)  Maison de Sunin, (SO)"},~
+	REPLACE_TEXTUALLY ~{"AR1112", "Generic weapons store"},~                                                            ~{"AR1112", "(BG)  Magasin d'armes 1, (SO)"},~
+	REPLACE_TEXTUALLY ~{"AR1113", "Ye Olde Inn, ground floor (green slimes, AKA Slime Inn)"},~                          ~{"AR1113", "(BG)  La vieille auberge, L1 (SO)"},~
+	REPLACE_TEXTUALLY ~{"AR1114", "Ye Olde Inn, second floor (green slimes, AKA Slime Inn)"},~                          ~{"AR1114", "(BG)  La vieille auberge, L2 (SO)"},~
+	REPLACE_TEXTUALLY ~{"AR1115", "Generic potions store"},~                                                            ~{"AR1115", "(BG)  Magasin de potions 2, (SO)"},~
+	REPLACE_TEXTUALLY ~{"AR1116", "Generic weapons store"},~                                                            ~{"AR1116", "(BG)  Magasin d'armes 2, (SO)"},~
+	REPLACE_TEXTUALLY ~{"AR1117", "Generic potions store"},~                                                            ~{"AR1117", "(BG)  Magasin de potions 1, (SO)"},~
+	REPLACE_TEXTUALLY ~{"AR1200", "S Baldur's Gate (docks, Iron Throne, Low Lantern, Umberlee temple)"},~               ~{"AR1200", "  Les quais de la Porte de Baldur, SUD"},~
+	REPLACE_TEXTUALLY ~{"AR1201", "Generic home, ground floor (ogre mages)"},~                                          ~{"AR1201", "(BG)  Manoir des ogres-mages, L1 (S)"},~
+	REPLACE_TEXTUALLY ~{"AR1202", "Generic home, second floor"},~                                                       ~{"AR1202", "(BG)  Manoir des ogres-mages, L2 (S)"},~
+	REPLACE_TEXTUALLY ~{"AR1203", "Generic home, ground floor"},~                                                       ~{"AR1203", "(BG)  Maison 2, L1 (S)"},~
+	REPLACE_TEXTUALLY ~{"AR1204", "Generic home, second floor"},~                                                       ~{"AR1204", "(BG)  Maison 2, L2 (S)"},~
+	REPLACE_TEXTUALLY ~{"AR1205", "Generic home, ground floor"},~                                                       ~{"AR1205", "(BG)  Maison 1, L1 (S)"},~
+	REPLACE_TEXTUALLY ~{"AR1206", "Generic home, second floor"},~                                                       ~{"AR1206", "(BG)  Maison 1, L2 (S)"},~
+	REPLACE_TEXTUALLY ~{"AR1207", "Warehouse (loose basilisk)"},~                                                       ~{"AR1207", "(BG)  Entrepôt, (Basilic) (S)"},~
+	REPLACE_TEXTUALLY ~{"AR1208", "Warehouse (Noralee)"},~                                                              ~{"AR1208", "(BG)  Entrepôt de Noralee, (Quais) (S)"},~
+	REPLACE_TEXTUALLY ~{"AR1209", "Generic home, ground floor (Larriaz the Sirine)"},~                                  ~{"AR1209", "(BG)  Maison de Larriaz, L1 (S)"},~
+	REPLACE_TEXTUALLY ~{"AR1210", "Generic home, second floor"},~                                                       ~{"AR1210", "(BG)  Maison de Larriaz, L2 (S)"},~
+	REPLACE_TEXTUALLY ~{"AR1211", "Ghorak's home, ground floor"},~                                                      ~{"AR1211", "(BG)  Maison de Ghorak, L1 (S)"},~
+	REPLACE_TEXTUALLY ~{"AR1212", "Ghorak's home, second floor"},~                                                      ~{"AR1212", "(BG)  Maison de Ghorak, L2 (S)"},~
+	REPLACE_TEXTUALLY ~{"AR1213", "Cordyr's home, ground floor"},~                                                      ~{"AR1213", "(BG)  Maison de Cordyr, L1 (S)"},~
+	REPLACE_TEXTUALLY ~{"AR1214", "Cordyr's home, second floor"},~                                                      ~{"AR1214", "(BG)  Maison de Cordyr, L2 (S)"},~
+	REPLACE_TEXTUALLY ~{"AR1215", "Jopalin's Tavern"},~                                                                 ~{"AR1215", "(BG)  Taverne de Jopalin, (Quais) (S)"},~
+	REPLACE_TEXTUALLY ~{"AR1300", "SE Baldur's Gate (Blade and Stars)"},~                                               ~{"AR1300", "  La Porte de Baldur, SUD-EST"},~
+	REPLACE_TEXTUALLY ~{"AR1301", "Warehouse"},~                                                                        ~{"AR1301", "(BG)  Entrepôt, (SE)"},~
+	REPLACE_TEXTUALLY ~{"AR1302", "Well-Adjusted Al's General Store"},~                                                 ~{"AR1302", "(BG)  Magasin d'Al le Bien-Équilibre, (SE)"},~
+	REPLACE_TEXTUALLY ~{"AR1303", "Warehouse (Nadarin)"},~                                                              ~{"AR1303", "(BG)  Entrepôt de Nadarin, (SE)"},~
+	REPLACE_TEXTUALLY ~{"AR1304", "Generic home, ground floor"},~                                                       ~{"AR1304", "(BG)  Maison 3, L1 (SE)"},~
+	REPLACE_TEXTUALLY ~{"AR1305", "Generic home, second floor"},~                                                       ~{"AR1305", "(BG)  Maison 3, L2 (SE)"},~
+	REPLACE_TEXTUALLY ~{"AR1306", "Generic inn, ground floor (Euric)"},~                                                ~{"AR1306", "(BG)  Auberge, L1 (SE)"},~
+	REPLACE_TEXTUALLY ~{"AR1307", "Generic inn, second floor (Sanadal Gwist)"},~                                        ~{"AR1307", "(BG)  Auberge, L2 (SE)"},~
+	REPLACE_TEXTUALLY ~{"AR1308", "Generic home, ground floor"},~                                                       ~{"AR1308", "(BG)  Maison 4, L1 (SE)"},~
+	REPLACE_TEXTUALLY ~{"AR1309", "Generic home, second floor"},~                                                       ~{"AR1309", "(BG)  Maison 4, L2 (SE)"},~
+	REPLACE_TEXTUALLY ~{"AR1310", "Generic home, ground floor"},~                                                       ~{"AR1310", "(BG)  Maison 2, L1 (SE)"},~
+	REPLACE_TEXTUALLY ~{"AR1311", "Generic home, second floor"},~                                                       ~{"AR1311", "(BG)  Maison 2, L2 (SE)"},~
+	REPLACE_TEXTUALLY ~{"AR1312", "Gantolandan's home, ground floor"},~                                                 ~{"AR1312", "(BG)  Maison de Gantolandan, L1 (SE)"},~
+	REPLACE_TEXTUALLY ~{"AR1313", "Gantolandan's home, second floor"},~                                                 ~{"AR1313", "(BG)  Maison de Gantolandan, L2 (SE)"},~
+	REPLACE_TEXTUALLY ~{"AR1314", "Generic home, ground floor"},~                                                       ~{"AR1314", "(BG)  Maison 1, L1 (SE)"},~
+	REPLACE_TEXTUALLY ~{"AR1315", "Generic home, second floor"},~                                                       ~{"AR1315", "(BG)  Maison 1, L2 (SE)"},~
+	REPLACE_TEXTUALLY ~{"AR1316", "Generic home, ground floor (thieves Taxek and Michael)"},~                           ~{"AR1316", "(BG)  Cambriolage, L1 (Taxek et Michael) (SE)"},~
+	REPLACE_TEXTUALLY ~{"AR1317", "Generic home, second floor"},~                                                       ~{"AR1317", "(BG)  Cambriolage, L2 (Taxek et Michael) (SE)"},~
+	REPLACE_TEXTUALLY ~{"AR1320", "Generic store"},~                                                                    ~{"AR1320", "(BG)  Magasin 1, Bazar (SE)"},~
+	REPLACE_TEXTUALLY ~{"AR1400", "Fishing village (Ajantis, farmer Brun, Gerde, lots of ankhegs)"},~                   ~{"AR1400", "(SC)  En aval du Chionthar"},~
+	REPLACE_TEXTUALLY ~{"AR1401", "Ankheg pit"},~                                                                       ~{"AR1401", "(SC)  Fosse des Ankhegs, (Chionthar)"},~
+	REPLACE_TEXTUALLY ~{"AR1402", "Fisherman's home"},~                                                                 ~{"AR1402", "(SC)  Maison 1, (Chionthar)"},~
+	REPLACE_TEXTUALLY ~{"AR1403", "Fisherman's home"},~                                                                 ~{"AR1403", "(SC)  Maison 2, (Chionthar)"},~
+	REPLACE_TEXTUALLY ~{"AR1404", "Brun's home"},~                                                                      ~{"AR1404", "(SC)  Maison du fermier Brun, (Chionthar)"},~
+	REPLACE_TEXTUALLY ~{"AR1500", "Balduran's Isle, north (AKA Werewolf Isle)"},~                                       ~{"AR1500", "(ToSC)  Île perdue de Baldurien, Nord"},~
+	REPLACE_TEXTUALLY ~{"AR1501", "Balduran's ship, ground floor"},~                                                    ~{"AR1501", "(ToSC)  Épave de Baldurien, D1 (N)"},~
+	REPLACE_TEXTUALLY ~{"AR1502", "Balduran's ship, second floor"},~                                                    ~{"AR1502", "(ToSC)  Épave de Baldurien, D2 (N)"},~
+	REPLACE_TEXTUALLY ~{"AR1503", "Balduran's ship, third floor"},~                                                     ~{"AR1503", "(ToSC)  Épave de Baldurien, D3 (N)"},~
+	REPLACE_TEXTUALLY ~{"AR1504", "Balduran's ship, fourth floor (Karoug)"},~                                           ~{"AR1504", "(ToSC)  Épave de Baldurien, D4 (N)"},~
+	REPLACE_TEXTUALLY ~{"AR1505", "Dradeel's home"},~                                                                   ~{"AR1505", "(ToSC)  Maison de Dradeel, (Île perdue) (N)"},~
+	REPLACE_TEXTUALLY ~{"AR1600", "Cloakwood, third main area (shadow druids, Eldoth, Faldorn)"},~                      ~{"AR1600", "(B-M)  Le Vieux chêne de Bois-Manteau, Faldorn (3)"},~
+	REPLACE_TEXTUALLY ~{"AR1601", "Tree house, ground floor"},~                                                         ~{"AR1601", "(B-M)  Maison du Vieux chêne, L1 (3)"},~
+	REPLACE_TEXTUALLY ~{"AR1602", "Tree house, second floor (Amarande)"},~                                              ~{"AR1602", "(B-M)  Maison du Vieux chêne, L2 (3)"},~
+	REPLACE_TEXTUALLY ~{"AR1603", "Baby wyvern cave (Peter of the North)"},~                                            ~{"AR1603", "(B-M)  Peter et les Wyvernes, Vieux chêne"},~
+	REPLACE_TEXTUALLY ~{"AR1700", "Cloakwood, fourth main area (wyverns)"},~                                            ~{"AR1700", "(B-M)  La Caverne de Bois-Manteau, (4)"},~
+	REPLACE_TEXTUALLY ~{"AR1800", "Cloakwood mines, exterior"},~                                                        ~{"AR1800", "(B-M)  Les Mines de Bois-Manteau, (5)"},~
+	REPLACE_TEXTUALLY ~{"AR1801", "Cloakwood mines, first subterranean level (river plug)"},~                           ~{"AR1801", "(B-M)  Mines de Bois-Manteau, D1"},~
+	REPLACE_TEXTUALLY ~{"AR1802", "Cloakwood mines, third subterranean level (Natasha, ogre mage)"},~                   ~{"AR1802", "(B-M)  Mines de Bois-Manteau, D3"},~
+	REPLACE_TEXTUALLY ~{"AR1803", "Cloakwood mines, fourth subterranean level (Davaeorn, Stephan)"},~                   ~{"AR1803", "(B-M)  Mines de Bois-Manteau, D4"},~
+	REPLACE_TEXTUALLY ~{"AR1804", "Cloakwood mines, second subterranean level (Yeslick, Hareishan)"},~                  ~{"AR1804", "(B-M)  Mines de Bois-Manteau, D2 (Yeslick)"},~
+	REPLACE_TEXTUALLY ~{"AR1805", "Cloakwood mines, barracks ground floor"},~                                           ~{"AR1805", "(B-M)  Mines de Bois-Manteau, Caserne L1"},~
+	REPLACE_TEXTUALLY ~{"AR1806", "Cloakwood mines, barracks second floor"},~                                           ~{"AR1806", "(B-M)  Mines de Bois-Manteau, Caserne L2"},~
+	REPLACE_TEXTUALLY ~{"AR1807", "Cloakwood mines, elevator"},~                                                        ~{"AR1807", "(B-M)  Mines de Bois-Manteau, Monte-charge"},~
+	REPLACE_TEXTUALLY ~{"AR1808", "Cloakwood mines, storehouse"},~                                                      ~{"AR1808", "(B-M)  Mines de Bois-Manteau, Entrepôt"},~
+	REPLACE_TEXTUALLY ~{"AR1809", "Cloakwood mines, shed leading to elevator"},~                                        ~{"AR1809", "(B-M)  Mines de Bois-Manteau, Entree"},~
+	REPLACE_TEXTUALLY ~{"AR1900", "Bandit Camp"},~                                                                      ~{"AR1900", "(C-B)  Le Camp des bandits"},~
+	REPLACE_TEXTUALLY ~{"AR1901", "Bandit Camp, main tent (Raemon, Venkt, Hakt, Britik)"},~                             ~{"AR1901", "(C-B)  Tente des chefs des bandits"},~
+	REPLACE_TEXTUALLY ~{"AR1902", "Bandit Camp, tent (Ardenor Crush)"},~                                                ~{"AR1902", "(C-B)  Tente 2, Ardenor Crush"},~
+	REPLACE_TEXTUALLY ~{"AR1903", "Bandit Camp, cave (Garclax)"},~                                                      ~{"AR1903", "(C-B)  Grotte des Gnolls, Garclax"},~
+	REPLACE_TEXTUALLY ~{"AR1904", "Bandit Camp, tent (Tersus)"},~                                                       ~{"AR1904", "(C-B)  Tente de Tersus"},~
+	REPLACE_TEXTUALLY ~{"AR1905", "Bandit Camp, tent (Knott)"},~                                                        ~{"AR1905", "(C-B)  Tente 1, Knott"},~
+	REPLACE_TEXTUALLY ~{"AR1906", "Bandit Camp, tent"},~                                                                ~{"AR1906", "(C-B)  Tente 3"},~
+	REPLACE_TEXTUALLY ~{"AR1907", "Bandit Camp, tent (Taugosz Khosann)"},~                                              ~{"AR1907", "(C-B)  Tente 4, Taugosz Khosann"},~
+	REPLACE_TEXTUALLY ~{"AR2000", "Balduran's Isle, south (AKA Werewolf Isle, Delainy/Durlyle)"},~                      ~{"AR2000", "(ToSC)  Île perdue de Baldurien, Sud"},~
+	REPLACE_TEXTUALLY ~{"AR2001", "Generic hut"},~                                                                      ~{"AR2001", "(ToSC)  Grande hutte, Île perdue (S)"},~
+	REPLACE_TEXTUALLY ~{"AR2002", "Main hut (Kaishas Gan, Tailas)"},~                                                   ~{"AR2002", "(ToSC)  Hutte de la meneuse, (Kaishas) (S)"},~
+	REPLACE_TEXTUALLY ~{"AR2003", "Generic hut"},~                                                                      ~{"AR2003", "(ToSC)  Hutte 3, (Île perdue) (S)"},~
+	REPLACE_TEXTUALLY ~{"AR2004", "Generic hut"},~                                                                      ~{"AR2004", "(ToSC)  Hutte 2, (Île perdue) (S)"},~
+	REPLACE_TEXTUALLY ~{"AR2005", "Generic hut"},~                                                                      ~{"AR2005", "(ToSC)  Hutte 4, (Île perdue) (S)"},~
+	REPLACE_TEXTUALLY ~{"AR2006", "Generic hut"},~                                                                      ~{"AR2006", "(ToSC)  Hutte 1, (Île perdue) (S)"},~
+	REPLACE_TEXTUALLY ~{"AR2007", "Taloun's hut"},~                                                                     ~{"AR2007", "(ToSC)  Hutte du pêcheur, (Île perdue) (S)"},~
+	REPLACE_TEXTUALLY ~{"AR2008", "Generic hut"},~                                                                      ~{"AR2008", "(ToSC)  Hutte de commerce 2, (Île perdue) (S)"},~
+	REPLACE_TEXTUALLY ~{"AR2009", "Generic hut"},~                                                                      ~{"AR2009", "(ToSC)  Hutte de commerce 1, (Île perdue) (S)"},~
+	REPLACE_TEXTUALLY ~{"AR2010", "Generic hut"},~                                                                      ~{"AR2010", "(ToSC)  Hutte de commerce 4, (Île perdue) (S)"},~
+	REPLACE_TEXTUALLY ~{"AR2011", "Generic hut"},~                                                                      ~{"AR2011", "(ToSC)  Hutte de commerce 3, (Île perdue) (S)"},~
+	REPLACE_TEXTUALLY ~{"AR2012", "Werewolf caverns"},~                                                                 ~{"AR2012", "(ToSC)  Caverne des loups-garous, (S)"},~
+	REPLACE_TEXTUALLY ~{"AR2100", "Cloakwood, second main area (spider nest, Centeol)"},~                               ~{"AR2100", "(B-M)  Les Falaises de Bois-Manteau, (2)"},~
+	REPLACE_TEXTUALLY ~{"AR2101", "Spider nest (Centeol)"},~                                                            ~{"AR2101", "(B-M)  Nid d'araignée, Centeol (2)"},~
+	REPLACE_TEXTUALLY ~{"AR2200", "Cloakwood, first main area (Aldeth Sashenstar, Seniyad, Coran)"},~                   ~{"AR2200", "(B-M)  Le Pavillon de chasse de Bois-Manteau, Coran (1)"},~
+	REPLACE_TEXTUALLY ~{"AR2215", "Hunting lodge"},~                                                                    ~{"AR2215", "(B-M)  Pavillon de chasse, L1 (1)"},~
+	REPLACE_TEXTUALLY ~{"AR2300", "Friendly Arm Inn, exterior"},~                                                       ~{"AR2300", "(A-B)  Auberge de BRASAMICAL"},~
+	REPLACE_TEXTUALLY ~{"AR2301", "Friendly Arm Inn, ground floor (Bentley Mirrorshade, Khalid, Jaheira)"},~            ~{"AR2301", "(A-B)  Auberge de Brasamical, L1 (Jaheira, Khalid)"},~
+	REPLACE_TEXTUALLY ~{"AR2302", "Friendly Arm Inn, second floor (Unshey)"},~                                          ~{"AR2302", "(A-B)  Auberge de Brasamical, L2"},~
+	REPLACE_TEXTUALLY ~{"AR2303", "Friendly Arm Inn, third floor (Landrin, Golden Pantaloons)"},~                       ~{"AR2303", "(A-B)  Auberge de Brasamical, L3"},~
+	REPLACE_TEXTUALLY ~{"AR2304", "Friendly Arm Inn, Temple of Wisdom (Gellana Mirrorshade)"},~                         ~{"AR2304", "(A-B)  Temple de la sagesse"},~
+	REPLACE_TEXTUALLY ~{"AR2305", "Friendly Arm Inn, generic home"},~                                                   ~{"AR2305", "(A-B)  Maison"},~
+	REPLACE_TEXTUALLY ~{"AR2306", "Friendly Arm Inn, Joia's home"},~                                                    ~{"AR2306", "(A-B)  Maison de Joia"},~
+	REPLACE_TEXTUALLY ~{"AR2400", "Peldvale (Viconia, Raiken)"},~                                                       ~{"AR2400", "(SC)  Valpeld, (Viconia)"},~
+	REPLACE_TEXTUALLY ~{"AR2600", "Candlekeep (prologue), exterior"},~                                                  ~{"AR2600", "(C-S)  Château-Suif, Prologue"},~
+	REPLACE_TEXTUALLY ~{"AR2602", "Candlekeep (prologue), Priest's Quarters (Shank)"},~                                 ~{"AR2602", "(C-S)  Quartiers du pretre"},~
+	REPLACE_TEXTUALLY ~{"AR2605", "Candlekeep (prologue), infirmary"},~                                                 ~{"AR2605", "(C-S)  Infirmerie"},~
+	REPLACE_TEXTUALLY ~{"AR2606", "Candlekeep (prologue), storehouse"},~                                                ~{"AR2606", "(C-S)  Entrepôt"},~
+	REPLACE_TEXTUALLY ~{"AR2607", "Candlekeep (prologue), bunkhouse (Carbos)"},~                                        ~{"AR2607", "(C-S)  Baraquement"},~
+	REPLACE_TEXTUALLY ~{"AR2608", "Candlekeep Citadel, ground floor (Karan)"},~                                         ~{"AR2608", "(C-S)  Château-Suif, Bibliothèque L1"},~
+	REPLACE_TEXTUALLY ~{"AR2609", "Candlekeep Citadel, second floor (Koveras)"},~                                       ~{"AR2609", "(C-S)  Château-Suif, Bibliothèque L2"},~
+	REPLACE_TEXTUALLY ~{"AR2610", "Candlekeep Citadel, third floor (Rieltar, Brunos Costak, Tuth and Kestor)"},~        ~{"AR2610", "(C-S)  Château-Suif, Bibliothèque L3"},~
+	REPLACE_TEXTUALLY ~{"AR2611", "Candlekeep Citadel, fourth floor (Shistal)"},~                                       ~{"AR2611", "(C-S)  Château-Suif, Bibliothèque L4"},~
+	REPLACE_TEXTUALLY ~{"AR2612", "Candlekeep Citadel, fifth floor (Gorion's old room)"},~                              ~{"AR2612", "(C-S)  Château-Suif, Bibliothèque L5"},~
+	REPLACE_TEXTUALLY ~{"AR2613", "Candlekeep Catacombs, entrance area"},~                                              ~{"AR2613", "(C-S)  Château-Suif, Entree des Catacombes"},~
+	REPLACE_TEXTUALLY ~{"AR2614", "Candlekeep Citadel, sixth floor (Ulraunt, Tethtoril)"},~                             ~{"AR2614", "(C-S)  Château-Suif, Bibliothèque L6"},~
+	REPLACE_TEXTUALLY ~{"AR2615", "Candlekeep Catacombs, first level"},~                                                ~{"AR2615", "(C-S)  Château-Suif, Catacombes L1"},~
+	REPLACE_TEXTUALLY ~{"AR2616", "Candlekeep (prologue), Inn ground floor"},~                                          ~{"AR2616", "(C-S)  Auberge de Château-Suif, L1"},~
+	REPLACE_TEXTUALLY ~{"AR2617", "Candlekeep (prologue), Inn second floor"},~                                          ~{"AR2617", "(C-S)  Auberge de Château-Suif, L2"},~
+	REPLACE_TEXTUALLY ~{"AR2618", "Candlekeep (prologue), barracks"},~                                                  ~{"AR2618", "(C-S)  Caserne"},~
+	REPLACE_TEXTUALLY ~{"AR2619", "Candlekeep Catacombs, second level"},~                                               ~{"AR2619", "(C-S)  Château-Suif, Catacombes L2"},~
+	REPLACE_TEXTUALLY ~{"AR2626", "Candlekeep (chapter 6), exterior"},~                                                 ~{"AR2626", "(C-S)  Chapitre 6, Château-Suif"},~
+	REPLACE_TEXTUALLY ~{"AR2627", "Candlekeep (chapter 6), Priest's Quarters"},~                                        ~{"AR2627", "(C-S)  Chapitre 6, Quartiers du prêtre"},~
+	REPLACE_TEXTUALLY ~{"AR2628", "Candlekeep (chapter 6), storehouse"},~                                               ~{"AR2628", "(C-S)  Chapitre 6, Infirmerie"},~
+	REPLACE_TEXTUALLY ~{"AR2629", "Candlekeep (chapter 6), Inn ground floor"},~                                         ~{"AR2629", "(C-S)  Chapitre 6, Auberge L1"},~
+	REPLACE_TEXTUALLY ~{"AR2630", "Candlekeep (chapter 6), Inn second floor"},~                                         ~{"AR2630", "(C-S)  Chapitre 6, Auberge L2"},~
+	REPLACE_TEXTUALLY ~{"AR2631", "Candlekeep (chapter 6), barracks"},~                                                 ~{"AR2631", "(C-S)  Chapitre 6, Caserne"},~
+	REPLACE_TEXTUALLY ~{"AR2632", "Candlekeep (chapter 6), bunkhouse"},~                                                ~{"AR2632", "(C-S)  Chapitre 6, Baraquement"},~
+	REPLACE_TEXTUALLY ~{"AR2633", "Candlekeep (chapter 6), infirmary"},~                                                ~{"AR2633", "(C-S)  Chapitre 6, Infirmerie"},~
+	REPLACE_TEXTUALLY ~{"AR2643", "Candlekeep (prologue), warehouse (Obe's party combat training)"},~                   ~{"AR2643", "(C-S)  Entraînement au combat de groupe d’Obe"},~
+	REPLACE_TEXTUALLY ~{"AR2700", "Lion's Way (E of Candlekeep, Gorion's ambush, Imoen, Xzar, Montaron)"},~             ~{"AR2700", "(SC)  Voie du Lion, (Imoen, Xzar, Montaron)"},~
+	REPLACE_TEXTUALLY ~{"AR2800", "Coast Way (S of Friendly Arm Inn, destroyed caravan)"},~                             ~{"AR2800", "(SC)  Croisée des chemins"},~
+	REPLACE_TEXTUALLY ~{"AR2900", "Larswood (Teven, Osmadi, Corsone)"},~                                                ~{"AR2900", "(SC)  Bois de Lars"},~
+	REPLACE_TEXTUALLY ~{"AR3000", "Spider Wood (E of Larswood, Thayvian Red Wizards)"},~                                ~{"AR3000", "(SC)  Bois des araignées"},~
+	REPLACE_TEXTUALLY ~{"AR3100", "Shipwreck's Coast (S of Candlekeep, Shoal, Droth, Mad Arcand, Surgeon)"},~           ~{"AR3100", "(SC)  Cote des épaves"},~
+	REPLACE_TEXTUALLY ~{"AR3200", "High Hedge, exterior (Kivan)"},~                                                     ~{"AR3200", "(SC)  Haute Haie, (Kivan)"},~
+	REPLACE_TEXTUALLY ~{"AR3201", "High Hedge, generic house"},~                                                        ~{"AR3201", "(SC)  Maison"},~
+	REPLACE_TEXTUALLY ~{"AR3202", "High Hedge, interior (Thalantyr)"},~                                                 ~{"AR3202", "(SC)  Demeure de Thalantyr"},~
+	REPLACE_TEXTUALLY ~{"AR3300", "Beregost (Garrick, Jovial Juggler, Feldepost's Inn, Burning Wizard, Red Sheaf))"},~  ~{"AR3300", "  BÉRÉGOST, (Neera, Garrick, Kagain)"},~
+	REPLACE_TEXTUALLY ~{"AR3301", "Thunderhammer Smithy (Taerom Fuiruim)"},~                                            ~{"AR3301", "(B)  Forge de Grondemarteau"},~
+	REPLACE_TEXTUALLY ~{"AR3302", "Generic home"},~                                                                     ~{"AR3302", "(B)  Maison 19"},~
+	REPLACE_TEXTUALLY ~{"AR3303", "Red Sheaf, second floor"},~                                                          ~{"AR3303", "(B)  Auberge de la Gerbe Rouge, L2"},~
+	REPLACE_TEXTUALLY ~{"AR3304", "Jovial Juggler, ground floor (Bjornin, Gurke)"},~                                    ~{"AR3304", "(B)  Jongleur Jovial, L1"},~
+	REPLACE_TEXTUALLY ~{"AR3305", "Jovial Juggler, second floor front (Oogie)"},~                                       ~{"AR3305", "(B)  Jongleur Jovial, L2 principale"},~
+	REPLACE_TEXTUALLY ~{"AR3306", "Jovial Juggler, second floor rear"},~                                                ~{"AR3306", "(B)  Jongleur Jovial, L2 secondaire"},~
+	REPLACE_TEXTUALLY ~{"AR3307", "Burning Wizard, ground floor (Zhurlong)"},~                                          ~{"AR3307", "(B)  Magicien Ardent, L1"},~
+	REPLACE_TEXTUALLY ~{"AR3308", "Burning Wizard, second floor"},~                                                     ~{"AR3308", "(B)  Magicien Ardent, L2"},~
+	REPLACE_TEXTUALLY ~{"AR3309", "Generic home, ground floor"},~                                                       ~{"AR3309", "(B)  Maison 13, L1"},~
+	REPLACE_TEXTUALLY ~{"AR3310", "Generic home, second floor"},~                                                       ~{"AR3310", "(B)  Maison 13, L2"},~
+	REPLACE_TEXTUALLY ~{"AR3311", "Generic home, ground floor"},~                                                       ~{"AR3311", "(B)  Maison 12, L1"},~
+	REPLACE_TEXTUALLY ~{"AR3312", "Generic home, second floor"},~                                                       ~{"AR3312", "(B)  Maison 12, L2"},~
+	REPLACE_TEXTUALLY ~{"AR3313", "Mirianne's home, ground floor"},~                                                    ~{"AR3313", "(B)  Maison de Mirianne, L1"},~
+	REPLACE_TEXTUALLY ~{"AR3314", "Mirianne's home, second floor"},~                                                    ~{"AR3314", "(B)  Maison de Mirianne, L2"},~
+	REPLACE_TEXTUALLY ~{"AR3315", "Landrin's home (spiders)"},~                                                         ~{"AR3315", "(B)  Maison de Landrin"},~
+	REPLACE_TEXTUALLY ~{"AR3316", "Generic home"},~                                                                     ~{"AR3316", "(B)  Maison 18"},~
+	REPLACE_TEXTUALLY ~{"AR3317", "Borland's home"},~                                                                   ~{"AR3317", "(B)  Maison de Borland"},~
+	REPLACE_TEXTUALLY ~{"AR3318", "Generic home"},~                                                                     ~{"AR3318", "(B)  Maison 15"},~
+	REPLACE_TEXTUALLY ~{"AR3319", "Galteran's home"},~                                                                  ~{"AR3319", "(B)  Maison 16"},~
+	REPLACE_TEXTUALLY ~{"AR3320", "Travenhurst Manor, ground floor"},~                                                  ~{"AR3320", "(B)  Manoir Travenhurst, L1"},~
+	REPLACE_TEXTUALLY ~{"AR3321", "Travenhurst Manor, second floor"},~                                                  ~{"AR3321", "(B)  Manoir Travenhurst, L2"},~
+	REPLACE_TEXTUALLY ~{"AR3322", "Travenhurst Manor, Servants' Quarters"},~                                            ~{"AR3322", "(B)  Quartier des serviteurs du Manoir"},~
+	REPLACE_TEXTUALLY ~{"AR3323", "Generic home, ground floor"},~                                                       ~{"AR3323", "(B)  Maison 20, L1"},~
+	REPLACE_TEXTUALLY ~{"AR3324", "Generic home, second floor"},~                                                       ~{"AR3324", "(B)  Maison 20, L2"},~
+	REPLACE_TEXTUALLY ~{"AR3325", "Generic home, second floor"},~                                                       ~{"AR3325", "(B)  Maison 23, L1"},~
+	REPLACE_TEXTUALLY ~{"AR3326", "Generic home, ground floor"},~                                                       ~{"AR3326", "(B)  Maison 23, L2"},~
+	REPLACE_TEXTUALLY ~{"AR3327", "Generic home, ground floor"},~                                                       ~{"AR3327", "(B)  Maison 14, L1"},~
+	REPLACE_TEXTUALLY ~{"AR3328", "Generic home, second floor"},~                                                       ~{"AR3328", "(B)  Maison 14, L2"},~
+	REPLACE_TEXTUALLY ~{"AR3329", "Generic home, second floor"},~                                                       ~{"AR3329", "(B)  Maison d'Alain, L1"},~
+	REPLACE_TEXTUALLY ~{"AR3330", "Generic home, ground floor"},~                                                       ~{"AR3330", "(B)  Maison d'Alain, L2"},~
+	REPLACE_TEXTUALLY ~{"AR3331", "Generic home, ground floor (Colquatle)"},~                                           ~{"AR3331", "(B)  Maison de Mr. Colquetle, L1"},~
+	REPLACE_TEXTUALLY ~{"AR3332", "Generic home, second floor"},~                                                       ~{"AR3332", "(B)  Maison de Mr. Colquetle, L2"},~
+	REPLACE_TEXTUALLY ~{"AR3333", "Firebeard Elvenhair's home, ground floor"},~                                         ~{"AR3333", "(B)  Maison de Perleflamme Cheveux d’elfe, L1"},~
+	REPLACE_TEXTUALLY ~{"AR3334", "Firebeard Elvenhair's home, second floor"},~                                         ~{"AR3334", "(B)  Maison de Perleflamme Cheveux d’elfe, L2"},~
+	REPLACE_TEXTUALLY ~{"AR3335", "Generic home, ground floor"},~                                                       ~{"AR3335", "(B)  Maison 10, L1"},~
+	REPLACE_TEXTUALLY ~{"AR3336", "Generic home, second floor"},~                                                       ~{"AR3336", "(B)  Maison 10, L2"},~
+	REPLACE_TEXTUALLY ~{"AR3337", "Generic home, second floor"},~                                                       ~{"AR3337", "(B)  Maison 22, L1"},~
+	REPLACE_TEXTUALLY ~{"AR3338", "Generic home, ground floor"},~                                                       ~{"AR3338", "(B)  Maison 22, L2"},~
+	REPLACE_TEXTUALLY ~{"AR3339", "Generic home, ground floor"},~                                                       ~{"AR3339", "(B)  Maison 01, L1"},~
+	REPLACE_TEXTUALLY ~{"AR3340", "Generic home, second floor"},~                                                       ~{"AR3340", "(B)  Maison 01, L2"},~
+	REPLACE_TEXTUALLY ~{"AR3341", "Generic home, ground floor"},~                                                       ~{"AR3341", "(B)  Maison 02, L1"},~
+	REPLACE_TEXTUALLY ~{"AR3342", "Generic home, second floor"},~                                                       ~{"AR3342", "(B)  Maison 02, L2"},~
+	REPLACE_TEXTUALLY ~{"AR3343", "Generic home"},~                                                                     ~{"AR3343", "(B)  Maison 03"},~
+	REPLACE_TEXTUALLY ~{"AR3344", "Generic home"},~                                                                     ~{"AR3344", "(B)  Maison 07"},~
+	REPLACE_TEXTUALLY ~{"AR3345", "Generic home, ground floor"},~                                                       ~{"AR3345", "(B)  Maison 04 L1"},~
+	REPLACE_TEXTUALLY ~{"AR3346", "Generic home, second floor"},~                                                       ~{"AR3346", "(B)  Maison 04 L2"},~
+	REPLACE_TEXTUALLY ~{"AR3347", "Generic home, ground floor"},~                                                       ~{"AR3347", "(B)  Maison des Greycart, L1"},~
+	REPLACE_TEXTUALLY ~{"AR3348", "Generic home, second floor"},~                                                       ~{"AR3348", "(B)  Maison des Greycart, L2"},~
+	REPLACE_TEXTUALLY ~{"AR3349", "Generic home, ground floor"},~                                                       ~{"AR3349", "(B)  Maison 06, L1"},~
+	REPLACE_TEXTUALLY ~{"AR3350", "Generic home, second floor"},~                                                       ~{"AR3350", "(B)  Maison 06, L2"},~
+	REPLACE_TEXTUALLY ~{"AR3351", "Feldepost's Inn, ground floor (Marl)"},~                                             ~{"AR3351", "(B)  Auberge de Feldpost, L1"},~
+	REPLACE_TEXTUALLY ~{"AR3352", "Feldepost's Inn, second floor (Algernon)"},~                                         ~{"AR3352", "(B)  Auberge de Feldpost, L2"},~
+	REPLACE_TEXTUALLY ~{"AR3353", "Generic store (Kagain)"},~                                                           ~{"AR3353", "(B)  Boutique de Kagain"},~
+	REPLACE_TEXTUALLY ~{"AR3354", "Generic home"},~                                                                     ~{"AR3354", "(B)  Maison, 09"},~
+	REPLACE_TEXTUALLY ~{"AR3355", "Generic home, ground floor"},~                                                       ~{"AR3355", "(B)  Maison, 08"},~
+	REPLACE_TEXTUALLY ~{"AR3356", "Generic home, second floor"},~                                                       ~{"AR3356", "(B)  Maison, 08"},~
+	REPLACE_TEXTUALLY ~{"AR3357", "Red Sheaf, ground floor (Perdue)"},~                                                 ~{"AR3357", "(B)  Auberge de la Gerbe Rouge, L1"},~
+	REPLACE_TEXTUALLY ~{"AR3400", "Beregost Temple, exterior (Cattack)"},~                                              ~{"AR3400", "(B)  Temple de Lathandre"},~
+	REPLACE_TEXTUALLY ~{"AR3401", "Beregost Temple, vestibule"},~                                                       ~{"AR3401", "(B)  Vestibule du Temple de Lathandre"},~
+	REPLACE_TEXTUALLY ~{"AR3402", "Beregost Temple, interior (AKA Song of the Morning, Keldath Ormlyr)"},~              ~{"AR3402", "(B)  Temple de Lathandre, Intérieur"},~
+	REPLACE_TEXTUALLY ~{"AR3500", "Mutamin's Garden (Shar-Teel, Mutamin, Korax, basilisks, Tamah)"},~                   ~{"AR3500", "(SC)  Jardins de Mutamin"},~
+	REPLACE_TEXTUALLY ~{"AR3600", "Seawatcher - Lighthouse (Safana, Ardrouine, Sil)"},~                                 ~{"AR3600", "(SC)  Phare, (Safana)"},~
+	REPLACE_TEXTUALLY ~{"AR3601", "Black Alaric's cave (flesh golems)"},~                                               ~{"AR3601", "(SC)  Grotte de Black Alaric"},~
+	REPLACE_TEXTUALLY ~{"AR3700", "Red Canyons (Bassilus, Melicamp)"},~                                                 ~{"AR3700", "(SC)  Canyons rouges"},~
+	REPLACE_TEXTUALLY ~{"AR3800", "South Beregost Road"},~                                                              ~{"AR3800", "(SC)  Route de Nashkel"},~
+	REPLACE_TEXTUALLY ~{"AR3802", "Generic cave"},~                                                                     ~{"AR3802", "(SC)  Grotte de la Route de Nashkel"},~
+	REPLACE_TEXTUALLY ~{"AR3900", "Ulcaster School, exterior (Ulcaster, Icharyd)"},~                                    ~{"AR3900", "(SC)  École d’Ulcaster"},~
+	REPLACE_TEXTUALLY ~{"AR3901", "Ulcaster School, dungeon"},~                                                         ~{"AR3901", "(SC)  Ruines de l'école d’Ulcaster"},~
+	REPLACE_TEXTUALLY ~{"AR4000", "Gullykin, exterior"},~                                                               ~{"AR4000", "  GULLYKIN"},~
+	REPLACE_TEXTUALLY ~{"AR4001", "Jenkal's home, ground floor"},~                                                      ~{"AR4001", "(G)  Maison de Jenkal, L1"},~
+	REPLACE_TEXTUALLY ~{"AR4002", "Jenkal's home, second floor"},~                                                      ~{"AR4002", "(G)  Maison de Jenkal, Cellier"},~
+	REPLACE_TEXTUALLY ~{"AR4003", "Temple of Yondalla, ground floor"},~                                                 ~{"AR4003", "(G)  Temple de Yondalla, L1"},~
+	REPLACE_TEXTUALLY ~{"AR4004", "Temple of Yondalla, basement"},~                                                     ~{"AR4004", "(G)  Temple de Yondalla, Cellier"},~
+	REPLACE_TEXTUALLY ~{"AR4005", "Generic home, ground floor"},~                                                       ~{"AR4005", "(G)  Maison 1, L1"},~
+	REPLACE_TEXTUALLY ~{"AR4006", "Generic home, basement"},~                                                           ~{"AR4006", "(G)  Maison 1, Cellier"},~
+	REPLACE_TEXTUALLY ~{"AR4007", "Generic home, ground floor"},~                                                       ~{"AR4007", "(G)  Maison 3, L1"},~
+	REPLACE_TEXTUALLY ~{"AR4008", "Generic home, basement"},~                                                           ~{"AR4008", "(G)  Maison 3, Cellier"},~
+	REPLACE_TEXTUALLY ~{"AR4009", "Generic home, ground floor"},~                                                       ~{"AR4009", "(G)  Maison 4, L1"},~
+	REPLACE_TEXTUALLY ~{"AR4010", "Generic home, basement"},~                                                           ~{"AR4010", "(G)  Maison 4, Cellier"},~
+	REPLACE_TEXTUALLY ~{"AR4011", "Generic home, ground floor"},~                                                       ~{"AR4011", "(G)  Maison 5, L1"},~
+	REPLACE_TEXTUALLY ~{"AR4012", "Generic home, basement"},~                                                           ~{"AR4012", "(G)  Maison 5, Cellier"},~
+	REPLACE_TEXTUALLY ~{"AR4013", "Generic home, ground floor"},~                                                       ~{"AR4013", "(G)  Maison 2, L1"},~
+	REPLACE_TEXTUALLY ~{"AR4014", "Generic home, basement"},~                                                           ~{"AR4014", "(G)  Maison 2, Cellier"},~
+	REPLACE_TEXTUALLY ~{"AR4100", "Archaeological Site, exterior (Brage, Charleston Nib, Doomsayer)"},~                 ~{"AR4100", "(SC)  Site archéologique"},~
+	REPLACE_TEXTUALLY ~{"AR4101", "Archaeological Site, interior tomb"},~                                               ~{"AR4101", "(SC)  Tombe"},~
+	REPLACE_TEXTUALLY ~{"AR4200", "Fisherman's Lake (Drizzt. Bjornin's half-ogres)"},~                                  ~{"AR4200", "(SC)  Lac dans la campagne"},~
+	REPLACE_TEXTUALLY ~{"AR4300", "North Nashkel Road (N of Nashkel)"},~                                                ~{"AR4300", "(SC)  Passe de Nashkel"},~
+	REPLACE_TEXTUALLY ~{"AR4400", "Lonely Peaks (Hulrik and Arabelle, Sarhedra, Arghain)"},~                            ~{"AR4400", "(SC)  Plaines de Flammevin"},~
+	REPLACE_TEXTUALLY ~{"AR4401", "Generic cave (ettercaps)"},~                                                         ~{"AR4401", "(SC)  Grotte des plaines de Flammevin"},~
+	REPLACE_TEXTUALLY ~{"AR4500", "Firewine Bridge (Kahrk, Carsa, Poe, Bentan, Melium)"},~                              ~{"AR4500", "(SC)  Pont de Flammevin"},~
+	REPLACE_TEXTUALLY ~{"AR4501", "Wyvern cave"},~                                                                      ~{"AR4501", "(B-M)  Grotte des Wyvernes de Bois-Manteau, (4)"},~
+	REPLACE_TEXTUALLY ~{"AR4600", "Bear River (N of Gnoll Stronghold, Larel, Nevill, Jared)"},~                         ~{"AR4600", "(SC)  Rivière de l'Ours"},~
+	REPLACE_TEXTUALLY ~{"AR4700", "Xvart Village (Nexlit, Ursa, Borda)"},~                                              ~{"AR4700", "(SC)  Village Xvart"},~
+	REPLACE_TEXTUALLY ~{"AR4701", "Generic cave (cave bear)"},~                                                         ~{"AR4701", "(SC)  Grotte d'Ursa l'ours"},~
+	REPLACE_TEXTUALLY ~{"AR4800", "Nashkel (Minsc, Edwin, Berrun Ghastkill, Belching Dragon, Temple of Helm)"},~        ~{"AR4800", "  NASHKEL, (Minsc, Edwin, Rasaad)"},~
+	REPLACE_TEXTUALLY ~{"AR4801", "Nashkel Inn"},~                                                                      ~{"AR4801", "(N)  Auberge de Nashkel"},~
+	REPLACE_TEXTUALLY ~{"AR4802", "Temple of Helm (Nalin)"},~                                                           ~{"AR4802", "(N)  Temple de Heaum"},~
+	REPLACE_TEXTUALLY ~{"AR4803", "Nashkel Store"},~                                                                    ~{"AR4803", "(N)  Magasin de Nashkel"},~
+	REPLACE_TEXTUALLY ~{"AR4804", "Nashkel Manor, ground floor"},~                                                      ~{"AR4804", "(N)  Manoir de Nashkel, L1"},~
+	REPLACE_TEXTUALLY ~{"AR4805", "Nashkel Manor, second floor (Samantha)"},~                                           ~{"AR4805", "(N)  Manoir de Nashkel, L2"},~
+	REPLACE_TEXTUALLY ~{"AR4806", "Joseph's home"},~                                                                    ~{"AR4806", "(N)  Maison de Joseph"},~
+	REPLACE_TEXTUALLY ~{"AR4807", "Generic farmhouse"},~                                                                ~{"AR4807", "(N)  Maison 1"},~
+	REPLACE_TEXTUALLY ~{"AR4808", "Generic home"},~                                                                     ~{"AR4808", "(N)  Maison 2"},~
+	REPLACE_TEXTUALLY ~{"AR4809", "Belching Dragon Tavern (Volo)"},~                                                    ~{"AR4809", "(N)  Taverne du Dragon Qui Rote"},~
+	REPLACE_TEXTUALLY ~{"AR4810", "Nashkel barracks"},~                                                                 ~{"AR4810", "(N)  Caserne"},~
+	REPLACE_TEXTUALLY ~{"AR4900", "Nashkel Carnival (Branwen, Great Gazib)"},~                                          ~{"AR4900", "(N-f)  Festival de Nashkel, (Branwen)"},~
+	REPLACE_TEXTUALLY ~{"AR4901", "Small carnival tent (armor merchant)"},~                                             ~{"AR4901", "(N-f)  Marchand d’armures"},~
+	REPLACE_TEXTUALLY ~{"AR4902", "Small carnival tent (black lotus)"},~                                                ~{"AR4902", "(N-f)  Lotus noir"},~
+	REPLACE_TEXTUALLY ~{"AR4903", "Large carnival tent (Vitiare)"},~                                                    ~{"AR4903", "(N-f)  Tente de jeux, Vitiare"},~
+	REPLACE_TEXTUALLY ~{"AR4904", "Large carnival tent (gambling)"},~                                                   ~{"AR4904", "(N-f)  Tente de jeux"},~
+	REPLACE_TEXTUALLY ~{"AR4905", "Small carnival tent (rare potions merchant)"},~                                      ~{"AR4905", "(N-f)  Marchand de potions rares"},~
+	REPLACE_TEXTUALLY ~{"AR4906", "Small carnival tent (Zordral and Bentha)"},~                                         ~{"AR4906", "(N-f)  Tente de Zordral"},~
+	REPLACE_TEXTUALLY ~{"AR4907", "Small carnival tent (magic items merchant)"},~                                       ~{"AR4907", "(N-f)  Marchand d’objets magiques"},~
+	REPLACE_TEXTUALLY ~{"AR4908", "Small carnival tent (melee weapons merchant)"},~                                     ~{"AR4908", "(N-f)  Marchand d’armes de mêlée"},~
+	REPLACE_TEXTUALLY ~{"AR4909", "Small carnival tent (ranged weapons merchant)"},~                                    ~{"AR4909", "(N-f)  Marchand d’armes de jet"},~
+	REPLACE_TEXTUALLY ~{"AR5000", "Valley of the Tombs (Nashkel mines exit, Narcillicus, Hentold)"},~                   ~{"AR5000", "(SC)  Vallée des Tombes"},~
+	REPLACE_TEXTUALLY ~{"AR5001", "Tombs"},~                                                                            ~{"AR5001", "(SC)  Tombes de la Vallée des Tombes"},~
+	REPLACE_TEXTUALLY ~{"AR5100", "Gnoll Stronghold (Dynaheir)"},~                                                      ~{"AR5100", "(SC)  Forteresse gnoll, (Dynahéir)"},~
+	REPLACE_TEXTUALLY ~{"AR5101", "Generic cave (xvarts)"},~                                                            ~{"AR5101", "(SC)  Grotte de la forteresse, (Xvarts)"},~
+	REPLACE_TEXTUALLY ~{"AR5102", "Generic cave (Tome of Leadership and Influence)"},~                                  ~{"AR5102", "(SC)  Grotte de la forteresse, (Traité)"},~
+	REPLACE_TEXTUALLY ~{"AR5103", "Generic cave (cariron crawlers)"},~                                                  ~{"AR5103", "(SC)  Grotte de la forteresse, (Vers charognards)"},~
+	REPLACE_TEXTUALLY ~{"AR5200", "Dryad Falls (Cloudpeak Dryad, Drienne, Ingot, Krumm, Caldo)"},~                      ~{"AR5200", "(SC)  Chutes de la dryade"},~
+	REPLACE_TEXTUALLY ~{"AR5201", "Firewine Ruins (Lendarn, ogre mage, undead knights)"},~                              ~{"AR5201", "(SC)  Ruines de Flammevin"},~
+	REPLACE_TEXTUALLY ~{"AR5202", "Generic cave"},~                                                                     ~{"AR5202", "(SC)  Caverne des Chutes de la dryade"},~
+	REPLACE_TEXTUALLY ~{"AR5300", "Fire Leaf Forest (S of Nashkel, Albert, Rufie, Vax, Sendai)"},~                      ~{"AR5300", "(SC)  Forêt des feuilles écarlates"},~
+	REPLACE_TEXTUALLY ~{"AR5400", "Nashkel Mines, exterior (Prism)"},~                                                  ~{"AR5400", "(N-m)  Mines de Nashkel"},~
+	REPLACE_TEXTUALLY ~{"AR5401", "Nashkel Mines, first subterranean level (Dink)"},~                                   ~{"AR5401", "(N-m)  Mines, L1"},~
+	REPLACE_TEXTUALLY ~{"AR5402", "Nashkel Mines, second subterranean level (Kylee, Beldin)"},~                         ~{"AR5402", "(N-m)  Mines, L2"},~
+	REPLACE_TEXTUALLY ~{"AR5403", "Nashkel Mines, third subterranean level (Joseph)"},~                                 ~{"AR5403", "(N-m)  Mines, L3"},~
+	REPLACE_TEXTUALLY ~{"AR5404", "Nashkel Mines, fourth subterranean level"},~                                         ~{"AR5404", "(N-m)  Mines, L4"},~
+	REPLACE_TEXTUALLY ~{"AR5405", "Nashkel Mines, Mulahey's lair (Xan, Mulahey)"},~                                     ~{"AR5405", "(N-m)  Mines, Repère de Mulahey (Xan)"},~
+	REPLACE_TEXTUALLY ~{"AR5406", "Mine storehouse"},~                                                                  ~{"AR5406", "(N-m)  Réserve des Mines de Nashkel"},~
+	REPLACE_TEXTUALLY ~{"AR5500", "Gibberling Mountains (Samuel, Hafiz)"},~                                             ~{"AR5500", "(SC)  Montagnes des Grouilleux"},~
+	REPLACE_TEXTUALLY ~{"AR5506", "Candlekeep Caves (Diarmid, Prat, Sakul, Tam, Bor)"},~                                ~{"AR5506", "(C-S)  Cavernes sous Château-Suif"},~
+	REPLACE_TEXTUALLY ~{"AR5600", "Random encounter area"},~                                                            ~{"AR5600", "  Aléatoire, Plaine 1"},~
+	REPLACE_TEXTUALLY ~{"AR5601", "Random encounter area"},~                                                            ~{"AR5601", "  Aléatoire, Plaine 2"},~
+	REPLACE_TEXTUALLY ~{"AR5700", "Random encounter area"},~                                                            ~{"AR5700", "  Aléatoire, Canyon 1"},~
+	REPLACE_TEXTUALLY ~{"AR5701", "Random encounter area"},~                                                            ~{"AR5701", "  Aléatoire, Canyon 2"},~
+	REPLACE_TEXTUALLY ~{"AR5800", "Random encounter area"},~                                                            ~{"AR5800", "  Aléatoire, Falaise 1"},~
+	REPLACE_TEXTUALLY ~{"AR5801", "Random encounter area"},~                                                            ~{"AR5801", "  Aléatoire, Falaise 2"},~
+	REPLACE_TEXTUALLY ~{"AR5900", "Random encounter area"},~                                                            ~{"AR5900", "  Aléatoire, Prairie 1"},~
+	REPLACE_TEXTUALLY ~{"AR5901", "Random encounter area"},~                                                            ~{"AR5901", "  Aléatoire, Prairie 2"},~
+	REPLACE_TEXTUALLY ~{"AR6000", "Random encounter area"},~                                                            ~{"AR6000", "  Aléatoire, Forêt 1"},~
+	REPLACE_TEXTUALLY ~{"AR6001", "Random encounter area"},~                                                            ~{"AR6001", "  Aléatoire, Forêt 2"},~
+	REPLACE_TEXTUALLY ~{"AR6100", "Random encounter area"},~                                                            ~{"AR6100", "  Aléatoire, Route"},~
+	REPLACE_TEXTUALLY ~{"OH1000", "Dorn - Random Encounter Area"},~                                                     ~{"OH1000", "  Aléatoire, (Dorn recrutement)"},~
+	REPLACE_TEXTUALLY ~{"OH2000", "Neera - Adoy's Enclave, exterior"},~                                                 ~{"OH2000", "(SC)  Enclave d'Adoy, (Quête de Neera)"},~
+	REPLACE_TEXTUALLY ~{"OH2010", "Neera - Adoy's Enclave, interior"},~                                                 ~{"OH2010", "(SC)  Enclave d'Adoy, intérieur"},~
+	REPLACE_TEXTUALLY ~{"OH3000", "Rasaad - Dark Moon temple, exterior"},~                                              ~{"OH3000", "(SC)  Pics Brumeux, (Quête de Rasaad)"},~
+	REPLACE_TEXTUALLY ~{"OH3010", "Rasaad - Dark Moon temple, interior"},~                                              ~{"OH3010", "(SC)  Temple de la Lune Noire, Entrée"},~
+	REPLACE_TEXTUALLY ~{"OH3020", "Rasaad - Dark Moon temple, interior"},~                                              ~{"OH3020", "(SC)  Temple de la Lune Noire, Geôles"},~
+	REPLACE_TEXTUALLY ~{"OH3100", "Rasaad - Dark Moon temple, interior"},~                                              ~{"OH3100", "(SC)  Temple de la Lune Noire, Sommet"},~
+																														
+	// CheatsAreas Les Fosses noires~                                                                                   
+																														
+	REPLACE_TEXTUALLY ~{"OH9310", "The Black Pits: Arena 1"},~                                                          ~{"OH9310", "(FN1)  Arène 1"},~
+	REPLACE_TEXTUALLY ~{"OH9350", "The Black Pits: Arena 2"},~                                                          ~{"OH9350", "(FN1)  Arène 2"},~
+	REPLACE_TEXTUALLY ~{"OH9360", "The Black Pits: Hub"},~                                                              ~{"OH9360", "(FN1)  Zone de repos"},~
+																														
+	// CheatsAreas Tutoriel~                                                                                            
+																														
+	REPLACE_TEXTUALLY ~{"TU0015", "Baldur's Gate Estate (Tutorial starts here)"},~                                      ~{"TU0015", "(Tuto)  Palais Ducal, 1er étage (Commencement)"},~
+	REPLACE_TEXTUALLY ~{"TU0016", "Baldur's Gate Estate (Tutorial area)"},~                                             ~{"TU0016", "(Tuto)  Palais Ducal, 2eme étage"},~
+	REPLACE_TEXTUALLY ~{"TU0017", "Baldur's Gate Estate (Tutorial area)"},~                                             ~{"TU0017", "(Tuto)  Palais Ducal, 3eme étage"},~
+	REPLACE_TEXTUALLY ~{"TU0018", "Baldur's Gate Estate Cellar (Tutorial area)"}~                                      ~{"TU0018", "(Tuto)  Palais Ducal, Sous-sol"},~
+																														
+	// CheatsAreas pour SoD~                                                                                            
+																														
+	REPLACE_TEXTUALLY ~{"BD0010", "Ducal Palace City Exterior"},~                                                       ~{"BD0010", "(SoD)  Palais Ducal"},~
+	REPLACE_TEXTUALLY ~{"BD0020", "Sorcerous/Elf Song City Exterior"},~                                                 ~{"BD0020", "(SoD)  Bazar Magique / Taverne du Chant de l'elfe"},~
+	REPLACE_TEXTUALLY ~{"BD0030", "Flaming Fist City Exterior"},~                                                       ~{"BD0030", "(SoD)  Siege du Poing Enflamme"},~
+	REPLACE_TEXTUALLY ~{"BD0040", "Three Kegs City Exterior"},~                                                         ~{"BD0040", "(SoD)  Auberge des Trois Vieilles Chopes"},~
+	REPLACE_TEXTUALLY ~{"BD0050", "Iron Throne City Exterior"},~                                                        ~{"BD0050", "(SoD)  Trône de Fer"},~
+	REPLACE_TEXTUALLY ~{"BD0060", "Random Area - Cave Entrance"},~                                                      ~{"BD0060", "  Aléatoire, Entree de la Caverne"},~
+	REPLACE_TEXTUALLY ~{"BD0061", "Random Area - Cave Interior from BD0060"},~                                          ~{"BD0061", "  Aléatoire, Intérieur de la Caverne"},~
+	REPLACE_TEXTUALLY ~{"BD0062", "Random Area - Cave Pool from BD0061"},~                                              ~{"BD0062", "  Aléatoire, Bassin de la Caverne"},~
+	REPLACE_TEXTUALLY ~{"BD0063", "Random Area - Canyon Ambush"},~                                                      ~{"BD0063", "  Aléatoire, Embuscade"},~
+	REPLACE_TEXTUALLY ~{"BD0064", "Random Area - Forest Paths"},~                                                       ~{"BD0064", "  Aléatoire, Chemin dans la forêt"},~
+	REPLACE_TEXTUALLY ~{"BD0065", "Random Area - Wilderness Open Area"},~                                               ~{"BD0065", "  Aléatoire, Territoire sauvage"},~
+	REPLACE_TEXTUALLY ~{"BD0066", "Random Area - Wilderness Hole to BD0067"},~                                          ~{"BD0066", "  Aléatoire, Trou béant"},~
+	REPLACE_TEXTUALLY ~{"BD0067", "Random Area - Cave Interior from BD0066"},~                                          ~{"BD0067", "  Aléatoire, Intérieur du trou béant"},~
+	REPLACE_TEXTUALLY ~{"BD0070", "The Scrying Pool - The Hooded Man Cutscene"},~                                       ~{"BD0070", "Cinématique du Bassin, L'homme à la capuche"},~
+	REPLACE_TEXTUALLY ~{"BD0071", "The Scrying Pool - Caelar Cutscene"},~                                               ~{"BD0071", "Cinématique du Bassin, Caelar"},~
+	REPLACE_TEXTUALLY ~{"BD0100", "Ducal Palace, Second Floor"},~                                                       ~{"BD0100", "(SoD)  Palais Ducal, L2"},~
+	REPLACE_TEXTUALLY ~{"BD0101", "Ducal Palace, Leaving BG"},~                                                         ~{"BD0101", "(SoD)  Palais Ducal, Le grand depart"},~
+	REPLACE_TEXTUALLY ~{"BD0102", "Ducal Palace, First Floor"},~                                                        ~{"BD0102", "(SoD)  Palais Ducal, L1"},~
+	REPLACE_TEXTUALLY ~{"BD0103", "Ducal Palace, Third Floor"},~                                                        ~{"BD0103", "(SoD)  Palais Ducal, L3"},~
+	REPLACE_TEXTUALLY ~{"BD0104", "Flaming Fist HQ"},~                                                                  ~{"BD0104", "(SoD)  Siege du Poing Enflamme"},~
+	REPLACE_TEXTUALLY ~{"BD0105", "Flaming Fist HQ, Basement"},~                                                        ~{"BD0105", "(SoD)  Siege du Poing Enflamme, Sous-sol"},~
+	REPLACE_TEXTUALLY ~{"BD0106", "Three Old Kegs, First Floor"},~                                                      ~{"BD0106", "(SoD)  Auberge des Trois Vieilles Chopes, L1"},~
+	REPLACE_TEXTUALLY ~{"BD0107", "Three Old Kegs, Second Floor"},~                                                     ~{"BD0107", "(SoD)  Auberge des Trois Vieilles Chopes, L2"},~
+	REPLACE_TEXTUALLY ~{"BD0108", "Three Old Kegs, Third Floor"},~                                                      ~{"BD0108", "(SoD)  Auberge des Trois Vieilles Chopes, L3"},~
+	REPLACE_TEXTUALLY ~{"BD0109", "Elfsong Tavern, First Floor"},~                                                      ~{"BD0109", "(SoD)  Taverne du Chant de l'elfe, L1"},~
+	REPLACE_TEXTUALLY ~{"BD0110", "Elfsong Tavern, Second Floor"},~                                                     ~{"BD0110", "(SoD)  Taverne du Chant de l'elfe, L2"},~
+	REPLACE_TEXTUALLY ~{"BD0111", "Iron Throne Floor, First Floor"},~                                                   ~{"BD0111", "(SoD)  Trône de Fer, L1"},~
+	REPLACE_TEXTUALLY ~{"BD0112", "Baldur's Gate East"},~                                                               ~{"BD0112", "(SoD)  Porte de Baldur Est, Le grand depart"},~
+	REPLACE_TEXTUALLY ~{"BD0113", "Underground Cavern Wyrms"},~                                                         ~{"BD0113", "(SoD)  Caverne des Vers, (Rivière souterraine)"},~
+	REPLACE_TEXTUALLY ~{"BD0114", "Spider Cave"},~                                                                      ~{"BD0114", "(SoD)  Trou des araignées, (Forêt des dragons)"},~
+	REPLACE_TEXTUALLY ~{"BD0115", "Vampire Cavern"},~                                                                   ~{"BD0115", "(SoD)  Grotte du Vampire, (Forêt de la Voie Côtière)"},~
+	REPLACE_TEXTUALLY ~{"BD0116", "Ducal Palace, Basement"},~                                                           ~{"BD0116", "(SoD)  Palais Ducal, Sous-sol"},~
+	REPLACE_TEXTUALLY ~{"BD0117", "Iron Throne, Basement"},~                                                            ~{"BD0117", "(SoD)  Palais Ducal, Sous-sol"},~
+	REPLACE_TEXTUALLY ~{"BD0118", "The Scrying Pool - Imoen Cutscene"},~                                                ~{"BD0118", "Cinématique du Bassin, Imoen"},~
+	REPLACE_TEXTUALLY ~{"BD0120", "Tomb Safehouse, First Floor"},~                                                      ~{"BD0120", "(SoD)  Donjon de Korlasz, L1"},~
+	REPLACE_TEXTUALLY ~{"BD0121", "Sorcerous Sundries, First Floor"},~                                                  ~{"BD0121", "(SoD)  Bazar Magique, L1"},~
+	REPLACE_TEXTUALLY ~{"BD0122", "Sorcerous Sundries, Second Floor"},~                                                 ~{"BD0122", "(SoD)  Bazar Magique, L2"},~
+	REPLACE_TEXTUALLY ~{"BD0130", "Tomb Safehouse, Second Floor"},~                                                     ~{"BD0130", "(SoD)  Donjon de Korlasz, L2"},~
+	REPLACE_TEXTUALLY ~{"BD1000", "Coast Way Crossing"},~                                                               ~{"BD1000", "(SoD)  Pont de la Voie Côtière"},~
+	REPLACE_TEXTUALLY ~{"BD1010", "Cave (generic)"},~                                                                   ~{"BD1010", "(SoD)  Grotte du Mimique, (Défilé du Trépassé)"},~
+	REPLACE_TEXTUALLY ~{"BD1100", "The Dig"},~                                                                          ~{"BD1100", "(SoD)  Site d'excavation nain, (Pont de la Voie Côtière)"},~
+	REPLACE_TEXTUALLY ~{"BD1200", "Lich Outpost"},~                                                                     ~{"BD1200", "(SoD)  Repaire de la liche, (Site d'excavation nain)"},~
+	REPLACE_TEXTUALLY ~{"BD2000", "Boareskyr Bridge & Bridgefort"},~                                                    ~{"BD2000", "(SoD)  Pont de Boreskyr / Fort-du-Pont"},~
+	REPLACE_TEXTUALLY ~{"BD2010", "Cave (generic)"},~                                                                   ~{"BD2010", "(SoD)  Grotte, (Fort-du-Pont)"},~
+	REPLACE_TEXTUALLY ~{"BD2100", "Bridgefort Interior"},~                                                              ~{"BD2100", "(SoD)  Fort-du-Pont"},~
+	REPLACE_TEXTUALLY ~{"BD3000", "Allied Siege Camp"},~                                                                ~{"BD3000", "(SoD)  Camp de la coalition"},~
+	REPLACE_TEXTUALLY ~{"BD4000", "Dragonspear Castle, Exterior"},~                                                     ~{"BD4000", "(SoD)  Château Paldragon"},~
+	REPLACE_TEXTUALLY ~{"BD4100", "Dragonspear Castle Keep, First Floor"},~                                             ~{"BD4100", "(SoD)  Château Paldragon, L1"},~
+	REPLACE_TEXTUALLY ~{"BD4300", "Dragonspear Castle Basement"},~                                                      ~{"BD4300", "(SoD)  Château Paldragon, Sous-sols"},~
+	REPLACE_TEXTUALLY ~{"BD4400", "Avernus"},~                                                                          ~{"BD4400", "(SoD)  Avernus, (Portail)"},~
+	REPLACE_TEXTUALLY ~{"BD4500", "Avernus Bridge"},~                                                                   ~{"BD4500", "(SoD)  Le pont d'Avernus"},~
+	REPLACE_TEXTUALLY ~{"BD4600", "Avernus Interior"},~                                                                 ~{"BD4600", "(SoD)  Tour de basalte, (Avernus)"},~
+	REPLACE_TEXTUALLY ~{"BD4601", "Avernus Elevator"},~                                                                 ~{"BD4601", "(SoD)  Élévateur, (Avernus)"},~
+	REPLACE_TEXTUALLY ~{"BD4700", "Avernus Roof"},~                                                                     ~{"BD4700", "(SoD)  Sommet de l'Avernus, (Belhifet)"},~
+	REPLACE_TEXTUALLY ~{"BD5000", "Underground River Entrance"},~                                                       ~{"BD5000", "(SoD)  Entree de la Rivière souterraine"},~
+	REPLACE_TEXTUALLY ~{"BD5100", "Underground River"},~                                                                ~{"BD5100", "(SoD)  Rivière souterraine"},~
+	REPLACE_TEXTUALLY ~{"BD5110", "Ettin Ghost Cave"},~                                                                 ~{"BD5110", "(SoD)  Grotte de l'Ettin, (Rivière souterraine)"},~
+	REPLACE_TEXTUALLY ~{"BD5200", "The Warrens"},~                                                                      ~{"BD5200", "(SoD)  Les terriers sous le Château Paldragon"},~
+	REPLACE_TEXTUALLY ~{"BD5300", "Kanaglym"},~                                                                         ~{"BD5300", "(SoD)  Kanaglym"},~
+	REPLACE_TEXTUALLY ~{"BD6000", "Abandoned Sewers & Caverns"},~                                                       ~{"BD6000", "(SoD)  Égouts / Caverne"},~
+	REPLACE_TEXTUALLY ~{"BD6200", "Sewers Exit"},~                                                                      ~{"BD6200", "(SoD)  Sortie des égouts / Groupe pour BG2"},~
+	REPLACE_TEXTUALLY ~{"BD6100", "The Ambush"},~                                                                       ~{"BD6100", "(SoD)  Transition / Fin de SoD"},~
+	REPLACE_TEXTUALLY ~{"BD7000", "Coast Way Forest"},~                                                                 ~{"BD7000", "(SoD)  Forêt de la Voie Côtière"},~
+	REPLACE_TEXTUALLY ~{"BD7100", "Troll Forest"},~                                                                     ~{"BD7100", "(SoD)  Bois des Griffes de Troll"},~
+	REPLACE_TEXTUALLY ~{"BD7110", "Troll Cave"},~                                                                       ~{"BD7110", "(SoD)  Grotte des Trolls"},~
+	REPLACE_TEXTUALLY ~{"BD7200", "Forest of Wyrms"},~                                                                  ~{"BD7200", "(SoD)  Forêt des dragons"},~
+	REPLACE_TEXTUALLY ~{"BD7210", "Wyrm Cave"},~                                                                        ~{"BD7210", "(SoD)  Caverne aux Dragons, (Forêt des dragons)"},~
+	REPLACE_TEXTUALLY ~{"BD7220", "Bugbear Stronghold"},~                                                               ~{"BD7220", "(SoD)  Grotte des Gobelours, (Caverne aux Dragons)"},~
+	REPLACE_TEXTUALLY ~{"BD7230", "Temple of Cyric"},~                                                                  ~{"BD7230", "(SoD)  Temple de Cyric, (Grotte des Gobelours)"},~
+	REPLACE_TEXTUALLY ~{"BD7300", "Dead Man's Pass"},~                                                                  ~{"BD7300", "(SoD)  Défilé du Trépassé"},~
+	REPLACE_TEXTUALLY ~{"BD7310", "Hidden Cellar/Treasure Stash"},~                                                     ~{"BD7310", "(SoD)  Cave dissimulée, (Défilé du Trépassé)"},~
+	REPLACE_TEXTUALLY ~{"BD7400", "Bloodbark Grove"},~                                                                  ~{"BD7400", "(SoD)  Bosquet d'Ecorsang"},~
+	REPLACE_TEXTUALLY ~{"BD7410", "Vampire Hideout"},~                                                                  ~{"BD7410", "(SoD)  Cave du vampire, (Bosquet d'Ecorsang)"},~
+	
+END
