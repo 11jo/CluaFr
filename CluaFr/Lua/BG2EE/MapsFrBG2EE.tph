@@ -332,8 +332,16 @@ ACTION_IF FILE_EXISTS_IN_GAME ~bgee.lua~ BEGIN
 	REPLACE_TEXTUALLY ~{"OH8200", "TBP2 - Arena 1"},~                                                                   ~{"OH8200", "(FN2)  Arène 1"},~
 	REPLACE_TEXTUALLY ~{"OH8300", "TBP2 - Arena 2"},~                                                                   ~{"OH8300", "(FN2)  Arène 2"},~
 	REPLACE_TEXTUALLY ~{"OH8400", "TBP2 - Arena 3"},~                                                                   ~{"OH8400", "(FN2)  Arène 3"},~
-																														
-	// CheatsAreas pour ToB : La Tour de Garde                                                                          
+	
+	// CheatsAreas Tutoriel~
+	
+	REPLACE_TEXTUALLY ~{"AR0015", "Baldur's Gate Estate (Tutorial starts here)"},~                                      ~{"AR0015", "(Tuto)  Palais Ducal, 1er étage (Commencement)"},~
+	REPLACE_TEXTUALLY ~{"AR0016", "Baldur's Gate Estate (Tutorial area)"},~                                             ~{"AR0016", "(Tuto)  Palais Ducal, 2eme étage"},~
+	REPLACE_TEXTUALLY ~{"AR0017", "Baldur's Gate Estate (Tutorial area)"},~                                             ~{"AR0017", "(Tuto)  Palais Ducal, 3eme étage"},~
+	REPLACE_TEXTUALLY ~{"AR0018", "Baldur's Gate Estate Cellar (Tutorial area)"},~                                      ~{"AR0018", "(Tuto)  Palais Ducal, Sous-sol"},~
+	
+																												
+// CheatsAreas pour ToB : La Tour de Garde                                                                          
 																														
 	REPLACE_TEXTUALLY ~{"AR3000", "Watcher's Keep"},~                                                                   ~{"AR3000", "(ToB)  La Tour de Garde"},~
 	REPLACE_TEXTUALLY ~{"AR3001", "Watcher's Keep -- Altar level"},~                                                    ~{"AR3001", "(Tour de Garde)  L'Autel, (1)"},~

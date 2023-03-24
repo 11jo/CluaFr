@@ -5,10 +5,11 @@ README ~~
 
 VERSION  ~0.1~
 
+//AUTO_TRA ~CluaFr/language/autotra/%s~
 
 LANGUAGE ~Francais~
          ~french~
-		 ~CluaFr/language/french/setup.tra~
+         ~CluaFr/language/french/setup.tra~
 
 
 	//////////////////////////////////////

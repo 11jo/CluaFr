@@ -1,0 +1,447 @@
+ACTION_IF FILE_EXISTS_IN_GAME ~bgee.lua~ BEGIN
+	COPY_EXISTING ~bgee.lua~ ~override/bgee.lua~
+
+	// CheatsAreas SoA                                                                                                  
+																														
+	REPLACE_TEXTUALLY ~{"AR0011", "Candlekeep Dream 1 (Do you remember Candlekeep?)"},~                                 @1  
+	REPLACE_TEXTUALLY ~{"AR0012", "Candlekeep Library (Main Door Trigger)"},~                                           @2  
+	REPLACE_TEXTUALLY ~{"AR0013", "Candlekeep Library (Stairway Triggers Up and Down)"},~                               @3  
+	REPLACE_TEXTUALLY ~{"AR0014", "Candlekeep Library (Stairway Trigger Down)"},~                                       @4  
+	REPLACE_TEXTUALLY ~{"AR0020", "City Gates"},~                                                                       @5  
+	REPLACE_TEXTUALLY ~{"AR0021", "Crooked Crane 1st Floor"},~                                                          @6  
+	REPLACE_TEXTUALLY ~{"AR0022", "Crooked Crane 2nd Floor"},~                                                          @7  
+	REPLACE_TEXTUALLY ~{"AR0028", "Candlekeep Dream (After PC Soultheft)"},~                                            @8  
+	REPLACE_TEXTUALLY ~{"AR0041", "Random Encounter City"},~                                                            @9  
+	REPLACE_TEXTUALLY ~{"AR0042", "Random Encounter Outdoor"},~                                                         @10 
+	REPLACE_TEXTUALLY ~{"AR0043", "Random Encounter Outdoor (With rocks)"},~                                            @11 
+	REPLACE_TEXTUALLY ~{"AR0044", "Random Encounter Outdoor (sand)"},~                                                  @12 
+	REPLACE_TEXTUALLY ~{"AR0045", "Random Encounter City"},~                                                            @13 
+	REPLACE_TEXTUALLY ~{"AR0046", "Random Encounter City (bridge)"},~                                                   @14 
+	REPLACE_TEXTUALLY ~{"AR0060", "Empty (Triggers, Doors... are there but no area)"},~                                 @15 
+	REPLACE_TEXTUALLY ~{"AR0061", "Empty (Triggers, Doors... are there but no area)"},~                                 @16 
+	REPLACE_TEXTUALLY ~{"AR0062", "Empty (Triggers, Doors... are there but no area)"},~                                 @17 
+	REPLACE_TEXTUALLY ~{"AR0063", "Empty (Triggers, Doors... are there but no area)"},~                                 @18 
+	REPLACE_TEXTUALLY ~{"AR0064", "Empty (Triggers, Doors... are there but no area)"},~                                 @19 
+	REPLACE_TEXTUALLY ~{"AR0065", "Empty (Triggers, Doors... are there but no area)"},~                                 @20 
+	REPLACE_TEXTUALLY ~{"AR0069", "Government Building (Cowled Cutscene -- 'Why is this man not gagged?')"},~           @21 
+	REPLACE_TEXTUALLY ~{"AR0070", "Spellhold (Irenicus Cutscene -- 'I cannot be caged...')"},~                          @22 
+	REPLACE_TEXTUALLY ~{"AR0071", "Spellhold (Imoen Soultheft Cutscene -- 'Silence do, you have no purpose...')"},~     @23 
+	REPLACE_TEXTUALLY ~{"AR0072", "Ust Natha Temple (Irenicus/Bodhi, Ardula/Phaere Cutscene)"},~                        @24 
+	REPLACE_TEXTUALLY ~{"AR0082", "Lich Grave in Bridge District Inn"},~                                                @25 
+	REPLACE_TEXTUALLY ~{"AR0083", "Candlekeep Library (Dream: PC learns to control the Slayer)"},~                      @26 
+	REPLACE_TEXTUALLY ~{"AR0084", "Candlekeep Library (Stairway trigger down)"},~                                       @27 
+	REPLACE_TEXTUALLY ~{"AR0085", "Tree of Life"},~                                                                     @28 
+	REPLACE_TEXTUALLY ~{"AR0086", "Wooded Area"},~                                                                      @29 
+	REPLACE_TEXTUALLY ~{"AR0087", "Elven Dining Room"},~                                                                @30 
+	REPLACE_TEXTUALLY ~{"AR0201", "Leading to ghoul village and beholder lair (Temple District)"},~                     @31 
+	REPLACE_TEXTUALLY ~{"AR0202", "The Unseeing Eye Cult Hideout"},~                                                    @32 
+	REPLACE_TEXTUALLY ~{"AR0203", "Temple of the Forgotten God -- Amaunator (Unseeing Eye Plot)"},~                     @33 
+	REPLACE_TEXTUALLY ~{"AR0204", "The Forgotten Believers -- Temple City (Unseeing Eye Plot)"},~                       @34 
+	REPLACE_TEXTUALLY ~{"AR0205", "The Beholder Hideout (Unseeing Eye Plot)"},~                                         @35 
+	REPLACE_TEXTUALLY ~{"AR0206", "Ghoul village (Temple District)"},~                                                  @36 
+	REPLACE_TEXTUALLY ~{"AR0300", "The Docks"},~                                                                        @37 
+	REPLACE_TEXTUALLY ~{"AR0301", "Mae'Var's Hide Out"},~                                                               @38 
+	REPLACE_TEXTUALLY ~{"AR0302", "Mae'Var's Inn 1st Floor -- Entrance"},~                                              @39 
+	REPLACE_TEXTUALLY ~{"AR0303", "Mae'Var's Inn 2nd Floor -- Training Area"},~                                         @40 
+	REPLACE_TEXTUALLY ~{"AR0304", "Mae'Var's Inn 3rd Floor -- Edwin"},~                                                 @41 
+	REPLACE_TEXTUALLY ~{"AR0305", "Shadow Thieves Guild Entrance"},~                                                    @42 
+	REPLACE_TEXTUALLY ~{"AR0306", "Renal Bloodscalp's Hideout"},~                                                       @43 
+	REPLACE_TEXTUALLY ~{"AR0307", "Aran Linvail's Hideout"},~                                                           @44 
+	REPLACE_TEXTUALLY ~{"AR0308", "Harper's 1st Floor"},~                                                               @45 
+	REPLACE_TEXTUALLY ~{"AR0309", "Harper's 2nd Floor"},~                                                               @46 
+	REPLACE_TEXTUALLY ~{"AR0310", "Pirates' Hideout in Sea Bounty Tavern"},~                                            @47 
+	REPLACE_TEXTUALLY ~{"AR0311", "Living Room (Entry points outside and up) -- Gaelan?"},~                             @48 
+	REPLACE_TEXTUALLY ~{"AR0312", "Sleeping Room (Entry point down) -- Arledrian"},~                                    @49 
+	REPLACE_TEXTUALLY ~{"AR0313", "Sea Bounty Tavern 1st Floor"},~                                                      @50 
+	REPLACE_TEXTUALLY ~{"AR0314", "Sea Bounty Tavern 2nd Floor"},~                                                      @51 
+	REPLACE_TEXTUALLY ~{"AR0315", "Living Room (Favour for Edwin -- Mae'Var Plot)"},~                                   @52 
+	REPLACE_TEXTUALLY ~{"AR0316", "Sleeping Room (Favour for Edwin -- Mae'Var Plot)"},~                                 @53 
+	REPLACE_TEXTUALLY ~{"AR0317", "Sleeping Room (Favour for Edwin -- Mae'Var Plot)"},~                                 @54 
+	REPLACE_TEXTUALLY ~{"AR0318", "Storage Room"},~                                                                     @55 
+	REPLACE_TEXTUALLY ~{"AR0319", "Temple of Oghma"},~                                                                  @56 
+	REPLACE_TEXTUALLY ~{"AR0321", "Thief Stronghold (Hideout)"},~                                                       @57 
+	REPLACE_TEXTUALLY ~{"AR0322", "Thief Stronghold (1st Floor)"},~                                                     @58 
+	REPLACE_TEXTUALLY ~{"AR0323", "Thief Stronghold (2nd Floor)"},~                                                     @59 
+	REPLACE_TEXTUALLY ~{"AR0324", "Thief Stronghold (3rd Floor)"},~                                                     @60 
+	REPLACE_TEXTUALLY ~{"AR0325", "Corthala House 1st Floor"},~                                                         @61 
+	REPLACE_TEXTUALLY ~{"AR0326", "Corthala House 2nd Floor"},~                                                         @62 
+	REPLACE_TEXTUALLY ~{"AR0327", "Shadow Thief Entrance (sided with Bodhi)"},~                                         @63 
+	REPLACE_TEXTUALLY ~{"AR0328", "Shadow Thief 1st Floor (sided with Bodhi)"},~                                        @64 
+	REPLACE_TEXTUALLY ~{"AR0329", "Aran's Hideout (sided with Bodhi)"},~                                                @65 
+	REPLACE_TEXTUALLY ~{"AR0330", "House 1st Floor (Kangaxx)"},~                                                        @66 
+	REPLACE_TEXTUALLY ~{"AR0331", "House Cellar (Kangaxx)"},~                                                           @67 
+	REPLACE_TEXTUALLY ~{"AR0332", "Barracks in the Docks"},~                                                            @68 
+	REPLACE_TEXTUALLY ~{"AR0333", "Barracks in the Docks"},~                                                            @69 
+	REPLACE_TEXTUALLY ~{"AR0334", "Cromwell's Shop"},~                                                                  @70 
+	REPLACE_TEXTUALLY ~{"AR0335", "Sleeping Room"},~                                                                    @71 
+	REPLACE_TEXTUALLY ~{"AR0400", "Slums"},~                                                                            @72 
+	REPLACE_TEXTUALLY ~{"AR0401", "Jansen Cellar"},~                                                                    @73 
+	REPLACE_TEXTUALLY ~{"AR0402", "Jansen 1st Floor"},~                                                                 @74 
+	REPLACE_TEXTUALLY ~{"AR0403", "Jansen 2nd Floor"},~                                                                 @75 
+	REPLACE_TEXTUALLY ~{"AR0404", "Sewers beneath Coronet -- Lilarcor"},~                                               @76 
+	REPLACE_TEXTUALLY ~{"AR0405", "Slaver's Ship Building"},~                                                           @77 
+	REPLACE_TEXTUALLY ~{"AR0406", "Copper Coronet"},~                                                                   @78 
+	REPLACE_TEXTUALLY ~{"AR0407", "Prebek's House"},~                                                                   @79 
+	REPLACE_TEXTUALLY ~{"AR0408", "Temple of Ilmater"},~                                                                @80 
+	REPLACE_TEXTUALLY ~{"AR0409", "Living Room (Ployer's home)"},~                                                      @81 
+	REPLACE_TEXTUALLY ~{"AR0410", "Sphere: Navigator's room -- Lavok's Hideout"},~                                      @82 
+	REPLACE_TEXTUALLY ~{"AR0411", "Sphere: Entrance floor"},~                                                           @83 
+	REPLACE_TEXTUALLY ~{"AR0412", "Sphere: Ice and Fire Room"},~                                                        @84 
+	REPLACE_TEXTUALLY ~{"AR0413", "Sphere: Enginge Room"},~                                                             @85 
+	REPLACE_TEXTUALLY ~{"AR0414", "Sphere: Demon Plane"},~                                                              @86 
+	REPLACE_TEXTUALLY ~{"AR0415", "Living Room 1st Floor"},~                                                            @87 
+	REPLACE_TEXTUALLY ~{"AR0416", "Living Room 2nd Floor"},~                                                            @88 
+	REPLACE_TEXTUALLY ~{"AR0417", "Living Room"},~                                                                      @89 
+	REPLACE_TEXTUALLY ~{"AR0418", "Myconids"},~                                                                         @90 
+	REPLACE_TEXTUALLY ~{"AR0419", "Myconid"},~                                                                          @91 
+	REPLACE_TEXTUALLY ~{"AR0420", "Sphere: Lizardmen Hideout"},~                                                        @92 
+	REPLACE_TEXTUALLY ~{"AR0500", "Bridge District"},~                                                                  @93 
+	REPLACE_TEXTUALLY ~{"AR0501", "Tanner's Hideout 1st Floor"},~                                                       @94 
+	REPLACE_TEXTUALLY ~{"AR0502", "Tanner's Hideout Cellar"},~                                                          @95 
+	REPLACE_TEXTUALLY ~{"AR0503", "Tanner's Hideout Dock"},~                                                            @96 
+	REPLACE_TEXTUALLY ~{"AR0504", "Saerk's House 1st Floor"},~                                                          @97 
+	REPLACE_TEXTUALLY ~{"AR0505", "Saerk's House 2nd Floor"},~                                                          @98 
+	REPLACE_TEXTUALLY ~{"AR0506", "Noble House 1st Floor"},~                                                            @99 
+	REPLACE_TEXTUALLY ~{"AR0507", "Kidnappers' Hideout 1st Floor"},~                                                    @100
+	REPLACE_TEXTUALLY ~{"AR0508", "Kidnappers' Hideout 2nd Floor"},~                                                    @101
+	REPLACE_TEXTUALLY ~{"AR0509", "Five Flagons Inn 1st Floor"},~                                                       @102
+	REPLACE_TEXTUALLY ~{"AR0510", "Five Flagons Inn Theater"},~                                                         @103
+	REPLACE_TEXTUALLY ~{"AR0511", "Five Flagons Inn 2nd Floor"},~                                                       @104
+	REPLACE_TEXTUALLY ~{"AR0512", "Temple of Helm"},~                                                                   @105
+	REPLACE_TEXTUALLY ~{"AR0513", "Calbor's Inn at Bridge District 1st Floor"},~                                        @106
+	REPLACE_TEXTUALLY ~{"AR0514", "Inn at Bridge District 2nd Floor"},~                                                 @107
+	REPLACE_TEXTUALLY ~{"AR0515", "Inn at Bridge District 3rd Floor"},~                                                 @108
+	REPLACE_TEXTUALLY ~{"AR0516", "Planar Prison"},~                                                                    @109
+	REPLACE_TEXTUALLY ~{"AR0517", "Planar Prison Cell"},~                                                               @110
+	REPLACE_TEXTUALLY ~{"AR0518", "Planar Prison Cell"},~                                                               @111
+	REPLACE_TEXTUALLY ~{"AR0519", "Planar Prison Cell"},~                                                               @112
+	REPLACE_TEXTUALLY ~{"AR0520", "Planar Prison Cell"},~                                                               @113
+	REPLACE_TEXTUALLY ~{"AR0521", "Planar Prison Cell"},~                                                               @114
+	REPLACE_TEXTUALLY ~{"AR0522", "Five Flagons Inn (Stronghold)"},~                                                    @115
+	REPLACE_TEXTUALLY ~{"AR0523", "Five Flagons Theater (Stronghold)"},~                                                @116
+	REPLACE_TEXTUALLY ~{"AR0525", "House 1st Floor"},~                                                                  @117
+	REPLACE_TEXTUALLY ~{"AR0526", "Sarcophagus Cellar"},~                                                               @118
+	REPLACE_TEXTUALLY ~{"AR0527", "House 1st Floor"},~                                                                  @119
+	REPLACE_TEXTUALLY ~{"AR0528", "House 2nd Floor"},~                                                                  @120
+	REPLACE_TEXTUALLY ~{"AR0529", "Neb's Hideout"},~                                                                    @121
+	REPLACE_TEXTUALLY ~{"AR0530", "Storehouse"},~                                                                       @122
+	REPLACE_TEXTUALLY ~{"AR0531", "Commoner House"},~                                                                   @123
+	REPLACE_TEXTUALLY ~{"AR0600", "Circus Tent (phased)"},~                                                             @124
+	REPLACE_TEXTUALLY ~{"AR0601", "Air Plane in Irenicus's Dungeon"},~                                                  @125
+	REPLACE_TEXTUALLY ~{"AR0602", "Irenicus's Dungeon 1st Floor"},~                                                     @126
+	REPLACE_TEXTUALLY ~{"AR0603", "Irenicus's Dungeon 2nd Floor"},~                                                     @127
+	REPLACE_TEXTUALLY ~{"AR0604", "Circus Tent 1st Floor"},~                                                            @128
+	REPLACE_TEXTUALLY ~{"AR0605", "Circus Tent 2nd Floor"},~                                                            @129
+	REPLACE_TEXTUALLY ~{"AR0606", "Circus Tent 3rd Floor"},~                                                            @130
+	REPLACE_TEXTUALLY ~{"AR0607", "Circus Tent restored"},~                                                             @131
+	REPLACE_TEXTUALLY ~{"AR0700", "Waukeen's Promenade"},~                                                              @132
+	REPLACE_TEXTUALLY ~{"AR0701", "The Sewers"},~                                                                       @133
+	REPLACE_TEXTUALLY ~{"AR0702", "Adventurer's Mart"},~                                                                @134
+	REPLACE_TEXTUALLY ~{"AR0703", "Temple of Ilmater"},~                                                                @135
+	REPLACE_TEXTUALLY ~{"AR0704", "Mithrest Inn"},~                                                                     @136
+	REPLACE_TEXTUALLY ~{"AR0705", "Mekrath's Hideout in the Sewers (Haer'Dalis Plot)"},~                                @137
+	REPLACE_TEXTUALLY ~{"AR0706", "Armourer/Fletcher"},~                                                                @138
+	REPLACE_TEXTUALLY ~{"AR0707", "Enge's Shop"},~                                                                      @139
+	REPLACE_TEXTUALLY ~{"AR0708", "Cernd's former home"},~                                                              @140
+	REPLACE_TEXTUALLY ~{"AR0709", "Den of the Seven Vales 1st Floor"},~                                                 @141
+	REPLACE_TEXTUALLY ~{"AR0710", "Fennecia's Home"},~                                                                  @142
+	REPLACE_TEXTUALLY ~{"AR0711", "Illithid Hideout in the Sewers (The Hidden Plot)"},~                                 @143
+	REPLACE_TEXTUALLY ~{"AR0712", "Den of the Seven Vales 2nd Floor"},~                                                 @144
+	REPLACE_TEXTUALLY ~{"AR0713", "Store or Inn at Promenade"},~                                                        @145
+	REPLACE_TEXTUALLY ~{"AR0714", "Debris at Waukeen's Promenade (Irenicus Cutscene in the beginning)"},~               @146
+	REPLACE_TEXTUALLY ~{"AR0800", "Graveyard"},~                                                                        @147
+	REPLACE_TEXTUALLY ~{"AR0801", "Bodhi's Hideout (sided with Aran)"},~                                                @148
+	REPLACE_TEXTUALLY ~{"AR0802", "Netherscroll, Korgan's Book, Edwin"},~                                               @149
+	REPLACE_TEXTUALLY ~{"AR0803", "Bodhi's Lair (sided with Aran)"},~                                                   @150
+	REPLACE_TEXTUALLY ~{"AR0804", "Pai'Na's Hideout"},~                                                                 @151
+	REPLACE_TEXTUALLY ~{"AR0805", "Crypt"},~                                                                            @152
+	REPLACE_TEXTUALLY ~{"AR0806", "Crypt"},~                                                                            @153
+	REPLACE_TEXTUALLY ~{"AR0807", "Crypt"},~                                                                            @154
+	REPLACE_TEXTUALLY ~{"AR0808", "Bodhi's Hideout (Abduction Plot, getting Imoen's soul)"},~                           @155
+	REPLACE_TEXTUALLY ~{"AR0809", "Bodhi's Lair (Abduction Plot, getting Imoen's soul)"},~                              @156
+	REPLACE_TEXTUALLY ~{"AR0810", "Crypt"},~                                                                            @157
+	REPLACE_TEXTUALLY ~{"AR0811", "Crypt"},~                                                                            @158
+	REPLACE_TEXTUALLY ~{"AR0812", "Crypt"},~                                                                            @159
+	REPLACE_TEXTUALLY ~{"AR0813", "Crypt"},~                                                                            @160
+	REPLACE_TEXTUALLY ~{"AR0900", "Temple District"},~                                                                  @161
+	REPLACE_TEXTUALLY ~{"AR0901", "Temple of Helm"},~                                                                   @162
+	REPLACE_TEXTUALLY ~{"AR0902", "Temple of Lathander"},~                                                              @163
+	REPLACE_TEXTUALLY ~{"AR0903", "Order of the Radiant Heart"},~                                                       @164
+	REPLACE_TEXTUALLY ~{"AR0904", "Temple of Talos"},~                                                                  @165
+	REPLACE_TEXTUALLY ~{"AR0905", "Pimlico's Estate"},~                                                                 @166
+	REPLACE_TEXTUALLY ~{"AR0906", "Guarded Compound 1st Floor"},~                                                       @167
+	REPLACE_TEXTUALLY ~{"AR0907", "Guarded Compound 2nd Floor"},~                                                       @168
+	REPLACE_TEXTUALLY ~{"AR1000", "Government District"},~                                                              @169
+	REPLACE_TEXTUALLY ~{"AR1001", "Delryn's Estate"},~                                                                  @170
+	REPLACE_TEXTUALLY ~{"AR1002", "Councel Building"},~                                                                 @171
+	REPLACE_TEXTUALLY ~{"AR1003", "Firecam's Estate"},~                                                                 @172
+	REPLACE_TEXTUALLY ~{"AR1004", "Deril's Estate (Cernd Plot)"},~                                                      @173
+	REPLACE_TEXTUALLY ~{"AR1005", "Prison"},~                                                                           @174
+	REPLACE_TEXTUALLY ~{"AR1006", "Jysstev's Estate (Oisig Plot)"},~                                                    @175
+	REPLACE_TEXTUALLY ~{"AR1007", "Noble House"},~                                                                      @176
+	REPLACE_TEXTUALLY ~{"AR1008", "Twisted Rune"},~                                                                     @177
+	REPLACE_TEXTUALLY ~{"AR1009", "Noble House (Isaea Roenall's)"},~                                                    @178
+	REPLACE_TEXTUALLY ~{"AR1010", "Temple of Waukeen"},~                                                                @179
+	REPLACE_TEXTUALLY ~{"AR1100", "Umar Hills"},~                                                                       @180
+	REPLACE_TEXTUALLY ~{"AR1101", "Valygar's Cabin"},~                                                                  @181
+	REPLACE_TEXTUALLY ~{"AR1102", "Merella's Cabin"},~                                                                  @182
+	REPLACE_TEXTUALLY ~{"AR1103", "Jermien's Cabin"},~                                                                  @183
+	REPLACE_TEXTUALLY ~{"AR1104", "Mayor Lloyd's Cabin"},~                                                              @184
+	REPLACE_TEXTUALLY ~{"AR1105", "Imnesvale Inn"},~                                                                    @185
+	REPLACE_TEXTUALLY ~{"AR1106", "Umar's Cave"},~                                                                      @186
+	REPLACE_TEXTUALLY ~{"AR1107", "Ranger-Protector's Cabin (Stronghold)"},~                                            @187
+	REPLACE_TEXTUALLY ~{"AR1200", "Windspear Hills"},~                                                                  @188
+	REPLACE_TEXTUALLY ~{"AR1201", "Firkraag's Entrance"},~                                                              @189
+	REPLACE_TEXTUALLY ~{"AR1202", "Firkraag's Maze"},~                                                                  @190
+	REPLACE_TEXTUALLY ~{"AR1203", "Firkraag's Hideout"},~                                                               @191
+	REPLACE_TEXTUALLY ~{"AR1204", "Garren Windspear's Cabin"},~                                                         @192
+	REPLACE_TEXTUALLY ~{"AR1300", "De'Arnise Keep Destroyed"},~                                                         @193
+	REPLACE_TEXTUALLY ~{"AR1301", "De'Arnise Cellar"},~                                                                 @194
+	REPLACE_TEXTUALLY ~{"AR1302", "De'Arnise Keep 1st Floor"},~                                                         @195
+	REPLACE_TEXTUALLY ~{"AR1303", "De'Arnise Keep 2nd Floor (Destroyed)"},~                                             @196
+	REPLACE_TEXTUALLY ~{"AR1304", "De'Arnise Keep (Restored, Stronghold)"},~                                            @197
+	REPLACE_TEXTUALLY ~{"AR1305", "De'Arnise Keep (Stronghold)"},~                                                      @198
+	REPLACE_TEXTUALLY ~{"AR1306", "De'Arnise Keep (Stronghold)"},~                                                      @199
+	REPLACE_TEXTUALLY ~{"AR1307", "De'Arnise Keep (Stronghold)"},~                                                      @200
+	REPLACE_TEXTUALLY ~{"AR1400", "Shadow Temple Land (restored, Ranger)"},~                                            @201
+	REPLACE_TEXTUALLY ~{"AR1401", "Shadow Temple"},~                                                                    @202
+	REPLACE_TEXTUALLY ~{"AR1402", "Shadow Dragon Hideout"},~                                                            @203
+	REPLACE_TEXTUALLY ~{"AR1403", "Wolfwere Hideout"},~                                                                 @204
+	REPLACE_TEXTUALLY ~{"AR1404", "Shadow Temple Land shadowed"},~                                                      @205
+	REPLACE_TEXTUALLY ~{"AR1500", "Spellhold"},~                                                                        @206
+	REPLACE_TEXTUALLY ~{"AR1501", "Cave (Spellhold Test)"},~                                                            @207
+	REPLACE_TEXTUALLY ~{"AR1502", "Fire Room (Spellhold Test)"},~                                                       @208
+	REPLACE_TEXTUALLY ~{"AR1503", "Spore Room (Spellhold Test)"},~                                                      @209
+	REPLACE_TEXTUALLY ~{"AR1504", "Crushing Trap Room (Spellhold Test)"},~                                              @210
+	REPLACE_TEXTUALLY ~{"AR1505", "Lever Room (Spellhold Test)"},~                                                      @211
+	REPLACE_TEXTUALLY ~{"AR1506", "Troll Cave (Spellhold Test)"},~                                                      @212
+	REPLACE_TEXTUALLY ~{"AR1507", "Kobold Room (Spellhold Test)"},~                                                     @213
+	REPLACE_TEXTUALLY ~{"AR1508", "Final Judgement Spellhold Test"},~                                                   @214
+	REPLACE_TEXTUALLY ~{"AR1509", "Myconid Room (Spellhold Test)"},~                                                    @215
+	REPLACE_TEXTUALLY ~{"AR1510", "Sahuagin Room (Spellhold Test)"},~                                                   @216
+	REPLACE_TEXTUALLY ~{"AR1511", "Elven Table while Spellhold Test"},~                                                 @217
+	REPLACE_TEXTUALLY ~{"AR1512", "Bodhi's Hunt Level 1"},~                                                             @218
+	REPLACE_TEXTUALLY ~{"AR1513", "Bodhi's Hunt Level 2"},~                                                             @219
+	REPLACE_TEXTUALLY ~{"AR1514", "Bodhi's Hunt Level 3 (1st Slayer Change Happens here)"},~                            @220
+	REPLACE_TEXTUALLY ~{"AR1515", "Spellhold (Irenicus's Living Room)"},~                                               @221
+	REPLACE_TEXTUALLY ~{"AR1516", "Spellhold (Soultheft Level)"},~                                                      @222
+	REPLACE_TEXTUALLY ~{"AR1600", "Brynnlaw"},~                                                                         @223
+	REPLACE_TEXTUALLY ~{"AR1601", "Desharik's Estate"},~                                                                @224
+	REPLACE_TEXTUALLY ~{"AR1602", "Brynnlaw's Inn"},~                                                                   @225
+	REPLACE_TEXTUALLY ~{"AR1603", "Brynnlaw's Shop"},~                                                                  @226
+	REPLACE_TEXTUALLY ~{"AR1604", "Temple of Umberlee"},~                                                               @227
+	REPLACE_TEXTUALLY ~{"AR1605", "CW's House"},~                                                                       @228
+	REPLACE_TEXTUALLY ~{"AR1606", "House of Desharik's Lover"},~                                                        @229
+	REPLACE_TEXTUALLY ~{"AR1607", "Githyanki Assault"},~                                                                @230
+	REPLACE_TEXTUALLY ~{"AR1608", "Cellar of Brothel"},~                                                                @231
+	REPLACE_TEXTUALLY ~{"AR1609", "Courtesan Room"},~                                                                   @232
+	REPLACE_TEXTUALLY ~{"AR1610", "Brothel Prison"},~                                                                   @233
+	REPLACE_TEXTUALLY ~{"AR1611", "Brothel"},~                                                                          @234
+	REPLACE_TEXTUALLY ~{"AR1612", "Brothel Kitchen"},~                                                                  @235
+	REPLACE_TEXTUALLY ~{"AR1613", "Brothel HQ"},~                                                                       @236
+	REPLACE_TEXTUALLY ~{"AR1700", "Small Teeth Pass"},~                                                                 @237
+	REPLACE_TEXTUALLY ~{"AR1800", "North Forest"},~                                                                     @238
+	REPLACE_TEXTUALLY ~{"AR1900", "Druid Grove Area"},~                                                                 @239
+	REPLACE_TEXTUALLY ~{"AR1901", "Druid Grove"},~                                                                      @240
+	REPLACE_TEXTUALLY ~{"AR1902", "Storehouse (Ihtafeer's Storehouse)"},~                                               @241
+	REPLACE_TEXTUALLY ~{"AR1904", "Troll Hill"},~                                                                       @242
+	REPLACE_TEXTUALLY ~{"AR1905", "Store Tower"},~                                                                      @243
+	REPLACE_TEXTUALLY ~{"AR2000", "Trademeet"},~                                                                        @244
+	REPLACE_TEXTUALLY ~{"AR2001", "The Smithy"},~                                                                       @245
+	REPLACE_TEXTUALLY ~{"AR2002", "Fentan's House"},~                                                                   @246
+	REPLACE_TEXTUALLY ~{"AR2006", "Tiri's Home"},~                                                                      @247
+	REPLACE_TEXTUALLY ~{"AR2007", "High Merchant's Estate"},~                                                           @248
+	REPLACE_TEXTUALLY ~{"AR2008", "Temple of Waukeen"},~                                                                @249
+	REPLACE_TEXTUALLY ~{"AR2009", "High Merchant Prison"},~                                                             @250
+	REPLACE_TEXTUALLY ~{"AR2010", "Trademeet's Inn"},~                                                                  @251
+	REPLACE_TEXTUALLY ~{"AR2011", "Alibakkar's Estate"},~                                                               @252
+	REPLACE_TEXTUALLY ~{"AR2012", "Lurraxol's Estate"},~                                                                @253
+	REPLACE_TEXTUALLY ~{"AR2013", "Trademeet Crypt"},~                                                                  @254
+	REPLACE_TEXTUALLY ~{"AR2014", "Djinni's Tent"},~                                                                    @255
+	REPLACE_TEXTUALLY ~{"AR2015", "Merchant Tent"},~                                                                    @256
+	REPLACE_TEXTUALLY ~{"AR2016", "Raffee's Tent"},~                                                                    @257
+	REPLACE_TEXTUALLY ~{"AR2017", "Courtesan Tent"},~                                                                   @258
+	REPLACE_TEXTUALLY ~{"AR2018", "Tent (no exit)"},~                                                                   @259
+	REPLACE_TEXTUALLY ~{"AR2100", "Underdark"},~                                                                        @260
+	REPLACE_TEXTUALLY ~{"AR2101", "Beholder Cave in Underdark"},~                                                       @261
+	REPLACE_TEXTUALLY ~{"AR2102", "Adalon's Cave"},~                                                                    @262
+	REPLACE_TEXTUALLY ~{"AR2200", "Ust Natha"},~                                                                        @263
+	REPLACE_TEXTUALLY ~{"AR2201", "Temple in Ust Natha"},~                                                              @264
+	REPLACE_TEXTUALLY ~{"AR2202", "Inn in Ust Natha 1st Floor"},~                                                       @265
+	REPLACE_TEXTUALLY ~{"AR2203", "Inn in Ust Natha; 2nd Floor"},~                                                      @266
+	REPLACE_TEXTUALLY ~{"AR2204", "House in Ust Natha"},~                                                               @267
+	REPLACE_TEXTUALLY ~{"AR2205", "House in Ust Natha"},~                                                               @268
+	REPLACE_TEXTUALLY ~{"AR2206", "Qilue's House in Ust Natha"},~                                                       @269
+	REPLACE_TEXTUALLY ~{"AR2207", "Deirex's Tower in Ust Natha"},~                                                      @270
+	REPLACE_TEXTUALLY ~{"AR2208", "Jarlaxle's House wherever"},~                                                        @271
+	REPLACE_TEXTUALLY ~{"AR2209", "Jae'llat's House"},~                                                                 @272
+	REPLACE_TEXTUALLY ~{"AR2210", "Deirex's Cave"},~                                                                    @273
+	REPLACE_TEXTUALLY ~{"AR2300", "Sahuagin City"},~                                                                    @274
+	REPLACE_TEXTUALLY ~{"AR2400", "Mind Flayers in Underdark"},~                                                        @275
+	REPLACE_TEXTUALLY ~{"AR2401", "Cave Between Underdark and Exit from Underdark"},~                                   @276
+	REPLACE_TEXTUALLY ~{"AR2402", "Kuo Toa in Underdark"},~                                                             @277
+	REPLACE_TEXTUALLY ~{"AR2500", "Elven Temple at Underdark Exit"},~                                                   @278
+	REPLACE_TEXTUALLY ~{"AR2600", "Thetyr Wood"},~                                                                      @279
+	REPLACE_TEXTUALLY ~{"AR2601", "Meet Drizzt Do'Urden"},~                                                             @280
+	REPLACE_TEXTUALLY ~{"AR2602", "Cave in Woods to Suldanessellar"},~                                                  @281
+	REPLACE_TEXTUALLY ~{"AR2603", "Coran's Cabin"},~                                                                    @282
+	REPLACE_TEXTUALLY ~{"AR2700", "Ancient Spirits?"},~                                                                 @283
+	REPLACE_TEXTUALLY ~{"AR2800", "Suldanessellar"},~                                                                   @284
+	REPLACE_TEXTUALLY ~{"AR2801", "House of High Priestess of Suldanessellar"},~                                        @285
+	REPLACE_TEXTUALLY ~{"AR2802", "House in Suldanessellar"},~                                                          @286
+	REPLACE_TEXTUALLY ~{"AR2803", "Rillifane Temple"},~                                                                 @287
+	REPLACE_TEXTUALLY ~{"AR2804", "To the Tree of Life (Entrance Hidden)"},~                                            @288
+	REPLACE_TEXTUALLY ~{"AR2805", "To the Tree of Life (Entrance Revealed)"},~                                          @289
+	REPLACE_TEXTUALLY ~{"AR2806", "Tree of Life"},~                                                                     @290
+	REPLACE_TEXTUALLY ~{"AR2807", "Black Dragon's Hideout"},~                                                           @291
+	REPLACE_TEXTUALLY ~{"AR2808", "House in Suldanessellar"},~                                                          @292
+	REPLACE_TEXTUALLY ~{"AR2809", "House in Suldanessellar - Puzzle Box"},~                                             @293
+	REPLACE_TEXTUALLY ~{"AR2810", "House in Suldanessellar"},~                                                          @294
+	REPLACE_TEXTUALLY ~{"AR2811", "House in Suldanessellar"},~                                                          @295
+	REPLACE_TEXTUALLY ~{"AR2812", "Temple of Rillifane after the Battle"},~                                             @296
+	REPLACE_TEXTUALLY ~{"AR2900", "The Abyss"},~                                                                        @297
+	REPLACE_TEXTUALLY ~{"AR2901", "Fear (Abyss)"},~                                                                     @298
+	REPLACE_TEXTUALLY ~{"AR2902", "Pride (Abyss)"},~                                                                    @299
+	REPLACE_TEXTUALLY ~{"AR2903", "Greed (Abyss)"},~                                                                    @300
+	REPLACE_TEXTUALLY ~{"AR2904", "Selfish (Abyss)"},~                                                                  @301
+	REPLACE_TEXTUALLY ~{"AR2905", "Sarevok (Abyss)"},~                                                                  @302
+	REPLACE_TEXTUALLY ~{"AR2906", "Jon Battle ?"},~                                                                     @303
+	REPLACE_TEXTUALLY ~{"OH4000", "Rasaad - The Amphitheater"},~                                                        @304
+	REPLACE_TEXTUALLY ~{"OH4010", "Rasaad - Tears of Selune battle encounter"},~                                        @305
+	REPLACE_TEXTUALLY ~{"OH4100", "Rasaad - Dark Moon Heretic Temple"},~                                                @306
+	REPLACE_TEXTUALLY ~{"OH4101", "Rasaad - Dark Moon Heretic Temple Interior"},~                                       @307
+	REPLACE_TEXTUALLY ~{"OH5000", "Dorn - Radiant Heart (Wedding)"},~                                                   @308
+	REPLACE_TEXTUALLY ~{"OH5100", "Dorn - Resurrection Gorge"},~                                                        @309
+	REPLACE_TEXTUALLY ~{"OH5110", "Dorn - Resurrection Gorge Cave"},~                                                   @310
+	REPLACE_TEXTUALLY ~{"OH5120", "Dorn - Resurrection Gorge Tree Interior"},~                                          @311
+	REPLACE_TEXTUALLY ~{"OH5200", "Dorn - Resurrection Gorge Interior"},~                                               @312
+	REPLACE_TEXTUALLY ~{"OH5300", "Dorn - Helmite Camp"},~                                                              @313
+	REPLACE_TEXTUALLY ~{"OH6000", "Neera - The Wild Forest"},~                                                          @314
+	REPLACE_TEXTUALLY ~{"OH6010", "Neera - Random Encounter in Athkatla"},~                                             @315
+	REPLACE_TEXTUALLY ~{"OH6100", "Neera - The Hidden Refuge"},~                                                        @316
+	REPLACE_TEXTUALLY ~{"OH6200", "Neera - The Hidden Refuge (Destroyed)"},~                                            @317
+	REPLACE_TEXTUALLY ~{"OH6300", "Neera - Red Wizard Enclave"},~                                                       @318
+	REPLACE_TEXTUALLY ~{"OH7000", "Hexxat - Top Left Quarter (Dragomir)"},~                                             @319
+	REPLACE_TEXTUALLY ~{"OH7100", "Hexxat - Bottom Left Quarter (Shou Lung)"},~                                         @320
+	REPLACE_TEXTUALLY ~{"OH7200", "Hexxat - Bottom Right Quarter (Zakhara)"},~                                          @321
+																														
+	// CheatsAreas pour Les Gladiateurs de Thay                                                                         	
+																														
+	REPLACE_TEXTUALLY ~{"OH8000", "TBP2 - Suzail Tavern"},~                                                             @322
+	REPLACE_TEXTUALLY ~{"OH8100", "TBP2 - Staging Area Map"},~                                                          @323
+	REPLACE_TEXTUALLY ~{"OH8200", "TBP2 - Arena 1"},~                                                                   @324
+	REPLACE_TEXTUALLY ~{"OH8300", "TBP2 - Arena 2"},~                                                                   @325
+	REPLACE_TEXTUALLY ~{"OH8400", "TBP2 - Arena 3"},~                                                                   @326
+	                                                                                                                    
+	// CheatsAreas Tutoriel~                                                                                            	
+	                                                                                                                    
+	REPLACE_TEXTUALLY ~{"TU0015", "Baldur's Gate Estate (Tutorial starts here)"},~                                      @327
+	REPLACE_TEXTUALLY ~{"TU0016", "Baldur's Gate Estate (Tutorial area)"},~                                             @328
+	REPLACE_TEXTUALLY ~{"TU0017", "Baldur's Gate Estate (Tutorial area)"},~                                             @329
+	REPLACE_TEXTUALLY ~{"TU0018", "Baldur's Gate Estate Cellar (Tutorial area)"},~                                      @330
+	                                                                                                                    
+	// CheatsAreas pour ToB : La Tour de Garde                                                                          	
+																														
+	REPLACE_TEXTUALLY ~{"AR3000", "Watcher's Keep"},~                                                                   @331
+	REPLACE_TEXTUALLY ~{"AR3001", "Watcher's Keep -- Altar level"},~                                                    @332
+	REPLACE_TEXTUALLY ~{"AR3003", "Watcher's Keep -- Compass level"},~                                                  @333
+	REPLACE_TEXTUALLY ~{"AR3004", "Watcher's Keep"},~                                                                   @334
+	REPLACE_TEXTUALLY ~{"AR3005", "Watcher's Keep -- tieflings"},~                                                      @335
+	REPLACE_TEXTUALLY ~{"AR3006", "Watcher's Keep -- Succubus"},~                                                       @336
+	REPLACE_TEXTUALLY ~{"AR3007", "Watcher's Keep --Cambion"},~                                                         @337
+	REPLACE_TEXTUALLY ~{"AR3008", "Watcher's Keep -- Baalor (Paladin Sword)"},~                                         @338
+	REPLACE_TEXTUALLY ~{"AR3009", "Watcher's Keep -- Wild Magic ?"},~                                                   @339
+	REPLACE_TEXTUALLY ~{"AR3010", "Watcher's Keep -- Tanar'ri -- Obelisk"},~                                            @340
+	REPLACE_TEXTUALLY ~{"AR3011", "Watcher's Keep -- Bard's Gloves, Manman's Journal"},~                                @341
+	REPLACE_TEXTUALLY ~{"AR3012", "Watcher's Keep -- Tahazzar"},~                                                       @342
+	REPLACE_TEXTUALLY ~{"AR3013", "Watcher's Keep -- Ka'rashur"},~                                                      @343
+	REPLACE_TEXTUALLY ~{"AR3014", "Watcher's Keep -- White Dragon Scales"},~                                            @344
+	REPLACE_TEXTUALLY ~{"AR3015", "Watcher's Keep -- Aesgareth"},~                                                      @345
+	REPLACE_TEXTUALLY ~{"AR3016", "Watcher's Keep -- Chromatic Demon; Elementalist Level"},~                            @346
+	REPLACE_TEXTUALLY ~{"AR3017", "Watcher's Keep -- Carston and the machine"},~                                        @347
+	REPLACE_TEXTUALLY ~{"AR3018", "Watcher's Keep -- Saladrex (Dragon)"},~                                              @348
+	REPLACE_TEXTUALLY ~{"AR3019", "Watcher's Keep -- Helmite Level -- Last Seals"},~                                    @349
+	REPLACE_TEXTUALLY ~{"AR3020", "Watcher's Keep -- Imprisoned One"},~                                                 @350
+	REPLACE_TEXTUALLY ~{"AR3021", "Watcher's Keep -- Illithids"},~                                                      @351
+	REPLACE_TEXTUALLY ~{"AR3022", "Watcher's Keep -- Anti-Paladins"},~                                                  @352
+	REPLACE_TEXTUALLY ~{"AR3023", "Watcher's Keep -- 'Adventure Level' (Mini Map!!!)"},~                                @353
+	REPLACE_TEXTUALLY ~{"AR3024", "Watcher's Keep -- Dragon -- Fear Challenge"},~                                       @354
+	REPLACE_TEXTUALLY ~{"AR3025", "Watcher's Keep -- Orcs -- Ixil's Nail"},~                                            @355
+	REPLACE_TEXTUALLY ~{"AR3026", "Watcher's Keep -- Imp -- Game"},~                                                    @356
+	REPLACE_TEXTUALLY ~{"AR3027", "Watcher's Keep -- Crypt -- Demi-Lich"},~                                             @357
+																														
+	// CheatsAreas pour ToB	                                                                                            	
+																														
+	REPLACE_TEXTUALLY ~{"AR4000", "Spirit Heads"},~                                                                     @358
+	REPLACE_TEXTUALLY ~{"AR4500", "Pocket Plane"},~                                                                     @359
+	REPLACE_TEXTUALLY ~{"AR5000", "Saradush"},~                                                                         @360
+	REPLACE_TEXTUALLY ~{"AR5001", "Gromnir 1st Level"},~                                                                @361
+	REPLACE_TEXTUALLY ~{"AR5002", "Gromnir's Hideout"},~                                                                @362
+	REPLACE_TEXTUALLY ~{"AR5003", "Saradush Tavern (Tankard Tree)"},~                                                   @363
+	REPLACE_TEXTUALLY ~{"AR5004", "Temple of Waukeen"},~                                                                @364
+	REPLACE_TEXTUALLY ~{"AR5005", "Gromnir's Barracks"},~                                                               @365
+	REPLACE_TEXTUALLY ~{"AR5006", "Saradush Prison"},~                                                                  @366
+	REPLACE_TEXTUALLY ~{"AR5007", "Basement Entrance to Gromnir's Hideout"},~                                           @367
+	REPLACE_TEXTUALLY ~{"AR5008", "Kiser's Home"},~                                                                     @368
+	REPLACE_TEXTUALLY ~{"AR5009", "House (no exit?)"},~                                                                 @369
+	REPLACE_TEXTUALLY ~{"AR5010", "Countess Santele's Home"},~                                                          @370
+	REPLACE_TEXTUALLY ~{"AR5011", "Arcana Archives"},~                                                                  @371
+	REPLACE_TEXTUALLY ~{"AR5012", "House"},~                                                                            @372
+	REPLACE_TEXTUALLY ~{"AR5013", "Sewers beneath Saradush"},~                                                          @373
+	REPLACE_TEXTUALLY ~{"AR5014", "Kiser's Home -- Cellar"},~                                                           @374
+	REPLACE_TEXTUALLY ~{"AR5015", "Saradush Militia Entrance"},~                                                        @375
+	REPLACE_TEXTUALLY ~{"AR5016", "Saradush Castle Jail (Kiser Plot)"},~                                                @376
+	REPLACE_TEXTUALLY ~{"AR5200", "Fire Giant Entrance Area"},~                                                         @377
+	REPLACE_TEXTUALLY ~{"AR5201", "Fire Giant Keep"},~                                                                  @378
+	REPLACE_TEXTUALLY ~{"AR5202", "Nyalee's Hideout; Gorion Wraith"},~                                                  @379
+	REPLACE_TEXTUALLY ~{"AR5203", "Yaga-Shura's Camp"},~                                                                @380
+	REPLACE_TEXTUALLY ~{"AR5204", "Yaga-Shura's Keep"},~                                                                @381
+	REPLACE_TEXTUALLY ~{"AR5500", "Amkethran"},~                                                                        @382
+	REPLACE_TEXTUALLY ~{"AR5501", "Amkethran Inn"},~                                                                    @383
+	REPLACE_TEXTUALLY ~{"AR5502", "Kerrick the Smith's House"},~                                                        @384
+	REPLACE_TEXTUALLY ~{"AR5503", "Chyil's House"},~                                                                    @385
+	REPLACE_TEXTUALLY ~{"AR5504", "Smuggler Cave"},~                                                                    @386
+	REPLACE_TEXTUALLY ~{"AR5505", "Balthazar's Home"},~                                                                 @387
+	REPLACE_TEXTUALLY ~{"AR5506", "Commoner's Home"},~                                                                  @388
+	REPLACE_TEXTUALLY ~{"AR5507", "Empty Home"},~                                                                       @389
+	REPLACE_TEXTUALLY ~{"AR5508", "Faheed's Home"},~                                                                    @390
+	REPLACE_TEXTUALLY ~{"AR5509", "Amkethran Crypt"},~                                                                  @391
+	REPLACE_TEXTUALLY ~{"AR6000", "Abazigal's Entrance"},~                                                              @392
+	REPLACE_TEXTUALLY ~{"AR6001", "Abazigal's Lair Entrance Hall"},~                                                    @393
+	REPLACE_TEXTUALLY ~{"AR6002", "Abazigal's Lair -- Cells"},~                                                         @394
+	REPLACE_TEXTUALLY ~{"AR6003", "Abazigal's Lair -- Iycanth the Mad, Bondari"},~                                      @395
+	REPLACE_TEXTUALLY ~{"AR6004", "Abazigal's Lair -- Fll'Yissetat"},~                                                  @396
+	REPLACE_TEXTUALLY ~{"AR6005", "Abazigal's Hideout"},~                                                               @397
+	REPLACE_TEXTUALLY ~{"AR6008", "Frost Salamander Cave"},~                                                            @398
+	REPLACE_TEXTUALLY ~{"AR6011", "Orbs and Gauth"},~                                                                   @399
+	REPLACE_TEXTUALLY ~{"AR6012", "Pool Home -- breath under water"},~                                                  @400
+	REPLACE_TEXTUALLY ~{"AR6100", "Area outside Sendai's Hideout"},~                                                    @401
+	REPLACE_TEXTUALLY ~{"AR6101", "Main Entrance Sendai's Lair"},~                                                      @402
+	REPLACE_TEXTUALLY ~{"AR6102", "Sendai's Lair -- Slavemaster"},~                                                     @403
+	REPLACE_TEXTUALLY ~{"AR6103", "Sendai's Lair -- Spiders"},~                                                         @404
+	REPLACE_TEXTUALLY ~{"AR6104", "Sendai's Lair -- Crossway"},~                                                        @405
+	REPLACE_TEXTUALLY ~{"AR6105", "Sendai's Lair -- Diaytha, Abishai"},~                                                @406
+	REPLACE_TEXTUALLY ~{"AR6106", "Sendai's Lair -- Captain Egeissag"},~                                                @407
+	REPLACE_TEXTUALLY ~{"AR6107", "Sendai's Lair -- Mithykyl"},~                                                        @408
+	REPLACE_TEXTUALLY ~{"AR6108", "Sendai's Lair -- Sendai"},~                                                          @409
+	REPLACE_TEXTUALLY ~{"AR6109", "Sendai's Lair -- Drow"},~                                                            @410
+	REPLACE_TEXTUALLY ~{"AR6110", "Sendai's Lair -- Odamaron"},~                                                        @411
+	REPLACE_TEXTUALLY ~{"AR6111", "Woodcutter's House -- Sendai's Area"},~                                              @412
+	REPLACE_TEXTUALLY ~{"AR6200", "The Throne of Bhaal"},~                                                              @413
+	REPLACE_TEXTUALLY ~{"AR6300", "Oasis in Tethyr"},~                                                                  @414
+	REPLACE_TEXTUALLY ~{"AR6400", "River Area"},~                                                                       @415
+	REPLACE_TEXTUALLY ~{"OH4200", "Rasaad - Dwarven Clanhold Exterior"},~                                               @416
+	REPLACE_TEXTUALLY ~{"OH4210", "Rasaad - Dwarven Clanhold Interior"},~                                               @417
+	REPLACE_TEXTUALLY ~{"OH4220", "Rasaad - Dwarven Mines"},~                                                           @418
+	REPLACE_TEXTUALLY ~{"OH4230", "Rasaad - Plane of Shadow"},~                                                         @419
+	REPLACE_TEXTUALLY ~{"OH4290", "Rasaad - Sharran Ambush"},~                                                          @420
+	REPLACE_TEXTUALLY ~{"OH5400", "Dorn - Forest Clearing"},~                                                           @421
+	REPLACE_TEXTUALLY ~{"OH5500", "Dorn - Lunia"},~                                                                     @422
+	REPLACE_TEXTUALLY ~{"OH6400", "Neera - Wilderness Clearing"},~                                                      @423
+	REPLACE_TEXTUALLY ~{"OH6450", "Neera - The Black Pits: Arena"},~                                                    @424
+	REPLACE_TEXTUALLY ~{"OH6460", "Neera - The Black Pits: Staging Area"},~                                             @425
+	REPLACE_TEXTUALLY ~{"OH6500", "Neera - Thayan Estate"},~                                                            @426
+	REPLACE_TEXTUALLY ~{"OH7300", "Hexxat - Completed Maze (Korkorran)"},~                                              @427
+	REPLACE_TEXTUALLY ~{"OH7310", "Hexxat - Scene with L"},~                                                            @428
+	
+END
