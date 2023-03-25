@@ -3,7 +3,7 @@ ACTION_IF FILE_EXISTS_IN_GAME ~bgee.lua~ BEGIN
 
 	// CheatsAreas SoA                                                                                                  
 																														
-	REPLACE_TEXTUALLY ~{"AR0011", "Candlekeep Dream 1 (Do you remember Candlekeep?)"},~                                 ~{"AR0011", "(Rêve)  Souvenirs de Château-Suif"},~
+	REPLACE_TEXTUALLY ~{"AR0011", "Candlekeep Dream 1 (Do you remember Candlekeep\?)"},~                                 ~{"AR0011", "(Rêve)  Souvenirs de Château-Suif"},~
 	REPLACE_TEXTUALLY ~{"AR0012", "Candlekeep Library (Main Door Trigger)"},~                                           ~{"AR0012", "(Rêve)  Attire la bête ici... c'est ta seule chance"},~
 	REPLACE_TEXTUALLY ~{"AR0013", "Candlekeep Library (Stairway Triggers Up and Down)"},~                               ~{"AR0013", "(Rêve)  Ce que vous pouvez être"},~
 	REPLACE_TEXTUALLY ~{"AR0014", "Candlekeep Library (Stairway Trigger Down)"},~                                       ~{"AR0014", "(Rêve)  Un, deux, trois, quatre... CINQ"},~
@@ -23,7 +23,7 @@ ACTION_IF FILE_EXISTS_IN_GAME ~bgee.lua~ BEGIN
 	REPLACE_TEXTUALLY ~{"AR0063", "Empty (Triggers, Doors... are there but no area)"},~                                 ~{"AR0063", "Néant"},~
 	REPLACE_TEXTUALLY ~{"AR0064", "Empty (Triggers, Doors... are there but no area)"},~                                 ~{"AR0064", "Néant"},~
 	REPLACE_TEXTUALLY ~{"AR0065", "Empty (Triggers, Doors... are there but no area)"},~                                 ~{"AR0065", "Néant"},~
-	REPLACE_TEXTUALLY ~{"AR0069", "Government Building (Cowled Cutscene -- 'Why is this man not gagged?')"},~           ~{"AR0069", "(Ciné)  Qu'ils pourrissent à Spellhold !"},~
+	REPLACE_TEXTUALLY ~{"AR0069", "Government Building (Cowled Cutscene -- 'Why is this man not gagged\?')"},~           ~{"AR0069", "(Ciné)  Qu'ils pourrissent à Spellhold !"},~
 	REPLACE_TEXTUALLY ~{"AR0070", "Spellhold (Irenicus Cutscene -- 'I cannot be caged...')"},~                          ~{"AR0070", "(Ciné)  Irenicus prend le contrôle de Spellhold"},~
 	REPLACE_TEXTUALLY ~{"AR0071", "Spellhold (Imoen Soultheft Cutscene -- 'Silence do, you have no purpose...')"},~     ~{"AR0071", "(Ciné)  Imoen perd son Âme à Spellhold (Chapitre )')"},~
 	REPLACE_TEXTUALLY ~{"AR0072", "Ust Natha Temple (Irenicus/Bodhi, Ardula/Phaere Cutscene)"},~                        ~{"AR0072", "(Ciné)  Irenicus et Bodhi à Ust Natha (Chapitre )"},~
@@ -50,7 +50,7 @@ ACTION_IF FILE_EXISTS_IN_GAME ~bgee.lua~ BEGIN
 	REPLACE_TEXTUALLY ~{"AR0308", "Harper's 1st Floor"},~                                                               ~{"AR0308", "(Q)  Domaine des Ménestrels, L1"},~
 	REPLACE_TEXTUALLY ~{"AR0309", "Harper's 2nd Floor"},~                                                               ~{"AR0309", "(Q)  Domaine des Ménestrels, L2"},~
 	REPLACE_TEXTUALLY ~{"AR0310", "Pirates' Hideout in Sea Bounty Tavern"},~                                            ~{"AR0310", "(Q)  Taverne de la Bonté Marine, Pirates"},~
-	REPLACE_TEXTUALLY ~{"AR0311", "Living Room (Entry points outside and up) -- Gaelan?"},~                             ~{"AR0311", "(B-q)  Maison de Gaelan Bayle, L1, (Chapitre 2)"},~
+	REPLACE_TEXTUALLY ~{"AR0311", "Living Room (Entry points outside and up) -- Gaelan\?"},~                             ~{"AR0311", "(B-q)  Maison de Gaelan Bayle, L1, (Chapitre 2)"},~
 	REPLACE_TEXTUALLY ~{"AR0312", "Sleeping Room (Entry point down) -- Arledrian"},~                                    ~{"AR0312", "(B-q)  Maison de Gaelan Bayle, L2"},~
 	REPLACE_TEXTUALLY ~{"AR0313", "Sea Bounty Tavern 1st Floor"},~                                                      ~{"AR0313", "(Q)  Taverne de la Bonté Marine, L1"},~
 	REPLACE_TEXTUALLY ~{"AR0314", "Sea Bounty Tavern 2nd Floor"},~                                                      ~{"AR0314", "(Q)  Taverne de la Bonté Marine, L2"},~
@@ -285,7 +285,7 @@ ACTION_IF FILE_EXISTS_IN_GAME ~bgee.lua~ BEGIN
 	REPLACE_TEXTUALLY ~{"AR2601", "Meet Drizzt Do'Urden"},~                                                             ~{"AR2601", "  Aléatoire, Drizzt Do'Urden"},~
 	REPLACE_TEXTUALLY ~{"AR2602", "Cave in Woods to Suldanessellar"},~                                                  ~{"AR2602", "(Amn)  Cave dans la Forêt de Téthyr"},~
 	REPLACE_TEXTUALLY ~{"AR2603", "Coran's Cabin"},~                                                                    ~{"AR2603", "(Amn)  Cabane de Coran"},~
-	REPLACE_TEXTUALLY ~{"AR2700", "Ancient Spirits?"},~                                                                 ~{"AR2700", "(CLUA)  Zone Boisée / Têtes de pierre"},~
+	REPLACE_TEXTUALLY ~{"AR2700", "Ancient Spirits\?"},~                                                                 ~{"AR2700", "(CLUA)  Zone Boisée / Têtes de pierre"},~
 	REPLACE_TEXTUALLY ~{"AR2800", "Suldanessellar"},~                                                                   ~{"AR2800", "  SULDANESSELLAR, (Chapitre 7)"},~
 	REPLACE_TEXTUALLY ~{"AR2801", "House of High Priestess of Suldanessellar"},~                                        ~{"AR2801", "(Sun)  Maison de la grande prêtresse Demin"},~
 	REPLACE_TEXTUALLY ~{"AR2802", "House in Suldanessellar"},~                                                          ~{"AR2802", "(Sun)  Maison de la Corne"},~
@@ -305,7 +305,7 @@ ACTION_IF FILE_EXISTS_IN_GAME ~bgee.lua~ BEGIN
 	REPLACE_TEXTUALLY ~{"AR2903", "Greed (Abyss)"},~                                                                    ~{"AR2903", "(SoA)  Cupidité, Larme de Bhaal"},~
 	REPLACE_TEXTUALLY ~{"AR2904", "Selfish (Abyss)"},~                                                                  ~{"AR2904", "(SoA)  Égoïste, Larme de Bhaal"},~
 	REPLACE_TEXTUALLY ~{"AR2905", "Sarevok (Abyss)"},~                                                                  ~{"AR2905", "(SoA)  Colère, Larme de Bhaal"},~
-	REPLACE_TEXTUALLY ~{"AR2906", "Jon Battle ?"},~                                                                     ~{"AR2906", "Néant"},~
+	REPLACE_TEXTUALLY ~{"AR2906", "Jon Battle \?"},~                                                                     ~{"AR2906", "Néant"},~
 	REPLACE_TEXTUALLY ~{"OH4000", "Rasaad - The Amphitheater"},~                                                        ~{"OH4000", "(SoA)  Amphithéâtre abandonné, Quête de Rasaad"},~
 	REPLACE_TEXTUALLY ~{"OH4010", "Rasaad - Tears of Selune battle encounter"},~                                        ~{"OH4010", "(SoA)  Les Larmes de Séluné, Quête de Rasaad"},~
 	REPLACE_TEXTUALLY ~{"OH4100", "Rasaad - Dark Moon Heretic Temple"},~                                                ~{"OH4100", "(SoA)  Temple des hérétiques, Quête de Rasaad"},~
@@ -351,7 +351,7 @@ ACTION_IF FILE_EXISTS_IN_GAME ~bgee.lua~ BEGIN
 	REPLACE_TEXTUALLY ~{"AR3006", "Watcher's Keep -- Succubus"},~                                                       ~{"AR3006", "(Tour de Garde)  Succube, (3)"},~
 	REPLACE_TEXTUALLY ~{"AR3007", "Watcher's Keep --Cambion"},~                                                         ~{"AR3007", "(Tour de Garde)  Arbre, Cambion, (3)"},~
 	REPLACE_TEXTUALLY ~{"AR3008", "Watcher's Keep -- Baalor (Paladin Sword)"},~                                         ~{"AR3008", "(Tour de Garde)  Menhir, (3)"},~
-	REPLACE_TEXTUALLY ~{"AR3009", "Watcher's Keep -- Wild Magic ?"},~                                                   ~{"AR3009", "(Tour de Garde)  Salle de l'entropie, (3)"},~
+	REPLACE_TEXTUALLY ~{"AR3009", "Watcher's Keep -- Wild Magic \?"},~                                                   ~{"AR3009", "(Tour de Garde)  Salle de l'entropie, (3)"},~
 	REPLACE_TEXTUALLY ~{"AR3010", "Watcher's Keep -- Tanar'ri -- Obelisk"},~                                            ~{"AR3010", "(Tour de Garde)  Obelisk, (3)"},~
 	REPLACE_TEXTUALLY ~{"AR3011", "Watcher's Keep -- Bard's Gloves, Manman's Journal"},~                                ~{"AR3011", "(Tour de Garde)  Elfe Fou, Journal, (3)"},~
 	REPLACE_TEXTUALLY ~{"AR3012", "Watcher's Keep -- Tahazzar"},~                                                       ~{"AR3012", "(Tour de Garde)  Tahazzar, (3)"},~
@@ -384,7 +384,7 @@ ACTION_IF FILE_EXISTS_IN_GAME ~bgee.lua~ BEGIN
 	REPLACE_TEXTUALLY ~{"AR5006", "Saradush Prison"},~                                                                  ~{"AR5006", "(S)  Prison de Saradush"},~
 	REPLACE_TEXTUALLY ~{"AR5007", "Basement Entrance to Gromnir's Hideout"},~                                           ~{"AR5007", "(Gromnir)  Sous-sols du Château"},~
 	REPLACE_TEXTUALLY ~{"AR5008", "Kiser's Home"},~                                                                     ~{"AR5008", "(S)  Demeure de Kiser, L1"},~
-	REPLACE_TEXTUALLY ~{"AR5009", "House (no exit?)"},~                                                                 ~{"AR5009", "(CLUA)  Demeure de Kiser, L2"},~
+	REPLACE_TEXTUALLY ~{"AR5009", "House (no exit\?)"},~                                                                 ~{"AR5009", "(CLUA)  Demeure de Kiser, L2"},~
 	REPLACE_TEXTUALLY ~{"AR5010", "Countess Santele's Home"},~                                                          ~{"AR5010", "(S)  Demeure de la comtesse Santele"},~
 	REPLACE_TEXTUALLY ~{"AR5011", "Arcana Archives"},~                                                                  ~{"AR5011", "(S)  Archives des Arcanes, Lazarus Librarus"},~
 	REPLACE_TEXTUALLY ~{"AR5012", "House"},~                                                                            ~{"AR5012", "(S)  Maison de paysans"},~

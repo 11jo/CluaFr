@@ -868,7 +868,7 @@ ACTION_IF FILE_EXISTS_IN_GAME ~bgee.lua~ BEGIN
 ~{"AR2602", "(Amn)  Cave dans la Forêt de Téthyr"},~
 ~{"AR2603", "(Amn)  Cabane de Coran"},~
 ~{"AR2700", "(CLUA)  Zone Boisée / Têtes de pierre"},~
-~{"AR2800", "  SULDANESSELLAR, (Chapitre 7)"},~
+~{"AR2800", "  SULDANESSELLAR, (Chapitre 7 / 19)"},~
 ~{"AR2801", "(Sun)  Maison de la grande prêtresse Demin"},~
 ~{"AR2802", "(Sun)  Maison de la Corne"},~
 ~{"AR2803", "(Sun)  Temple de Rillifane, (Suneer)"},~
@@ -971,7 +971,7 @@ ACTION_IF FILE_EXISTS_IN_GAME ~bgee.lua~ BEGIN
 ~{"AR5202", "(Yaga-Shura)  Forêt de Mir, (Nyalee)"},~
 ~{"AR5203", "(Yaga-Shura)  Camp de YAGA-SHURA"},~
 ~{"AR5204", "(Yaga-Shura)  Cœur de Yaga-Shura"},~
-~{"AR5500", "  AMKETHRAN, (Chapitre 9)"},~
+~{"AR5500", "  AMKETHRAN, (Chapitre 9 / 21)"},~
 ~{"AR5501", "(Balthazar)  Taverne d'Amkethran"},~
 ~{"AR5502", "(Balthazar)  Kerrick le forgeron, Lazarus Librarus"},~
 ~{"AR5503", "(Balthazar)  Temple de Waukyne, (Chyil)"},~

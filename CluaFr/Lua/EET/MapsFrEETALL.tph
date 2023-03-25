@@ -3,7 +3,8 @@ ACTION_IF FILE_EXISTS_IN_GAME ~bgee.lua~ BEGIN
 
 	// CheatsAreas pour BGEE
 	
-	REPLACE_TEXTUALLY ~{"BG0002", "N Baldur's Gate: Temple of Helm"},~                                          ~{"BG0002", "(BG)  Temple de Heaum (N)"},~
+	REPLACE_TEXTUALLY ~{"BG0002", "N Baldur's Gate: Temple of Helm"},~                                          ~{"  ", "        BALDUR'S GATE        "},
+	{"BG0002", "(BG)  Temple de Heaum (N)"},~
 	REPLACE_TEXTUALLY ~{"BG0004", "N Baldur's Gate: Bheren's House L1"},~                                       ~{"BG0004", "(BG)  Maison de Bheren, L1 (N)"},~
 	REPLACE_TEXTUALLY ~{"BG0005", "N Baldur's Gate: Bheren's House L2"},~                                       ~{"BG0005", "(BG)  Maison de Bheren, L2 (Ange, le chat) (N)"},~
 	REPLACE_TEXTUALLY ~{"BG0006", "N Baldur's Gate: Rinnie's House L1"},~                                       ~{"BG0006", "(BG)  Maison de Rinnie, L1 (N)"},~
@@ -492,7 +493,7 @@ ACTION_IF FILE_EXISTS_IN_GAME ~bgee.lua~ BEGIN
 	REPLACE_TEXTUALLY ~{"OH3000", "Cloud Peaks"},~                                                              ~{"OH3000", "(SC)  Pics Brumeux, (Quête de Rasaad)"},
 	{"OH3010", "(SC)  Temple de la Lune Noire, Entrée"},
 	{"OH3020", "(SC)  Temple de la Lune Noire, Geôles"},
-	{"OH3100", "(SC)  Temple de la Lune Noire, Sommet"},~                                                                                       
+	{"OH3100", "(SC)  Temple de la Lune Noire, Sommet"},~
 	
 	// CheatsAreas Les Fosses noires~
 	
@@ -509,7 +510,8 @@ ACTION_IF FILE_EXISTS_IN_GAME ~bgee.lua~ BEGIN
 	
 	// CheatsAreas pour SoD~                                                                                            
 																														
-	REPLACE_TEXTUALLY ~{"BD0010", "Ducal Palace City Exterior"},~                                                       ~{"BD0010", "(SoD)  Palais Ducal"},~
+	REPLACE_TEXTUALLY ~{"BD0010", "Ducal Palace City Exterior"},~                                                       ~{"  ", "        SIEGE OF DRAGONSPEAR        "},
+	{"BD0010", "(SoD)  Palais Ducal"},~
 	REPLACE_TEXTUALLY ~{"BD0020", "Sorcerous/Elf Song City Exterior"},~                                                 ~{"BD0020", "(SoD)  Bazar Magique / Taverne du Chant de l'elfe"},~
 	REPLACE_TEXTUALLY ~{"BD0030", "Flaming Fist City Exterior"},~                                                       ~{"BD0030", "(SoD)  Siege du Poing Enflamme"},~
 	REPLACE_TEXTUALLY ~{"BD0040", "Three Kegs City Exterior"},~                                                         ~{"BD0040", "(SoD)  Auberge des Trois Vieilles Chopes"},~
@@ -585,7 +587,8 @@ ACTION_IF FILE_EXISTS_IN_GAME ~bgee.lua~ BEGIN
 
 	// CheatsAreas SoA                                                                                                  
 																														
-	REPLACE_TEXTUALLY ~{"AR0011", "Candlekeep Dream 1 (Do you remember Candlekeep\?)"},~                                 ~{"AR0011", "(Rêve)  Souvenirs de Château-Suif"},~
+	REPLACE_TEXTUALLY ~{"AR0011", "Candlekeep Dream 1 (Do you remember Candlekeep\?)"},~                                 ~{"  ", "        SHADOWS OF AMN        "},
+	{"AR0011", "(Rêve)  Souvenirs de Château-Suif"},~
 	REPLACE_TEXTUALLY ~{"AR0012", "Candlekeep Library (Main Door Trigger)"},~                                           ~{"AR0012", "(Rêve)  Attire la bête ici... c'est ta seule chance"},~
 	REPLACE_TEXTUALLY ~{"AR0013", "Candlekeep Library (Stairway Triggers Up and Down)"},~                               ~{"AR0013", "(Rêve)  Ce que vous pouvez être"},~
 	REPLACE_TEXTUALLY ~{"AR0014", "Candlekeep Library (Stairway Trigger Down)"},~                                       ~{"AR0014", "(Rêve)  Un, deux, trois, quatre... CINQ"},~
@@ -906,7 +909,7 @@ ACTION_IF FILE_EXISTS_IN_GAME ~bgee.lua~ BEGIN
 	REPLACE_TEXTUALLY ~{"OH7000", "Hexxat - Top Left Quarter (Dragomir)"},~                                             ~{"OH7000", "(SoA)  Tombe de Dragomir, Quête de Hexxat"},~
 	REPLACE_TEXTUALLY ~{"OH7100", "Hexxat - Bottom Left Quarter (Shou Lung)"},~                                         ~{"OH7100", "(SoA)  Tombe inférieur Ouest, Quête de Hexxat"},~
 	REPLACE_TEXTUALLY ~{"OH7200", "Hexxat - Bottom Right Quarter (Zakhara)"},~                                          ~{"OH7200", "(SoA)  Tombe inférieur Est, Quête de Hexxat"},~
-	
+
 	// CheatsAreas pour Les Gladiateurs de Thay                                                                         
 																														
 	REPLACE_TEXTUALLY ~{"OH8000", "TBP2 - Suzail Tavern"},~                                                             ~{"OH8000", "(FN2)  Comptoir de Suzail"},~
@@ -947,7 +950,8 @@ ACTION_IF FILE_EXISTS_IN_GAME ~bgee.lua~ BEGIN
 	
 	// CheatsAreas pour ToB	                                                                                            
 																														
-	REPLACE_TEXTUALLY ~{"AR4000", "Spirit Heads"},~                                                                     ~{"AR4000", "(ToB)  Forêt des Esprit, ILLASERA (Chapitre 8)"},~
+	REPLACE_TEXTUALLY ~{"AR4000", "Spirit Heads"},~                                                                     ~{"  ", "        THRONE OF BHAAL        "},
+	{"AR4000", "(ToB)  Forêt des Esprit, ILLASERA (Chapitre 8)"},~
 	REPLACE_TEXTUALLY ~{"AR4500", "Pocket Plane"},~                                                                     ~{"AR4500", "(ToB)  Antichambre, (Sarevok)"},~
 	REPLACE_TEXTUALLY ~{"AR5000", "Saradush"},~                                                                         ~{"AR5000", "  SARADUSH"},~
 	REPLACE_TEXTUALLY ~{"AR5001", "Gromnir 1st Level"},~                                                                ~{"AR5001", "(Gromnir)  Château de Saradush"},~
@@ -1017,6 +1021,21 @@ ACTION_IF FILE_EXISTS_IN_GAME ~bgee.lua~ BEGIN
 	REPLACE_TEXTUALLY ~{"OH6460", "Neera - The Black Pits: Staging Area"},~                                             ~{"OH6460", "(ToB)  Salle de repos des Fosses noires, Quête de Neera"},~
 	REPLACE_TEXTUALLY ~{"OH6500", "Neera - Thayan Estate"},~                                                            ~{"OH6500", "(ToB)  Domaine Thayen, Quête de Neera"},~
 	REPLACE_TEXTUALLY ~{"OH7300", "Hexxat - Completed Maze (Korkorran)"},~                                              ~{"OH7300", "(ToB)  Labyrinthe de Korkorran, Quête de Hexxat"},~
-	REPLACE_TEXTUALLY ~{"OH7310", "Hexxat - Scene with L"},~                                                            ~{"OH7310", "(ToB)  Scene with L, Quête de Hexxat"},~
+	REPLACE_TEXTUALLY ~{"OH7310", "Hexxat - Scene with L"},~                                                            ~{"OH7310", "(ToB)  Scene with L, Quête de Hexxat"},
+	{"  ", "        BLACK PITS        "},
+	{"OH9310", "(FN1)  Arène 1"},
+    {"OH9350", "(FN1)  Arène 2"},
+    {"OH9360", "(FN1)  Zone de repos"},
+	{"  ", "        GLADIATORS OF THAY        "},
+	{"OH8000", "(FN2)  Comptoir de Suzail"},
+	{"OH8100", "(FN2)  Zone de repos"},
+	{"OH8200", "(FN2)  Arène 1"},
+	{"OH8300", "(FN2)  Arène 2"},
+    {"OH8400", "(FN2)  Arène 3"},
+	{"  ", "        TUTORIEL        "},
+	{"TU0015", "(Tuto)  Palais Ducal, 1er étage (Commencement)"},
+	{"TU0016", "(Tuto)  Palais Ducal, 2eme étage"},
+	{"TU0017", "(Tuto)  Palais Ducal, 3eme étage"},
+	{"TU0018", "(Tuto)  Palais Ducal, Sous-sol"},~
 	
 END

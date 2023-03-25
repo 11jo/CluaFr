@@ -5,6 +5,8 @@ README ~~
 
 VERSION  ~0.1~
 
+ASK_EVERY_COMPONENT
+
 //AUTO_TRA ~CluaFr/language/autotra/%s~
 
 LANGUAGE ~Francais~
@@ -16,33 +18,61 @@ LANGUAGE ~Francais~
 	//////Add language for CheatsAreas....EE Only////
 	//////////////////////////////////////
 	
-BEGIN @15
+BEGIN @12 SUBCOMPONENT @15 
  REQUIRE_PREDICATE GAME_IS ~EET~ @5
- 
     INCLUDE ~CluaFr/Lua/EET/MapsFrEET.tph~ // CheatsAreas pour EET
+	PRINT ~CheatsAreas pour EET~
+ 
+ 
+BEGIN @13 SUBCOMPONENT @15 
+ REQUIRE_PREDICATE GAME_IS ~EET~ @5
+    INCLUDE ~CluaFr/Lua/EET/MapsFrEETALL.tph~ // CheatsAreas pour EET
+	PRINT ~CheatsAreas pour EET~
 
 BEGIN @16
     REQUIRE_PREDICATE GAME_IS ~BGEE~ AND NOT GAME_INCLUDES ~sod~ @6
 
     INCLUDE ~CluaFr/Lua/BGEE/MapsFrBGEE.tph~  // CheatsAreas pour BGEE
+	PRINT ~CheatsAreas pour BGEE~
  
 BEGIN @17
  REQUIRE_PREDICATE GAME_IS ~BGEE~ AND GAME_INCLUDES ~SoD~ @7
 	
     INCLUDE ~CluaFr/Lua/SoD/MapsFrSoD.tph~  // CheatsAreas pour SoD
+	PRINT ~CheatsAreas pour SoD~
 	
 BEGIN @18
     REQUIRE_PREDICATE GAME_IS ~BG2EE~ @8
 
     INCLUDE ~CluaFr/Lua/BG2EE/MapsFrBG2EE.tph~ // CheatsAreas pour BG2EE
+	PRINT ~CheatsAreas pour BG2EE~
 
-/*
-BEGIN @19 GROUP @11
-  FORBID_COMPONENT ~setup-CluaFr.tp2~ 6 @2
-  DESIGNATED 6
-    REQUIRE_PREDICATE GAME_IS ~BG2EE EET BGEE SOD~ @4
 
-    INCLUDE ~CluaFr/composants/MapsComponentMods.tpa~  // CheatsAreas pour les mods
-*/
+BEGIN @19   // CheatsAreas pour les mods
+
+  ACTION_IF (FILE_EXISTS_IN_GAME ~CB3661.are~) BEGIN
+  INCLUDE ~CluaFr/Lua/Mods/Checkthebodies.tph~ // CheatsAreas pour Check the bodies
+	PRINT ~CheatsAreas pour Check the bodies~
+END
+
+  ACTION_IF (FILE_EXISTS_IN_GAME ~ID9700.are~) BEGIN
+  INCLUDE ~CluaFr/Lua/Mods/TrialsoftheLuremaster.tph~ // CheatsAreas pour Trials of the Luremaster
+	PRINT ~CheatsAreas pour Trials of the Luremaster~
+END
+
+  ACTION_IF (FILE_EXISTS_IN_GAME ~A7#1FY.are~) BEGIN
+  INCLUDE ~CluaFr/Lua/Mods/TestYourMettle.tph~ // CheatsAreas pour Test Your Mettle
+	PRINT ~CheatsAreas pour Test Your Mettle~
+END
+
+  ACTION_IF (FILE_EXISTS_IN_GAME ~ID1000.are~) BEGIN
+  INCLUDE ~CluaFr/Lua/Mods/IWD1_EET.tph~ // CheatsAreas pour IWD1_EET
+	PRINT ~CheatsAreas pour IWD1_EET~
+END
+
+  ACTION_IF (FILE_EXISTS_IN_GAME ~IW1000.are~) BEGIN
+  INCLUDE ~CluaFr/Lua/Mods/IWD2_EET.tph~ // CheatsAreas pour IWD2_EET
+	PRINT ~CheatsAreas pour IWD2_EET~
+END
 
   
