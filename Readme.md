@@ -8,9 +8,9 @@
 ## Description :
 ---------------
 
-Traduction des CheatsAreas (Accès aux zones du jeu grace à la CLUA console)
+Traduction des CheatsAreas (Accès aux zones du jeu grâce à la CLUA console)
 
-Pour BG-EE, BGSoD, BG2-EE and EET.
+Pour BG-EE, BGSoD, BG2-EE et EET.
 
 
 **Si vous prévoyez d'installer EET, Installez ce mod après EET**
@@ -21,49 +21,28 @@ Pour BG-EE, BGSoD, BG2-EE and EET.
 ## Composants :
 ---------------
 
-#### Areas Cheats pour EET
+#### Areas Cheats
 
-- 1 Traduit en français les noms des cartes pour EET accessible dans la CLUAConsole
+- 1 Traduit en français les noms des cartes du jeu accessible dans la CLUAConsole
 
--2 
-
-#### Areas Cheats pour BGEE
-
-- 1 Traduit en français les noms des cartes pour BGEE accessible dans la CLUAConsole
-
--2 
-
-
-#### Areas Cheats pour BGEE et SoD
-
-- 1 Traduit en français les noms des cartes pour BGEE et SoD accessible dans la CLUAConsole
-
--2 
-
-
-#### Areas Cheats pour BG2EE
-
-- 1 Traduit en français les noms des cartes pour BG2EE accessible dans la CLUAConsole
-
--2 
-
+- 2 Ajoute l'accès aux Fosses noires et au tutoriel pendant la campagne principale
 
 #### Areas Cheats pour les MODS
 
-Traduit en français les noms des cartes du jeu accessible dans la CLUAConsole
+Traduit en français les noms des cartes ajoutées par des mods dans la CLUAConsole
 
 Ce composant détecte si certains mods sont installé...
 
-Mod supportés :
+Mod **bientôt** supportés :
 
 - Check the bodies
 
 - Trials of the Luremaster
-- 
+ 
 - Test Your Mettle
-- 
+ 
 - IWD1_EET
-- 
+
 - IWD2_EET
 
 
@@ -79,10 +58,12 @@ Follow the prompt
 ## Remerciement :
 ----------------
 
-Selphira 
+Un grand merci à Selphira  !
 
 
 ## Version History :
 ----------------
 
-v0.1: Initial release
+v0.1 : Initial release
+
+v0.2 : "Traification" et corrections, préparation du composant Areas Cheats pour les MODS
