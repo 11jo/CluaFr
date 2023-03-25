@@ -3,7 +3,7 @@ ACTION_IF FILE_EXISTS_IN_GAME ~bgee.lua~ BEGIN
 
 	// CheatsAreas pour BGEE
 	PATCH_DEFINE_ASSOCIATIVE_ARRAY strings BEGIN
-	~{"AR0002", "Temple of Helm (Baldur's Gate)"},~                                                   => 4001  
+	~{"AR0002", "Temple of Helm (Baldur's Gate)"},~                                                   => 5001  
 	~{"AR0004", "Behren's home, ground floor"},~                                                      => 4002  
 	~{"AR0005", "Behren's home, second floor (Pixie the Cat)"},~                                      => 4003  
 	~{"AR0006", "Rinnie's home, ground floor"},~                                                      => 4004  
@@ -492,10 +492,10 @@ ACTION_IF FILE_EXISTS_IN_GAME ~bgee.lua~ BEGIN
 	~{"OH3000", "Rasaad - Dark Moon temple, exterior"},~                                              => 4485
 	~{"OH3010", "Rasaad - Dark Moon temple, interior"},~                                              => 4488
 	~{"OH3020", "Rasaad - Dark Moon temple, interior"},~                                              => 4489
-    ~{"OH3100", "Rasaad - Dark Moon temple, interior"},~                                              => 4490                                                                                       
-
+    ~{"OH3100", "Rasaad - Dark Moon temple, interior"},~                                              => 5002                                                                                      
+	
 	// CheatsAreas Les Fosses noires
-
+	
 	~{"OH9310", "The Black Pits: Arena 1"},~                                                            => 1486
 	~{"OH9350", "The Black Pits: Arena 2"},~                                                            => 1487
 	~{"OH9360", "The Black Pits: Hub"},~                                                                => 1488

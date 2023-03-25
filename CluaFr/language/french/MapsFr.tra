@@ -1,0 +1,68 @@
+
+	// CheatsAreas pour BG2EE
+
+@990 = ~{"AR0015", "(Tuto)  Palais Ducal, 1er étage (Commencement)"},~
+@991 = ~{"AR0016", "(Tuto)  Palais Ducal, 2eme étage"},~
+@992 = ~{"AR0017", "(Tuto)  Palais Ducal, 3eme étage"},~
+@993 = ~{"AR0018", "(Tuto)  Palais Ducal, Sous-sol"},~
+
+	// CheatsAreas BG2EE ALL
+
+@995 = ~{"OH7310", "(ToB)  Scène avec L, Quête de Hexxat"},
+	{"  ", "        BLACK PITS        "},
+	{"OH9310", "(FN1)  Arène 1"},
+    {"OH9350", "(FN1)  Arène 2"},
+    {"OH9360", "(FN1)  Zone de repos"},
+	{"  ", "        GLADIATORS OF THAY        "},
+	{"OH8000", "(FN2)  Comptoir de Suzail"},
+	{"OH8100", "(FN2)  Zone de repos"},
+	{"OH8200", "(FN2)  Arène 1"},
+	{"OH8300", "(FN2)  Arène 2"},
+    {"OH8400", "(FN2)  Arène 3"},
+	{"  ", "        TUTORIEL        "},
+	{"AR0015", "(Tuto)  Palais Ducal, 1er étage (Commencement)"},
+	{"AR0016", "(Tuto)  Palais Ducal, 2eme étage"},
+	{"AR0017", "(Tuto)  Palais Ducal, 3eme étage"},
+	{"AR0018", "(Tuto)  Palais Ducal, Sous-sol"},~
+	
+	
+	// CheatsAreas pour SoD ALL
+	
+@996 = ~{"BD7410", "(SoD)  Cave du vampire, (Bosquet d'Ecorsang)"},
+	{"  ", "        BLACK PITS        "},
+	{"OH9310", "(FN1)  Arène 1"},
+    {"OH9350", "(FN1)  Arène 2"},
+    {"OH9360", "(FN1)  Zone de repos"},
+	{"  ", "        GLADIATORS OF THAY        "},
+	{"OH8000", "(FN2)  Comptoir de Suzail"},
+	{"OH8100", "(FN2)  Zone de repos"},
+	{"OH8200", "(FN2)  Arène 1"},
+	{"OH8300", "(FN2)  Arène 2"},
+    {"OH8400", "(FN2)  Arène 3"},
+	{"  ", "        TUTORIEL        "},
+	{"AR0015", "(Tuto)  Palais Ducal, 1er étage (Commencement)"},
+	{"AR0016", "(Tuto)  Palais Ducal, 2eme étage"},
+	{"AR0017", "(Tuto)  Palais Ducal, 3eme étage"},
+	{"AR0018", "(Tuto)  Palais Ducal, Sous-sol"},~
+	
+	// CheatsAreas pour BGEE ALL
+
+@5001   = ~{"  ", "        BALDUR'S GATE        "},
+	{"AR0002", "(BG)  Temple de Heaum (N)"},~
+
+@5002 = ~{"OH3100", "(SC)  Temple de la Lune Noire, Sommet"},
+	{"  ", "        BLACK PITS        "},
+	{"OH9310", "(FN1)  Arène 1"},
+    {"OH9350", "(FN1)  Arène 2"},
+    {"OH9360", "(FN1)  Zone de repos"},
+	{"  ", "        GLADIATORS OF THAY        "},
+	{"OH8000", "(FN2)  Comptoir de Suzail"},
+	{"OH8100", "(FN2)  Zone de repos"},
+	{"OH8200", "(FN2)  Arène 1"},
+	{"OH8300", "(FN2)  Arène 2"},
+    {"OH8400", "(FN2)  Arène 3"},
+	{"  ", "        TUTORIEL        "},
+	{"TU0015", "(Tuto)  Palais Ducal, 1er étage (Commencement)"},
+	{"TU0016", "(Tuto)  Palais Ducal, 2eme étage"},
+	{"TU0017", "(Tuto)  Palais Ducal, 3eme étage"},
+	{"TU0018", "(Tuto)  Palais Ducal, Sous-sol"},~

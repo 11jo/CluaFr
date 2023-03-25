@@ -12,41 +12,61 @@ ASK_EVERY_COMPONENT
 LANGUAGE ~Francais~
          ~french~
          ~CluaFr/language/french/setup.tra~
+         ~CluaFr/language/french/MapsFrEET.tra~
+         ~CluaFr/language/french/MapsFrEETALL.tra~
+         ~CluaFr/language/french/MapsFrBGEE.tra~
+         ~CluaFr/language/french/MapsFr.tra~
 
 
 	//////////////////////////////////////
 	//////Add language for CheatsAreas....EE Only////
 	//////////////////////////////////////
-	
-BEGIN @12 SUBCOMPONENT @15 
+
+BEGIN @12 SUBCOMPONENT @15
  REQUIRE_PREDICATE GAME_IS ~EET~ @5
     INCLUDE ~CluaFr/Lua/EET/MapsFrEET.tph~ // CheatsAreas pour EET
 	PRINT ~CheatsAreas pour EET~
- 
- 
-BEGIN @13 SUBCOMPONENT @15 
+
+BEGIN @13 SUBCOMPONENT @15
  REQUIRE_PREDICATE GAME_IS ~EET~ @5
     INCLUDE ~CluaFr/Lua/EET/MapsFrEETALL.tph~ // CheatsAreas pour EET
-	PRINT ~CheatsAreas pour EET~
+	PRINT ~CheatsAreas pour EET ALL~
 
-BEGIN @16
+BEGIN @12 SUBCOMPONENT @16
     REQUIRE_PREDICATE GAME_IS ~BGEE~ AND NOT GAME_INCLUDES ~sod~ @6
 
     INCLUDE ~CluaFr/Lua/BGEE/MapsFrBGEE.tph~  // CheatsAreas pour BGEE
 	PRINT ~CheatsAreas pour BGEE~
- 
-BEGIN @17
+
+BEGIN @13 SUBCOMPONENT @16
+    REQUIRE_PREDICATE GAME_IS ~BGEE~ AND NOT GAME_INCLUDES ~sod~ @6
+
+    INCLUDE ~CluaFr/Lua/BGEE/MapsFrBGEEALL.tph~  // CheatsAreas pour BGEE
+	PRINT ~CheatsAreas pour BGEE ALL~
+
+BEGIN @12 SUBCOMPONENT @17
  REQUIRE_PREDICATE GAME_IS ~BGEE~ AND GAME_INCLUDES ~SoD~ @7
-	
+
     INCLUDE ~CluaFr/Lua/SoD/MapsFrSoD.tph~  // CheatsAreas pour SoD
 	PRINT ~CheatsAreas pour SoD~
-	
-BEGIN @18
+
+BEGIN @13 SUBCOMPONENT @17
+ REQUIRE_PREDICATE GAME_IS ~BGEE~ AND GAME_INCLUDES ~SoD~ @7
+
+    INCLUDE ~CluaFr/Lua/SoD/MapsFrSoDALL.tph~  // CheatsAreas pour SoD
+	PRINT ~CheatsAreas pour SoD ALL~
+
+BEGIN @12 SUBCOMPONENT @18
     REQUIRE_PREDICATE GAME_IS ~BG2EE~ @8
 
     INCLUDE ~CluaFr/Lua/BG2EE/MapsFrBG2EE.tph~ // CheatsAreas pour BG2EE
 	PRINT ~CheatsAreas pour BG2EE~
 
+BEGIN @13 SUBCOMPONENT @18
+    REQUIRE_PREDICATE GAME_IS ~BG2EE~ @8
+
+    INCLUDE ~CluaFr/Lua/BG2EE/MapsFrBG2EEALL.tph~ // CheatsAreas pour BG2EE
+	PRINT ~CheatsAreas pour BG2EE ALL~
 
 BEGIN @19   // CheatsAreas pour les mods
 

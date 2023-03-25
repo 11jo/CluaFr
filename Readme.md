@@ -5,7 +5,7 @@
 **Autor** : ****
 
 
-## Description:
+## Description :
 ---------------
 
 Traduction des CheatsAreas (Accès aux zones du jeu grace à la CLUA console)
@@ -18,7 +18,7 @@ Pour BG-EE, BGSoD, BG2-EE and EET.
 **Il est préférable d'installer CluaFr après les mods qui ajoutent de nouvelles zones à la CluaConsole, ceux-ci peuvent se baser sur les nom anglais pour s'insérer dans le jeu.**
 
 
-## Composants:
+## Composants :
 ---------------
 
 #### Areas Cheats pour EET
@@ -68,15 +68,21 @@ Mod supportés :
 
 
 
-## Install:
---------
+## Installation :
+----------------
 
 Extract archive contents into your game directory
 Run Setup-CluaFr.exe
 Follow the prompt
 
 
-## Version History:
+## Remerciement :
+----------------
+
+Selphira 
+
+
+## Version History :
 ----------------
 
 v0.1: Initial release

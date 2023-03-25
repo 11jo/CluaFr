@@ -1,0 +1,29 @@
+ACTION_IF FILE_EXISTS_IN_GAME ~bgee.lua~ BEGIN
+	COPY_EXISTING ~bgee.lua~ ~override/bgee.lua~
+
+	// CheatsAreas pour Trials of the Luremaster
+	
+	REPLACE_TEXTUALLY ~{"ID9700","Anauroch Castle - outer courtyard (TotL start area)"},~              ~{"  ", "        TRIALS OF THE LUREMASTER        "},
+	{"ID9700","(TotLM) outer courtyard (TotL start area)"},~
+	REPLACE_TEXTUALLY ~{"ID9701","Anauroch Castle - south Tower basement - battle test"},~             ~{"ID9701","(TotLM) south Tower basement - battle test, (Forteresse de Maluradek)"},~
+	REPLACE_TEXTUALLY ~{"ID9702","Anauroch Castle - south tower upstairs - wyverns"},~                 ~{"ID9702","(TotLM) south tower upstairs - wyverns"},~
+	REPLACE_TEXTUALLY ~{"ID9703","Anauroch Castle - west Tower basement - intelligence test"},~        ~{"ID9703","(TotLM) west Tower basement - intelligence test"},~
+	REPLACE_TEXTUALLY ~{"ID9704","Anauroch Castle - west Tower upstairs - Harald"},~                   ~{"ID9704","(TotLM) west Tower upstairs - Harald"},~
+	REPLACE_TEXTUALLY ~{"ID9705","Anauroch Castle - north Tower basement - courage test"},~            ~{"ID9705","(TotLM) north Tower basement - courage test"},~
+	REPLACE_TEXTUALLY ~{"ID9706","Anauroch Castle - north Tower upstairs - harpy queen"},~             ~{"ID9706","(TotLM) north Tower upstairs - harpy queen"},~
+	REPLACE_TEXTUALLY ~{"ID9707","Anauroch Castle - east Tower basement - perseverance test"},~        ~{"ID9707","(TotLM) east Tower basement - perseverance test"},~
+	REPLACE_TEXTUALLY ~{"ID9708","Anauroch Castle - east Tower upstairs - Banites"},~                  ~{"ID9708","(TotLM) east Tower upstairs - Banites"},~
+	REPLACE_TEXTUALLY ~{"ID9709","Anauroch Castle - western battlements"},~                            ~{"ID9709","(TotLM) western battlements"},~
+	REPLACE_TEXTUALLY ~{"ID9710","Anauroch Castle - eastern battlements"},~                            ~{"ID9710","(TotLM) eastern battlements"},~
+	REPLACE_TEXTUALLY ~{"ID9711","Anauroch Castle - inner courtyard"},~                                ~{"ID9711","(TotLM) inner courtyard"},~
+	REPLACE_TEXTUALLY ~{"ID9712","Anauroch Castle - upper story"},~                                    ~{"ID9712","(TotLM) upper story"},~
+	REPLACE_TEXTUALLY ~{"ID9713","Anauroch Castle - Ruined Temple of Helm"},~                          ~{"ID9713","(TotLM) Ruined Temple of Helm"},~
+	REPLACE_TEXTUALLY ~{"ID9714","Anauroch Castle - Watchknight Tomb"},~                               ~{"ID9714","(TotLM) Watchknight Tomb"},~
+	REPLACE_TEXTUALLY ~{"ID9715","Anauroch Castle - hideout of Hobart"},~                              ~{"ID9715","(TotLM) hideout of Hobart"},~
+	REPLACE_TEXTUALLY ~{"ID9716","Anauroch Castle - dungeon level 1"},~                                ~{"ID9716","(TotLM) dungeon level 1"},~
+	REPLACE_TEXTUALLY ~{"ID9717","Anauroch Castle - dungeon level 2"},~                                ~{"ID9717","(TotLM) dungeon level 2"},~
+	REPLACE_TEXTUALLY ~{"ID9718","Anauroch Castle - dungeon level 3"},~                                ~{"ID9718","(TotLM) dungeon level 3"},~
+	REPLACE_TEXTUALLY ~{"ID9800","Anauroch Castle - Jackal Clan caverns - level 1"},~                  ~{"ID9800","(TotLM) Jackal Clan caverns - level 1"},~
+	REPLACE_TEXTUALLY ~{"ID9801","Anauroch Castle - Jackal Clan caverns - level 2"},~                  ~{"ID9801","(TotLM) Jackal Clan caverns - level 2"},~
+	
+END
