@@ -1,13 +1,20 @@
 ACTION_IF FILE_EXISTS_IN_GAME ~bgee.lua~ BEGIN
 	COPY_EXISTING ~bgee.lua~ ~override/bgee.lua~
-	
+
 	// CheatsAreas pour Test Your Mettle
+	PATCH_DEFINE_ASSOCIATIVE_ARRAY strings BEGIN
+	~{"A7#1FY", "Modron Maze - Modron Foyer"},~		                          => 6109
+    ~{"A7#1EN", "Modron Maze - Engineering Room"},~                           => 6110
+    ~{"A7#1FD", "Modron Maze - Portal Room"},~                                => 6111
+    ~{"A7#1WZ", "Modron Maze - Boss Room"},~                                  => 6112
 
-
-REPLACE_TEXTUALLY ~{"A7#1FY", "Modron Maze - Modron Foyer"},~			~{"  ", "        TEST YOUR METTLE        "},
-	{"A7#1FY", "  Modron Foyer, (Labyrinthe Modrone)"},~
-REPLACE_TEXTUALLY ~{"A7#1EN", "Modron Maze - Engineering Room"},~       ~{"A7#1EN", "Engineering Room, (Labyrinthe Modrone)"},~
-REPLACE_TEXTUALLY ~{"A7#1FD", "Modron Maze - Portal Room"},~            ~{"A7#1FD", "Portal Room, (Labyrinthe Modrone)"},~
-REPLACE_TEXTUALLY ~{"A7#1WZ", "Modron Maze - Boss Room"},~              ~{"A7#1WZ", "Boss Room, (Labyrinthe Modrone)"},~
-	
 END
+
+    PATCH_PHP_EACH strings AS find => replace_ref BEGIN
+        SPRINT replace (AT replace_ref)
+        REPLACE_TEXTUALLY ~%find%~ ~%replace%~
+    END
+END
+
+
+

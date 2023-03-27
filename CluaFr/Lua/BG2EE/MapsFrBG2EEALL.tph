@@ -1,14 +1,14 @@
 ACTION_IF FILE_EXISTS_IN_GAME ~bgee.lua~ BEGIN
 	COPY_EXISTING ~bgee.lua~ ~override/bgee.lua~
 
-	// CheatsAreas Tutoriel
+	// CheatsAreas Tutoriel                                                                           // MapsFrBG2EE.tra
 	PATCH_DEFINE_ASSOCIATIVE_ARRAY strings BEGIN
-	~{"AR0015", "Baldur's Gate Estate (Tutorial starts here)"},~                              => 990
-	~{"AR0016", "Baldur's Gate Estate (Tutorial area)"},~                                     => 991
-	~{"AR0017", "Baldur's Gate Estate (Tutorial area)"},~                                     => 992
-	~{"AR0018", "Baldur's Gate Estate Cellar (Tutorial area)"},~                              => 993
+	~{"AR0015", "Baldur's Gate Estate (Tutorial starts here)"},~                                      => 990
+	~{"AR0016", "Baldur's Gate Estate (Tutorial area)"},~                                             => 991
+	~{"AR0017", "Baldur's Gate Estate (Tutorial area)"},~                                             => 992
+	~{"AR0018", "Baldur's Gate Estate Cellar (Tutorial area)"},~                                      => 993
 
-	// CheatsAreas SoA
+	// CheatsAreas SoA                                                                                // MapsFrEETALL.tra
 
 	~{"AR0011", "Candlekeep Dream 1 (Do you remember Candlekeep\?)"},~                                => 2566
 	~{"AR0012", "Candlekeep Library (Main Door Trigger)"},~                                           => 2567
@@ -330,7 +330,7 @@ ACTION_IF FILE_EXISTS_IN_GAME ~bgee.lua~ BEGIN
 	~{"OH6300", "Neera - Red Wizard Enclave"},~                                                       => 2883
 	~{"OH7000", "Hexxat - Top Left Quarter (Dragomir)"},~                                             => 2884
 	~{"OH7100", "Hexxat - Bottom Left Quarter (Shou Lung)"},~                                         => 2885
-	~{"OH7200", "Hexxat - Bottom Right Quarter (Zakhara)"},~                                          => 2886
+	~{"OH7200", "Hexxat - Bottom Right Quarter (Zakhara)"},~                                          => 995
 
 	// CheatsAreas pour Les Gladiateurs de Thay
 
@@ -442,7 +442,7 @@ ACTION_IF FILE_EXISTS_IN_GAME ~bgee.lua~ BEGIN
 	~{"OH6460", "Neera - The Black Pits: Staging Area"},~                                             => 2986
 	~{"OH6500", "Neera - Thayan Estate"},~                                                            => 2987
 	~{"OH7300", "Hexxat - Completed Maze (Korkorran)"},~                                              => 2988
-	~{"OH7310", "Hexxat - Scene with L"},~                                                            => 995
+	~{"OH7310", "Hexxat - Scene with L"},~                                                            => 994
 
 END
 

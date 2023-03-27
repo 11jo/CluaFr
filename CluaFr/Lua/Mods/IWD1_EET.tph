@@ -2,188 +2,191 @@ ACTION_IF FILE_EXISTS_IN_GAME ~bgee.lua~ BEGIN
 	COPY_EXISTING ~bgee.lua~ ~override/bgee.lua~
 
 	// CheatsAreas pour IWD1_EET
-	
-	REPLACE_TEXTUALLY ~{"ID1000", "Easthaven (prologue)"},~                                                               ~{"  ", "        ICEWIND DALE 1        "},
-	{"ID1000", "(IWD1)  Easthaven (prologue)"},~
-	REPLACE_TEXTUALLY ~{"ID1001", "Easthaven (prologue) - Temple of Tempus"},~                                            ~{"ID1001", "(IWD1)  Easthaven (prologue) - Temple of Tempus"},~
-	REPLACE_TEXTUALLY ~{"ID1002", "Easthaven (prologue) - Townsperson home"},~                                            ~{"ID1002", "(IWD1)  Easthaven (prologue) - Townsperson home"},~
-	REPLACE_TEXTUALLY ~{"ID1003", "Easthaven (prologue) - Townsperson home"},~                                            ~{"ID1003", "(IWD1)  Easthaven (prologue) - Townsperson home"},~
-	REPLACE_TEXTUALLY ~{"ID1004", "Easthaven (prologue) - Home of Hrothgar"},~                                            ~{"ID1004", "(IWD1)  Easthaven (prologue) - Home of Hrothgar"},~
-	REPLACE_TEXTUALLY ~{"ID1005", "Easthaven (prologue) - Home of Gaspar the Fishmonger"},~                               ~{"ID1005", "(IWD1)  Easthaven (prologue) - Home of Gaspar the Fishmonger"},~
-	REPLACE_TEXTUALLY ~{"ID1006", "Easthaven (prologue) - Grisella's Winter's Cradle Tavern - main floor"},~              ~{"ID1006", "(IWD1)  Easthaven (prologue) - Grisella's Winter's Cradle Tavern - main floor"},~
-	REPLACE_TEXTUALLY ~{"ID1007", "Easthaven (prologue) - Pomab's Emporium - first floor"},~                              ~{"ID1007", "(IWD1)  Easthaven (prologue) - Pomab's Emporium - first floor"},~
-	REPLACE_TEXTUALLY ~{"ID1008", "Easthaven (prologue) - Snowdrift Inn"},~                                               ~{"ID1008", "(IWD1)  Easthaven (prologue) - Snowdrift Inn"},~
-	REPLACE_TEXTUALLY ~{"ID1009", "Easthaven (prologue) - Home of Old Jed"},~                                             ~{"ID1009", "(IWD1)  Easthaven (prologue) - Home of Old Jed"},~
-	REPLACE_TEXTUALLY ~{"ID1010", "Easthaven (prologue) - Home of scrimshander"},~                                        ~{"ID1010", "(IWD1)  Easthaven (prologue) - Home of scrimshander"},~
-	REPLACE_TEXTUALLY ~{"ID1011", "Easthaven (prologue) - Warehouse"},~                                                   ~{"ID1011", "(IWD1)  Easthaven (prologue) - Warehouse"},~
-	REPLACE_TEXTUALLY ~{"ID1012", "Easthaven (prologue) - Townsperson home"},~                                            ~{"ID1012", "(IWD1)  Easthaven (prologue) - Townsperson home"},~
-	REPLACE_TEXTUALLY ~{"ID1013", "Easthaven (prologue) - Townsperson home"},~                                            ~{"ID1013", "(IWD1)  Easthaven (prologue) - Townsperson home"},~
-	REPLACE_TEXTUALLY ~{"ID1014", "Easthaven (prologue) - Townsperson home"},~                                            ~{"ID1014", "(IWD1)  Easthaven (prologue) - Townsperson home"},~
-	REPLACE_TEXTUALLY ~{"ID1015", "Easthaven (prologue) - Grisella's Winter's Cradle Tavern - Basement"},~                ~{"ID1015", "(IWD1)  Easthaven (prologue) - Grisella's Winter's Cradle Tavern - Basement"},~
-	REPLACE_TEXTUALLY ~{"ID1016", "Easthaven (prologue) - Pomab's Emporium - second floor"},~                             ~{"ID1016", "(IWD1)  Easthaven (prologue) - Pomab's Emporium - second floor"},~
-	REPLACE_TEXTUALLY ~{"ID1100", "Easthaven (finale)"},~                                                                 ~{"ID1100", "(IWD1)  Easthaven (finale)"},~
-	REPLACE_TEXTUALLY ~{"ID1101", "Easthaven (finale) - Temple of Tempus/ice tower first floor"},~                        ~{"ID1101", "(IWD1)  Easthaven (finale) - Temple of Tempus/ice tower first floor"},~
-	REPLACE_TEXTUALLY ~{"ID1102", "Easthaven (finale) - Temple of Tempus/ice tower second floor, beds"},~                 ~{"ID1102", "(IWD1)  Easthaven (finale) - Temple of Tempus/ice tower second floor, beds"},~
-	REPLACE_TEXTUALLY ~{"ID1103", "Easthaven (finale) - Temple of Tempus/ice tower third floor, Pomab"},~                 ~{"ID1103", "(IWD1)  Easthaven (finale) - Temple of Tempus/ice tower third floor, Pomab"},~
-	REPLACE_TEXTUALLY ~{"ID1104", "Easthaven (finale) - Temple of Tempus/ice tower fourth floor, mirror"},~               ~{"ID1104", "(IWD1)  Easthaven (finale) - Temple of Tempus/ice tower fourth floor, mirror"},~
-	REPLACE_TEXTUALLY ~{"ID1105", "Easthaven (finale) - Temple of Tempus - Jerrod's Stone"},~                             ~{"ID1105", "(IWD1)  Easthaven (finale) - Temple of Tempus - Jerrod's Stone"},~
-	REPLACE_TEXTUALLY ~{"ID1106", "Easthaven (finale) - Winter's Cradle Tavern main floor"},~                             ~{"ID1106", "(IWD1)  Easthaven (finale) - Winter's Cradle Tavern main floor"},~
-	REPLACE_TEXTUALLY ~{"ID1109", "Easthaven (finale) - Winter's Cradle Tavern basement"},~                               ~{"ID1109", "(IWD1)  Easthaven (finale) - Winter's Cradle Tavern basement"},~
-	REPLACE_TEXTUALLY ~{"ID1200", "Easthaven (prologue) - missing caravan - exterior"},~                                  ~{"ID1200", "(IWD1)  Easthaven (prologue) - missing caravan - exterior"},~
-	REPLACE_TEXTUALLY ~{"ID1201", "Easthaven (prologue) - missing caravan - cave of orcs"},~                              ~{"ID1201", "(IWD1)  Easthaven (prologue) - missing caravan - cave of orcs"},~
-	REPLACE_TEXTUALLY ~{"ID2000", "Kuldahar Pass"},~                                                                      ~{"ID2000", "(IWD1)  Kuldahar Pass"},~
-	REPLACE_TEXTUALLY ~{"ID2001", "Kuldahar Pass - goblin area"},~                                                        ~{"ID2001", "(IWD1)  Kuldahar Pass - goblin area"},~
-	REPLACE_TEXTUALLY ~{"ID2002", "Kuldahar Pass - beetle area"},~                                                        ~{"ID2002", "(IWD1)  Kuldahar Pass - beetle area"},~
-	REPLACE_TEXTUALLY ~{"ID2003", "Kuldahar Pass - Gherg's tower"},~                                                      ~{"ID2003", "(IWD1)  Kuldahar Pass - Gherg's tower"},~
-	REPLACE_TEXTUALLY ~{"ID2004", "Kuldahar Pass - Mill - entrance"},~                                                    ~{"ID2004", "(IWD1)  Kuldahar Pass - Mill - entrance"},~
-	REPLACE_TEXTUALLY ~{"ID2005", "Kuldahar Pass - Mill - basement"},~                                                    ~{"ID2005", "(IWD1)  Kuldahar Pass - Mill - basement"},~
-	REPLACE_TEXTUALLY ~{"ID2006", "Kuldahar Pass - Mill - upper story"},~                                                 ~{"ID2006", "(IWD1)  Kuldahar Pass - Mill - upper story"},~
-	REPLACE_TEXTUALLY ~{"ID2100", "Kuldahar"},~                                                                           ~{"ID2100", "(IWD1)  Kuldahar"},~
-	REPLACE_TEXTUALLY ~{"ID2101", "Kuldahar - Orrick the Grey's tower - entrance area"},~                                 ~{"ID2101", "(IWD1)  Kuldahar - Orrick the Grey's tower - entrance area"},~
-	REPLACE_TEXTUALLY ~{"ID2102", "Kuldahar - Orrick the Grey's tower - study"},~                                         ~{"ID2102", "(IWD1)  Kuldahar - Orrick the Grey's tower - study"},~
-	REPLACE_TEXTUALLY ~{"ID2103", "Kuldahar - Conlan's Smithy"},~                                                         ~{"ID2103", "(IWD1)  Kuldahar - Conlan's Smithy"},~
-	REPLACE_TEXTUALLY ~{"ID2104", "Kuldahar - Townsperson home"},~                                                        ~{"ID2104", "(IWD1)  Kuldahar - Townsperson home"},~
-	REPLACE_TEXTUALLY ~{"ID2105", "Kuldahar - Townsperson home"},~                                                        ~{"ID2105", "(IWD1)  Kuldahar - Townsperson home"},~
-	REPLACE_TEXTUALLY ~{"ID2106", "Kuldahar - Townsperson home"},~                                                        ~{"ID2106", "(IWD1)  Kuldahar - Townsperson home"},~
-	REPLACE_TEXTUALLY ~{"ID2107", "Kuldahar - Temple of Ilmater - House of the Bleeding Rose"},~                          ~{"ID2107", "(IWD1)  Kuldahar - Temple of Ilmater - House of the Bleeding Rose"},~
-	REPLACE_TEXTUALLY ~{"ID2108", "Kuldahar - Airship of Oswald Fiddlebender"},~                                          ~{"ID2108", "(IWD1)  Kuldahar - Airship of Oswald Fiddlebender"},~
-	REPLACE_TEXTUALLY ~{"ID2109", "Kuldahar - Home of Hjollder (inaccessible without Heart of Winter)"},~                 ~{"ID2109", "(IWD1)  Kuldahar - Home of Hjollder (inaccessible without Heart of Winter)"},~
-	REPLACE_TEXTUALLY ~{"ID2110", "Kuldahar - Home of Urnst the Potter"},~                                                ~{"ID2110", "(IWD1)  Kuldahar - Home of Urnst the Potter"},~
-	REPLACE_TEXTUALLY ~{"ID2111", "Kuldahar - Root Cellar Tavern"},~                                                      ~{"ID2111", "(IWD1)  Kuldahar - Root Cellar Tavern"},~
-	REPLACE_TEXTUALLY ~{"ID2112", "Kuldahar - Home of Arundel - first floor"},~                                           ~{"ID2112", "(IWD1)  Kuldahar - Home of Arundel - first floor"},~
-	REPLACE_TEXTUALLY ~{"ID2113", "Kuldahar - Gerth's Equipment Shoppe"},~                                                ~{"ID2113", "(IWD1)  Kuldahar - Gerth's Equipment Shoppe"},~
-	REPLACE_TEXTUALLY ~{"ID2114", "Kuldahar - Evening Shade Inn - first floor"},~                                         ~{"ID2114", "(IWD1)  Kuldahar - Evening Shade Inn - first floor"},~
-	REPLACE_TEXTUALLY ~{"ID2115", "Kuldahar - Evening Shade Inn - second floor"},~                                        ~{"ID2115", "(IWD1)  Kuldahar - Evening Shade Inn - second floor"},~
-	REPLACE_TEXTUALLY ~{"ID2116", "Kuldahar - Home of Arundel - second floor"},~                                          ~{"ID2116", "(IWD1)  Kuldahar - Home of Arundel - second floor"},~
-	REPLACE_TEXTUALLY ~{"ID3000", "Vale of Shadows - exterior"},~                                                         ~{"ID3000", "(IWD1)  Vale of Shadows - exterior"},~
-	REPLACE_TEXTUALLY ~{"ID3001", "Vale of Shadows - yeti cave"},~                                                        ~{"ID3001", "(IWD1)  Vale of Shadows - yeti cave"},~
-	REPLACE_TEXTUALLY ~{"ID3101", "Vale of Shadows - minor tomb"},~                                                       ~{"ID3101", "(IWD1)  Vale of Shadows - minor tomb"},~
-	REPLACE_TEXTUALLY ~{"ID3201", "Vale of Shadows - minor tomb"},~                                                       ~{"ID3201", "(IWD1)  Vale of Shadows - minor tomb"},~
-	REPLACE_TEXTUALLY ~{"ID3301", "Vale of Shadows - Temple of Myrkul"},~                                                 ~{"ID3301", "(IWD1)  Vale of Shadows - Temple of Myrkul"},~
-	REPLACE_TEXTUALLY ~{"ID3401", "Vale of Shadows - minor tomb"},~                                                       ~{"ID3401", "(IWD1)  Vale of Shadows - minor tomb"},~
-	REPLACE_TEXTUALLY ~{"ID3501", "Vale of Shadows - Tomb of Kresselack - first level"},~                                 ~{"ID3501", "(IWD1)  Vale of Shadows - Tomb of Kresselack - first level"},~
-	REPLACE_TEXTUALLY ~{"ID3502", "Vale of Shadows - Tomb of Kresselack - second level"},~                                ~{"ID3502", "(IWD1)  Vale of Shadows - Tomb of Kresselack - second level"},~
-	REPLACE_TEXTUALLY ~{"ID3503", "Vale of Shadows - Tomb of Kresselack - third level"},~                                 ~{"ID3503", "(IWD1)  Vale of Shadows - Tomb of Kresselack - third level"},~
-	REPLACE_TEXTUALLY ~{"ID3600", "Temple of the Forgotten God - exterior"},~                                             ~{"ID3600", "(IWD1)  Temple of the Forgotten God - exterior"},~
-	REPLACE_TEXTUALLY ~{"ID3601", "Temple of the Forgotten God - first level"},~                                          ~{"ID3601", "(IWD1)  Temple of the Forgotten God - first level"},~
-	REPLACE_TEXTUALLY ~{"ID3602", "Temple of the Forgotten God - second level"},~                                         ~{"ID3602", "(IWD1)  Temple of the Forgotten God - second level"},~
-	REPLACE_TEXTUALLY ~{"ID3603", "Temple of the Forgotten God - third level"},~                                          ~{"ID3603", "(IWD1)  Temple of the Forgotten God - third level"},~
-	REPLACE_TEXTUALLY ~{"ID4000", "Dragon's Eye - exterior"},~                                                            ~{"ID4000", "(IWD1)  Dragon's Eye - exterior"},~
-	REPLACE_TEXTUALLY ~{"ID4001", "Dragon's Eye - first dungeon level (Lizard King)"},~                                   ~{"ID4001", "(IWD1)  Dragon's Eye - first dungeon level (Lizard King)"},~
-	REPLACE_TEXTUALLY ~{"ID4002", "Dragon's Eye - second dungeon level (Talonites)"},~                                    ~{"ID4002", "(IWD1)  Dragon's Eye - second dungeon level (Talonites)"},~
-	REPLACE_TEXTUALLY ~{"ID4003", "Dragon's Eye - third dungeon level (Presio)"},~                                        ~{"ID4003", "(IWD1)  Dragon's Eye - third dungeon level (Presio)"},~
-	REPLACE_TEXTUALLY ~{"ID4004", "Dragon's Eye - fourth dungeon level (Eldathyn)"},~                                     ~{"ID4004", "(IWD1)  Dragon's Eye - fourth dungeon level (Eldathyn)"},~
-	REPLACE_TEXTUALLY ~{"ID4005", "Dragon's Eye - fifth dungeon level (Yxunomei)"},~                                      ~{"ID4005", "(IWD1)  Dragon's Eye - fifth dungeon level (Yxunomei)"},~
-	REPLACE_TEXTUALLY ~{"ID5000", "Severed Hand - exterior"},~                                                            ~{"ID5000", "(IWD1)  Severed Hand - exterior"},~
-	REPLACE_TEXTUALLY ~{"ID5001", "Severed Hand - main tower - first floor"},~                                            ~{"ID5001", "(IWD1)  Severed Hand - main tower - first floor"},~
-	REPLACE_TEXTUALLY ~{"ID5002", "Severed Hand - main tower - second floor"},~                                           ~{"ID5002", "(IWD1)  Severed Hand - main tower - second floor"},~
-	REPLACE_TEXTUALLY ~{"ID5003", "Severed Hand - main tower - third floor"},~                                            ~{"ID5003", "(IWD1)  Severed Hand - main tower - third floor"},~
-	REPLACE_TEXTUALLY ~{"ID5004", "Severed Hand - main tower - fourth floor"},~                                           ~{"ID5004", "(IWD1)  Severed Hand - main tower - fourth floor"},~
-	REPLACE_TEXTUALLY ~{"ID5101", "Severed Hand - Tower of Labelas - destroyed floor"},~                                  ~{"ID5101", "(IWD1)  Severed Hand - Tower of Labelas - destroyed floor"},~
-	REPLACE_TEXTUALLY ~{"ID5102", "Severed Hand - Tower of Labelas - library, Custhantos"},~                              ~{"ID5102", "(IWD1)  Severed Hand - Tower of Labelas - library, Custhantos"},~
-	REPLACE_TEXTUALLY ~{"ID5103", "Severed Hand - Tower of Labelas - Larrel, astrolabe"},~                                ~{"ID5103", "(IWD1)  Severed Hand - Tower of Labelas - Larrel, astrolabe"},~
-	REPLACE_TEXTUALLY ~{"ID5104", "Severed Hand - Tower of Labelas - entrance floor"},~                                   ~{"ID5104", "(IWD1)  Severed Hand - Tower of Labelas - entrance floor"},~
-	REPLACE_TEXTUALLY ~{"ID5201", "Severed Hand - Tower of Solonor - first floor, Denaini"},~                             ~{"ID5201", "(IWD1)  Severed Hand - Tower of Solonor - first floor, Denaini"},~
-	REPLACE_TEXTUALLY ~{"ID5202", "Severed Hand - Tower of Solonor - second floor"},~                                     ~{"ID5202", "(IWD1)  Severed Hand - Tower of Solonor - second floor"},~
-	REPLACE_TEXTUALLY ~{"ID5203", "Severed Hand - Tower of Solonor - third floor"},~                                      ~{"ID5203", "(IWD1)  Severed Hand - Tower of Solonor - third floor"},~
-	REPLACE_TEXTUALLY ~{"ID5204", "Severed Hand - Tower of Solonor - fourth floor"},~                                     ~{"ID5204", "(IWD1)  Severed Hand - Tower of Solonor - fourth floor"},~
-	REPLACE_TEXTUALLY ~{"ID5301", "Severed Hand - Tower of Corellon - first floor"},~                                     ~{"ID5301", "(IWD1)  Severed Hand - Tower of Corellon - first floor"},~
-	REPLACE_TEXTUALLY ~{"ID5302", "Severed Hand - Tower of Corellon - second floor"},~                                    ~{"ID5302", "(IWD1)  Severed Hand - Tower of Corellon - second floor"},~
-	REPLACE_TEXTUALLY ~{"ID5303", "Severed Hand - Tower of Corellon - third floor"},~                                     ~{"ID5303", "(IWD1)  Severed Hand - Tower of Corellon - third floor"},~
-	REPLACE_TEXTUALLY ~{"ID5304", "Severed Hand - Tower of Corellon - fourth floor, Valestis, arboretum"},~               ~{"ID5304", "(IWD1)  Severed Hand - Tower of Corellon - fourth floor, Valestis, arboretum"},~
-	REPLACE_TEXTUALLY ~{"ID5401", "Severed Hand - Tower of Sheverash - first floor, Kaylessa"},~                          ~{"ID5401", "(IWD1)  Severed Hand - Tower of Sheverash - first floor, Kaylessa"},~
-	REPLACE_TEXTUALLY ~{"ID5402", "Severed Hand - Tower of Sheverash - second floor"},~                                   ~{"ID5402", "(IWD1)  Severed Hand - Tower of Sheverash - second floor"},~
-	REPLACE_TEXTUALLY ~{"ID5403", "Severed Hand - Tower of Sheverash - third floor"},~                                    ~{"ID5403", "(IWD1)  Severed Hand - Tower of Sheverash - third floor"},~
-	REPLACE_TEXTUALLY ~{"ID5404", "Severed Hand - Tower of Sheverash - fourth floor"},~                                   ~{"ID5404", "(IWD1)  Severed Hand - Tower of Sheverash - fourth floor"},~
-	REPLACE_TEXTUALLY ~{"ID5502", "Severed Hand - bridge between Towers of Labelas and Sheverash"},~                      ~{"ID5502", "(IWD1)  Severed Hand - bridge between Towers of Labelas and Sheverash"},~
-	REPLACE_TEXTUALLY ~{"ID6000", "Dorn's Deep - exterior"},~                                                             ~{"ID6000", "(IWD1)  Dorn's Deep - exterior"},~
-	REPLACE_TEXTUALLY ~{"ID6001", "Dorn's Deep - entry cavern"},~                                                         ~{"ID6001", "(IWD1)  Dorn's Deep - entry cavern"},~
-	REPLACE_TEXTUALLY ~{"ID6002", "Dorn's Deep - main hall"},~                                                            ~{"ID6002", "(IWD1)  Dorn's Deep - main hall"},~
-	REPLACE_TEXTUALLY ~{"ID6003", "Dorn's Deep - orog cave, Saablic, Krilag"},~                                           ~{"ID6003", "(IWD1)  Dorn's Deep - orog cave, Saablic, Krilag"},~
-	REPLACE_TEXTUALLY ~{"ID6004", "Dorn's Deep - Temple of Moradin (cold forge)"},~                                       ~{"ID6004", "(IWD1)  Dorn's Deep - Temple of Moradin (cold forge)"},~
-	REPLACE_TEXTUALLY ~{"ID6005", "Dorn's Deep - Tiers of the Dead"},~                                                    ~{"ID6005", "(IWD1)  Dorn's Deep - Tiers of the Dead"},~
-	REPLACE_TEXTUALLY ~{"ID6006", "Dorn's Deep - Hall of Heroes"},~                                                       ~{"ID6006", "(IWD1)  Dorn's Deep - Hall of Heroes"},~
-	REPLACE_TEXTUALLY ~{"ID6007", "Dorn's Deep - ettin cave"},~                                                           ~{"ID6007", "(IWD1)  Dorn's Deep - ettin cave"},~
-	REPLACE_TEXTUALLY ~{"ID6008", "Dorn's Deep - orog cave"},~                                                            ~{"ID6008", "(IWD1)  Dorn's Deep - orog cave"},~
-	REPLACE_TEXTUALLY ~{"ID6009", "Dorn's Deep - orc cave"},~                                                             ~{"ID6009", "(IWD1)  Dorn's Deep - orc cave"},~
-	REPLACE_TEXTUALLY ~{"ID6010", "Dorn's Deep - circle of runes room"},~                                                 ~{"ID6010", "(IWD1)  Dorn's Deep - circle of runes room"},~
-	REPLACE_TEXTUALLY ~{"ID6011", "Dorn's Deep - machinery room"},~                                                       ~{"ID6011", "(IWD1)  Dorn's Deep - machinery room"},~
-	REPLACE_TEXTUALLY ~{"ID6013", "Dorn's Deep - Temple of Moradin (working forge)"},~                                    ~{"ID6013", "(IWD1)  Dorn's Deep - Temple of Moradin (working forge)"},~
-	REPLACE_TEXTUALLY ~{"ID6014", "Dorn's Deep - Bandoth's cave"},~                                                       ~{"ID6014", "(IWD1)  Dorn's Deep - Bandoth's cave"},~
-	REPLACE_TEXTUALLY ~{"ID7000", "Wyrm's Tooth Glacier - entry pass"},~                                                  ~{"ID7000", "(IWD1)  Wyrm's Tooth Glacier - entry pass"},~
-	REPLACE_TEXTUALLY ~{"ID7001", "Wyrm's Tooth Glacier - aquarium interior, ice salamander lair"},~                      ~{"ID7001", "(IWD1)  Wyrm's Tooth Glacier - aquarium interior, ice salamander lair"},~
-	REPLACE_TEXTUALLY ~{"ID7002", "Wyrm's Tooth Glacier - small circular room"},~                                         ~{"ID7002", "(IWD1)  Wyrm's Tooth Glacier - small circular room"},~
-	REPLACE_TEXTUALLY ~{"ID7003", "Wyrm's Tooth Glacier - Gareth, slaves"},~                                              ~{"ID7003", "(IWD1)  Wyrm's Tooth Glacier - Gareth, slaves"},~
-	REPLACE_TEXTUALLY ~{"ID7004", "Wyrm's Tooth Glacier - frost giant cave"},~                                            ~{"ID7004", "(IWD1)  Wyrm's Tooth Glacier - frost giant cave"},~
-	REPLACE_TEXTUALLY ~{"ID7005", "Wyrm's Tooth Glacier - aquarium exterior"},~                                           ~{"ID7005", "(IWD1)  Wyrm's Tooth Glacier - aquarium exterior"},~
-	REPLACE_TEXTUALLY ~{"ID8001", "Lower Dorn's Deep - main cavern"},~                                                    ~{"ID8001", "(IWD1)  Lower Dorn's Deep - main cavern"},~
-	REPLACE_TEXTUALLY ~{"ID8002", "Lower Dorn's Deep - watchtower stair"},~                                               ~{"ID8002", "(IWD1)  Lower Dorn's Deep - watchtower stair"},~
-	REPLACE_TEXTUALLY ~{"ID8003", "Lower Dorn's Deep - oubliette, Tarnelm"},~                                             ~{"ID8003", "(IWD1)  Lower Dorn's Deep - oubliette, Tarnelm"},~
-	REPLACE_TEXTUALLY ~{"ID8004", "Lower Dorn's Deep - free gnome camp, Nym"},~                                           ~{"ID8004", "(IWD1)  Lower Dorn's Deep - free gnome camp, Nym"},~
-	REPLACE_TEXTUALLY ~{"ID8005", "Lower Dorn's Deep - Order of the Kraken garde"},~                                      ~{"ID8005", "(IWD1)  Lower Dorn's Deep - Order of the Kraken garde"},~
-	REPLACE_TEXTUALLY ~{"ID8006", "Lower Dorn's Deep - Order of the Kraken manor - first floor, Ginafae"},~               ~{"ID8006", "(IWD1)  Lower Dorn's Deep - Order of the Kraken manor - first floor, Ginafae"},~
-	REPLACE_TEXTUALLY ~{"ID8007", "Lower Dorn's Deep - Order of the Kraken manor - second floor, Marketh"},~              ~{"ID8007", "(IWD1)  Lower Dorn's Deep - Order of the Kraken manor - second floor, Marketh"},~
-	REPLACE_TEXTUALLY ~{"ID8008", "Lower Dorn's Deep - mines, Guello, Shikata"},~                                         ~{"ID8008", "(IWD1)  Lower Dorn's Deep - mines, Guello, Shikata"},~
-	REPLACE_TEXTUALLY ~{"ID8009", "Lower Dorn's Deep - artisan's district"},~                                             ~{"ID8009", "(IWD1)  Lower Dorn's Deep - artisan's district"},~
-	REPLACE_TEXTUALLY ~{"ID8010", "Lower Dorn's Deep - Malavon's lair"},~                                                 ~{"ID8010", "(IWD1)  Lower Dorn's Deep - Malavon's lair"},~
-	REPLACE_TEXTUALLY ~{"ID8011", "Lower Dorn's Deep - forge, Ilmadia"},~                                                 ~{"ID8011", "(IWD1)  Lower Dorn's Deep - forge, Ilmadia"},~
-	REPLACE_TEXTUALLY ~{"ID8012", "Lower Dorn's Deep - Brother Perdiem"},~                                                ~{"ID8012", "(IWD1)  Lower Dorn's Deep - Brother Perdiem"},~
-	REPLACE_TEXTUALLY ~{"ID8013", "Lower Dorn's Deep - Reverend Brother Poquelin"},~                                      ~{"ID8013", "(IWD1)  Lower Dorn's Deep - Reverend Brother Poquelin"},~
-	REPLACE_TEXTUALLY ~{"ID8014", "Lower Dorn's Deep - watchtower top level"},~                                           ~{"ID8014", "(IWD1)  Lower Dorn's Deep - watchtower top level"},~
-	REPLACE_TEXTUALLY ~{"ID8015", "Lower Dorn's Deep - Norl's shop"},~                                                    ~{"ID8015", "(IWD1)  Lower Dorn's Deep - Norl's shop"},~
-	REPLACE_TEXTUALLY ~{"ID8016", "Lower Dorn's Deep - home in free gnome camp"},~                                        ~{"ID8016", "(IWD1)  Lower Dorn's Deep - home in free gnome camp"},~
+	PATCH_DEFINE_ASSOCIATIVE_ARRAY strings BEGIN	
+	~{"ID1000", "Easthaven (prologue)"},~                                                               => 6134
+	~{"ID1001", "Easthaven (prologue) - Temple of Tempus"},~                                            => 6135
+	~{"ID1002", "Easthaven (prologue) - Townsperson home"},~                                            => 6136
+	~{"ID1003", "Easthaven (prologue) - Townsperson home"},~                                            => 6137
+	~{"ID1004", "Easthaven (prologue) - Home of Hrothgar"},~                                            => 6138
+	~{"ID1005", "Easthaven (prologue) - Home of Gaspar the Fishmonger"},~                               => 6139
+	~{"ID1006", "Easthaven (prologue) - Grisella's Winter's Cradle Tavern - main floor"},~              => 6140
+	~{"ID1007", "Easthaven (prologue) - Pomab's Emporium - first floor"},~                              => 6141
+	~{"ID1008", "Easthaven (prologue) - Snowdrift Inn"},~                                               => 6142
+	~{"ID1009", "Easthaven (prologue) - Home of Old Jed"},~                                             => 6143
+	~{"ID1010", "Easthaven (prologue) - Home of scrimshander"},~                                        => 6144
+	~{"ID1011", "Easthaven (prologue) - Warehouse"},~                                                   => 6145
+	~{"ID1012", "Easthaven (prologue) - Townsperson home"},~                                            => 6146
+	~{"ID1013", "Easthaven (prologue) - Townsperson home"},~                                            => 6147
+	~{"ID1014", "Easthaven (prologue) - Townsperson home"},~                                            => 6148
+	~{"ID1015", "Easthaven (prologue) - Grisella's Winter's Cradle Tavern - Basement"},~                => 6149
+	~{"ID1016", "Easthaven (prologue) - Pomab's Emporium - second floor"},~                             => 6150
+	~{"ID1100", "Easthaven (finale)"},~                                                                 => 6151
+	~{"ID1101", "Easthaven (finale) - Temple of Tempus/ice tower first floor"},~                        => 6152
+	~{"ID1102", "Easthaven (finale) - Temple of Tempus/ice tower second floor, beds"},~                 => 6153
+	~{"ID1103", "Easthaven (finale) - Temple of Tempus/ice tower third floor, Pomab"},~                 => 6154
+	~{"ID1104", "Easthaven (finale) - Temple of Tempus/ice tower fourth floor, mirror"},~               => 6155
+	~{"ID1105", "Easthaven (finale) - Temple of Tempus - Jerrod's Stone"},~                             => 6156
+	~{"ID1106", "Easthaven (finale) - Winter's Cradle Tavern main floor"},~                             => 6157
+	~{"ID1109", "Easthaven (finale) - Winter's Cradle Tavern basement"},~                               => 6158
+	~{"ID1200", "Easthaven (prologue) - missing caravan - exterior"},~                                  => 6159
+	~{"ID1201", "Easthaven (prologue) - missing caravan - cave of orcs"},~                              => 6160
+	~{"ID2000", "Kuldahar Pass"},~                                                                      => 6161
+	~{"ID2001", "Kuldahar Pass - goblin area"},~                                                        => 6162
+	~{"ID2002", "Kuldahar Pass - beetle area"},~                                                        => 6163
+	~{"ID2003", "Kuldahar Pass - Gherg's tower"},~                                                      => 6164
+	~{"ID2004", "Kuldahar Pass - Mill - entrance"},~                                                    => 6165
+	~{"ID2005", "Kuldahar Pass - Mill - basement"},~                                                    => 6166
+	~{"ID2006", "Kuldahar Pass - Mill - upper story"},~                                                 => 6167
+	~{"ID2100", "Kuldahar"},~                                                                           => 6168
+	~{"ID2101", "Kuldahar - Orrick the Grey's tower - entrance area"},~                                 => 6169
+	~{"ID2102", "Kuldahar - Orrick the Grey's tower - study"},~                                         => 6170
+	~{"ID2103", "Kuldahar - Conlan's Smithy"},~                                                         => 6171
+	~{"ID2104", "Kuldahar - Townsperson home"},~                                                        => 6172
+	~{"ID2105", "Kuldahar - Townsperson home"},~                                                        => 6173
+	~{"ID2106", "Kuldahar - Townsperson home"},~                                                        => 6174
+	~{"ID2107", "Kuldahar - Temple of Ilmater - House of the Bleeding Rose"},~                          => 6175
+	~{"ID2108", "Kuldahar - Airship of Oswald Fiddlebender"},~                                          => 6176
+	~{"ID2109", "Kuldahar - Home of Hjollder (inaccessible without Heart of Winter)"},~                 => 6177
+	~{"ID2110", "Kuldahar - Home of Urnst the Potter"},~                                                => 6178
+	~{"ID2111", "Kuldahar - Root Cellar Tavern"},~                                                      => 6179
+	~{"ID2112", "Kuldahar - Home of Arundel - first floor"},~                                           => 6180
+	~{"ID2113", "Kuldahar - Gerth's Equipment Shoppe"},~                                                => 6181
+	~{"ID2114", "Kuldahar - Evening Shade Inn - first floor"},~                                         => 6182
+	~{"ID2115", "Kuldahar - Evening Shade Inn - second floor"},~                                        => 6183
+	~{"ID2116", "Kuldahar - Home of Arundel - second floor"},~                                          => 6184
+	~{"ID3000", "Vale of Shadows - exterior"},~                                                         => 6185
+	~{"ID3001", "Vale of Shadows - yeti cave"},~                                                        => 6186
+	~{"ID3101", "Vale of Shadows - minor tomb"},~                                                       => 6187
+	~{"ID3201", "Vale of Shadows - minor tomb"},~                                                       => 6188
+	~{"ID3301", "Vale of Shadows - Temple of Myrkul"},~                                                 => 6189
+	~{"ID3401", "Vale of Shadows - minor tomb"},~                                                       => 6190
+	~{"ID3501", "Vale of Shadows - Tomb of Kresselack - first level"},~                                 => 6191
+	~{"ID3502", "Vale of Shadows - Tomb of Kresselack - second level"},~                                => 6192
+	~{"ID3503", "Vale of Shadows - Tomb of Kresselack - third level"},~                                 => 6193
+	~{"ID3600", "Temple of the Forgotten God - exterior"},~                                             => 6194
+	~{"ID3601", "Temple of the Forgotten God - first level"},~                                          => 6195
+	~{"ID3602", "Temple of the Forgotten God - second level"},~                                         => 6196
+	~{"ID3603", "Temple of the Forgotten God - third level"},~                                          => 6197
+	~{"ID4000", "Dragon's Eye - exterior"},~                                                            => 6198
+	~{"ID4001", "Dragon's Eye - first dungeon level (Lizard King)"},~                                   => 6199
+	~{"ID4002", "Dragon's Eye - second dungeon level (Talonites)"},~                                    => 6200
+	~{"ID4003", "Dragon's Eye - third dungeon level (Presio)"},~                                        => 6201
+	~{"ID4004", "Dragon's Eye - fourth dungeon level (Eldathyn)"},~                                     => 6202
+	~{"ID4005", "Dragon's Eye - fifth dungeon level (Yxunomei)"},~                                      => 6203
+	~{"ID5000", "Severed Hand - exterior"},~                                                            => 6204
+	~{"ID5001", "Severed Hand - main tower - first floor"},~                                            => 6205
+	~{"ID5002", "Severed Hand - main tower - second floor"},~                                           => 6206
+	~{"ID5003", "Severed Hand - main tower - third floor"},~                                            => 6207
+	~{"ID5004", "Severed Hand - main tower - fourth floor"},~                                           => 6208
+	~{"ID5101", "Severed Hand - Tower of Labelas - destroyed floor"},~                                  => 6209
+	~{"ID5102", "Severed Hand - Tower of Labelas - library, Custhantos"},~                              => 6210
+	~{"ID5103", "Severed Hand - Tower of Labelas - Larrel, astrolabe"},~                                => 6211
+	~{"ID5104", "Severed Hand - Tower of Labelas - entrance floor"},~                                   => 6212
+	~{"ID5201", "Severed Hand - Tower of Solonor - first floor, Denaini"},~                             => 6213
+	~{"ID5202", "Severed Hand - Tower of Solonor - second floor"},~                                     => 6214
+	~{"ID5203", "Severed Hand - Tower of Solonor - third floor"},~                                      => 6215
+	~{"ID5204", "Severed Hand - Tower of Solonor - fourth floor"},~                                     => 6216
+	~{"ID5301", "Severed Hand - Tower of Corellon - first floor"},~                                     => 6217
+	~{"ID5302", "Severed Hand - Tower of Corellon - second floor"},~                                    => 6218
+	~{"ID5303", "Severed Hand - Tower of Corellon - third floor"},~                                     => 6219
+	~{"ID5304", "Severed Hand - Tower of Corellon - fourth floor, Valestis, arboretum"},~               => 6220
+	~{"ID5401", "Severed Hand - Tower of Sheverash - first floor, Kaylessa"},~                          => 6221
+	~{"ID5402", "Severed Hand - Tower of Sheverash - second floor"},~                                   => 6222
+	~{"ID5403", "Severed Hand - Tower of Sheverash - third floor"},~                                    => 6223
+	~{"ID5404", "Severed Hand - Tower of Sheverash - fourth floor"},~                                   => 6224
+	~{"ID5502", "Severed Hand - bridge between Towers of Labelas and Sheverash"},~                      => 6225
+	~{"ID6000", "Dorn's Deep - exterior"},~                                                             => 6226
+	~{"ID6001", "Dorn's Deep - entry cavern"},~                                                         => 6227
+	~{"ID6002", "Dorn's Deep - main hall"},~                                                            => 6228
+	~{"ID6003", "Dorn's Deep - orog cave, Saablic, Krilag"},~                                           => 6229
+	~{"ID6004", "Dorn's Deep - Temple of Moradin (cold forge)"},~                                       => 6230
+	~{"ID6005", "Dorn's Deep - Tiers of the Dead"},~                                                    => 6231
+	~{"ID6006", "Dorn's Deep - Hall of Heroes"},~                                                       => 6232
+	~{"ID6007", "Dorn's Deep - ettin cave"},~                                                           => 6233
+	~{"ID6008", "Dorn's Deep - orog cave"},~                                                            => 6234
+	~{"ID6009", "Dorn's Deep - orc cave"},~                                                             => 6235
+	~{"ID6010", "Dorn's Deep - circle of runes room"},~                                                 => 6236
+	~{"ID6011", "Dorn's Deep - machinery room"},~                                                       => 6237
+	~{"ID6013", "Dorn's Deep - Temple of Moradin (working forge)"},~                                    => 6238
+	~{"ID6014", "Dorn's Deep - Bandoth's cave"},~                                                       => 6239
+	~{"ID7000", "Wyrm's Tooth Glacier - entry pass"},~                                                  => 6240
+	~{"ID7001", "Wyrm's Tooth Glacier - aquarium interior, ice salamander lair"},~                      => 6241
+	~{"ID7002", "Wyrm's Tooth Glacier - small circular room"},~                                         => 6242
+	~{"ID7003", "Wyrm's Tooth Glacier - Gareth, slaves"},~                                              => 6243
+	~{"ID7004", "Wyrm's Tooth Glacier - frost giant cave"},~                                            => 6244
+	~{"ID7005", "Wyrm's Tooth Glacier - aquarium exterior"},~                                           => 6245
+	~{"ID8001", "Lower Dorn's Deep - main cavern"},~                                                    => 6246
+	~{"ID8002", "Lower Dorn's Deep - watchtower stair"},~                                               => 6247
+	~{"ID8003", "Lower Dorn's Deep - oubliette, Tarnelm"},~                                             => 6248
+	~{"ID8004", "Lower Dorn's Deep - free gnome camp, Nym"},~                                           => 6249
+	~{"ID8005", "Lower Dorn's Deep - Order of the Kraken garde"},~                                      => 6250
+	~{"ID8006", "Lower Dorn's Deep - Order of the Kraken manor - first floor, Ginafae"},~               => 6251
+	~{"ID8007", "Lower Dorn's Deep - Order of the Kraken manor - second floor, Marketh"},~              => 6252
+	~{"ID8008", "Lower Dorn's Deep - mines, Guello, Shikata"},~                                         => 6253
+	~{"ID8009", "Lower Dorn's Deep - artisan's district"},~                                             => 6254
+	~{"ID8010", "Lower Dorn's Deep - Malavon's lair"},~                                                 => 6255
+	~{"ID8011", "Lower Dorn's Deep - forge, Ilmadia"},~                                                 => 6256
+	~{"ID8012", "Lower Dorn's Deep - Brother Perdiem"},~                                                => 6257
+	~{"ID8013", "Lower Dorn's Deep - Reverend Brother Poquelin"},~                                      => 6258
+	~{"ID8014", "Lower Dorn's Deep - watchtower top level"},~                                           => 6259
+	~{"ID8015", "Lower Dorn's Deep - Norl's shop"},~                                                    => 6260
+	~{"ID8016", "Lower Dorn's Deep - home in free gnome camp"},~                                        => 6261
 	
 	// CheatsAreas pour IWD HoW Areas
 	
-	REPLACE_TEXTUALLY ~{"ID9100", "Lonelywood"},~                                                                         ~{"  ", "        HEART OF WINTER        "},
-	{"ID9100", "(HOW)  Lonelywood"},~
-	REPLACE_TEXTUALLY ~{"ID9101", "Lonelywood - Whistling Gallows - first floor"},~                                       ~{"ID9101", "(HOW)  Lonelywood - Whistling Gallows - first floor"},~
-	REPLACE_TEXTUALLY ~{"ID9102", "Lonelywood - Whistling Gallows - second floor"},~                                      ~{"ID9102", "(HOW)  Lonelywood - Whistling Gallows - second floor"},~
-	REPLACE_TEXTUALLY ~{"ID9103", "Lonelywood - Temple of Waukeen"},~                                                     ~{"ID9103", "(HOW)  Lonelywood - Temple of Waukeen"},~
-	REPLACE_TEXTUALLY ~{"ID9104", "Lonelywood - Home of Emmerich"},~                                                      ~{"ID9104", "(HOW)  Lonelywood - Home of Emmerich"},~
-	REPLACE_TEXTUALLY ~{"ID9105", "Lonelywood - Dunn home"},~                                                             ~{"ID9105", "(HOW)  Lonelywood - Dunn home"},~
-	REPLACE_TEXTUALLY ~{"ID9106", "Lonelywood - Thurlow home - first floor"},~                                            ~{"ID9106", "(HOW)  Lonelywood - Thurlow home - first floor"},~
-	REPLACE_TEXTUALLY ~{"ID9107", "Lonelywood - Thurlow home - second floor"},~                                           ~{"ID9107", "(HOW)  Lonelywood - Thurlow home - second floor"},~
-	REPLACE_TEXTUALLY ~{"ID9108", "Lonelywood - Home of trappers"},~                                                      ~{"ID9108", "(HOW)  Lonelywood - Home of trappers"},~
-	REPLACE_TEXTUALLY ~{"ID9109", "Lonelywood - Home of Farold"},~                                                        ~{"ID9109", "(HOW)  Lonelywood - Home of Farold"},~
-	REPLACE_TEXTUALLY ~{"ID9110", "Lonelywood - Home of Purvis"},~                                                        ~{"ID9110", "(HOW)  Lonelywood - Home of Purvis"},~
-	REPLACE_TEXTUALLY ~{"ID9200", "Barbarian camp"},~                                                                     ~{"ID9200", "(HOW)  Barbarian camp"},~
-	REPLACE_TEXTUALLY ~{"ID9201", "Barbarian camp - Mead Hall"},~                                                         ~{"ID9201", "(HOW)  Barbarian camp - Mead Hall"},~
-	REPLACE_TEXTUALLY ~{"ID9300", "Burial Isle"},~                                                                        ~{"ID9300", "(HOW)  Burial Isle"},~
-	REPLACE_TEXTUALLY ~{"ID9301", "Burial Isle - Tower of Edion"},~                                                       ~{"ID9301", "(HOW)  Burial Isle - Tower of Edion"},~
-	REPLACE_TEXTUALLY ~{"ID9400", "Burial Isle - Wylfdene's barrow"},~                                                    ~{"ID9400", "(HOW)  Burial Isle - Wylfdene's barrow"},~
-	REPLACE_TEXTUALLY ~{"ID9500", "Gloomfrost"},~                                                                         ~{"ID9500", "(HOW)  Gloomfrost"},~
-	REPLACE_TEXTUALLY ~{"ID9501", "Gloomfrost interior - first level, Tiernon"},~                                         ~{"ID9501", "(HOW)  Gloomfrost interior - first level, Tiernon"},~
-	REPLACE_TEXTUALLY ~{"ID9502", "Gloomfrost interior - second level, Seer"},~                                           ~{"ID9502", "(HOW)  Gloomfrost interior - second level, Seer"},~
-	REPLACE_TEXTUALLY ~{"ID9600", "Sea of Moving Ice"},~                                                                  ~{"ID9600", "(HOW)  Sea of Moving Ice"},~
-	REPLACE_TEXTUALLY ~{"ID9601", "Sea of Moving Ice - cave entrance"},~                                                  ~{"ID9601", "(HOW)  Sea of Moving Ice - cave entrance"},~
-	REPLACE_TEXTUALLY ~{"ID9602", "Sea of Moving Ice - Field of Bones"},~                                                 ~{"ID9602", "(HOW)  Sea of Moving Ice - Field of Bones"},~
-	REPLACE_TEXTUALLY ~{"ID9603", "Sea of Moving Ice - Icasaracht lair exterior"},~                                       ~{"ID9603", "(HOW)  Sea of Moving Ice - Icasaracht lair exterior"},~
-	REPLACE_TEXTUALLY ~{"ID9604", "Sea of Moving Ice - Icasaracht lair interior"},~                                       ~{"ID9604", "(HOW)  Sea of Moving Ice - Icasaracht lair interior"},~
+	~{"ID9100", "Lonelywood"},~                                                                         => 6262
+	~{"ID9101", "Lonelywood - Whistling Gallows - first floor"},~                                       => 6263
+	~{"ID9102", "Lonelywood - Whistling Gallows - second floor"},~                                      => 6264
+	~{"ID9103", "Lonelywood - Temple of Waukeen"},~                                                     => 6265
+	~{"ID9104", "Lonelywood - Home of Emmerich"},~                                                      => 6266
+	~{"ID9105", "Lonelywood - Dunn home"},~                                                             => 6267
+	~{"ID9106", "Lonelywood - Thurlow home - first floor"},~                                            => 6268
+	~{"ID9107", "Lonelywood - Thurlow home - second floor"},~                                           => 6269
+	~{"ID9108", "Lonelywood - Home of trappers"},~                                                      => 6270
+	~{"ID9109", "Lonelywood - Home of Farold"},~                                                        => 6271
+	~{"ID9110", "Lonelywood - Home of Purvis"},~                                                        => 6272
+	~{"ID9200", "Barbarian camp"},~                                                                     => 6273
+	~{"ID9201", "Barbarian camp - Mead Hall"},~                                                         => 6274
+	~{"ID9300", "Burial Isle"},~                                                                        => 6275
+	~{"ID9301", "Burial Isle - Tower of Edion"},~                                                       => 6276
+	~{"ID9400", "Burial Isle - Wylfdene's barrow"},~                                                    => 6277
+	~{"ID9500", "Gloomfrost"},~                                                                         => 6278
+	~{"ID9501", "Gloomfrost interior - first level, Tiernon"},~                                         => 6279
+	~{"ID9502", "Gloomfrost interior - second level, Seer"},~                                           => 6280
+	~{"ID9600", "Sea of Moving Ice"},~                                                                  => 6281
+	~{"ID9601", "Sea of Moving Ice - cave entrance"},~                                                  => 6282
+	~{"ID9602", "Sea of Moving Ice - Field of Bones"},~                                                 => 6283
+	~{"ID9603", "Sea of Moving Ice - Icasaracht lair exterior"},~                                       => 6284
+	~{"ID9604", "Sea of Moving Ice - Icasaracht lair interior"},~                                       => 6285
 	
 	// CheatsAreas pour IWD ToTL Areas
 	
-	REPLACE_TEXTUALLY ~{"ID9700", "Anauroch Castle - outer courtyard (TotL start area)"},~                                ~{"  ", "        TRIALS OF THE LUREMASTER        "},
-	{"ID9700", "(ToTL)  Anauroch Castle - outer courtyard (TotL start area)"},~
-	REPLACE_TEXTUALLY ~{"ID9701", "Anauroch Castle - south Tower basement - battle test"},~                               ~{"ID9701", "(ToTL)  Anauroch Castle - south Tower basement - battle test"},~
-	REPLACE_TEXTUALLY ~{"ID9702", "Anauroch Castle - south tower upstairs - wyverns"},~                                   ~{"ID9702", "(ToTL)  Anauroch Castle - south tower upstairs - wyverns"},~
-	REPLACE_TEXTUALLY ~{"ID9703", "Anauroch Castle - west Tower basement - intelligence test"},~                          ~{"ID9703", "(ToTL)  Anauroch Castle - west Tower basement - intelligence test"},~
-	REPLACE_TEXTUALLY ~{"ID9704", "Anauroch Castle - west Tower upstairs - Harald"},~                                     ~{"ID9704", "(ToTL)  Anauroch Castle - west Tower upstairs - Harald"},~
-	REPLACE_TEXTUALLY ~{"ID9705", "Anauroch Castle - north Tower basement - courage test"},~                              ~{"ID9705", "(ToTL)  Anauroch Castle - north Tower basement - courage test"},~
-	REPLACE_TEXTUALLY ~{"ID9706", "Anauroch Castle - north Tower upstairs - harpy queen"},~                               ~{"ID9706", "(ToTL)  Anauroch Castle - north Tower upstairs - harpy queen"},~
-	REPLACE_TEXTUALLY ~{"ID9707", "Anauroch Castle - east Tower basement - perseverance test"},~                          ~{"ID9707", "(ToTL)  Anauroch Castle - east Tower basement - perseverance test"},~
-	REPLACE_TEXTUALLY ~{"ID9708", "Anauroch Castle - east Tower upstairs - Banites"},~                                    ~{"ID9708", "(ToTL)  Anauroch Castle - east Tower upstairs - Banites"},~
-	REPLACE_TEXTUALLY ~{"ID9709", "Anauroch Castle - western battlements"},~                                              ~{"ID9709", "(ToTL)  Anauroch Castle - western battlements"},~
-	REPLACE_TEXTUALLY ~{"ID9710", "Anauroch Castle - eastern battlements"},~                                              ~{"ID9710", "(ToTL)  Anauroch Castle - eastern battlements"},~
-	REPLACE_TEXTUALLY ~{"ID9711", "Anauroch Castle - inner courtyard"},~                                                  ~{"ID9711", "(ToTL)  Anauroch Castle - inner courtyard"},~
-	REPLACE_TEXTUALLY ~{"ID9712", "Anauroch Castle - upper story"},~                                                      ~{"ID9712", "(ToTL)  Anauroch Castle - upper story"},~
-	REPLACE_TEXTUALLY ~{"ID9713", "Anauroch Castle - Ruined Temple of Helm"},~                                            ~{"ID9713", "(ToTL)  Anauroch Castle - Ruined Temple of Helm"},~
-	REPLACE_TEXTUALLY ~{"ID9714", "Anauroch Castle - Watchknight Tomb"},~                                                 ~{"ID9714", "(ToTL)  Anauroch Castle - Watchknight Tomb"},~
-	REPLACE_TEXTUALLY ~{"ID9715", "Anauroch Castle - hideout of Hobart"},~                                                ~{"ID9715", "(ToTL)  Anauroch Castle - hideout of Hobart"},~
-	REPLACE_TEXTUALLY ~{"ID9716", "Anauroch Castle - dungeon level 1"},~                                                  ~{"ID9716", "(ToTL)  Anauroch Castle - dungeon level 1"},~
-	REPLACE_TEXTUALLY ~{"ID9717", "Anauroch Castle - dungeon level 2"},~                                                  ~{"ID9717", "(ToTL)  Anauroch Castle - dungeon level 2"},~
-	REPLACE_TEXTUALLY ~{"ID9718", "Anauroch Castle - dungeon level 3"},~                                                  ~{"ID9718", "(ToTL)  Anauroch Castle - dungeon level 3"},~
-	REPLACE_TEXTUALLY ~{"ID9800", "Anauroch Castle - Jackal Clan caverns - level 1"},~                                    ~{"ID9800", "(ToTL)  Anauroch Castle - Jackal Clan caverns - level 1"},~
-	REPLACE_TEXTUALLY ~{"ID9801", "Anauroch Castle - Jackal Clan caverns - level 2"},~                                    ~{"ID9801", "(ToTL)  Anauroch Castle - Jackal Clan caverns - level 2"},~
-	
+	~{"ID9700", "Anauroch Castle - outer courtyard (TotL start area)"},~                                => 6286
+	~{"ID9701", "Anauroch Castle - south Tower basement - battle test"},~                               => 6287
+	~{"ID9702", "Anauroch Castle - south tower upstairs - wyverns"},~                                   => 6288
+	~{"ID9703", "Anauroch Castle - west Tower basement - intelligence test"},~                          => 6289
+	~{"ID9704", "Anauroch Castle - west Tower upstairs - Harald"},~                                     => 6290
+	~{"ID9705", "Anauroch Castle - north Tower basement - courage test"},~                              => 6291
+	~{"ID9706", "Anauroch Castle - north Tower upstairs - harpy queen"},~                               => 6292
+	~{"ID9707", "Anauroch Castle - east Tower basement - perseverance test"},~                          => 6293
+	~{"ID9708", "Anauroch Castle - east Tower upstairs - Banites"},~                                    => 6294
+	~{"ID9709", "Anauroch Castle - western battlements"},~                                              => 6295
+	~{"ID9710", "Anauroch Castle - eastern battlements"},~                                              => 6296
+	~{"ID9711", "Anauroch Castle - inner courtyard"},~                                                  => 6297
+	~{"ID9712", "Anauroch Castle - upper story"},~                                                      => 6298
+	~{"ID9713", "Anauroch Castle - Ruined Temple of Helm"},~                                            => 6299
+	~{"ID9714", "Anauroch Castle - Watchknight Tomb"},~                                                 => 6300
+	~{"ID9715", "Anauroch Castle - hideout of Hobart"},~                                                => 6301
+	~{"ID9716", "Anauroch Castle - dungeon level 1"},~                                                  => 6302
+	~{"ID9717", "Anauroch Castle - dungeon level 2"},~                                                  => 6303
+	~{"ID9718", "Anauroch Castle - dungeon level 3"},~                                                  => 6304
+	~{"ID9800", "Anauroch Castle - Jackal Clan caverns - level 1"},~                                    => 6305
+	~{"ID9801", "Anauroch Castle - Jackal Clan caverns - level 2"},~                                    => 6306
+
+END
+
+    PATCH_PHP_EACH strings AS find => replace_ref BEGIN
+        SPRINT replace (AT replace_ref)
+        REPLACE_TEXTUALLY ~%find%~ ~%replace%~
+    END
 END

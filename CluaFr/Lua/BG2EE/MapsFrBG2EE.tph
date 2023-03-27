@@ -1,14 +1,14 @@
 ACTION_IF FILE_EXISTS_IN_GAME ~bgee.lua~ BEGIN
 	COPY_EXISTING ~bgee.lua~ ~override/bgee.lua~
 
-	// CheatsAreas Tutoriel
+	// CheatsAreas Tutoriel                                                                           // MapsFrBG2EE.tra
 	PATCH_DEFINE_ASSOCIATIVE_ARRAY strings BEGIN
-	~{"AR0015", "Baldur's Gate Estate (Tutorial starts here)"},~                              => 990
-	~{"AR0016", "Baldur's Gate Estate (Tutorial area)"},~                                     => 991
-	~{"AR0017", "Baldur's Gate Estate (Tutorial area)"},~                                     => 992
-	~{"AR0018", "Baldur's Gate Estate Cellar (Tutorial area)"},~                              => 993
+	~{"AR0015", "Baldur's Gate Estate (Tutorial starts here)"},~                                      => 990
+	~{"AR0016", "Baldur's Gate Estate (Tutorial area)"},~                                             => 991
+	~{"AR0017", "Baldur's Gate Estate (Tutorial area)"},~                                             => 992
+	~{"AR0018", "Baldur's Gate Estate Cellar (Tutorial area)"},~                                      => 993
 
-	// CheatsAreas SoA
+	// CheatsAreas SoA                                                                                // MapsFrEET.tra
 
 	~{"AR0011", "Candlekeep Dream 1 (Do you remember Candlekeep\?)"},~                                => 1566
 	~{"AR0012", "Candlekeep Library (Main Door Trigger)"},~                                           => 1567

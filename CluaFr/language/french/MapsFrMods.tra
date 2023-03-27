@@ -1,0 +1,1191 @@
+// @6000 à ...
+
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+/////         CheatsAreas pour les mods                \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+
+
+	// CheatsAreas pour Check the bodies
+
+
+@6000 = ~--End SoA 
+	--CtB Areas
+	{"  ", "        CHECK THE BODIES        "},
+	{"AR3520", "(CTB)  Montagnes du Couchant"},
+	{"AR3521", "(CTB)  Tanière de Patte de Velours, (Montagnes du Couchant)"},
+	{"AR3525", "(CTB)  Aléatoire, Ruelle 1"},
+	{"AR3526", "(CTB)  Aléatoire, Ruelle 2"},
+	{"AR3530", "(CTB)  Compagnie des Huit, L1 (Forêt de Téthyr)"},
+	{"AR3531", "(CTB)  Compagnie des Huit, L2 (Forêt de Téthyr)"},
+	{"AR3532", "(CTB)  Compagnie des Huit, L3 (Forêt de Téthyr)"},
+	{"AR3534", "(CTB)  Passe des Montagnes Floconeigeuses, (Bloc de glace)"},
+	{"AR3535", "(CTB)  Montagnes Floconeigeuses, (Chalet)"},
+	{"AR3536", "(CTB)  Chalet des Montagnes Floconeigeuses"},
+	{"AR3540", "(CTB)  Académie de Kuldin"},
+	{"AR3541", "(CTB)  Académie de Kuldin, L1"},
+	{"AR3542", "(CTB)  Académie de Kuldin, L2"},
+	{"AR3543", "(CTB)  Académie de Kuldin, L3"},
+	{"AR3544", "(CTB)  Académie de Kuldin, L4"},
+	{"AR3545", "(CTB)  Académie de Kuldin, L8 zone 4"},
+	{"AR3546", "(CTB)  Académie de Kuldin, L9 zone 4"},
+	{"AR3547", "(CTB)  Académie de Kuldin, L7 zone 4"},
+	{"AR3548", "(CTB)  Académie de Kuldin, L5 zone 1"},
+	{"AR3549", "(CTB)  Académie de Kuldin, L6 zone 1"},
+	{"AR3550", "(CTB)  Académie de Kuldin, L7 zone 1"},
+	{"AR3551", "(CTB)  Académie de Kuldin, L8 zone 1"},
+	{"AR3552", "(CTB)  Académie de Kuldin, L5 zone 2"},
+	{"AR3553", "(CTB)  Académie de Kuldin, L6 zone 2"},
+	{"AR3554", "(CTB)  Académie de Kuldin, L7 zone 2"},
+	{"AR3555", "(CTB)  Académie de Kuldin, L8 zone 2"},
+	{"AR3556", "(CTB)  Académie de Kuldin, L5 zone 3"},
+	{"AR3557", "(CTB)  Académie de Kuldin, L6 zone 3"},
+	{"AR3558", "(CTB)  Académie de Kuldin, L7 zone 3"},
+	{"AR3559", "(CTB)  Académie de Kuldin, L8 zone 3"},
+	{"AR3560", "(CTB)  Académie de Kuldin, L7 zone 3 (Pont)"},
+	{"AR3565", "(CTB)  Guilde des voleurs de l'Ombre, (Quête)"},
+	{"AR3566", "(CTB)  Labyrinthe des voleurs de l'Ombre, (Quête)"},
+	{"AR3570", "(CTB)  Plaine isolée"},
+	{"AR3575", "(CTB)  Temple souterrain, (Grotte d'Umar)"},
+	{"AR3576", "(CTB)  Donjon sous la Couronne de Cuivre, (Égouts)"},
+	{"AR3578", "(CTB)  Maison sur les quais, L2 (Kangaxx)"},
+	{"AR3579", "(CTB)  Maison sur les quais, L3 zone 1"},
+	{"AR3580", "(CTB)  Maison sur les quais, L3 zone 2"},
+	{"AR3581", "(CTB)  Maison sur les quais, L4 zone 1"},
+	{"AR3582", "(CTB)  Maison sur les quais, L4 zone 2"},
+	{"AR3583", "(CTB)  Maison sur les quais, L4 zone 3"},
+	{"AR3584", "(CTB)  Maison sur les quais, L4 zone 4"},
+	{"AR3585", "(CTB)  Cabanon de chasse"},
+	{"AR3586", "(CTB)  Cabanon de chasse, L1"},
+	{"AR3587", "(CTB)  Cercle Druidique"},
+	{"AR3588", "(CTB)  Île de Ruathym, (Sud)"},
+	{"AR3589", "(CTB)  Île de Ruathym, Maison 1 (S)"},
+	{"AR3590", "(CTB)  Île de Ruathym, Maison 2 (S)"},
+	{"AR3591", "(CTB)  Île de Ruathym, Maison 3 (S)"},
+	{"AR3593", "(CTB)  Île de Ruathym, Maison 4 (S)"},
+	{"AR3594", "(CTB)  Île de Ruathym, (Nord)"},
+	{"AR3595", "(CTB)  Rivière empoisonnée, (Cabanon de chasse)"},
+	{"AR3596", "(CTB)  Bâtiment du Conseil des Six, (Quête)"},
+	{"AR3597", "(CTB)  Ranch de chevaux de Neng"},
+	{"AR3598", "(CTB)  Ranch de chevaux de Neng, Écurie"},
+	{"AR3599", "(CTB)  Ranch de chevaux de Neng, Maison"},
+	{"AR3600", "(CTB)  Entrée de la caverne, (Ranch )"},
+	{"AR3601", "(CTB)  Caverne, (Ranch )"},
+	{"AR3610", "(CTB)  Hlondeth, CENTRE"},
+	{"AR3611", "(CTB)  Hlondeth, EST"},
+	{"AR3613", "(CTB)  Hlondeth, OUEST"},
+	{"AR3615", "(CTB)  Hlondeth, Maison 1 (C)"},
+	{"AR3616", "(CTB)  Hlondeth, Maison 2 L1(C)"},
+	{"AR3617", "(CTB)  Hlondeth, Maison 2 L2(C)"},
+	{"AR3618", "(CTB)  Hlondeth, Maison 3 L1(C)"},
+	{"AR3619", "(CTB)  Hlondeth, Maison 3 L2(C)"},
+	{"AR3620", "(CTB)  Hlondeth, Maison 4(C)"},
+	{"AR3621", "(CTB)  Hlondeth, Maison 5 L1(C)"},
+	{"AR3622", "(CTB)  Hlondeth, Maison 5 L2(C)"},
+	{"AR3623", "(CTB)  Hlondeth, Maison 6(C)"},
+	{"AR3624", "(CTB)  Hlondeth, Maison 7(C)"},
+	{"AR3625", "(CTB)  Hlondeth, Maison 8(C)"},
+	{"AR3626", "(CTB)  Hlondeth, Maison 9(C)"},
+	{"AR3627", "(CTB)  Hlondeth, Maison 10(C)"},
+	{"AR3628", "(CTB)  Hlondeth, Maison 11(C)"},
+	{"AR3629", "(CTB)  Hlondeth, Maison 12 L1(C)"},
+	{"AR3630", "(CTB)  Hlondeth, Maison 12 L2(C)"},
+	{"AR3631", "(CTB)  Hlondeth, Maison 13(C)"},
+	{"AR3632", "(CTB)  Hlondeth, Maison 14(C)"},
+	{"AR3633", "(CTB)  Hlondeth, Maison 15(C)"},
+	{"AR3634", "(CTB)  Hlondeth, Maison 16(C)"},
+	{"AR3635", "(CTB)  Hlondeth, Taverne de Charlie (C)"},
+	{"AR3636", "(CTB)  Hlondeth, Magasin de Valiant (C)"},
+	{"AR3637", "(CTB)  Hlondeth, Temple de Mystra L1(C)"},
+	{"AR3638", "(CTB)  Hlondeth, Temple de Mystra L2(C)"},
+	{"AR3640", "(CTB)  Hlondeth, Entrepôt 1(E)"},
+	{"AR3641", "(CTB)  Hlondeth, Entrepôt 2(E)"},
+	{"AR3642", "(CTB)  Hlondeth, Auberge d'Ezekial L1(E)"},
+	{"AR3643", "(CTB)  Hlondeth, Auberge d'Ezekial L2(E)"},
+	{"AR3644", "(CTB)  Hlondeth, Maison Extaminos L1(E)"},
+	{"AR3645", "(CTB)  Hlondeth, Maison Extaminos L2(E)"},
+	{"AR3646", "(CTB)  Hlondeth, Maison Extaminos L3(E)"},
+	{"AR3647", "(CTB)  Hlondeth, Herboriste (O)"},
+	{"AR3648", "(CTB)  Hlondeth, Maison 2 L1(O)"},
+	{"AR3649", "(CTB)  Hlondeth, Maison 3(O)"},
+	{"AR3650", "(CTB)  Hlondeth, Maison de Thron Sturman (O)"},
+	{"AR3651", "(CTB)  Hlondeth, Auberge du Serpent Rampant L1(O)"},
+	{"AR3652", "(CTB)  Hlondeth, Auberge du Serpent Rampant L2(O)"},
+	{"AR3653", "(CTB)  Hlondeth, Maison 2 L2(O)"},
+	{"AR3675", "(CTB)  Pont de Brimstone"},
+	{"CB3661", "(CTB)  Hlondeth, Sous-sol Extaminos zone 1(E)"},
+	{"CB3662", "(CTB)  Hlondeth, Sous-sol Extaminos zone 2(E)"},
+	{"CB3663", "(CTB)  Hlondeth, Sous-sol Extaminos zone 3(E)"},
+	{"CB3664", "(CTB)  Hlondeth, Sous-sol Extaminos zone 4(E)"},
+	{"CB3665", "(CTB)  Hlondeth, Sous-sol Extaminos zone 5(E)"},
+	{"CB3666", "(CTB)  Hlondeth, Sous-sol Extaminos zone 6(E)"},
+	{"CB3667", "(CTB)  Hlondeth, Sous-sol Extaminos zone 7(E)"},
+	{"CB3668", "(CTB)  Hlondeth, Sous-sol Extaminos zone 8(E)"}, 
+	--End CtB Areas~
+/*
+@6000 = ~--CtB Areas
+	{"  ", "        CHECK THE BODIES        "},
+	{"AR3520", "(CTB)  Montagnes du Couchant"},~
+@6001 = ~{"AR3521", "(CTB)  Tanière de Patte de Velours, (Montagnes du Couchant)"},~
+@6002 = ~{"AR3525", "(CTB)  Aléatoire, Ruelle 1"},~
+@6003 = ~{"AR3526", "(CTB)  Aléatoire, Ruelle 2"},~
+@6004 = ~{"AR3530", "(CTB)  Compagnie des Huit, L1 (Forêt de Téthyr)"},~
+@6005 = ~{"AR3531", "(CTB)  Compagnie des Huit, L2 (Forêt de Téthyr)"},~
+@6006 = ~{"AR3532", "(CTB)  Compagnie des Huit, L3 (Forêt de Téthyr)"},~
+@6007 = ~{"AR3534", "(CTB)  Passe des Montagnes Floconeigeuses, (Bloc de glace)"},~
+@6008 = ~{"AR3535", "(CTB)  Montagnes Floconeigeuses, (Chalet)"},~
+@6009 = ~{"AR3536", "(CTB)  Chalet des Montagnes Floconeigeuses"},~
+@6010 = ~{"AR3540", "(CTB)  Académie de Kuldin"},~
+@6011 = ~{"AR3541", "(CTB)  Académie de Kuldin, L1"},~
+@6012 = ~{"AR3542", "(CTB)  Académie de Kuldin, L2"},~
+@6013 = ~{"AR3543", "(CTB)  Académie de Kuldin, L3"},~
+@6014 = ~{"AR3544", "(CTB)  Académie de Kuldin, L4"},~
+@6015 = ~{"AR3545", "(CTB)  Académie de Kuldin, L8 zone 4"},~
+@6016 = ~{"AR3546", "(CTB)  Académie de Kuldin, L9 zone 4"},~
+@6017 = ~{"AR3547", "(CTB)  Académie de Kuldin, L7 zone 4"},~
+@6018 = ~{"AR3548", "(CTB)  Académie de Kuldin, L5 zone 1"},~
+@6019 = ~{"AR3549", "(CTB)  Académie de Kuldin, L6 zone 1"},~
+@6020 = ~{"AR3550", "(CTB)  Académie de Kuldin, L7 zone 1"},~
+@6021 = ~{"AR3551", "(CTB)  Académie de Kuldin, L8 zone 1"},~
+@6022 = ~{"AR3552", "(CTB)  Académie de Kuldin, L5 zone 2"},~
+@6023 = ~{"AR3553", "(CTB)  Académie de Kuldin, L6 zone 2"},~
+@6024 = ~{"AR3554", "(CTB)  Académie de Kuldin, L7 zone 2"},~
+@6025 = ~{"AR3555", "(CTB)  Académie de Kuldin, L8 zone 2"},~
+@6026 = ~{"AR3556", "(CTB)  Académie de Kuldin, L5 zone 3"},~
+@6027 = ~{"AR3557", "(CTB)  Académie de Kuldin, L6 zone 3"},~
+@6028 = ~{"AR3558", "(CTB)  Académie de Kuldin, L7 zone 3"},~
+@6029 = ~{"AR3559", "(CTB)  Académie de Kuldin, L8 zone 3"},~
+@6030 = ~{"AR3560", "(CTB)  Académie de Kuldin, L7 zone 3 (Pont)"},~
+@6031 = ~{"AR3565", "(CTB)  Guilde des voleurs de l'Ombre, (Quête)"},~
+@6032 = ~{"AR3566", "(CTB)  Labyrinthe des voleurs de l'Ombre, (Quête)"},~
+@6033 = ~{"AR3570", "(CTB)  Plaine isolée"},~
+@6034 = ~{"AR3575", "(CTB)  Temple souterrain, (Grotte d'Umar)"},~
+@6035 = ~{"AR3576", "(CTB)  Donjon sous la Couronne de Cuivre, (Égouts)"},~
+@6036 = ~{"AR3578", "(CTB)  Maison sur les quais, L2 (Kangaxx)"},~
+@6037 = ~{"AR3579", "(CTB)  Maison sur les quais, L3 zone 1"},~
+@6038 = ~{"AR3580", "(CTB)  Maison sur les quais, L3 zone 2"},~
+@6039 = ~{"AR3581", "(CTB)  Maison sur les quais, L4 zone 1"},~
+@6040 = ~{"AR3582", "(CTB)  Maison sur les quais, L4 zone 2"},~
+@6041 = ~{"AR3583", "(CTB)  Maison sur les quais, L4 zone 3"},~
+@6042 = ~{"AR3584", "(CTB)  Maison sur les quais, L4 zone 4"},~
+@6043 = ~{"AR3585", "(CTB)  Cabanon de chasse"},~
+@6044 = ~{"AR3586", "(CTB)  Cabanon de chasse, L1"},~
+@6045 = ~{"AR3587", "(CTB)  Cercle Druidique"},~
+@6046 = ~{"AR3588", "(CTB)  Île de Ruathym, (Sud)"},~
+@6047 = ~{"AR3589", "(CTB)  Île de Ruathym, Maison 1 (S)"},~
+@6048 = ~{"AR3590", "(CTB)  Île de Ruathym, Maison 2 (S)"},~
+@6049 = ~{"AR3591", "(CTB)  Île de Ruathym, Maison 3 (S)"},~
+@6050 = ~{"AR3593", "(CTB)  Île de Ruathym, Maison 4 (S)"},~
+@6051 = ~{"AR3594", "(CTB)  Île de Ruathym, (Nord)"},~
+@6052 = ~{"AR3595", "(CTB)  Rivière empoisonnée, (Cabanon de chasse)"},~
+@6053 = ~{"AR3596", "(CTB)  Bâtiment du Conseil des Six, (Quête)"},~
+@6054 = ~{"AR3597", "(CTB)  Ranch de chevaux de Neng"},~
+@6055 = ~{"AR3598", "(CTB)  Ranch de chevaux de Neng, Écurie"},~
+@6056 = ~{"AR3599", "(CTB)  Ranch de chevaux de Neng, Maison"},~
+@6057 = ~{"AR3600", "(CTB)  Entrée de la caverne, (Ranch )"},~
+@6058 = ~{"AR3601", "(CTB)  Caverne, (Ranch )"},~
+@6059 = ~{"AR3610", "(CTB)  Hlondeth, CENTRE"},~
+@6060 = ~{"AR3611", "(CTB)  Hlondeth, EST"},~
+@6061 = ~{"AR3613", "(CTB)  Hlondeth, OUEST"},~
+@6062 = ~{"AR3615", "(CTB)  Hlondeth, Maison 1 (C)"},~
+@6063 = ~{"AR3616", "(CTB)  Hlondeth, Maison 2 L1(C)"},~
+@6064 = ~{"AR3617", "(CTB)  Hlondeth, Maison 2 L2(C)"},~
+@6065 = ~{"AR3618", "(CTB)  Hlondeth, Maison 3 L1(C)"},~
+@6066 = ~{"AR3619", "(CTB)  Hlondeth, Maison 3 L2(C)"},~
+@6067 = ~{"AR3620", "(CTB)  Hlondeth, Maison 4(C)"},~
+@6068 = ~{"AR3621", "(CTB)  Hlondeth, Maison 5 L1(C)"},~
+@6069 = ~{"AR3622", "(CTB)  Hlondeth, Maison 5 L2(C)"},~
+@6070 = ~{"AR3623", "(CTB)  Hlondeth, Maison 6(C)"},~
+@6071 = ~{"AR3624", "(CTB)  Hlondeth, Maison 7(C)"},~
+@6072 = ~{"AR3625", "(CTB)  Hlondeth, Maison 8(C)"},~
+@6073 = ~{"AR3626", "(CTB)  Hlondeth, Maison 9(C)"},~
+@6074 = ~{"AR3627", "(CTB)  Hlondeth, Maison 10(C)"},~
+@6075 = ~{"AR3628", "(CTB)  Hlondeth, Maison 11(C)"},~
+@6076 = ~{"AR3629", "(CTB)  Hlondeth, Maison 12 L1(C)"},~
+@6077 = ~{"AR3630", "(CTB)  Hlondeth, Maison 12 L2(C)"},~
+@6078 = ~{"AR3631", "(CTB)  Hlondeth, Maison 13(C)"},~
+@6079 = ~{"AR3632", "(CTB)  Hlondeth, Maison 14(C)"},~
+@6080 = ~{"AR3633", "(CTB)  Hlondeth, Maison 15(C)"},~
+@6081 = ~{"AR3634", "(CTB)  Hlondeth, Maison 16(C)"},~
+@6082 = ~{"AR3635", "(CTB)  Hlondeth, Taverne de Charlie (C)"},~
+@6083 = ~{"AR3636", "(CTB)  Hlondeth, Magasin de Valiant (C)"},~
+@6084 = ~{"AR3637", "(CTB)  Hlondeth, Temple de Mystra L1(C)"},~
+@6085 = ~{"AR3638", "(CTB)  Hlondeth, Temple de Mystra L2(C)"},~
+@6086 = ~{"AR3640", "(CTB)  Hlondeth, Entrepôt 1(E)"},~
+@6087 = ~{"AR3641", "(CTB)  Hlondeth, Entrepôt 2(E)"},~
+@6088 = ~{"AR3642", "(CTB)  Hlondeth, Auberge d'Ezekial L1(E)"},~
+@6089 = ~{"AR3643", "(CTB)  Hlondeth, Auberge d'Ezekial L2(E)"},~
+@6090 = ~{"AR3644", "(CTB)  Hlondeth, Maison Extaminos L1(E)"},~
+@6091 = ~{"AR3645", "(CTB)  Hlondeth, Maison Extaminos L2(E)"},~
+@6092 = ~{"AR3646", "(CTB)  Hlondeth, Maison Extaminos L3(E)"},~
+@6093 = ~{"AR3647", "(CTB)  Hlondeth, Herboriste (O)"},~
+@6094 = ~{"AR3648", "(CTB)  Hlondeth, Maison 2 L1(O)"},~
+@6095 = ~{"AR3649", "(CTB)  Hlondeth, Maison 3(O)"},~
+@6096 = ~{"AR3650", "(CTB)  Hlondeth, Maison de Thron Sturman (O)"},~
+@6097 = ~{"AR3651", "(CTB)  Hlondeth, Auberge du Serpent Rampant L1(O)"},~
+@6098 = ~{"AR3652", "(CTB)  Hlondeth, Auberge du Serpent Rampant L2(O)"},~
+@6099 = ~{"AR3653", "(CTB)  Hlondeth, Maison 2 L2(O)"},~
+@6100 = ~{"AR3675", "(CTB)  Pont de Brimstone"},~
+@6101 = ~{"CB3661", "(CTB)  Hlondeth, Sous-sol Extaminos zone 1(E)"},~
+@6102 = ~{"CB3662", "(CTB)  Hlondeth, Sous-sol Extaminos zone 2(E)"},~
+@6103 = ~{"CB3663", "(CTB)  Hlondeth, Sous-sol Extaminos zone 3(E)"},~
+@6104 = ~{"CB3664", "(CTB)  Hlondeth, Sous-sol Extaminos zone 4(E)"},~
+@6105 = ~{"CB3665", "(CTB)  Hlondeth, Sous-sol Extaminos zone 5(E)"},~
+@6106 = ~{"CB3666", "(CTB)  Hlondeth, Sous-sol Extaminos zone 6(E)"},~
+@6107 = ~{"CB3667", "(CTB)  Hlondeth, Sous-sol Extaminos zone 7(E)"},~
+@6108 = ~{"CB3668", "(CTB)  Hlondeth, Sous-sol Extaminos zone 8(E)"}, 
+	--End CtB Areas~
+*/
+
+	// CheatsAreas pour Test Your Mettle
+
+@6109 = ~{"  ", "        TEST YOUR METTLE        "},
+	{"A7#1FY", "Foyer, (Labyrinthe Modrone)"},~
+@6110 = ~{"A7#1EN", "Centre de contrôle, (Labyrinthe Modrone)"},~
+@6111 = ~{"A7#1FD", "Salle du Portail, (Labyrinthe Modrone)"},~
+@6112 = ~{"A7#1WZ", "Tête pensante Gélugon, (Labyrinthe Modrone)"}, 
+	--End Test Your Mettle! Areas~
+
+	// CheatsAreas pour Trials of the Luremaster
+	
+@6113 = ~{"  ", "        TRIALS OF THE LUREMASTER        "},
+	{"ID9700","(TotLM) Forteresse de Maluradek (Commencement)"},~
+@6114 = ~{"ID9701", "(TotLM) Tour Sud, Sous-sol (Prouver votre sagacité)"},~
+@6115 = ~{"ID9702", "(TotLM) Tour Sud, (Matrone Wiverne)"},~
+@6116 = ~{"ID9703", "(TotLM) Tour Ouest, Sous-sol (Prouver votre vaillance)"},~
+@6117 = ~{"ID9704", "(TotLM) Tour Ouest, (Harald)"},~
+@6118 = ~{"ID9705", "(TotLM) Tour Nord, Sous-sol (Prouver votre courage)"},~
+@6119 = ~{"ID9706", "(TotLM) Tour Nord, (Reine Harpie)"},~
+@6120 = ~{"ID9707", "(TotLM) Tour Est, Sous-sol (Prouver votre persévérance)"},~
+@6121 = ~{"ID9708", "(TotLM) Tour Est, (Crieck de Baine)"},~
+@6122 = ~{"ID9709", "(TotLM) Muraille Ouest"},~
+@6123 = ~{"ID9710", "(TotLM) Muraille Est"},~
+@6124 = ~{"ID9711", "(TotLM) Cour intérieure"},~
+@6125 = ~{"ID9712", "(TotLM) Cour supérieur"},~
+@6126 = ~{"ID9713", "(TotLM) Ruine du temple de Heaum"},~
+@6127 = ~{"ID9714", "(TotLM) Tombe de la Sentinelle"},~
+@6128 = ~{"ID9715", "(TotLM) Planque de Hobart Piévelu"},~
+@6129 = ~{"ID9716", "(TotLM) Donjon L1"},~
+@6130 = ~{"ID9717", "(TotLM) Donjon L2"},~
+@6131 = ~{"ID9718", "(TotLM) Donjon L3"},~
+@6132 = ~{"ID9800", "(TotLM) Cavernes du Clan Chacal, L1"},~
+@6133 = ~{"ID9801", "(TotLM) Cavernes du Clan Chacal, L2"},~
+
+	// CheatsAreas pour IWD1_EET
+	
+@6134 = ~{"  ", "        ICEWIND DALE 1        "},
+	{"ID1000", "(IWD1)  Easthaven (prologue)"},~
+@6135 = ~{"ID1001", "(IWD1)  Havredest (prologue) - Temple of Tempus"},~
+@6136 = ~{"ID1002", "(IWD1)  Havredest (prologue) - Townsperson home"},~
+@6137 = ~{"ID1003", "(IWD1)  Havredest (prologue) - Townsperson home"},~
+@6138 = ~{"ID1004", "(IWD1)  Havredest (prologue) - Home of Hrothgar"},~
+@6139 = ~{"ID1005", "(IWD1)  Havredest (prologue) - Home of Gaspar the Fishmonger"},~
+@6140 = ~{"ID1006", "(IWD1)  Havredest (prologue) - Grisella's Winter's Cradle Tavern - main floor"},~
+@6141 = ~{"ID1007", "(IWD1)  Havredest (prologue) - Pomab's Emporium - first floor"},~
+@6142 = ~{"ID1008", "(IWD1)  Havredest (prologue) - Snowdrift Inn"},~
+@6143 = ~{"ID1009", "(IWD1)  Havredest (prologue) - Home of Old Jed"},~
+@6144 = ~{"ID1010", "(IWD1)  Havredest (prologue) - Home of scrimshander"},~
+@6145 = ~{"ID1011", "(IWD1)  Havredest (prologue) - Warehouse"},~
+@6146 = ~{"ID1012", "(IWD1)  Havredest (prologue) - Townsperson home"},~
+@6147 = ~{"ID1013", "(IWD1)  Havredest (prologue) - Townsperson home"},~
+@6148 = ~{"ID1014", "(IWD1)  Havredest (prologue) - Townsperson home"},~
+@6149 = ~{"ID1015", "(IWD1)  Havredest (prologue) - Grisella's Winter's Cradle Tavern - Basement"},~
+@6150 = ~{"ID1016", "(IWD1)  Havredest (prologue) - Pomab's Emporium - second floor"},~
+@6151 = ~{"ID1100", "(IWD1)  Havredest (finale)"},~
+@6152 = ~{"ID1101", "(IWD1)  Havredest (finale) - Temple of Tempus/ice tower first floor"},~
+@6153 = ~{"ID1102", "(IWD1)  Havredest (finale) - Temple of Tempus/ice tower second floor, beds"},~
+@6154 = ~{"ID1103", "(IWD1)  Havredest (finale) - Temple of Tempus/ice tower third floor, Pomab"},~
+@6155 = ~{"ID1104", "(IWD1)  Havredest (finale) - Temple of Tempus/ice tower fourth floor, mirror"},~
+@6156 = ~{"ID1105", "(IWD1)  Havredest (finale) - Temple of Tempus - Jerrod's Stone"},~
+@6157 = ~{"ID1106", "(IWD1)  Havredest (finale) - Winter's Cradle Tavern main floor"},~
+@6158 = ~{"ID1109", "(IWD1)  Havredest (finale) - Winter's Cradle Tavern basement"},~
+@6159 = ~{"ID1200", "(IWD1)  Havredest (prologue) - missing caravan - exterior"},~
+@6160 = ~{"ID1201", "(IWD1)  Havredest (prologue) - missing caravan - cave of orcs"},~
+@6161 = ~{"ID2000", "(IWD1)  Kuldahar Pass"},~
+@6162 = ~{"ID2001", "(IWD1)  Kuldahar Pass - goblin area"},~
+@6163 = ~{"ID2002", "(IWD1)  Kuldahar Pass - beetle area"},~
+@6164 = ~{"ID2003", "(IWD1)  Kuldahar Pass - Gherg's tower"},~
+@6165 = ~{"ID2004", "(IWD1)  Kuldahar Pass - Mill - entrance"},~
+@6166 = ~{"ID2005", "(IWD1)  Kuldahar Pass - Mill - basement"},~
+@6167 = ~{"ID2006", "(IWD1)  Kuldahar Pass - Mill - upper story"},~
+@6168 = ~{"ID2100", "(IWD1)  Kuldahar"},~
+@6169 = ~{"ID2101", "(IWD1)  Kuldahar - Orrick the Grey's tower - entrance area"},~
+@6170 = ~{"ID2102", "(IWD1)  Kuldahar - Orrick the Grey's tower - study"},~
+@6171 = ~{"ID2103", "(IWD1)  Kuldahar - Conlan's Smithy"},~
+@6172 = ~{"ID2104", "(IWD1)  Kuldahar - Townsperson home"},~
+@6173 = ~{"ID2105", "(IWD1)  Kuldahar - Townsperson home"},~
+@6174 = ~{"ID2106", "(IWD1)  Kuldahar - Townsperson home"},~
+@6175 = ~{"ID2107", "(IWD1)  Kuldahar - Temple of Ilmater - House of the Bleeding Rose"},~
+@6176 = ~{"ID2108", "(IWD1)  Kuldahar - Airship of Oswald Fiddlebender"},~
+@6177 = ~{"ID2109", "(IWD1)  Kuldahar - Home of Hjollder (inaccessible without Heart of Winter)"},~
+@6178 = ~{"ID2110", "(IWD1)  Kuldahar - Home of Urnst the Potter"},~
+@6179 = ~{"ID2111", "(IWD1)  Kuldahar - Root Cellar Tavern"},~
+@6180 = ~{"ID2112", "(IWD1)  Kuldahar - Home of Arundel - first floor"},~
+@6181 = ~{"ID2113", "(IWD1)  Kuldahar - Gerth's Equipment Shoppe"},~
+@6182 = ~{"ID2114", "(IWD1)  Kuldahar - Evening Shade Inn - first floor"},~
+@6183 = ~{"ID2115", "(IWD1)  Kuldahar - Evening Shade Inn - second floor"},~
+@6184 = ~{"ID2116", "(IWD1)  Kuldahar - Home of Arundel - second floor"},~
+@6185 = ~{"ID3000", "(IWD1)  La Vallée des Ombres - exterior"},~
+@6186 = ~{"ID3001", "(IWD1)  La Vallée des Ombres - yeti cave"},~
+@6187 = ~{"ID3101", "(IWD1)  La Vallée des Ombres - minor tomb"},~
+@6188 = ~{"ID3201", "(IWD1)  La Vallée des Ombres - minor tomb"},~
+@6189 = ~{"ID3301", "(IWD1)  La Vallée des Ombres - Temple of Myrkul"},~
+@6190 = ~{"ID3401", "(IWD1)  La Vallée des Ombres - minor tomb"},~
+@6191 = ~{"ID3501", "(IWD1)  La Vallée des Ombres - Tomb of Kresselack - first level"},~
+@6192 = ~{"ID3502", "(IWD1)  La Vallée des Ombres - Tomb of Kresselack - second level"},~
+@6193 = ~{"ID3503", "(IWD1)  La Vallée des Ombres - Tomb of Kresselack - third level"},~
+@6194 = ~{"ID3600", "(IWD1)  Temple du dieu oublié - exterior"},~
+@6195 = ~{"ID3601", "(IWD1)  Temple du dieu oublié - first level"},~
+@6196 = ~{"ID3602", "(IWD1)  Temple du dieu oublié - second level"},~
+@6197 = ~{"ID3603", "(IWD1)  Temple du dieu oublié - third level"},~
+@6198 = ~{"ID4000", "(IWD1)  l'Œil du Dragon - exterior"},~
+@6199 = ~{"ID4001", "(IWD1)  l'Œil du Dragon - first dungeon level (Lizard King)"},~
+@6200 = ~{"ID4002", "(IWD1)  l'Œil du Dragon - second dungeon level (Talonites)"},~
+@6201 = ~{"ID4003", "(IWD1)  l'Œil du Dragon - third dungeon level (Presio)"},~
+@6202 = ~{"ID4004", "(IWD1)  l'Œil du Dragon - fourth dungeon level (Eldathyn)"},~
+@6203 = ~{"ID4005", "(IWD1)  l'Œil du Dragon - fifth dungeon level (Yxunomei)"},~
+@6204 = ~{"ID5000", "(IWD1)  Main Tranchée - exterior"},~
+@6205 = ~{"ID5001", "(IWD1)  Main Tranchée - main tower - first floor"},~
+@6206 = ~{"ID5002", "(IWD1)  Main Tranchée - main tower - second floor"},~
+@6207 = ~{"ID5003", "(IWD1)  Main Tranchée - main tower - third floor"},~
+@6208 = ~{"ID5004", "(IWD1)  Main Tranchée - main tower - fourth floor"},~
+@6209 = ~{"ID5101", "(IWD1)  Main Tranchée - Tower of Labelas - destroyed floor"},~
+@6210 = ~{"ID5102", "(IWD1)  Main Tranchée - Tower of Labelas - library, Custhantos"},~
+@6211 = ~{"ID5103", "(IWD1)  Main Tranchée - Tower of Labelas - Larrel, astrolabe"},~
+@6212 = ~{"ID5104", "(IWD1)  Main Tranchée - Tower of Labelas - entrance floor"},~
+@6213 = ~{"ID5201", "(IWD1)  Main Tranchée - Tower of Solonor - first floor, Denaini"},~
+@6214 = ~{"ID5202", "(IWD1)  Main Tranchée - Tower of Solonor - second floor"},~
+@6215 = ~{"ID5203", "(IWD1)  Main Tranchée - Tower of Solonor - third floor"},~
+@6216 = ~{"ID5204", "(IWD1)  Main Tranchée - Tower of Solonor - fourth floor"},~
+@6217 = ~{"ID5301", "(IWD1)  Main Tranchée - Tower of Corellon - first floor"},~
+@6218 = ~{"ID5302", "(IWD1)  Main Tranchée - Tower of Corellon - second floor"},~
+@6219 = ~{"ID5303", "(IWD1)  Main Tranchée - Tower of Corellon - third floor"},~
+@6220 = ~{"ID5304", "(IWD1)  Main Tranchée - Tower of Corellon - fourth floor, Valestis, arboretum"},~
+@6221 = ~{"ID5401", "(IWD1)  Main Tranchée - Tower of Sheverash - first floor, Kaylessa"},~
+@6222 = ~{"ID5402", "(IWD1)  Main Tranchée - Tower of Sheverash - second floor"},~
+@6223 = ~{"ID5403", "(IWD1)  Main Tranchée - Tower of Sheverash - third floor"},~
+@6224 = ~{"ID5404", "(IWD1)  Main Tranchée - Tower of Sheverash - fourth floor"},~
+@6225 = ~{"ID5502", "(IWD1)  Main Tranchée - bridge between Towers of Labelas and Sheverash"},~
+@6226 = ~{"ID6000", "(IWD1)  Profondorn - exterior"},~
+@6227 = ~{"ID6001", "(IWD1)  Profondorn - entry cavern"},~
+@6228 = ~{"ID6002", "(IWD1)  Profondorn - main hall"},~
+@6229 = ~{"ID6003", "(IWD1)  Profondorn - orog cave, Saablic, Krilag"},~
+@6230 = ~{"ID6004", "(IWD1)  Profondorn - Temple of Moradin (cold forge)"},~
+@6231 = ~{"ID6005", "(IWD1)  Profondorn - Tiers of the Dead"},~
+@6232 = ~{"ID6006", "(IWD1)  Profondorn - Hall of Heroes"},~
+@6233 = ~{"ID6007", "(IWD1)  Profondorn - ettin cave"},~
+@6234 = ~{"ID6008", "(IWD1)  Profondorn - orog cave"},~
+@6235 = ~{"ID6009", "(IWD1)  Profondorn - orc cave"},~
+@6236 = ~{"ID6010", "(IWD1)  Profondorn - circle of runes room"},~
+@6237 = ~{"ID6011", "(IWD1)  Profondorn - machinery room"},~
+@6238 = ~{"ID6013", "(IWD1)  Profondorn - Temple of Moradin (working forge)"},~
+@6239 = ~{"ID6014", "(IWD1)  Profondorn - Bandoth's cave"},~
+@6240 = ~{"ID7000", "(IWD1)  Dent du Dragon Glacier - entry pass"},~
+@6241 = ~{"ID7001", "(IWD1)  Dent du Dragon Glacier - aquarium interior, ice salamander lair"},~
+@6242 = ~{"ID7002", "(IWD1)  Dent du Dragon Glacier - small circular room"},~
+@6243 = ~{"ID7003", "(IWD1)  Dent du Dragon Glacier - Gareth, slaves"},~
+@6244 = ~{"ID7004", "(IWD1)  Dent du Dragon Glacier - frost giant cave"},~
+@6245 = ~{"ID7005", "(IWD1)  Dent du Dragon Glacier - aquarium exterior"},~
+@6246 = ~{"ID8001", "(IWD1)  Le Bas Profondorn - main cavern"},~
+@6247 = ~{"ID8002", "(IWD1)  Le Bas Profondorn - watchtower stair"},~
+@6248 = ~{"ID8003", "(IWD1)  Le Bas Profondorn - oubliette, Tarnelm"},~
+@6249 = ~{"ID8004", "(IWD1)  Le Bas Profondorn - free gnome camp, Nym"},~
+@6250 = ~{"ID8005", "(IWD1)  Le Bas Profondorn - Order of the Kraken garde"},~
+@6251 = ~{"ID8006", "(IWD1)  Le Bas Profondorn - Order of the Kraken manor - first floor, Ginafae"},~
+@6252 = ~{"ID8007", "(IWD1)  Le Bas Profondorn - Order of the Kraken manor - second floor, Marketh"},~
+@6253 = ~{"ID8008", "(IWD1)  Le Bas Profondorn - mines, Guello, Shikata"},~
+@6254 = ~{"ID8009", "(IWD1)  Le Bas Profondorn - artisan's district"},~
+@6255 = ~{"ID8010", "(IWD1)  Le Bas Profondorn - Malavon's lair"},~
+@6256 = ~{"ID8011", "(IWD1)  Le Bas Profondorn - forge, Ilmadia"},~
+@6257 = ~{"ID8012", "(IWD1)  Le Bas Profondorn - Brother Perdiem"},~
+@6258 = ~{"ID8013", "(IWD1)  Le Bas Profondorn - Reverend Brother Poquelin"},~
+@6259 = ~{"ID8014", "(IWD1)  Le Bas Profondorn - watchtower top level"},~
+@6260 = ~{"ID8015", "(IWD1)  Le Bas Profondorn - Norl's shop"},~
+@6261 = ~{"ID8016", "(IWD1)  Le Bas Profondorn - home in free gnome camp"},~
+@6262 = ~{"  ", "        HEART OF WINTER        "},
+	{"ID9100", "(HOW)  Lonelywood"},~
+@6263 = ~{"ID9101", "(HOW)  Le Bois Isolé - Whistling Gallows - first floor"},~
+@6264 = ~{"ID9102", "(HOW)  Le Bois Isolé - Whistling Gallows - second floor"},~
+@6265 = ~{"ID9103", "(HOW)  Le Bois Isolé - Temple of Waukeen"},~
+@6266 = ~{"ID9104", "(HOW)  Le Bois Isolé - Home of Emmerich"},~
+@6267 = ~{"ID9105", "(HOW)  Le Bois Isolé - Dunn home"},~
+@6268 = ~{"ID9106", "(HOW)  Le Bois Isolé - Thurlow home - first floor"},~
+@6269 = ~{"ID9107", "(HOW)  Le Bois Isolé - Thurlow home - second floor"},~
+@6270 = ~{"ID9108", "(HOW)  Le Bois Isolé - Home of trappers"},~
+@6271 = ~{"ID9109", "(HOW)  Le Bois Isolé - Home of Farold"},~
+@6272 = ~{"ID9110", "(HOW)  Le Bois Isolé - Home of Purvis"},~
+@6273 = ~{"ID9200", "(HOW)  Camp des barbares"},~
+@6274 = ~{"ID9201", "(HOW)  Camp des barbares - Mead Hall"},~
+@6275 = ~{"ID9300", "(HOW)  Île aux tertres"},~
+@6276 = ~{"ID9301", "(HOW)  Île aux tertres - Tower of Edion"},~
+@6277 = ~{"ID9400", "(HOW)  Île aux tertres - Wylfdene's barrow"},~
+@6278 = ~{"ID9500", "(HOW)  Morneglace"},~
+@6279 = ~{"ID9501", "(HOW)  Morneglace interior - first level, Tiernon"},~
+@6280 = ~{"ID9502", "(HOW)  Morneglace interior - second level, Seer"},~
+@6281 = ~{"ID9600", "(HOW)  Mer des Glaces Mouvantes"},~
+@6282 = ~{"ID9601", "(HOW)  Mer des Glaces Mouvantes - cave entrance"},~
+@6283 = ~{"ID9602", "(HOW)  Mer des Glaces Mouvantes - Field of Bones"},~
+@6284 = ~{"ID9603", "(HOW)  Mer des Glaces Mouvantes - Icasaracht lair exterior"},~
+@6285 = ~{"ID9604", "(HOW)  Mer des Glaces Mouvantes - Icasaracht lair interior"},~
+@6286 = ~{"  ", "        TRIALS OF THE LUREMASTER        "},
+	{"ID9700", "(TotLM) Forteresse de Maluradek (Commencement)"},~
+@6287 = ~{"ID9701", "(TotLM) Tour Sud, Sous-sol (Prouver votre sagacité)"},~
+@6288 = ~{"ID9702", "(TotLM) Tour Sud, (Matrone Wiverne)"},~
+@6289 = ~{"ID9703", "(TotLM) Tour Ouest, Sous-sol (Prouver votre vaillance)"},~
+@6290 = ~{"ID9704", "(TotLM) Tour Ouest, (Harald)"},~
+@6291 = ~{"ID9705", "(TotLM) Tour Nord, Sous-sol (Prouver votre courage)"},~
+@6292 = ~{"ID9706", "(TotLM) Tour Nord, (Reine Harpie)"},~
+@6293 = ~{"ID9707", "(TotLM) Tour Est, Sous-sol (Prouver votre persévérance)"},~
+@6294 = ~{"ID9708", "(TotLM) Tour Est, (Crieck de Baine)"},~
+@6295 = ~{"ID9709", "(TotLM) Muraille Ouest"},~
+@6296 = ~{"ID9710", "(TotLM) Muraille Est"},~
+@6297 = ~{"ID9711", "(TotLM) Cour intérieure"},~
+@6298 = ~{"ID9712", "(TotLM) Cour supérieur"},~
+@6299 = ~{"ID9713", "(TotLM) Ruine du temple de Heaum"},~
+@6300 = ~{"ID9714", "(TotLM) Tombe de la Sentinelle"},~
+@6301 = ~{"ID9715", "(TotLM) Planque de Hobart Piévelu"},~
+@6302 = ~{"ID9716", "(TotLM) Donjon L1"},~
+@6303 = ~{"ID9717", "(TotLM) Donjon L2"},~
+@6304 = ~{"ID9718", "(TotLM) Donjon L3"},~
+@6305 = ~{"ID9800", "(TotLM) Cavernes du Clan Chacal, L1"},~
+@6306 = ~{"ID9801", "(TotLM) Cavernes du Clan Chacal, L2"},~
+
+	// CheatsAreas pour IWD2_EET
+
+
+
+@6307 = ~{"  ", "        ICEWIND DALE 2        "},
+	{"IW1000", "(IWD2)  Targos Docks"},~
+@6308 = ~{"IW1001", "(IWD2)  Targos Docks - Harbour Master's Warehouse"},~
+@6309 = ~{"IW1002", "(IWD2)  Targos Docks - Goblin Infested Warehouse"},~
+@6310 = ~{"IW1003", "(IWD2)  Targos Docks - The Salty Dog Tavern"},~
+@6311 = ~{"IW1004", "(IWD2)  Targos Docks - Firtha's House"},~
+@6312 = ~{"IW1005", "(IWD2)  Targos Docks - House"},~
+@6313 = ~{"IW1006", "(IWD2)  Targos Docks - Jorun's House"},~
+@6314 = ~{"IW1007", "(IWD2)  Targos Docks - Smugglers' Caves"},~
+@6315 = ~{"IW1100", "(IWD2)  Targos Town"},~
+@6316 = ~{"IW1101", "(IWD2)  Targos Town - Town Hall"},~
+@6317 = ~{"IW1102", "(IWD2)  Targos Town - Gallaway Trading Post"},~
+@6318 = ~{"IW1103", "(IWD2)  Targos Town - Healing Pavilion"},~
+@6319 = ~{"IW1104", "(IWD2)  Targos Town - Weeping Widow Inn - first floor"},~
+@6320 = ~{"IW1105", "(IWD2)  Targos Town - Weeping Widow Inn - second floor"},~
+@6321 = ~{"IW1106", "(IWD2)  Targos Town - Phaen's House"},~
+@6322 = ~{"IW1107", "(IWD2)  Targos Town - Koluhm Bonecutter's House"},~
+@6323 = ~{"IW1200", "(IWD2)  The Palisade"},~
+@6324 = ~{"IW1201", "(IWD2)  The Palisade - Shawford Crale"},~
+@6325 = ~{"IW2000", "(IWD2)  Shaengarne River - Dereth and Sabrina"},~
+@6326 = ~{"IW2001", "(IWD2)  Logging Village - Emma Moonblade"},~
+@6327 = ~{"IW2002", "(IWD2)  Logging Village - Vrek's Cave"},~
+@6328 = ~{"IW2100", "(IWD2)  Shaengarne Pass - Gaernat Sharptooth"},~
+@6329 = ~{"IW2101", "(IWD2)  Shaengarne Pass - Dam"},~
+@6330 = ~{"IW2102", "(IWD2)  Shaengarne Bridge"},~
+@6331 = ~{"IW3000", "(IWD2)  Forteresse de la Horde Gates"},~
+@6332 = ~{"IW3001", "(IWD2)  Forteresse de la Horde - Goblin Warrens - Level 1"},~
+@6333 = ~{"IW3002", "(IWD2)  Forteresse de la Horde - Goblin Warrens - Level 2"},~
+@6334 = ~{"IW3100", "(IWD2)  Forteresse de la Horde Compound"},~
+@6335 = ~{"IW3101", "(IWD2)  Forteresse de la Horde"},~
+@6336 = ~{"IW4000", "(IWD2)  The Crash Site"},~
+@6337 = ~{"IW4001", "(IWD2)  The Crash Site - Oswald's Airship"},~
+@6338 = ~{"IW4100", "(IWD2)  The Ice Wall"},~
+@6339 = ~{"IW4101", "(IWD2)  The Ice Wall - The Ice Temple - Level 1"},~
+@6340 = ~{"IW4102", "(IWD2)  The Ice Wall - The Ice Temple - Level 2"},~
+@6341 = ~{"IW4103", "(IWD2)  The Ice Wall - The Ice Temple - Level 2 (Help Nickademus)"},~
+@6342 = ~{"IW5000", "(IWD2)  Village Itinérant"},~
+@6343 = ~{"IW5001", "(IWD2)  Edge of the Fell Wood"},~
+@6344 = ~{"IW5002", "(IWD2)  Limha's marquee"},~
+@6345 = ~{"IW5004", "(IWD2)  The Cold Marshes"},~
+@6346 = ~{"IW5005", "(IWD2)  Ice Lakes"},~
+@6347 = ~{"IW5010", "(IWD2)  La Forêt Maudite - Beginning"},~
+@6348 = ~{"IW5011", "(IWD2)  La Forêt Maudite - The Circle of Stones"},~
+@6349 = ~{"IW5012", "(IWD2)  La Forêt Maudite - Three"},~
+@6350 = ~{"IW5013", "(IWD2)  La Forêt Maudite - Four"},~
+@6351 = ~{"IW5014", "(IWD2)  La Forêt Maudite - Five"},~
+@6352 = ~{"IW5015", "(IWD2)  La Forêt Maudite - Six"},~
+@6353 = ~{"IW5016", "(IWD2)  La Forêt Maudite - Carynara the Dryad"},~
+@6354 = ~{"IW5017", "(IWD2)  La Forêt Maudite - Eight"},~
+@6355 = ~{"IW5018", "(IWD2)  La Forêt Maudite - Nine"},~
+@6356 = ~{"IW5019", "(IWD2)  La Forêt Maudite - Ten"},~
+@6357 = ~{"IW5020", "(IWD2)  La Forêt Maudite - Eleven"},~
+@6358 = ~{"IW5021", "(IWD2)  La Forêt Maudite - Twelve"},~
+@6359 = ~{"IW5022", "(IWD2)  La Forêt Maudite - Thirteen"},~
+@6360 = ~{"IW5023", "(IWD2)  La Forêt Maudite - Fourteen"},~
+@6361 = ~{"IW5024", "(IWD2)  La Forêt Maudite - Wolf den"},~
+@6362 = ~{"IW5025", "(IWD2)  La Forêt Maudite - Sixteen"},~
+@6363 = ~{"IW5026", "(IWD2)  La Forêt Maudite - Seventeen"},~
+@6364 = ~{"IW5027", "(IWD2)  La Forêt Maudite - Eighteen"},~
+@6365 = ~{"IW5028", "(IWD2)  La Forêt Maudite - Nineteen"},~
+@6366 = ~{"IW5029", "(IWD2)  La Forêt Maudite - Twenty"},~
+@6367 = ~{"IW5030", "(IWD2)  La Forêt Maudite - The Ghost Lights"},~
+@6368 = ~{"IW5100", "(IWD2)  The River Caves - Entrance"},~
+@6369 = ~{"IW5101", "(IWD2)  The River Caves"},~
+@6370 = ~{"IW5102", "(IWD2)  The River Caves - Exit"},~
+@6371 = ~{"IW5200", "(IWD2)  Monastère du Corbeau Noir - exterior"},~
+@6372 = ~{"IW5201", "(IWD2)  Monastère du Corbeau Noir - main floor"},~
+@6373 = ~{"IW5202", "(IWD2)  Monastère du Corbeau Noir - Basement"},~
+@6374 = ~{"IW5203", "(IWD2)  Monastère du Corbeau Noir - The Raven Tomb"},~
+@6375 = ~{"IW5300", "(IWD2)  l’Ombre-Terre"},~
+@6376 = ~{"IW5301", "(IWD2)  l’Ombre-Terre - The Drider Lair"},~
+@6377 = ~{"IW5302", "(IWD2)  l’Ombre-Terre - Z'hinda Citadel"},~
+@6378 = ~{"IW5303", "(IWD2)  l’Ombre-Terre Exit"},~
+@6379 = ~{"IW6000", "(IWD2)  Le col de Kuldahar"},~
+@6380 = ~{"IW6001", "(IWD2)  Kuldahar"},~
+@6381 = ~{"IW6002", "(IWD2)  Le col de Kuldahar - Hrothgar's Vale"},~
+@6382 = ~{"IW6003", "(IWD2)  Le col de Kuldahar - Heirephus's Cave"},~
+@6383 = ~{"IW6004", "(IWD2)  Kuldahar - Conlan's Shop"},~
+@6384 = ~{"IW6005", "(IWD2)  Kuldahar - Archdruid's Home - first floor"},~
+@6385 = ~{"IW6006", "(IWD2)  Kuldahar - Archdruid's Home - second floor"},~
+@6386 = ~{"IW6007", "(IWD2)  Le col de Kuldahar - Oswald's Airship"},~
+@6387 = ~{"IW6008", "(IWD2)  Le col de Kuldahar - Watchtower"},~
+@6388 = ~{"IW6009", "(IWD2)  Kuldahar - Orrick's Tower"},~
+@6389 = ~{"IW6010", "(IWD2)  Kuldahar - Gerbash's Home"},~
+@6390 = ~{"IW6050", "(IWD2)  Chult"},~
+@6391 = ~{"IW6051", "(IWD2)  Chult - The Serpent's Lair Temple"},~
+@6392 = ~{"IW6100", "(IWD2)  l'Œil du Dragon - exterior"},~
+@6393 = ~{"IW6101", "(IWD2)  l'Œil du Dragon - Level 1 (Entrance)"},~
+@6394 = ~{"IW6102", "(IWD2)  l'Œil du Dragon - Level 2 (Alchemy Lab)"},~
+@6395 = ~{"IW6103", "(IWD2)  l'Œil du Dragon - Level 3 (Thorasskus)"},~
+@6396 = ~{"IW6104", "(IWD2)  l'Œil du Dragon - The Magma Chamber"},~
+@6397 = ~{"IW6200", "(IWD2)  Champs du Carnage"},~
+@6398 = ~{"IW6201", "(IWD2)  Champs du Carnage - Rocks (Saablic Tan)"},~
+@6399 = ~{"IW6300", "(IWD2)  Main Tranchée - Level 1"},~
+@6400 = ~{"IW6301", "(IWD2)  Main Tranchée - Level 2"},~
+@6401 = ~{"IW6302", "(IWD2)  Main Tranchée - Level 3"},~
+@6402 = ~{"IW6303", "(IWD2)  Main Tranchée - Level 4"},~
+@6403 = ~{"IW6304", "(IWD2)  Main Tranchée - Level 5"},~
+@6404 = ~{"IW6305", "(IWD2)  Main Tranchée - Level 4 (Final)"},~
+@6405 = ~{"IW6400", "(IWD2)  Main Tranchée - Tower of Labelas - Level 1"},~
+@6406 = ~{"IW6401", "(IWD2)  Main Tranchée - Tower of Labelas - Level 2"},~
+@6407 = ~{"IW6402", "(IWD2)  Main Tranchée - Tower of Labelas - Level 3"},~
+@6408 = ~{"IW6403", "(IWD2)  Main Tranchée - Tower of Labelas - Level 4"},~
+@6409 = ~{"IW6500", "(IWD2)  Main Tranchée - Tower of Solonor - Level 1"},~
+@6410 = ~{"IW6501", "(IWD2)  Main Tranchée - Tower of Solonor - Level 2"},~
+@6411 = ~{"IW6502", "(IWD2)  Main Tranchée - Tower of Solonor - Level 3"},~
+@6412 = ~{"IW6503", "(IWD2)  Main Tranchée - Tower of Solonor - Level 4"},~
+@6413 = ~{"IW6600", "(IWD2)  Main Tranchée - Tower of Corellon - Level 1"},~
+@6414 = ~{"IW6601", "(IWD2)  Main Tranchée - Tower of Corellon - Level 2"},~
+@6415 = ~{"IW6602", "(IWD2)  Main Tranchée - Tower of Corellon - Level 3"},~
+@6416 = ~{"IW6603", "(IWD2)  Main Tranchée - Tower of Corellon - Level 4"},~
+@6417 = ~{"IW6700", "(IWD2)  Main Tranchée - Tower of Sheverash - Level 1"},~
+@6418 = ~{"IW6701", "(IWD2)  Main Tranchée - Tower of Sheverash - Level 2"},~
+@6419 = ~{"IW6702", "(IWD2)  Main Tranchée - Tower of Sheverash - Level 3"},~
+@6420 = ~{"IW6703", "(IWD2)  Main Tranchée - Tower of Sheverash - Level 4"},~
+@6421 = ~{"IW6800", "(IWD2)  Main Tranchée - bridge between Towers of Labelas and Sheverash"},~
+
+
+/*
+@6422 = 
+@6423 = 
+@6424 = 
+@6425 = 
+@6426 = 
+@6427 = 
+@6428 = 
+@6429 = 
+@6430 = 
+@6431 = 
+@6432 = 
+@6433 = 
+@6434 = 
+@6435 = 
+@6436 = 
+@6437 = 
+@6438 = 
+@6439 = 
+@6440 = 
+@6441 = 
+@6442 = 
+@6443 = 
+@6444 = 
+@6445 = 
+@6446 = 
+@6447 = 
+@6448 = 
+@6449 = 
+@6450 = 
+@6451 = 
+@6452 = 
+@6453 = 
+@6454 = 
+@6455 = 
+@6456 = 
+@6457 = 
+@6458 = 
+@6459 = 
+@6460 = 
+@6461 = 
+@6462 = 
+@6463 = 
+@6464 = 
+@6465 = 
+@6466 = 
+@6467 = 
+@6468 = 
+@6469 = 
+@6470 = 
+@6471 = 
+@6472 = 
+@6473 = 
+@6474 = 
+@6475 = 
+@6476 = 
+@6477 = 
+@6478 = 
+@6479 = 
+@6480 = 
+@6481 = 
+@6482 = 
+@6483 = 
+@6484 = 
+@6485 = 
+@6486 = 
+@6487 = 
+@6488 = 
+@6489 = 
+@6490 = 
+@6491 = 
+@6492 = 
+@6493 = 
+@6494 = 
+@6495 = 
+@6496 = 
+@6497 = 
+@6498 = 
+@6499 = 
+@6500 = 
+@6501 = 
+@6502 = 
+@6503 = 
+@6504 = 
+@6505 = 
+@6506 = 
+@6507 = 
+@6508 = 
+@6509 = 
+@6510 = 
+@6511 = 
+@6512 = 
+@6513 = 
+@6514 = 
+@6515 = 
+@6516 = 
+@6517 = 
+@6518 = 
+@6519 = 
+@6520 = 
+@6521 = 
+@6522 = 
+@6523 = 
+@6524 = 
+@6525 = 
+@6526 = 
+@6527 = 
+@6528 = 
+@6529 = 
+@6530 = 
+@6531 = 
+@6532 = 
+@6533 = 
+@6534 = 
+@6535 = 
+@6536 = 
+@6537 = 
+@6538 = 
+@6539 = 
+@6540 = 
+@6541 = 
+@6542 = 
+@6543 = 
+@6544 = 
+@6545 = 
+@6546 = 
+@6547 = 
+@6548 = 
+@6549 = 
+@6550 = 
+@6551 = 
+@6552 = 
+@6553 = 
+@6554 = 
+@6555 = 
+@6556 = 
+@6557 = 
+@6558 = 
+@6559 = 
+@6560 = 
+@6561 = 
+@6562 = 
+@6563 = 
+@6564 = 
+@6565 = 
+@6566 = 
+@6567 = 
+@6568 = 
+@6569 = 
+@6570 = 
+@6571 = 
+@6572 = 
+@6573 = 
+@6574 = 
+@6575 = 
+@6576 = 
+@6577 = 
+@6578 = 
+@6579 = 
+@6580 = 
+@6581 = 
+@6582 = 
+@6583 = 
+@6584 = 
+@6585 = 
+@6586 = 
+@6587 = 
+@6588 = 
+@6589 = 
+@6590 = 
+@6591 = 
+@6592 = 
+@6593 = 
+@6594 = 
+@6595 = 
+@6596 = 
+@6597 = 
+@6598 = 
+@6599 = 
+@6600 = 
+@6601 = 
+@6602 = 
+@6603 = 
+@6604 = 
+@6605 = 
+@6606 = 
+@6607 = 
+@6608 = 
+@6609 = 
+@6610 = 
+@6611 = 
+@6612 = 
+@6613 = 
+@6614 = 
+@6615 = 
+@6616 = 
+@6617 = 
+@6618 = 
+@6619 = 
+@6620 = 
+@6621 = 
+@6622 = 
+@6623 = 
+@6624 = 
+@6625 = 
+@6626 = 
+@6627 = 
+@6628 = 
+@6629 = 
+@6630 = 
+@6631 = 
+@6632 = 
+@6633 = 
+@6634 = 
+@6635 = 
+@6636 = 
+@6637 = 
+@6638 = 
+@6639 = 
+@6640 = 
+@6641 = 
+@6642 = 
+@6643 = 
+@6644 = 
+@6645 = 
+@6646 = 
+@6647 = 
+@6648 = 
+@6649 = 
+@6650 = 
+@6651 = 
+@6652 = 
+@6653 = 
+@6654 = 
+@6655 = 
+@6656 = 
+@6657 = 
+@6658 = 
+@6659 = 
+@6660 = 
+@6661 = 
+@6662 = 
+@6663 = 
+@6664 = 
+@6665 = 
+@6666 = 
+@6667 = 
+@6668 = 
+@6669 = 
+@6670 = 
+@6671 = 
+@6672 = 
+@6673 = 
+@6674 = 
+@6675 = 
+@6676 = 
+@6677 = 
+@6678 = 
+@6679 = 
+@6680 = 
+@6681 = 
+@6682 = 
+@6683 = 
+@6684 = 
+@6685 = 
+@6686 = 
+@6687 = 
+@6688 = 
+@6689 = 
+@6690 = 
+@6691 = 
+@6692 = 
+@6693 = 
+@6694 = 
+@6695 = 
+@6696 = 
+@6697 = 
+@6698 = 
+@6699 = 
+@6700 = 
+@6701 = 
+@6702 = 
+@6703 = 
+@6704 = 
+@6705 = 
+@6706 = 
+@6707 = 
+@6708 = 
+@6709 = 
+@6710 = 
+@6711 = 
+@6712 = 
+@6713 = 
+@6714 = 
+@6715 = 
+@6716 = 
+@6717 = 
+@6718 = 
+@6719 = 
+@6720 = 
+@6721 = 
+@6722 = 
+@6723 = 
+@6724 = 
+@6725 = 
+@6726 = 
+@6727 = 
+@6728 = 
+@6729 = 
+@6730 = 
+@6731 = 
+@6732 = 
+@6733 = 
+@6734 = 
+@6735 = 
+@6736 = 
+@6737 = 
+@6738 = 
+@6739 = 
+@6740 = 
+@6741 = 
+@6742 = 
+@6743 = 
+@6744 = 
+@6745 = 
+@6746 = 
+@6747 = 
+@6748 = 
+@6749 = 
+@6750 = 
+@6751 = 
+@6752 = 
+@6753 = 
+@6754 = 
+@6755 = 
+@6756 = 
+@6757 = 
+@6758 = 
+@6759 = 
+@6760 = 
+@6761 = 
+@6762 = 
+@6763 = 
+@6764 = 
+@6765 = 
+@6766 = 
+@6767 = 
+@6768 = 
+@6769 = 
+@6770 = 
+@6771 = 
+@6772 = 
+@6773 = 
+@6774 = 
+@6775 = 
+@6776 = 
+@6777 = 
+@6778 = 
+@6779 = 
+@6780 = 
+@6781 = 
+@6782 = 
+@6783 = 
+@6784 = 
+@6785 = 
+@6786 = 
+@6787 = 
+@6788 = 
+@6789 = 
+@6790 = 
+@6791 = 
+@6792 = 
+@6793 = 
+@6794 = 
+@6795 = 
+@6796 = 
+@6797 = 
+@6798 = 
+@6799 = 
+@6800 = 
+@6801 = 
+@6802 = 
+@6803 = 
+@6804 = 
+@6805 = 
+@6806 = 
+@6807 = 
+@6808 = 
+@6809 = 
+@6810 = 
+@6811 = 
+@6812 = 
+@6813 = 
+@6814 = 
+@6815 = 
+@6816 = 
+@6817 = 
+@6818 = 
+@6819 = 
+@6820 = 
+@6821 = 
+@6822 = 
+@6823 = 
+@6824 = 
+@6825 = 
+@6826 = 
+@6827 = 
+@6828 = 
+@6829 = 
+@6830 = 
+@6831 = 
+@6832 = 
+@6833 = 
+@6834 = 
+@6835 = 
+@6836 = 
+@6837 = 
+@6838 = 
+@6839 = 
+@6840 = 
+@6841 = 
+@6842 = 
+@6843 = 
+@6844 = 
+@6845 = 
+@6846 = 
+@6847 = 
+@6848 = 
+@6849 = 
+@6850 = 
+@6851 = 
+@6852 = 
+@6853 = 
+@6854 = 
+@6855 = 
+@6856 = 
+@6857 = 
+@6858 = 
+@6859 = 
+@6860 = 
+@6861 = 
+@6862 = 
+@6863 = 
+@6864 = 
+@6865 = 
+@6866 = 
+@6867 = 
+@6868 = 
+@6869 = 
+@6870 = 
+@6871 = 
+@6872 = 
+@6873 = 
+@6874 = 
+@6875 = 
+@6876 = 
+@6877 = 
+@6878 = 
+@6879 = 
+@6880 = 
+@6881 = 
+@6882 = 
+@6883 = 
+@6884 = 
+@6885 = 
+@6886 = 
+@6887 = 
+@6888 = 
+@6889 = 
+@6890 = 
+@6891 = 
+@6892 = 
+@6893 = 
+@6894 = 
+@6895 = 
+@6896 = 
+@6897 = 
+@6898 = 
+@6899 = 
+@6900 = 
+@6901 = 
+@6902 = 
+@6903 = 
+@6904 = 
+@6905 = 
+@6906 = 
+@6907 = 
+@6908 = 
+@6909 = 
+@6910 = 
+@6911 = 
+@6912 = 
+@6913 = 
+@6914 = 
+@6915 = 
+@6916 = 
+@6917 = 
+@6918 = 
+@6919 = 
+@6920 = 
+@6921 = 
+@6922 = 
+@6923 = 
+@6924 = 
+@6925 = 
+@6926 = 
+@6927 = 
+@6928 = 
+@6929 = 
+@6930 = 
+@6931 = 
+@6932 = 
+@6933 = 
+@6934 = 
+@6935 = 
+@6936 = 
+@6937 = 
+@6938 = 
+@6939 = 
+@6940 = 
+@6941 = 
+@6942 = 
+@6943 = 
+@6944 = 
+@6945 = 
+@6946 = 
+@6947 = 
+@6948 = 
+@6949 = 
+@6950 = 
+@6951 = 
+@6952 = 
+@6953 = 
+@6954 = 
+@6955 = 
+@6956 = 
+@6957 = 
+@6958 = 
+@6959 = 
+@6960 = 
+@6961 = 
+@6962 = 
+@6963 = 
+@6964 = 
+@6965 = 
+@6966 = 
+@6967 = 
+@6968 = 
+@6969 = 
+@6970 = 
+@6971 = 
+@6972 = 
+@6973 = 
+@6974 = 
+@6975 = 
+@6976 = 
+@6977 = 
+@6978 = 
+@6979 = 
+@6980 = 
+@6981 = 
+@6982 = 
+@6983 = 
+@6984 = 
+@6985 = 
+@6986 = 
+@6987 = 
+@6988 = 
+@6989 = 
+@6990 = 
+@6991 = 
+@6992 = 
+@6993 = 
+@6994 = 
+@6995 = 
+@6996 = 
+@6997 = 
+@6998 = 
+@6999 = 
+@7000 = 
+@7001 = 
+@7002 = 
+@7003 = 
+@7004 = 
+@7005 = 
+@7006 = 
+@7007 = 
+@7008 = 
+@7009 = 
+@7010 = 
+@7011 = 
+@7012 = 
+@7013 = 
+@7014 = 
+@7015 = 
+@7016 = 
+@7017 = 
+@7018 = 
+@7019 = 
+@7020 = 
+@7021 = 
+@7022 = 
+@7023 = 
+@7024 = 
+@7025 = 
+@7026 = 
+@7027 = 
+@7028 = 
+@7029 = 
+@7030 = 
+@7031 = 
+@7032 = 
+@7033 = 
+*/

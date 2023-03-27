@@ -1,7 +1,7 @@
 ACTION_IF FILE_EXISTS_IN_GAME ~bgee.lua~ BEGIN
 	COPY_EXISTING ~bgee.lua~ ~override/bgee.lua~
 
-	// CheatsAreas pour BGEE
+	// CheatsAreas pour BGEE                                                                          // MapsFrBGEE.tra
 	PATCH_DEFINE_ASSOCIATIVE_ARRAY strings BEGIN
 	~{"AR0002", "Temple of Helm (Baldur's Gate)"},~                                                   => 4001  
 	~{"AR0004", "Behren's home, ground floor"},~                                                      => 4002  
@@ -494,18 +494,18 @@ ACTION_IF FILE_EXISTS_IN_GAME ~bgee.lua~ BEGIN
 	~{"OH3020", "Rasaad - Dark Moon temple, interior"},~                                              => 4489
     ~{"OH3100", "Rasaad - Dark Moon temple, interior"},~                                              => 4490                                                                                       
 
-	// CheatsAreas Les Fosses noires
+	// CheatsAreas Les Fosses noires                                                                  // MapsFrEET.tra
 
-	~{"OH9310", "The Black Pits: Arena 1"},~                                                            => 1486
-	~{"OH9350", "The Black Pits: Arena 2"},~                                                            => 1487
-	~{"OH9360", "The Black Pits: Hub"},~                                                                => 1488
+	~{"OH9310", "The Black Pits: Arena 1"},~                                                          => 1486
+	~{"OH9350", "The Black Pits: Arena 2"},~                                                          => 1487
+	~{"OH9360", "The Black Pits: Hub"},~                                                              => 1488
 
-	// CheatsAreas Tutoriel
+	// CheatsAreas Tutoriel                                                                           // MapsFrEET.tra
 
-	~{"TU0015", "Baldur's Gate Estate (Tutorial starts here)"},~                              => 1489
-	~{"TU0016", "Baldur's Gate Estate (Tutorial area)"},~                                     => 1490
-	~{"TU0017", "Baldur's Gate Estate (Tutorial area)"},~                                     => 1491
-	~{"TU0018", "Baldur's Gate Estate Cellar (Tutorial area)"}~                              => 1492
+	~{"TU0015", "Baldur's Gate Estate (Tutorial starts here)"},~                                      => 1489
+	~{"TU0016", "Baldur's Gate Estate (Tutorial area)"},~                                             => 1490
+	~{"TU0017", "Baldur's Gate Estate (Tutorial area)"},~                                             => 1491
+	~{"TU0018", "Baldur's Gate Estate Cellar (Tutorial area)"}~                                       => 1492
 
 END
 

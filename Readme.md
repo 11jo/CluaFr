@@ -2,20 +2,22 @@
 
 ![Language](https://img.shields.io/static/v1?label=language&message=french%20%7C%20&color=informational)
 
-**Autor** : ****
+**Auteur** : ****
 
 
 ## Description :
 ---------------
 
-Traduction des CheatsAreas (AccËs aux zones du jeu gr‚ce ‡ la CLUA console)
+Traduction des CheatsAreas (Zones du jeu accessibles gr√¢ce √† la CLUA console)
 
-Pour BG-EE, BGSoD, BG2-EE et EET.
+Pour BGEE, BGSoD, BG2EE et EET.
 
 
-**Si vous prÈvoyez d'installer EET, Installez ce mod aprËs EET**
+- **Si vous pr√©voyez d'installer EET, Installez ce mod apr√®s EET**
 
-**Il est prÈfÈrable d'installer CluaFr aprËs les mods qui ajoutent de nouvelles zones ‡ la CluaConsole, ceux-ci peuvent se baser sur les nom anglais pour s'insÈrer dans le jeu.**
+- **Installer ce mod apr√®s Check the bodies, Trials of the Luremaster et Test Your Mettle**
+
+- **Il est pr√©f√©rable d'installer CluaFr apr√®s les mods qui ajoutent de nouvelles zones √† la CluaConsole, ceux-ci peuvent se baser sur les nom anglais pour s'ins√©rer dans le jeu.**
 
 
 ## Composants :
@@ -23,23 +25,25 @@ Pour BG-EE, BGSoD, BG2-EE et EET.
 
 #### Areas Cheats
 
-- 1 Traduit en franÁais les noms des cartes du jeu accessible dans la CLUAConsole
+- 1 Traduit en fran√ßais les noms des cartes du jeu accessible dans la CLUAConsole
 
-- 2 Ajoute l'accËs aux Fosses noires et au tutoriel pendant la campagne principale
+- 2 Ajoute l'acc√®s aux Fosses noires et au tutoriel pendant la campagne principale
 
 #### Areas Cheats pour les MODS
 
-Traduit en franÁais les noms des cartes ajoutÈes par des mods dans la CLUAConsole
+Traduit en fran√ßais les noms des cartes ajout√©es par des mods dans la CLUAConsole
 
-Ce composant dÈtecte si certains mods sont installÈ...
+Ce composant d√©tecte automatiquement si certains mods sont install√©s...
 
-Mod **bientÙt** supportÈs :
+Mods support√©s :
 
 - Check the bodies
 
 - Trials of the Luremaster
  
 - Test Your Mettle
+
+Mods **bient√¥t** support√©s :
  
 - IWD1_EET
 
@@ -50,20 +54,27 @@ Mod **bientÙt** supportÈs :
 ## Installation :
 ----------------
 
-Extract archive contents into your game directory
-Run Setup-CluaFr.exe
-Follow the prompt
+Extraire l'archive dans le r√©pertoire du jeu et lancer Setup-CluaFr.exe, puis suivre les indications.
 
 
 ## Remerciement :
 ----------------
 
-Un grand merci ‡ Selphira  !
+Un grand merci √† Selphira  !
 
 
 ## Version History :
 ----------------
 
-v0.1 : Initial release
+v0.1 : 
 
-v0.2 : "Traification" et corrections, prÈparation du composant Areas Cheats pour les MODS
+- Initial release
+
+v0.2 : 
+
+- "Traification", corrections et pr√©paration du composant Areas Cheats pour les MODS
+
+v0.3 : 
+
+- Support pour Check the bodies, Trials of the Luremaster et Test Your Mettle
+- R√©vision du tp2 et des fichiers tra

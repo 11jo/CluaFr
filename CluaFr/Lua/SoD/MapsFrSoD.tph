@@ -1,7 +1,7 @@
 ACTION_IF FILE_EXISTS_IN_GAME ~bgee.lua~ BEGIN
 	COPY_EXISTING ~bgee.lua~ ~override/bgee.lua~
 
-	// CheatsAreas pour BGEE
+	// CheatsAreas pour BGEE                                                                          // MapsFrBGEE.tra
 	PATCH_DEFINE_ASSOCIATIVE_ARRAY strings BEGIN
 	~{"AR0002", "Temple of Helm (Baldur's Gate)"},~                                                   => 4001  
 	~{"AR0004", "Behren's home, ground floor"},~                                                      => 4002  
@@ -494,94 +494,94 @@ ACTION_IF FILE_EXISTS_IN_GAME ~bgee.lua~ BEGIN
 	~{"OH3020", "Rasaad - Dark Moon temple, interior"},~                                              => 4489
     ~{"OH3100", "Rasaad - Dark Moon temple, interior"},~                                              => 4490
 
-	// CheatsAreas Les Fosses noires
+	// CheatsAreas Les Fosses noires                                                                  // MapsFrEET.tra
 
-	~{"OH9310", "The Black Pits: Arena 1"},~                                                            => 1486
-	~{"OH9350", "The Black Pits: Arena 2"},~                                                            => 1487
-	~{"OH9360", "The Black Pits: Hub"},~                                                                => 1488
+	~{"OH9310", "The Black Pits: Arena 1"},~                                                          => 1486
+	~{"OH9350", "The Black Pits: Arena 2"},~                                                          => 1487
+	~{"OH9360", "The Black Pits: Hub"},~                                                              => 1488
 
-	// CheatsAreas Tutoriel
+	// CheatsAreas Tutoriel                                                                           // MapsFrEET.tra
 
-	~{"TU0015", "Baldur's Gate Estate (Tutorial starts here)"},~                              => 1489
-	~{"TU0016", "Baldur's Gate Estate (Tutorial area)"},~                                     => 1490
-	~{"TU0017", "Baldur's Gate Estate (Tutorial area)"},~                                     => 1491
-	~{"TU0018", "Baldur's Gate Estate Cellar (Tutorial area)"}~                               => 1492
+	~{"TU0015", "Baldur's Gate Estate (Tutorial starts here)"},~                                      => 1489
+	~{"TU0016", "Baldur's Gate Estate (Tutorial area)"},~                                             => 1490
+	~{"TU0017", "Baldur's Gate Estate (Tutorial area)"},~                                             => 1491
+	~{"TU0018", "Baldur's Gate Estate Cellar (Tutorial area)"}~                                       => 1492
 
-	// CheatsAreas pour SoD
+	// CheatsAreas pour SoD                                                                           // MapsFrEET.tra
 
-	~{"BD0010", "Ducal Palace City Exterior"},~                                                => 1493
-	~{"BD0020", "Sorcerous/Elf Song City Exterior"},~                                          => 1494
-	~{"BD0030", "Flaming Fist City Exterior"},~                                                => 1495
-	~{"BD0040", "Three Kegs City Exterior"},~                                                  => 1496
-	~{"BD0050", "Iron Throne City Exterior"},~                                                 => 1497
-	~{"BD0060", "Random Area - Cave Entrance"},~                                               => 1498
-	~{"BD0061", "Random Area - Cave Interior from BD0060"},~                                   => 1499
-	~{"BD0062", "Random Area - Cave Pool from BD0061"},~                                       => 1500
-	~{"BD0063", "Random Area - Canyon Ambush"},~                                               => 1501
-	~{"BD0064", "Random Area - Forest Paths"},~                                                => 1502
-	~{"BD0065", "Random Area - Wilderness Open Area"},~                                        => 1503
-	~{"BD0066", "Random Area - Wilderness Hole to BD0067"},~                                   => 1504
-	~{"BD0067", "Random Area - Cave Interior from BD0066"},~                                   => 1505
-	~{"BD0070", "The Scrying Pool - The Hooded Man Cutscene"},~                                => 1506
-	~{"BD0071", "The Scrying Pool - Caelar Cutscene"},~                                        => 1507
-	~{"BD0100", "Ducal Palace, Second Floor"},~                                                => 1508
-	~{"BD0101", "Ducal Palace, Leaving BG"},~                                                  => 1509
-	~{"BD0102", "Ducal Palace, First Floor"},~                                                 => 1510
-	~{"BD0103", "Ducal Palace, Third Floor"},~                                                 => 1511
-	~{"BD0104", "Flaming Fist HQ"},~                                                           => 1512
-	~{"BD0105", "Flaming Fist HQ, Basement"},~                                                 => 1513
-	~{"BD0106", "Three Old Kegs, First Floor"},~                                               => 1514
-	~{"BD0107", "Three Old Kegs, Second Floor"},~                                              => 1515
-	~{"BD0108", "Three Old Kegs, Third Floor"},~                                               => 1516
-	~{"BD0109", "Elfsong Tavern, First Floor"},~                                               => 1517
-	~{"BD0110", "Elfsong Tavern, Second Floor"},~                                              => 1518
-	~{"BD0111", "Iron Throne Floor, First Floor"},~                                            => 1519
-	~{"BD0112", "Baldur's Gate East"},~                                                        => 1520
-	~{"BD0113", "Underground Cavern Wyrms"},~                                                  => 1521
-	~{"BD0114", "Spider Cave"},~                                                               => 1522
-	~{"BD0115", "Vampire Cavern"},~                                                            => 1523
-	~{"BD0116", "Ducal Palace, Basement"},~                                                    => 1524
-	~{"BD0117", "Iron Throne, Basement"},~                                                     => 1525
-	~{"BD0118", "The Scrying Pool - Imoen Cutscene"},~                                         => 1526
-	~{"BD0120", "Tomb Safehouse, First Floor"},~                                               => 1527
-	~{"BD0121", "Sorcerous Sundries, First Floor"},~                                           => 1528
-	~{"BD0122", "Sorcerous Sundries, Second Floor"},~                                          => 1529
-	~{"BD0130", "Tomb Safehouse, Second Floor"},~                                              => 1530
-	~{"BD1000", "Coast Way Crossing"},~                                                        => 1531
-	~{"BD1010", "Cave (generic)"},~                                                            => 1532
-	~{"BD1100", "The Dig"},~                                                                   => 1533
-	~{"BD1200", "Lich Outpost"},~                                                              => 1534
-	~{"BD2000", "Boareskyr Bridge & Bridgefort"},~                                             => 1535
-	~{"BD2010", "Cave (generic)"},~                                                            => 1536
-	~{"BD2100", "Bridgefort Interior"},~                                                       => 1537
-	~{"BD3000", "Allied Siege Camp"},~                                                         => 1538
-	~{"BD4000", "Dragonspear Castle, Exterior"},~                                              => 1539
-	~{"BD4100", "Dragonspear Castle Keep, First Floor"},~                                      => 1540
-	~{"BD4300", "Dragonspear Castle Basement"},~                                               => 1541
-	~{"BD4400", "Avernus"},~                                                                   => 1542
-	~{"BD4500", "Avernus Bridge"},~                                                            => 1543
-	~{"BD4600", "Avernus Interior"},~                                                          => 1544
-	~{"BD4601", "Avernus Elevator"},~                                                          => 1545
-	~{"BD4700", "Avernus Roof"},~                                                              => 1546
-	~{"BD5000", "Underground River Entrance"},~                                                => 1547
-	~{"BD5100", "Underground River"},~                                                         => 1548
-	~{"BD5110", "Ettin Ghost Cave"},~                                                          => 1549
-	~{"BD5200", "The Warrens"},~                                                               => 1550
-	~{"BD5300", "Kanaglym"},~                                                                  => 1551
-	~{"BD6000", "Abandoned Sewers & Caverns"},~                                                => 1552
-	~{"BD6200", "Sewers Exit"},~                                                               => 1553
-	~{"BD6100", "The Ambush"},~                                                                => 1554
-	~{"BD7000", "Coast Way Forest"},~                                                          => 1555
-	~{"BD7100", "Troll Forest"},~                                                              => 1556
-	~{"BD7110", "Troll Cave"},~                                                                => 1557
-	~{"BD7200", "Forest of Wyrms"},~                                                           => 1558
-	~{"BD7210", "Wyrm Cave"},~                                                                 => 1559
-	~{"BD7220", "Bugbear Stronghold"},~                                                        => 1560
-	~{"BD7230", "Temple of Cyric"},~                                                           => 1561
-	~{"BD7300", "Dead Man's Pass"},~                                                           => 1562
-	~{"BD7310", "Hidden Cellar/Treasure Stash"},~                                              => 1563
-	~{"BD7400", "Bloodbark Grove"},~                                                           => 1564
-	~{"BD7410", "Vampire Hideout"},~                                                           => 1565
+	~{"BD0010", "Ducal Palace City Exterior"},~                                                       => 1493
+	~{"BD0020", "Sorcerous/Elf Song City Exterior"},~                                                 => 1494
+	~{"BD0030", "Flaming Fist City Exterior"},~                                                       => 1495
+	~{"BD0040", "Three Kegs City Exterior"},~                                                         => 1496
+	~{"BD0050", "Iron Throne City Exterior"},~                                                        => 1497
+	~{"BD0060", "Random Area - Cave Entrance"},~                                                      => 1498
+	~{"BD0061", "Random Area - Cave Interior from BD0060"},~                                          => 1499
+	~{"BD0062", "Random Area - Cave Pool from BD0061"},~                                              => 1500
+	~{"BD0063", "Random Area - Canyon Ambush"},~                                                      => 1501
+	~{"BD0064", "Random Area - Forest Paths"},~                                                       => 1502
+	~{"BD0065", "Random Area - Wilderness Open Area"},~                                               => 1503
+	~{"BD0066", "Random Area - Wilderness Hole to BD0067"},~                                          => 1504
+	~{"BD0067", "Random Area - Cave Interior from BD0066"},~                                          => 1505
+	~{"BD0070", "The Scrying Pool - The Hooded Man Cutscene"},~                                       => 1506
+	~{"BD0071", "The Scrying Pool - Caelar Cutscene"},~                                               => 1507
+	~{"BD0100", "Ducal Palace, Second Floor"},~                                                       => 1508
+	~{"BD0101", "Ducal Palace, Leaving BG"},~                                                         => 1509
+	~{"BD0102", "Ducal Palace, First Floor"},~                                                        => 1510
+	~{"BD0103", "Ducal Palace, Third Floor"},~                                                        => 1511
+	~{"BD0104", "Flaming Fist HQ"},~                                                                  => 1512
+	~{"BD0105", "Flaming Fist HQ, Basement"},~                                                        => 1513
+	~{"BD0106", "Three Old Kegs, First Floor"},~                                                      => 1514
+	~{"BD0107", "Three Old Kegs, Second Floor"},~                                                     => 1515
+	~{"BD0108", "Three Old Kegs, Third Floor"},~                                                      => 1516
+	~{"BD0109", "Elfsong Tavern, First Floor"},~                                                      => 1517
+	~{"BD0110", "Elfsong Tavern, Second Floor"},~                                                     => 1518
+	~{"BD0111", "Iron Throne Floor, First Floor"},~                                                   => 1519
+	~{"BD0112", "Baldur's Gate East"},~                                                               => 1520
+	~{"BD0113", "Underground Cavern Wyrms"},~                                                         => 1521
+	~{"BD0114", "Spider Cave"},~                                                                      => 1522
+	~{"BD0115", "Vampire Cavern"},~                                                                   => 1523
+	~{"BD0116", "Ducal Palace, Basement"},~                                                           => 1524
+	~{"BD0117", "Iron Throne, Basement"},~                                                            => 1525
+	~{"BD0118", "The Scrying Pool - Imoen Cutscene"},~                                                => 1526
+	~{"BD0120", "Tomb Safehouse, First Floor"},~                                                      => 1527
+	~{"BD0121", "Sorcerous Sundries, First Floor"},~                                                  => 1528
+	~{"BD0122", "Sorcerous Sundries, Second Floor"},~                                                 => 1529
+	~{"BD0130", "Tomb Safehouse, Second Floor"},~                                                     => 1530
+	~{"BD1000", "Coast Way Crossing"},~                                                               => 1531
+	~{"BD1010", "Cave (generic)"},~                                                                   => 1532
+	~{"BD1100", "The Dig"},~                                                                          => 1533
+	~{"BD1200", "Lich Outpost"},~                                                                     => 1534
+	~{"BD2000", "Boareskyr Bridge & Bridgefort"},~                                                    => 1535
+	~{"BD2010", "Cave (generic)"},~                                                                   => 1536
+	~{"BD2100", "Bridgefort Interior"},~                                                              => 1537
+	~{"BD3000", "Allied Siege Camp"},~                                                                => 1538
+	~{"BD4000", "Dragonspear Castle, Exterior"},~                                                     => 1539
+	~{"BD4100", "Dragonspear Castle Keep, First Floor"},~                                             => 1540
+	~{"BD4300", "Dragonspear Castle Basement"},~                                                      => 1541
+	~{"BD4400", "Avernus"},~                                                                          => 1542
+	~{"BD4500", "Avernus Bridge"},~                                                                   => 1543
+	~{"BD4600", "Avernus Interior"},~                                                                 => 1544
+	~{"BD4601", "Avernus Elevator"},~                                                                 => 1545
+	~{"BD4700", "Avernus Roof"},~                                                                     => 1546
+	~{"BD5000", "Underground River Entrance"},~                                                       => 1547
+	~{"BD5100", "Underground River"},~                                                                => 1548
+	~{"BD5110", "Ettin Ghost Cave"},~                                                                 => 1549
+	~{"BD5200", "The Warrens"},~                                                                      => 1550
+	~{"BD5300", "Kanaglym"},~                                                                         => 1551
+	~{"BD6000", "Abandoned Sewers & Caverns"},~                                                       => 1552
+	~{"BD6200", "Sewers Exit"},~                                                                      => 1553
+	~{"BD6100", "The Ambush"},~                                                                       => 1554
+	~{"BD7000", "Coast Way Forest"},~                                                                 => 1555
+	~{"BD7100", "Troll Forest"},~                                                                     => 1556
+	~{"BD7110", "Troll Cave"},~                                                                       => 1557
+	~{"BD7200", "Forest of Wyrms"},~                                                                  => 1558
+	~{"BD7210", "Wyrm Cave"},~                                                                        => 1559
+	~{"BD7220", "Bugbear Stronghold"},~                                                               => 1560
+	~{"BD7230", "Temple of Cyric"},~                                                                  => 1561
+	~{"BD7300", "Dead Man's Pass"},~                                                                  => 1562
+	~{"BD7310", "Hidden Cellar/Treasure Stash"},~                                                     => 1563
+	~{"BD7400", "Bloodbark Grove"},~                                                                  => 1564
+	~{"BD7410", "Vampire Hideout"},~                                                                  => 1565
 
 END
 
