@@ -3,7 +3,7 @@ ACTION_IF FILE_EXISTS_IN_GAME ~bgee.lua~ BEGIN
 
 	// CheatsAreas pour Test Your Mettle
 	PATCH_DEFINE_ASSOCIATIVE_ARRAY strings BEGIN
-	~{"A7#1FY", "Modron Maze - Modron Foyer"},~		                          => 6109
+    ~{"A7#1FY", "Modron Maze - Modron Foyer"},~                               => 6109
     ~{"A7#1EN", "Modron Maze - Engineering Room"},~                           => 6110
     ~{"A7#1FD", "Modron Maze - Portal Room"},~                                => 6111
     ~{"A7#1WZ", "Modron Maze - Boss Room"},~                                  => 6112

@@ -12,6 +12,7 @@ ASK_EVERY_COMPONENT
 LANGUAGE ~Francais~
          ~french~
          ~CluaFr/language/french/setup.tra~
+         ~CluaFr/language/french/MapsFrIWDEE.tra~
          ~CluaFr/language/french/MapsFrEET.tra~
          ~CluaFr/language/french/MapsFrEETALL.tra~
          ~CluaFr/language/french/MapsFrBGEE.tra~
@@ -74,7 +75,7 @@ BEGIN @13 SUBCOMPONENT @18
 */
 	
 BEGIN @12 SUBCOMPONENT  @10
-REQUIRE_PREDICATE GAME_IS ~BGEE BG2EE EET~ @1
+REQUIRE_PREDICATE GAME_IS ~BGEE BG2EE EET IWDEE~ @1
 
 ACTION_IF (GAME_IS ~EET~) BEGIN
     INCLUDE ~CluaFr/Lua/EET/MapsFrEET.tph~ // CheatsAreas pour EET
@@ -92,9 +93,13 @@ ELSE ACTION_IF (GAME_IS ~BG2EE~) BEGIN
     INCLUDE ~CluaFr/Lua/BG2EE/MapsFrBG2EE.tph~ // CheatsAreas pour BG2EE
 	PRINT ~CheatsAreas pour BG2EE~
 END
+ELSE ACTION_IF (GAME_IS ~IWDEE~) BEGIN
+    INCLUDE ~CluaFr/Lua/IWDEE/MapsFrIWDEE.tph~ // CheatsAreas pour BG2EE
+	PRINT ~CheatsAreas pour IWDEE~
+END
 
 BEGIN @13 SUBCOMPONENT  @10
-REQUIRE_PREDICATE GAME_IS ~BGEE BG2EE EET~ @1
+REQUIRE_PREDICATE GAME_IS ~BGEE BG2EE EET IWDEE~ @1
 
 ACTION_IF (GAME_IS ~EET~) BEGIN
     INCLUDE ~CluaFr/Lua/EET/MapsFrEETALL.tph~ // CheatsAreas pour EET
@@ -111,6 +116,10 @@ END
 ELSE ACTION_IF (GAME_IS ~BG2EE~) BEGIN
     INCLUDE ~CluaFr/Lua/BG2EE/MapsFrBG2EEALL.tph~ // CheatsAreas pour BG2EE
 	PRINT ~CheatsAreas pour BG2EE ALL~
+END
+ELSE ACTION_IF (GAME_IS ~IWDEE~) BEGIN
+    INCLUDE ~CluaFr/Lua/IWDEE/MapsFrIWDEEALL.tph~ // CheatsAreas pour BG2EE
+	PRINT ~CheatsAreas pour IWDEE ALL~
 END
 
 

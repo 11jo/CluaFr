@@ -492,7 +492,7 @@ ACTION_IF FILE_EXISTS_IN_GAME ~bgee.lua~ BEGIN
 	~{"OH3000", "Rasaad - Dark Moon temple, exterior"},~                                              => 4485
 	~{"OH3010", "Rasaad - Dark Moon temple, interior"},~                                              => 4488
 	~{"OH3020", "Rasaad - Dark Moon temple, interior"},~                                              => 4489
-    ~{"OH3100", "Rasaad - Dark Moon temple, interior"},~                                              => 4490                                                                                       
+	~{"OH3100", "Rasaad - Dark Moon temple, interior"},~                                              => 4490                                                                                       
 
 	// CheatsAreas Les Fosses noires                                                                  // MapsFrEET.tra
 
