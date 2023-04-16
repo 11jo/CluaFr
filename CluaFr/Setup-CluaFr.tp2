@@ -131,6 +131,12 @@ BEGIN @11   // CheatsAreas pour les mods
 	PRINT ~CheatsAreas pour Check the bodies~
 END
 
+  //ACTION_IF (FILE_EXISTS_IN_GAME ~CB3661.are~) BEGIN
+  ACTION_IF (MOD_IS_INSTALLED ~SETUP-CTB.TP2~ ~1~) BEGIN
+  INCLUDE ~CluaFr/Lua/Mods/CandlekeepChores.tph~ // CheatsAreas pour Check the bodies Candlekeep chores
+	PRINT ~CheatsAreas pour Candlekeep Chores~
+END
+
   //ACTION_IF (FILE_EXISTS_IN_GAME ~ID9700.are~) BEGIN
   ACTION_IF (MOD_IS_INSTALLED ~A7-TotLM-BG2EE~ ~0~) BEGIN
   INCLUDE ~CluaFr/Lua/Mods/TrialsoftheLuremaster.tph~ // CheatsAreas pour Trials of the Luremaster

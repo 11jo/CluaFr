@@ -1,21 +1,4 @@
-ACTION_IF FILE_EXISTS_IN_GAME ~bgee.lua~ BEGIN
-	COPY_EXISTING ~bgee.lua~ ~override/bgee.lua~
-
-	// CheatsAreas pour Check the bodies
-	PATCH_DEFINE_ASSOCIATIVE_ARRAY strings BEGIN
-	~--End SoA Areas~                             => 6000
-
-END
-
-    PATCH_PHP_EACH strings AS find => replace_ref BEGIN
-        SPRINT replace (AT replace_ref)
-        REPLACE_TEXTUALLY ~%find%~ ~%replace%~
-    END
-END
-
-
-/*
-	ACTION_IF FILE_EXISTS_IN_GAME ~bgee.lua~ BEGIN
+ACTION_IF FILE_EXISTS_IN_GAME ~bgee.lua~ AND FILE_EXISTS ~_ApplyPatches.bat~ BEGIN
 	COPY_EXISTING ~bgee.lua~ ~override/bgee.lua~
 
 	// CheatsAreas pour Check the bodies
@@ -137,4 +120,18 @@ END
         REPLACE_TEXTUALLY ~%find%~ ~%replace%~
     END
 END
-*/
+
+ACTION_IF FILE_EXISTS_IN_GAME ~bgee.lua~ AND NOT FILE_EXISTS ~_ApplyPatches.bat~ BEGIN
+	COPY_EXISTING ~bgee.lua~ ~override/bgee.lua~
+
+	// CheatsAreas pour Check the bodies without BWS-FR
+	PATCH_DEFINE_ASSOCIATIVE_ARRAY strings BEGIN
+	~--End SoA Areas~                             => 5999
+
+END
+
+    PATCH_PHP_EACH strings AS find => replace_ref BEGIN
+        SPRINT replace (AT replace_ref)
+        REPLACE_TEXTUALLY ~%find%~ ~%replace%~
+    END
+END

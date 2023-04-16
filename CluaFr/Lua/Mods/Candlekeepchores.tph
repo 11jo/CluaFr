@@ -1,0 +1,41 @@
+ACTION_IF FILE_EXISTS_IN_GAME ~bgee.lua~ AND FILE_EXISTS ~_ApplyPatches.bat~ BEGIN
+	COPY_EXISTING ~bgee.lua~ ~override/bgee.lua~
+	
+	// CheatsAreas pour Check the bodies Candlekeep chores
+	PATCH_DEFINE_ASSOCIATIVE_ARRAY strings BEGIN
+	~{"AR3500", "Candlekeep"},~                         => 5986
+	~{"AR3501", "Candlekeep: Library L1"},~             => 5987
+	~{"AR3502", "Candlekeep: Library L2"},~             => 5988
+	~{"AR3503", "Candlekeep: Library L3"},~             => 5989
+	~{"AR3504", "Candlekeep: Library L4"},~             => 5990
+	~{"AR3505", "Candlekeep: Library L5"},~             => 5991
+	~{"AR3506", "Candlekeep: Barracks"},~               => 5992
+	~{"AR3507", "Candlekeep: Study"},~                  => 5993
+	~{"AR3508", "Candlekeep: Sleeping Room"},~          => 5994
+	~{"AR3510", "Cutscene: Gorion"},~                   => 5995
+	~{"AR3511", "Cutscene: Jaheira"},~                  => 5996
+	~{"AR3512", "Cutscene: Minsk"},~                    => 5997
+	~{"AR3513", "Cutscene: Sarevok"},~                  => 5998
+
+END
+
+    PATCH_PHP_EACH strings AS find => replace_ref BEGIN
+        SPRINT replace (AT replace_ref)
+        REPLACE_TEXTUALLY ~%find%~ ~%replace%~
+    END
+END
+
+ACTION_IF FILE_EXISTS_IN_GAME ~bgee.lua~ AND NOT FILE_EXISTS ~_ApplyPatches.bat~ BEGIN
+	COPY_EXISTING ~bgee.lua~ ~override/bgee.lua~
+
+	// CheatsAreas pour Check the bodies Candlekeep chores without BWS-FR
+	PATCH_DEFINE_ASSOCIATIVE_ARRAY strings BEGIN
+	~--End CtB Areas~                             => 5985
+
+END
+
+    PATCH_PHP_EACH strings AS find => replace_ref BEGIN
+        SPRINT replace (AT replace_ref)
+        REPLACE_TEXTUALLY ~%find%~ ~%replace%~
+    END
+END

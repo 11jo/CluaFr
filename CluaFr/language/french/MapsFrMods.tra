@@ -10,7 +10,39 @@
 
 	// CheatsAreas pour Check the bodies
 
-@6000 = ~--End SoA 
+@5985 = ~--CtB Chores Areas
+	{"  ", "        CTB CANDLEKEEP CHORES        "},
+	{"AR3500", "(CTB)  Château-Suif"},
+	{"AR3501", "(CTB)  Bibliothèque, L1"},
+	{"AR3502", "(CTB)  Bibliothèque, L2"},
+	{"AR3503", "(CTB)  Bibliothèque, L3"},
+	{"AR3504", "(CTB)  Bibliothèque, L4"},
+	{"AR3505", "(CTB)  Bibliothèque, L5"},
+	{"AR3506", "(CTB)  Quartiers des soldats"},
+	{"AR3507", "(CTB)  Étude"},
+	{"AR3508", "(CTB)  Dortoir"},
+	{"AR3510", "(CTB)  (Ciné)  Gorion"},
+	{"AR3511", "(CTB)  (Ciné)  Jaheira"},
+	{"AR3512", "(CTB)  (Ciné)  Minsc"},
+	{"AR3513", "(CTB)  (Ciné)  Sarevok"},~
+
+
+@5986 = ~{"  ", "        CTB CANDLEKEEP CHORES        "},
+	{"AR3500", "(CTB)  Château-Suif"},~
+@5987 = ~{"AR3501", "(CTB)  Bibliothèque, L1"},~
+@5988 = ~{"AR3502", "(CTB)  Bibliothèque, L2"},~
+@5989 = ~{"AR3503", "(CTB)  Bibliothèque, L3"},~
+@5990 = ~{"AR3504", "(CTB)  Bibliothèque, L4"},~
+@5991 = ~{"AR3505", "(CTB)  Bibliothèque, L5"},~
+@5992 = ~{"AR3506", "(CTB)  Quartiers des soldats"},~
+@5993 = ~{"AR3507", "(CTB)  Étude"},~
+@5994 = ~{"AR3508", "(CTB)  Dortoir"},~
+@5995 = ~{"AR3510", "(CTB)  (Ciné)  Gorion"},~
+@5996 = ~{"AR3511", "(CTB)  (Ciné)  Jaheira"},~
+@5997 = ~{"AR3512", "(CTB)  (Ciné)  Minsc"},~
+@5998 = ~{"AR3513", "(CTB)  (Ciné)  Sarevok"},~
+
+@5999 = ~--End SoA 
 	--CtB Areas
 	{"  ", "        CHECK THE BODIES        "},
 	{"AR3520", "(CTB)  Montagnes du Couchant"},
@@ -123,9 +155,8 @@
 	{"CB3667", "(CTB)  Hlondeth, Sous-sol Extaminos zone 7(E)"},
 	{"CB3668", "(CTB)  Hlondeth, Sous-sol Extaminos zone 8(E)"}, 
 	--End CtB Areas~
-/*
-@6000 = ~--CtB Areas
-	{"  ", "        CHECK THE BODIES        "},
+
+@6000 = ~{"  ", "        CHECK THE BODIES        "},
 	{"AR3520", "(CTB)  Montagnes du Couchant"},~
 @6001 = ~{"AR3521", "(CTB)  Tanière de Patte de Velours, (Montagnes du Couchant)"},~
 @6002 = ~{"AR3525", "(CTB)  Aléatoire, Ruelle 1"},~
@@ -236,7 +267,6 @@
 @6107 = ~{"CB3667", "(CTB)  Hlondeth, Sous-sol Extaminos zone 7(E)"},~
 @6108 = ~{"CB3668", "(CTB)  Hlondeth, Sous-sol Extaminos zone 8(E)"}, 
 	--End CtB Areas~
-*/
 
 	// CheatsAreas pour Test Your Mettle
 
