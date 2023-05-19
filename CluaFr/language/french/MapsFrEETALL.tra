@@ -885,9 +885,9 @@
 @2861 = ~{"AR2812", "(Sun)  Temple de Rillifane / Fin de SoA"},~
 @2862 = ~{"AR2900", "(SoA)  Les Abysses / Fin de SoA"},~
 @2863 = ~{"AR2901", "(SoA)  Peur, Larme de Bhaal"},~
-@2864 = ~{"AR2902", "(SoA)  Fierté, Larme de Bhaal"},~
-@2865 = ~{"AR2903", "(SoA)  Cupidité, Larme de Bhaal"},~
-@2866 = ~{"AR2904", "(SoA)  Égoïste, Larme de Bhaal"},~
+@2864 = ~{"AR2902", "(SoA)  Orgueil, Larme de Bhaal"},~
+@2865 = ~{"AR2903", "(SoA)  Avarice, Larme de Bhaal"},~
+@2866 = ~{"AR2904", "(SoA)  Égoïsme, Larme de Bhaal"},~
 @2867 = ~{"AR2905", "(SoA)  Colère, Larme de Bhaal"},~
 @2868 = ~{"AR2906", "Néant"},~
 @2869 = ~{"OH4000", "(SoA)  Amphithéâtre abandonné, Quête de Rasaad"},~
