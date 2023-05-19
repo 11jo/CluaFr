@@ -1,6 +1,6 @@
 BACKUP ~CluaFr/backup~    // location to store files for uninstall purposes
 AUTHOR ~~  // email address displayed if install fails
-README ~~
+README ~CluaFr/readme.txt~
 
 
 VERSION  ~0.1~

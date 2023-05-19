@@ -24,6 +24,9 @@ Pour BGEE, BGSoD, BG2EE et EET. Également compatible avec IWDEE.
 - **Il est préférable d'installer CluaFr après les mods qui ajoutent de nouvelles zones à la CluaConsole, ceux-ci peuvent se baser sur les nom anglais pour s'insérer dans le jeu.**
 
 
+- **Il est préférable d'installer CluaFr après les mods d'interface (UI)** 
+
+
 - **Pour utiliser la CLUAConsole le Debug Mode doit être activé à l'aide de l'un des mods ci-dessous.**
 
 
@@ -142,15 +145,6 @@ Un grand merci à Selphira  !
 ----------------
 
 
-v0.1 : 
+v1.0 : 
 
 - Initial release
-
-v0.2 : 
-
-- "Traification", corrections et préparation du composant Areas Cheats pour les MODS
-
-v0.3 : 
-
-- Support pour Check the bodies, Trials of the Luremaster et Test Your Mettle
-- Révision du tp2 et des fichiers tra
