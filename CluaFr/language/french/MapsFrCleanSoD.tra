@@ -1,0 +1,14 @@
+// @980 à @981
+	
+	// CleanCheatsAreas pour SoD
+
+
+@980 = ~~
+@981 = ~{"AR6100", "Random encounter area"},
+	{"OH1000", "Dorn - Random Encounter Area"},
+	{"OH2000", "Neera - Adoy's Enclave, exterior"},
+	{"OH2010", "Neera - Adoy's Enclave, interior"},
+	{"OH3000", "Rasaad - Dark Moon temple, exterior"},
+	{"OH3010", "Rasaad - Dark Moon temple, interior"},
+	{"OH3020", "Rasaad - Dark Moon temple, interior"},
+	{"OH3100", "Rasaad - Dark Moon temple, interior"},~

@@ -9,20 +9,7 @@
 
 	// CheatsAreas BG2EE ALL
 
-@994 = ~{"OH7310", "(ToB)  Scène avec L, Quête de Hexxat"},
-	{"  ", "        GLADIATORS OF THAY        "},
-	{"OH8000", "(FN2)  Comptoir de Suzail"},
-	{"OH8100", "(FN2)  Zone de repos"},
-	{"OH8200", "(FN2)  Arène 1"},
-	{"OH8300", "(FN2)  Arène 2"},
-	{"OH8400", "(FN2)  Arène 3"},
-	{"  ", "        TUTORIEL        "},
-	{"AR0015", "(Tuto)  Palais Ducal, 1er étage (Commencement)"},
-	{"AR0016", "(Tuto)  Palais Ducal, 2eme étage"},
-	{"AR0017", "(Tuto)  Palais Ducal, 3eme étage"},
-	{"AR0018", "(Tuto)  Palais Ducal, Sous-sol"},~
-	
-@995 = ~{"OH7310", "(ToB)  Scène avec L, Quête de Hexxat"},
+@994 = ~{"OH7200", "(SoA)  Tombe inférieur Est, Quête de Hexxat"},
 	{"  ", "        GLADIATORS OF THAY        "},
 	{"OH8000", "(FN2)  Comptoir de Suzail"},
 	{"OH8100", "(FN2)  Zone de repos"},
@@ -106,4 +93,19 @@
 	{"OH6500", "(ToB)  Domaine Thayen, Quête de Neera"},
 	{"OH7300", "(ToB)  Labyrinthe de Korkorran, Quête de Hexxat"},
 	{"OH7310", "(ToB)  Scène avec L, Quête de Hexxat"},~
+	
+@995 = ~{"OH7310", "(ToB)  Scène avec L, Quête de Hexxat"},
+	{"  ", "        GLADIATORS OF THAY        "},
+	{"OH8000", "(FN2)  Comptoir de Suzail"},
+	{"OH8100", "(FN2)  Zone de repos"},
+	{"OH8200", "(FN2)  Arène 1"},
+	{"OH8300", "(FN2)  Arène 2"},
+	{"OH8400", "(FN2)  Arène 3"},
+	{"  ", "        TUTORIEL        "},
+	{"AR0015", "(Tuto)  Palais Ducal, 1er étage (Commencement)"},
+	{"AR0016", "(Tuto)  Palais Ducal, 2eme étage"},
+	{"AR0017", "(Tuto)  Palais Ducal, 3eme étage"},
+	{"AR0018", "(Tuto)  Palais Ducal, Sous-sol"},~
+	
+
 

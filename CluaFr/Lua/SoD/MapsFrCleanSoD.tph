@@ -1,0 +1,21 @@
+ACTION_IF FILE_EXISTS_IN_GAME ~bgee.lua~ BEGIN
+	COPY_EXISTING ~bgee.lua~ ~override/bgee.lua~
+
+	// CheatsAreas pour BGEE                                                                        // MapsFrBGEE.tra
+	PATCH_DEFINE_ASSOCIATIVE_ARRAY strings BEGIN
+	~{"OH1000", "Dorn - Random Encounter Area"},~                                                     => 980                                           	
+	~{"OH2000", "Neera - Adoy's Enclave, exterior"},~                                                 => 980
+	~{"OH2010", "Neera - Adoy's Enclave, interior"},~                                                 => 980
+	~{"OH3000", "Rasaad - Dark Moon temple, exterior"},~                                              => 980
+	~{"OH3010", "Rasaad - Dark Moon temple, interior"},~                                              => 980
+	~{"OH3020", "Rasaad - Dark Moon temple, interior"},~                                              => 980
+	~{"OH3100", "Rasaad - Dark Moon temple, interior"},~                                              => 980
+	~{"AR6100", "Random encounter area"},~                                                            => 981
+	
+END
+
+    PATCH_PHP_EACH strings AS find => replace_ref BEGIN
+        SPRINT replace (AT replace_ref)
+        REPLACE_TEXTUALLY ~%find%~ ~%replace%~
+    END
+END

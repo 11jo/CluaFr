@@ -17,6 +17,7 @@ LANGUAGE ~Francais~
          ~CluaFr/language/french/MapsFrEETALL.tra~
          ~CluaFr/language/french/MapsFrBGEE.tra~
          ~CluaFr/language/french/MapsFrBGEE.tra~
+         ~CluaFr/language/french/MapsFrCleanSoD.tra~
          ~CluaFr/language/french/MapsFrSoD.tra~
          ~CluaFr/language/french/MapsFrBG2EE.tra~
          ~CluaFr/language/french/MapsFrMods.tra~
@@ -87,6 +88,8 @@ ELSE ACTION_IF (GAME_IS ~BGEE~ AND NOT GAME_INCLUDES ~sod~) BEGIN
 	PRINT ~CheatsAreas pour BGEE~
 END
 ELSE ACTION_IF (GAME_IS ~BGEE~ AND GAME_INCLUDES ~SoD~) BEGIN
+    INCLUDE ~CluaFr/Lua/SoD/MapsFrCleanSoD.tph~  // CleanCheatsAreas pour SoD
+	PRINT ~Cleaned CheatsAreas pour SoD~
     INCLUDE ~CluaFr/Lua/SoD/MapsFrSoD.tph~  // CheatsAreas pour SoD
 	PRINT ~CheatsAreas pour SoD~
 END

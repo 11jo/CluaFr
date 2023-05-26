@@ -920,7 +920,7 @@
 
 	// CheatsAreas pour ToB : La Tour de Garde
 
-@2892 = ~{"AR3000", "(ToB)  La Tour de Garde"},~
+@2892 = ~{"AR3000", "LA TOUR DE GARDE"},~
 @2893 = ~{"AR3001", "(Tour de Garde)  L'Autel, (1)"},~
 @2894 = ~{"AR3003", "(Tour de Garde)  La boussole, (3)"},~
 @2895 = ~{"AR3004", "(Tour de Garde)  Diantrefosse, (3)"},~

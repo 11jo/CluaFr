@@ -330,7 +330,7 @@ ACTION_IF FILE_EXISTS_IN_GAME ~bgee.lua~ BEGIN
 	~{"OH6300", "Neera - Red Wizard Enclave"},~                                                       => 2883
 	~{"OH7000", "Hexxat - Top Left Quarter (Dragomir)"},~                                             => 2884
 	~{"OH7100", "Hexxat - Bottom Left Quarter (Shou Lung)"},~                                         => 2885
-	~{"OH7200", "Hexxat - Bottom Right Quarter (Zakhara)"},~                                          => 995
+	~{"OH7200", "Hexxat - Bottom Right Quarter (Zakhara)"},~                                          => 994
 
 	// CheatsAreas pour Les Gladiateurs de Thay
 
@@ -442,7 +442,7 @@ ACTION_IF FILE_EXISTS_IN_GAME ~bgee.lua~ BEGIN
 	~{"OH6460", "Neera - The Black Pits: Staging Area"},~                                             => 2986
 	~{"OH6500", "Neera - Thayan Estate"},~                                                            => 2987
 	~{"OH7300", "Hexxat - Completed Maze (Korkorran)"},~                                              => 2988
-	~{"OH7310", "Hexxat - Scene with L"},~                                                            => 994
+	~{"OH7310", "Hexxat - Scene with L"},~                                                            => 995
 
 END
 
