@@ -1,4 +1,5 @@
-ACTION_IF FILE_EXISTS_IN_GAME ~bgee.lua~ AND FILE_EXISTS ~_ApplyPatches.bat~ BEGIN
+ACTION_IF FILE_EXISTS_IN_GAME ~bgee.lua~ AND FILE_EXISTS ~BWP_Fixpack.installed~ BEGIN
+    PRINT ~BWP_Fixpack.installed~
 	COPY_EXISTING ~bgee.lua~ ~override/bgee.lua~
 
 	// CheatsAreas pour Check the bodies
@@ -121,7 +122,7 @@ END
     END
 END
 
-ACTION_IF FILE_EXISTS_IN_GAME ~bgee.lua~ AND NOT FILE_EXISTS ~_ApplyPatches.bat~ BEGIN
+ACTION_IF FILE_EXISTS_IN_GAME ~bgee.lua~ AND NOT FILE_EXISTS ~BWP_Fixpack.installed~ BEGIN
 	COPY_EXISTING ~bgee.lua~ ~override/bgee.lua~
 
 	// CheatsAreas pour Check the bodies without BWS-FR
