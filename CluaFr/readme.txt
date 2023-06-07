@@ -1,5 +1,5 @@
 CluaFr
-version 1.0
+version 1.2
 
 
 
@@ -98,3 +98,11 @@ Version History :
 v1.0 : 
 
 - Initial release
+
+v1.1
+
+- BWS-FR-Fixpack detection update for new version
+
+V1.2
+
+- Cleanup and Typos in tp2

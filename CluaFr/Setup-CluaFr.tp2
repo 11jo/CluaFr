@@ -1,13 +1,11 @@
 BACKUP ~CluaFr/backup~    // location to store files for uninstall purposes
-AUTHOR ~~  // email address displayed if install fails
+SUPPORT ~(https://www.baldursgateworld.fr)~  // email address displayed if install fails
 README ~CluaFr/readme.txt~
 
 
-VERSION  ~0.1~
+VERSION  ~1.2~
 
 ASK_EVERY_COMPONENT
-
-//AUTO_TRA ~CluaFr/language/autotra/%s~
 
 LANGUAGE ~Francais~
          ~french~
@@ -15,7 +13,6 @@ LANGUAGE ~Francais~
          ~CluaFr/language/french/MapsFrIWDEE.tra~
          ~CluaFr/language/french/MapsFrEET.tra~
          ~CluaFr/language/french/MapsFrEETALL.tra~
-         ~CluaFr/language/french/MapsFrBGEE.tra~
          ~CluaFr/language/french/MapsFrBGEE.tra~
          ~CluaFr/language/french/MapsFrCleanSoD.tra~
          ~CluaFr/language/french/MapsFrSoD.tra~
@@ -27,53 +24,6 @@ LANGUAGE ~Francais~
 	//////Add language for CheatsAreas....EE Only////
 	//////////////////////////////////////
 
-/*
-BEGIN @12 SUBCOMPONENT @15
- REQUIRE_PREDICATE GAME_IS ~EET~ @5
-    INCLUDE ~CluaFr/Lua/EET/MapsFrEET.tph~ // CheatsAreas pour EET
-	PRINT ~CheatsAreas pour EET~
-
-BEGIN @13 SUBCOMPONENT @15
- REQUIRE_PREDICATE GAME_IS ~EET~ @5
-    INCLUDE ~CluaFr/Lua/EET/MapsFrEETALL.tph~ // CheatsAreas pour EET
-	PRINT ~CheatsAreas pour EET ALL~
-
-BEGIN @12 SUBCOMPONENT @16
-    REQUIRE_PREDICATE GAME_IS ~BGEE~ AND NOT GAME_INCLUDES ~sod~ @6
-
-    INCLUDE ~CluaFr/Lua/BGEE/MapsFrBGEE.tph~  // CheatsAreas pour BGEE
-	PRINT ~CheatsAreas pour BGEE~
-
-BEGIN @13 SUBCOMPONENT @16
-    REQUIRE_PREDICATE GAME_IS ~BGEE~ AND NOT GAME_INCLUDES ~sod~ @6
-
-    INCLUDE ~CluaFr/Lua/BGEE/MapsFrBGEEALL.tph~  // CheatsAreas pour BGEE
-	PRINT ~CheatsAreas pour BGEE ALL~
-
-BEGIN @12 SUBCOMPONENT @17
- REQUIRE_PREDICATE GAME_IS ~BGEE~ AND GAME_INCLUDES ~SoD~ @7
-
-    INCLUDE ~CluaFr/Lua/SoD/MapsFrSoD.tph~  // CheatsAreas pour SoD
-	PRINT ~CheatsAreas pour SoD~
-
-BEGIN @13 SUBCOMPONENT @17
- REQUIRE_PREDICATE GAME_IS ~BGEE~ AND GAME_INCLUDES ~SoD~ @7
-
-    INCLUDE ~CluaFr/Lua/SoD/MapsFrSoDALL.tph~  // CheatsAreas pour SoD
-	PRINT ~CheatsAreas pour SoD ALL~
-
-BEGIN @12 SUBCOMPONENT @18
-    REQUIRE_PREDICATE GAME_IS ~BG2EE~ @8
-
-    INCLUDE ~CluaFr/Lua/BG2EE/MapsFrBG2EE.tph~ // CheatsAreas pour BG2EE
-	PRINT ~CheatsAreas pour BG2EE~
-
-BEGIN @13 SUBCOMPONENT @18
-    REQUIRE_PREDICATE GAME_IS ~BG2EE~ @8
-
-    INCLUDE ~CluaFr/Lua/BG2EE/MapsFrBG2EEALL.tph~ // CheatsAreas pour BG2EE
-	PRINT ~CheatsAreas pour BG2EE ALL~
-*/
 	
 BEGIN @12 SUBCOMPONENT  @10
 DESIGNATED 12
@@ -84,6 +34,8 @@ ACTION_IF (GAME_IS ~EET~) BEGIN
 	PRINT ~CheatsAreas pour EET~
 END
 ELSE ACTION_IF (GAME_IS ~BGEE~ AND NOT GAME_INCLUDES ~sod~) BEGIN
+    /*INCLUDE ~CluaFr/Lua/SoD/MapsFrCleanSoD.tph~  // CleanCheatsAreas pour BGEE
+	PRINT ~Cleaned CheatsAreas pour BGEE~*/
     INCLUDE ~CluaFr/Lua/BGEE/MapsFrBGEE.tph~  // CheatsAreas pour BGEE
 	PRINT ~CheatsAreas pour BGEE~
 END
@@ -111,10 +63,14 @@ ACTION_IF (GAME_IS ~EET~) BEGIN
 	PRINT ~CheatsAreas pour EET ALL~
 END
 ELSE ACTION_IF (GAME_IS ~BGEE~ AND NOT GAME_INCLUDES ~sod~) BEGIN
+    /*INCLUDE ~CluaFr/Lua/SoD/MapsFrCleanSoD.tph~  // CleanCheatsAreas pour BGEE
+	PRINT ~Cleaned CheatsAreas pour BGEE~*/
     INCLUDE ~CluaFr/Lua/BGEE/MapsFrBGEEALL.tph~  // CheatsAreas pour BGEE
 	PRINT ~CheatsAreas pour BGEE ALL~
 END
 ELSE ACTION_IF (GAME_IS ~BGEE~ AND GAME_INCLUDES ~SoD~) BEGIN
+    INCLUDE ~CluaFr/Lua/SoD/MapsFrCleanSoD.tph~  // CleanCheatsAreas pour SoD
+	PRINT ~Cleaned CheatsAreas pour SoD~
     INCLUDE ~CluaFr/Lua/SoD/MapsFrSoDALL.tph~  // CheatsAreas pour SoD
 	PRINT ~CheatsAreas pour SoD ALL~
 END
