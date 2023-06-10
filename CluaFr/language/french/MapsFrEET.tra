@@ -335,7 +335,7 @@
 @1331 = ~{"BG2800", "(SC)  Croisée des chemins"},~
 @1332 = ~{"BG2900", "(SC)  Bois de Lars"},~
 @1333 = ~{"BG3000", "(SC)  Bois des araignées"},~
-@1334 = ~{"BG3100", "(SC)  Cote des épaves"},~
+@1334 = ~{"BG3100", "(SC)  Côte des épaves"},~
 @1335 = ~{"BG3200", "(SC)  Haute Haie, (Kivan)"},~
 @1336 = ~{"BG3201", "(SC)  Maison"},~
 @1337 = ~{"BG3202", "(SC)  Demeure de Thalantyr"},~
@@ -917,7 +917,7 @@
 
 	// CheatsAreas pour ToB : La Tour de Garde
 
-@1892 = ~{"AR3000", "(ToB)  La Tour de Garde"},~
+@1892 = ~{"AR3000", "LA TOUR DE GARDE"},~
 @1893 = ~{"AR3001", "(Tour de Garde)  L'Autel, (1)"},~
 @1894 = ~{"AR3003", "(Tour de Garde)  La boussole, (3)"},~
 @1895 = ~{"AR3004", "(Tour de Garde)  Diantrefosse, (3)"},~
@@ -947,7 +947,7 @@
 
 	// CheatsAreas pour ToB	   
 
-@1919 = ~{"AR4000", "(ToB)  Forêt des Esprit, ILLASERA (Chapitre 8)"},~
+@1919 = ~{"AR4000", "(ToB)  Bosquet Sacré, ILLASERA (Chapitre 8)"},~
 @1920 = ~{"AR4500", "(ToB)  Antichambre, (Sarevok)"},~
 @1921 = ~{"AR5000", "  SARADUSH"},~
 @1922 = ~{"AR5001", "(Gromnir)  Château de Saradush"},~
@@ -1004,7 +1004,7 @@
 @1973 = ~{"AR6111", "(Sendai)  Maison du Bûcheron"},~
 @1974 = ~{"AR6200", "(ToB)  Le Trône de Bhaal / Fin du Jeu"},~
 @1975 = ~{"AR6300", "(ToB)  Oasis du Téthyr"},~
-@1976 = ~{"AR6400", "(ToB)  Forêt du Nord, (Téthyr, Rivière)"},~
+@1976 = ~{"AR6400", "(ToB)  Vallée de la forêt, (Téthyr, Rivière)"},~
 @1977 = ~{"OH4200", "(ToB)  Rocheprofonde, Quête de Rasaad"},~
 @1978 = ~{"OH4210", "(ToB)  Clan de Rocheprofonde, Quête de Rasaad"},~
 @1979 = ~{"OH4220", "(ToB)  Mines de Rocheprofonde, Quête de Rasaad"},~

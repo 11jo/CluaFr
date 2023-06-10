@@ -336,7 +336,7 @@
 @2331 = ~{"BG2800", "(SC)  Croisée des chemins"},~
 @2332 = ~{"BG2900", "(SC)  Bois de Lars"},~
 @2333 = ~{"BG3000", "(SC)  Bois des araignées"},~
-@2334 = ~{"BG3100", "(SC)  Cote des épaves"},~
+@2334 = ~{"BG3100", "(SC)  Côte des épaves"},~
 @2335 = ~{"BG3200", "(SC)  Haute Haie, (Kivan)"},~
 @2336 = ~{"BG3201", "(SC)  Maison"},~
 @2337 = ~{"BG3202", "(SC)  Demeure de Thalantyr"},~
@@ -951,7 +951,7 @@
 	// CheatsAreas pour ToB	   
 
 @2919 = ~{"  ", "        THRONE OF BHAAL        "},
-	{"AR4000", "(ToB)  Forêt des Esprit, ILLASERA (Chapitre 8)"},~
+	{"AR4000", "(ToB)  Bosquet Sacré, ILLASERA (Chapitre 8)"},~
 @2920 = ~{"AR4500", "(ToB)  Antichambre, (Sarevok)"},~
 @2921 = ~{"AR5000", "  SARADUSH"},~
 @2922 = ~{"AR5001", "(Gromnir)  Château de Saradush"},~
@@ -1008,7 +1008,7 @@
 @2973 = ~{"AR6111", "(Sendai)  Maison du Bûcheron"},~
 @2974 = ~{"AR6200", "(ToB)  Le Trône de Bhaal / Fin du Jeu"},~
 @2975 = ~{"AR6300", "(ToB)  Oasis du Téthyr"},~
-@2976 = ~{"AR6400", "(ToB)  Forêt du Nord, (Téthyr, Rivière)"},~
+@2976 = ~{"AR6400", "(ToB)  Vallée de la forêt, (Téthyr, Rivière)"},~
 @2977 = ~{"OH4200", "(ToB)  Rocheprofonde, Quête de Rasaad"},~
 @2978 = ~{"OH4210", "(ToB)  Clan de Rocheprofonde, Quête de Rasaad"},~
 @2979 = ~{"OH4220", "(ToB)  Mines de Rocheprofonde, Quête de Rasaad"},~

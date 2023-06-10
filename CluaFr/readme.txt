@@ -106,3 +106,5 @@ v1.1
 V1.2
 
 - Cleanup and Typos in tp2
+- Uniformisation
+- Delete Unused folder
