@@ -117,8 +117,8 @@
 @4097 = ~{"AR0306", "(BG)  Maison 1, L2 (NE)"},~
 @4098 = ~{"AR0307", "(BG)  Ligue des marchands, L1 (NE)"},~
 @4099 = ~{"AR0308", "(BG)  Ligue des marchands, L2 (NE)"},~
-@4100 = ~{"AR0400", "(SC)  En amont de la Chionthar"},~
-@4101 = ~{"AR0401", "(SC)  Fermes sur la Chionthar, (Ajantis)"},~
+@4100 = ~{"AR0400", "(SC)  En amont de la Chionthar, (Zombies)"},~
+@4101 = ~{"AR0401", "(SC)  Ferme en amont sur la Chionthar"},~
 @4102 = ~{"AR0500", "(ToSC)  Tour de Durlag"},~
 @4103 = ~{"AR0501", "(ToSC)  Tour de Durlag, Sous-sol"},~
 @4104 = ~{"AR0502", "(ToSC)  Tour de Durlag, L1"},~
@@ -262,7 +262,7 @@
 @4242 = ~{"AR1316", "(BG)  Cambriolage, L1 (Taxek et Michael) (SE)"},~
 @4243 = ~{"AR1317", "(BG)  Cambriolage, L2 (Taxek et Michael) (SE)"},~
 @4244 = ~{"AR1320", "(BG)  Magasin 1, Bazar (SE)"},~
-@4245 = ~{"AR1400", "(SC)  En aval du Chionthar"},~
+@4245 = ~{"AR1400", "(SC)  En aval de la Chionthar, (Ajantis)"},~
 @4246 = ~{"AR1401", "(SC)  Fosse des Ankhegs, (Chionthar)"},~
 @4247 = ~{"AR1402", "(SC)  Maison 1, (Chionthar)"},~
 @4248 = ~{"AR1403", "(SC)  Maison 2, (Chionthar)"},~

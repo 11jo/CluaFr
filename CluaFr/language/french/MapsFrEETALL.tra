@@ -102,8 +102,8 @@
 @2097 = ~{"BG0306", "(BG)  Maison 1, L2 (NE)"},~
 @2098 = ~{"BG0307", "(BG)  Ligue des marchands, L1 (NE)"},~
 @2099 = ~{"BG0308", "(BG)  Ligue des marchands, L2 (NE)"},~
-@2100 = ~{"BG0400", "(SC)  En amont de la Chionthar"},~
-@2101 = ~{"BG0401", "(SC)  Fermes sur la Chionthar, (Ajantis)"},~
+@2100 = ~{"BG0400", "(SC)  En amont de la Chionthar, (Zombies)"},~
+@2101 = ~{"BG0401", "(SC)  Ferme en amont sur la Chionthar"},~
 @2102 = ~{"BG0500", "(ToSC)  Tour de Durlag"},~
 @2103 = ~{"BG0501", "(ToSC)  Tour de Durlag, Sous-sol"},~
 @2104 = ~{"BG0502", "(ToSC)  Tour de Durlag, L1"},~
@@ -247,7 +247,7 @@
 @2242 = ~{"BG1316", "(BG)  Cambriolage, L1 (Taxek et Michael) (SE)"},~
 @2243 = ~{"BG1317", "(BG)  Cambriolage, L2 (Taxek et Michael) (SE)"},~
 @2244 = ~{"BG1320", "(BG)  Magasin 1, Bazar (SE)"},~
-@2245 = ~{"BG1400", "(SC)  En aval du Chionthar"},~
+@2245 = ~{"BG1400", "(SC)  En aval de la Chionthar, (Ajantis)"},~
 @2246 = ~{"BG1401", "(SC)  Fosse des Ankhegs, (Chionthar)"},~
 @2247 = ~{"BG1402", "(SC)  Maison 1, (Chionthar)"},~
 @2248 = ~{"BG1403", "(SC)  Maison 2, (Chionthar)"},~
