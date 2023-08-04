@@ -80,7 +80,7 @@
 @2075 = ~{"BG0159", "(BG)  Maison 1, L1 (NO)"},~
 @2076 = ~{"BG0160", "(BG)  Maison 1, L2 (NO)"},~
 @2077 = ~{"BG0161", "(BG)  Manoir de Degrodel (NO)"},~
-@2078 = ~{"BG0162", "(BG)  Manoir des jumelles,( Louise et Laerta) L1 (NO)"},~
+@2078 = ~{"BG0162", "(BG)  Manoir des jumelles, ( Louise et Laerta) L1 (NO)"},~
 @2079 = ~{"BG0163", "(BG)  Maison 2, L1 (NO)"},~
 @2080 = ~{"BG0164", "(BG)  Maison 2, L2 (NO)"},~
 @2081 = ~{"BG0165", "(BG)  Auberge, L1 (NO)"},~
@@ -679,7 +679,7 @@
 @2655 = ~{"AR0418", "(B-q)  Myconides, (Les égouts)"},~
 @2656 = ~{"AR0419", "(B-q)  Myconides, (Sphère planaire)"},~
 @2657 = ~{"AR0420", "(B-q)  Hommes-Lézard, (Sphère planaire)"},~
-@2658 = ~{"AR0500", "  DISTRICT DU PONT"},~
+@2658 = ~{"AR0500", "  QUARTIER DU PONT"},~
 @2659 = ~{"AR0501", "(Pont)  Échoppe du tanneur, L1"},~
 @2660 = ~{"AR0502", "(Pont)  Échoppe du tanneur, Cellier"},~
 @2661 = ~{"AR0503", "(Pont)  Échoppe du tanneur, Quais"},~
@@ -733,8 +733,8 @@
 @2709 = ~{"AR0712", "(W)  Antre des Sept Vaux, L2"},~
 @2710 = ~{"AR0713", "(W)  Restaurant, (Au dessus de la maison de Cernd)"},~
 @2711 = ~{"AR0714", "(Ciné)  Irenicus à la promenade de Waukyne"},~
-@2712 = ~{"AR0800", "  DISTRICT DU CIMETIÈRE"},~
-@2713 = ~{"AR0801", "(C)  Catacombes,(Détruire la Guilde pour Aran)"},~
+@2712 = ~{"AR0800", "  QUARTIER DU CIMETIÈRE"},~
+@2713 = ~{"AR0801", "(C)  Catacombes, (Détruire la Guilde pour Aran)"},~
 @2714 = ~{"AR0802", "(C)  Catacombes, (Parchemin Néthère, Livre de Kaza)"},~
 @2715 = ~{"AR0803", "(C)  Antre de Bodhi, (Détruire la Guilde pour Aran)"},~
 @2716 = ~{"AR0804", "(C)  Bosquet de Pai'Na"},~
@@ -747,7 +747,7 @@
 @2723 = ~{"AR0811", "(C)  Crypte, Sud-Est"},~
 @2724 = ~{"AR0812", "(C)  Crypte 1 centrale"},~
 @2725 = ~{"AR0813", "(C)  Crypte 2 centrale"},~
-@2726 = ~{"AR0900", "  DISTRICT DU TEMPLE"},~
+@2726 = ~{"AR0900", "  QUARTIER DES TEMPLES"},~
 @2727 = ~{"AR0901", "(D-t)  Temple de Heaum"},~
 @2728 = ~{"AR0902", "(D-t)  Temple de Lathandre"},~
 @2729 = ~{"AR0903", "(D-t)  Ordre du Cœur Radieux"},~
@@ -755,7 +755,7 @@
 @2731 = ~{"AR0905", "(D-t)  Domaine Pimlico"},~
 @2732 = ~{"AR0906", "(D-t)  Cour gardée, L1"},~
 @2733 = ~{"AR0907", "(D-t)  Cour gardée, L2"},~
-@2734 = ~{"AR1000", "  DISTRICT DU GOUVERNEMENT"},~
+@2734 = ~{"AR1000", "  QUARTIER DU GOUVERNEMENT"},~
 @2735 = ~{"AR1001", "(G)  Domaine Delryn"},~
 @2736 = ~{"AR1002", "(G)  Bâtiment du Conseil des Six"},~
 @2737 = ~{"AR1003", "(G)  Domaine Firecam"},~
