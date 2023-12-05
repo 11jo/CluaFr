@@ -37,7 +37,7 @@
 @4017 = ~{"AR0019", "(BG)  Maison 5, L2 (N)"},~
 @4018 = ~{"AR0020", "(BG)  Maison 6, L1 (N)"},~
 @4019 = ~{"AR0021", "(BG)  Maison 6, L2 (N)"},~
-@4020 = ~{"AR0100", "  La Porte de Baldur, NORD-OUEST"},~
+@4020 = ~{"AR0100", "        La Porte de Baldur, NORD-OUEST"},~
 @4021 = ~{"AR0101", "(BG)  Domaine Écudargent, L1 (NO)"},~
 @4022 = ~{"AR0102", "(BG)  Domaine Écudargent, L2 Skie (NO)"},~
 @4023 = ~{"AR0103", "(BG)  Taverne de l'Esturgeon Sautillant, L1 (NE)"},~
@@ -105,11 +105,11 @@
 @4085 = ~{"AR0169", "(BG)  Maison 4, L1 (NO)"},~
 @4086 = ~{"AR0170", "(BG)  Maison 4, L2 (NO)"},~
 @4087 = ~{"AR0171", "(BG)  Taverne de Keexie, L2 (E)"},~
-@4088 = ~{"AR0200", "  La Porte de Baldur, NORD"},~
+@4088 = ~{"AR0200", "        La Porte de Baldur, NORD"},~
 @4089 = ~{"AR0224", "(BG)  Égouts, Ouest (O)"},~
 @4090 = ~{"AR0225", "(BG)  Égouts, Central (C)"},~
 @4091 = ~{"AR0226", "(BG)  Égouts, Est (E)"},~
-@4092 = ~{"AR0300", "  La Porte de Baldur, NORD-EST"},~
+@4092 = ~{"AR0300", "        La Porte de Baldur, NORD-EST"},~
 @4093 = ~{"AR0302", "(BG)  Maison 2, L1 (NE)"},~
 @4094 = ~{"AR0303", "(BG)  Maison 2, L2 (NE)"},~
 @4095 = ~{"AR0304", "(BG)  Bazar (NE)"},~
@@ -136,7 +136,7 @@
 @4116 = ~{"AR0514", "(ToSC)  Tour de Durlag, D4"},~
 @4117 = ~{"AR0515", "(ToSC)  Tour de Durlag, Golem de pierre"},~
 @4118 = ~{"AR0516", "(ToSC)  Tour de Durlag, Chevalier demon"},~
-@4119 = ~{"AR0600", "  La Porte de Baldur, OUEST"},~
+@4119 = ~{"AR0600", "        La Porte de Baldur, OUEST"},~
 @4120 = ~{"AR0601", "(BG)  Les Sept Soleils, L1 (SO)"},~
 @4121 = ~{"AR0602", "(BG)  Les Sept Soleils, L2 (SO)"},~
 @4122 = ~{"AR0603", "(BG)  Les Sept Soleils, Sous-sol (SO)"},~
@@ -155,7 +155,7 @@
 @4135 = ~{"AR0619", "(BG)  Maison de Fenten, L1 (O)"},~
 @4136 = ~{"AR0620", "(BG)  Maison de Fenten, L2 (O)"},~
 @4137 = ~{"AR0621", "(BG)  Trône de Fer, Toit (S)"},~
-@4138 = ~{"AR0700", "  La Porte de Baldur, CENTRE DE LA VILLE"},~
+@4138 = ~{"AR0700", "        La Porte de Baldur, CENTRE DE LA VILLE"},~
 @4139 = ~{"AR0702", "(BG)  Bâtisse du Maître du Port, (Quais) (S)"},~
 @4140 = ~{"AR0703", "(BG)  Bazar Magique, L1 (E)"},~
 @4141 = ~{"AR0704", "(BG)  Bazar Magique, L2 (E)"},~
@@ -181,7 +181,7 @@
 @4161 = ~{"AR0724", "(BG)  Tente de jeux 1, (C)"},~
 @4162 = ~{"AR0725", "(BG)  Tente de jeux 2, (C)"},~
 @4163 = ~{"AR0726", "(BG)  Tente du devin, (C)"},~
-@4164 = ~{"AR0800", "  La Porte de Baldur, EST"},~
+@4164 = ~{"AR0800", "        La Porte de Baldur, EST"},~
 @4165 = ~{"AR0801", "(BG)  Maison 6, L1 (E)"},~
 @4166 = ~{"AR0802", "(BG)  Maison 6, L2 (E)"},~
 @4167 = ~{"AR0803", "(BG)  Magasin d'armes de Maltz, L1 (E)"},~
@@ -198,7 +198,7 @@
 @4178 = ~{"AR0814", "(BG)  Maison de Nemphre, L2 (SE)"},~
 @4179 = ~{"AR0900", "(SC)  Travers du Ver, (Quayle)"},~
 @4180 = ~{"AR0901", "(SC)  Maison de Tenya, (Travers du Ver)"},~
-@4181 = ~{"AR1000", "  BARBE D'ULGOTH"},~
+@4181 = ~{"AR1000", "        BARBE D'ULGOTH"},~
 @4182 = ~{"AR1001", "(ToSC)  Auberge de la Barbe d'Ulgoth"},~
 @4183 = ~{"AR1002", "(ToSC)  Aec'Letec le démon, D1 (Barbe d'Ulgoth)"},~
 @4184 = ~{"AR1003", "(ToSC)  Culte d'Aec'Letec, L1 (Barbe d'Ulgoth)"},~
@@ -209,7 +209,7 @@
 @4189 = ~{"AR1008", "(ToSC)  Île des glaces"},~
 @4190 = ~{"AR1009", "(ToSC)  Île des glaces, Labyrinthe L1"},~
 @4191 = ~{"AR1010", "(ToSC)  Île des glaces, Labyrinthe L2"},~
-@4192 = ~{"AR1100", "  La Porte de Baldur, SUD-OUEST, (Tiax)"},~
+@4192 = ~{"AR1100", "        La Porte de Baldur, SUD-OUEST, (Tiax)"},~
 @4193 = ~{"AR1101", "(BG)  Maison de Wiven, L1 (SO)"},~
 @4194 = ~{"AR1102", "(BG)  Maison de Wiven, L2 (SO)"},~
 @4195 = ~{"AR1103", "(BG)  Maison 3, L1 (SO)"},~
@@ -227,7 +227,7 @@
 @4207 = ~{"AR1115", "(BG)  Magasin de potions 2, (SO)"},~
 @4208 = ~{"AR1116", "(BG)  Magasin d'armes 2, (SO)"},~
 @4209 = ~{"AR1117", "(BG)  Magasin de potions 1, (SO)"},~
-@4210 = ~{"AR1200", "  Les quais de la Porte de Baldur, SUD"},~
+@4210 = ~{"AR1200", "        Les quais de la Porte de Baldur, SUD"},~
 @4211 = ~{"AR1201", "(BG)  Manoir des ogres-mages, L1 (S)"},~
 @4212 = ~{"AR1202", "(BG)  Manoir des ogres-mages, L2 (S)"},~
 @4213 = ~{"AR1203", "(BG)  Maison 2, L1 (S)"},~
@@ -243,7 +243,7 @@
 @4223 = ~{"AR1213", "(BG)  Maison de Cordyr, L1 (S)"},~
 @4224 = ~{"AR1214", "(BG)  Maison de Cordyr, L2 (S)"},~
 @4225 = ~{"AR1215", "(BG)  Taverne de Jopalin, (Quais) (S)"},~
-@4226 = ~{"AR1300", "  La Porte de Baldur, SUD-EST"},~
+@4226 = ~{"AR1300", "        La Porte de Baldur, SUD-EST"},~
 @4227 = ~{"AR1301", "(BG)  Entrepôt, (SE)"},~
 @4228 = ~{"AR1302", "(BG)  Magasin d'Al le Bien-Équilibre, (SE)"},~
 @4229 = ~{"AR1303", "(BG)  Entrepôt de Nadarin, (SE)"},~
@@ -349,13 +349,13 @@
 @4329 = ~{"AR2643", "(C-S)  Entraînement au combat de groupe d’Obe"},~
 @4330 = ~{"AR2700", "(SC)  Voie du Lion, (Imoen, Xzar, Montaron)"},~
 @4331 = ~{"AR2800", "(SC)  Croisée des chemins"},~
-@4332 = ~{"AR2900", "(SC)  Bois de Lars"},~
+@4332 = ~{"AR2900", "(SC)  Bois des Dents Acérées"},~
 @4333 = ~{"AR3000", "(SC)  Bois des araignées"},~
 @4334 = ~{"AR3100", "(SC)  Côte des épaves"},~
 @4335 = ~{"AR3200", "(SC)  Haute Haie, (Kivan)"},~
 @4336 = ~{"AR3201", "(SC)  Maison"},~
 @4337 = ~{"AR3202", "(SC)  Demeure de Thalantyr"},~
-@4338 = ~{"AR3300", "  BÉRÉGOST, (Neera, Garrick, Kagain)"},~
+@4338 = ~{"AR3300", "        BÉRÉGOST, (Neera, Garrick, Kagain)"},~
 @4339 = ~{"AR3301", "(B)  Forge de Grondemarteau"},~
 @4340 = ~{"AR3302", "(B)  Maison 19"},~
 @4341 = ~{"AR3303", "(B)  Auberge de la Gerbe Rouge, L2"},~
@@ -424,7 +424,7 @@
 @4404 = ~{"AR3802", "(SC)  Grotte de la Route de Nashkel"},~
 @4405 = ~{"AR3900", "(SC)  École d’Ulcaster"},~
 @4406 = ~{"AR3901", "(SC)  Ruines de l'école d’Ulcaster"},~
-@4407 = ~{"AR4000", "  GULLYKIN"},~
+@4407 = ~{"AR4000", "        GULLYKIN"},~
 @4408 = ~{"AR4001", "(G)  Maison de Jenkal, L1"},~
 @4409 = ~{"AR4002", "(G)  Maison de Jenkal, Cellier"},~
 @4410 = ~{"AR4003", "(G)  Temple de Yondalla, L1"},~
@@ -450,7 +450,7 @@
 @4430 = ~{"AR4600", "(SC)  Rivière de l'Ours"},~
 @4431 = ~{"AR4700", "(SC)  Village Xvart"},~
 @4432 = ~{"AR4701", "(SC)  Grotte d'Ursa l'ours"},~
-@4433 = ~{"AR4800", "  NASHKEL, (Minsc, Edwin, Rasaad)"},~
+@4433 = ~{"AR4800", "        NASHKEL, (Minsc, Edwin, Rasaad)"},~
 @4434 = ~{"AR4801", "(N)  Auberge de Nashkel"},~
 @4435 = ~{"AR4802", "(N)  Temple de Heaum"},~
 @4436 = ~{"AR4803", "(N)  Magasin de Nashkel"},~

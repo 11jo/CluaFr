@@ -484,7 +484,7 @@
 	// CheatsAreas pour IWD2_EET
 
 @6307 = ~{"  ", "        ICEWIND DALE 2        "},
-	{"IW1000", "(IwD2)  Targos Docks"},~
+	{"IW1000", "(IwD2)  Les quais de Targos"},~
 @6308 = ~{"IW1001", "(IwD2)  Targos Docks - Harbour Master's Warehouse"},~
 @6309 = ~{"IW1002", "(IwD2)  Targos Docks - Goblin Infested Warehouse"},~
 @6310 = ~{"IW1003", "(IwD2)  Targos Docks - The Salty Dog Tavern"},~
@@ -492,7 +492,7 @@
 @6312 = ~{"IW1005", "(IwD2)  Targos Docks - House"},~
 @6313 = ~{"IW1006", "(IwD2)  Targos Docks - Jorun's House"},~
 @6314 = ~{"IW1007", "(IwD2)  Targos Docks - Smugglers' Caves"},~
-@6315 = ~{"IW1100", "(IwD2)  TARGOS TOWN"},~
+@6315 = ~{"IW1100", "(IwD2)  TARGOS"},~
 @6316 = ~{"IW1101", "(IwD2)  Targos Town - Town Hall"},~
 @6317 = ~{"IW1102", "(IwD2)  Targos Town - Gallaway Trading Post"},~
 @6318 = ~{"IW1103", "(IwD2)  Targos Town - Healing Pavilion"},~
@@ -514,16 +514,16 @@
 @6334 = ~{"IW3100", "(IwD2)  Forteresse de la Horde Compound"},~
 @6335 = ~{"IW3101", "(IwD2)  Forteresse de la Horde"},~
 @6336 = ~{"IW4000", "(IwD2)  The Crash Site"},~
-@6337 = ~{"IW4001", "(IwD2)  The Crash Site - Oswald's Airship"},~
+@6337 = ~{"IW4001", "(IwD2)  The Crash Site - Vaisseau d'Oswald"},~
 @6338 = ~{"IW4100", "(IwD2)  The Ice Wall"},~
 @6339 = ~{"IW4101", "(IwD2)  The Ice Wall - The Ice Temple - Level 1"},~
 @6340 = ~{"IW4102", "(IwD2)  The Ice Wall - The Ice Temple - Level 2"},~
 @6341 = ~{"IW4103", "(IwD2)  The Ice Wall - The Ice Temple - Level 2 (Help Nickademus)"},~
-@6342 = ~{"IW5000", "(IwD2)  Village Itinérant"},~
-@6343 = ~{"IW5001", "(IwD2)  Edge of the Fell Wood"},~
+@6342 = ~{"IW5000", "(IwD2)  Le Village Itinérant"},~
+@6343 = ~{"IW5001", "(IwD2)  Orée de la Forêt maudite"},~
 @6344 = ~{"IW5002", "(IwD2)  Limha's marquee"},~
-@6345 = ~{"IW5004", "(IwD2)  The Cold Marshes"},~
-@6346 = ~{"IW5005", "(IwD2)  Ice Lakes"},~
+@6345 = ~{"IW5004", "(IwD2)  Les Marais Froids"},~
+@6346 = ~{"IW5005", "(IwD2)  Le Lac de Gelé"},~
 @6347 = ~{"IW5010", "(IwD2)  La Forêt Maudite - Beginning"},~
 @6348 = ~{"IW5011", "(IwD2)  La Forêt Maudite - The Circle of Stones"},~
 @6349 = ~{"IW5012", "(IwD2)  La Forêt Maudite - Three"},~
@@ -545,17 +545,17 @@
 @6365 = ~{"IW5028", "(IwD2)  La Forêt Maudite - Nineteen"},~
 @6366 = ~{"IW5029", "(IwD2)  La Forêt Maudite - Twenty"},~
 @6367 = ~{"IW5030", "(IwD2)  La Forêt Maudite - The Ghost Lights"},~
-@6368 = ~{"IW5100", "(IwD2)  The River Caves - Entrance"},~
-@6369 = ~{"IW5101", "(IwD2)  The River Caves"},~
-@6370 = ~{"IW5102", "(IwD2)  The River Caves - Exit"},~
-@6371 = ~{"IW5200", "(IwD2)  Monastère du Corbeau Noir - exterior"},~
+@6368 = ~{"IW5100", "(IwD2)  Les Cavernes de la rivière, Entrée)"},~
+@6369 = ~{"IW5101", "(IwD2)  Les Cavernes de la rivière"},~
+@6370 = ~{"IW5102", "(IwD2)  Les Cavernes de la rivière, (Sortie)"},~
+@6371 = ~{"IW5200", "(IwD2)  Monastère du Corbeau Noir"},~
 @6372 = ~{"IW5201", "(IwD2)  Monastère du Corbeau Noir - main floor"},~
-@6373 = ~{"IW5202", "(IwD2)  Monastère du Corbeau Noir - Basement"},~
-@6374 = ~{"IW5203", "(IwD2)  Monastère du Corbeau Noir - The Raven Tomb"},~
-@6375 = ~{"IW5300", "(IwD2)  l’Ombre-Terre"},~
-@6376 = ~{"IW5301", "(IwD2)  l’Ombre-Terre - The Drider Lair"},~
-@6377 = ~{"IW5302", "(IwD2)  l’Ombre-Terre - Z'hinda Citadel"},~
-@6378 = ~{"IW5303", "(IwD2)  l’Ombre-Terre Exit"},~
+@6373 = ~{"IW5202", "(IwD2)  Monastère du Corbeau Noir, (Sous-sol)"},~
+@6374 = ~{"IW5203", "(IwD2)  Monastère du Corbeau Noir, (La tombe du Corbeau)"},~
+@6375 = ~{"IW5300", "(IwD2)  L’Ombre-Terre"},~
+@6376 = ~{"IW5301", "(IwD2)  L’Ombre-Terre - The Drider Lair"},~
+@6377 = ~{"IW5302", "(IwD2)  L’Ombre-Terre - Z'hinda Citadel"},~
+@6378 = ~{"IW5303", "(IwD2)  Sortie de l’Ombre-Terre"},~
 @6379 = ~{"IW6000", "(IwD2)  Le col de Kuldahar"},~
 @6380 = ~{"IW6001", "(IwD2)  KULDAHAR"},~
 @6381 = ~{"IW6002", "(IwD2)  Le col de Kuldahar - Hrothgar's Vale"},~
@@ -574,31 +574,31 @@
 @6394 = ~{"IW6102", "(IwD2)  l'Œil du Dragon - Level 2 (Alchemy Lab)"},~
 @6395 = ~{"IW6103", "(IwD2)  l'Œil du Dragon - Level 3 (Thorasskus)"},~
 @6396 = ~{"IW6104", "(IwD2)  l'Œil du Dragon - The Magma Chamber"},~
-@6397 = ~{"IW6200", "(IwD2)  Champs du Carnage"},~
+@6397 = ~{"IW6200", "(IwD2)  Les Champs du Carnage"},~
 @6398 = ~{"IW6201", "(IwD2)  Champs du Carnage - Rocks (Saablic Tan)"},~
-@6399 = ~{"IW6300", "(IwD2)  Main Tranchée - Level 1"},~
-@6400 = ~{"IW6301", "(IwD2)  Main Tranchée - Level 2"},~
-@6401 = ~{"IW6302", "(IwD2)  Main Tranchée - Level 3"},~
-@6402 = ~{"IW6303", "(IwD2)  Main Tranchée - Level 4"},~
-@6403 = ~{"IW6304", "(IwD2)  Main Tranchée - Level 5"},~
-@6404 = ~{"IW6305", "(IwD2)  Main Tranchée - Level 4 (Final)"},~
-@6405 = ~{"IW6400", "(IwD2)  Main Tranchée - Tower of Labelas - Level 1"},~
-@6406 = ~{"IW6401", "(IwD2)  Main Tranchée - Tower of Labelas - Level 2"},~
-@6407 = ~{"IW6402", "(IwD2)  Main Tranchée - Tower of Labelas - Level 3"},~
-@6408 = ~{"IW6403", "(IwD2)  Main Tranchée - Tower of Labelas - Level 4"},~
-@6409 = ~{"IW6500", "(IwD2)  Main Tranchée - Tower of Solonor - Level 1"},~ // PVRZ ?
-@6410 = ~{"IW6501", "(IwD2)  Main Tranchée - Tower of Solonor - Level 2"},~
-@6411 = ~{"IW6502", "(IwD2)  Main Tranchée - Tower of Solonor - Level 3"},~
-@6412 = ~{"IW6503", "(IwD2)  Main Tranchée - Tower of Solonor - Level 4"},~ // PVRZ ?
-@6413 = ~{"IW6600", "(IwD2)  Main Tranchée - Tower of Corellon - Level 1"},~
-@6414 = ~{"IW6601", "(IwD2)  Main Tranchée - Tower of Corellon - Level 2"},~
-@6415 = ~{"IW6602", "(IwD2)  Main Tranchée - Tower of Corellon - Level 3"},~
-@6416 = ~{"IW6603", "(IwD2)  Main Tranchée - Tower of Corellon - Level 4"},~ // PVRZ ?
-@6417 = ~{"IW6700", "(IwD2)  Main Tranchée - Tower of Sheverash - Level 1"},~
-@6418 = ~{"IW6701", "(IwD2)  Main Tranchée - Tower of Sheverash - Level 2"},~
-@6419 = ~{"IW6702", "(IwD2)  Main Tranchée - Tower of Sheverash - Level 3"},~
-@6420 = ~{"IW6703", "(IwD2)  Main Tranchée - Tower of Sheverash - Level 4"},~
-@6421 = ~{"IW6800", "(IwD2)  Main Tranchée - bridge between Towers of Labelas and Sheverash"},~
+@6399 = ~{"IW6300", "(IwD2)  Main Tranchée, L1"},~
+@6400 = ~{"IW6301", "(IwD2)  Main Tranchée, L2"},~
+@6401 = ~{"IW6302", "(IwD2)  Main Tranchée, L3"},~
+@6402 = ~{"IW6303", "(IwD2)  Main Tranchée, L4"},~
+@6403 = ~{"IW6304", "(IwD2)  Main Tranchée, L5"},~
+@6404 = ~{"IW6305", "(IwD2)  Main Tranchée, L4 (Final)"},~
+@6405 = ~{"IW6400", "(IwD2)  Tour de Labelas, L1 (Main Tranchée)"},~
+@6406 = ~{"IW6401", "(IwD2)  Tour de Labelas, L2 (Main Tranchée)"},~
+@6407 = ~{"IW6402", "(IwD2)  Tour de Labelas, L3 (Main Tranchée)"},~
+@6408 = ~{"IW6403", "(IwD2)  Tour de Labelas, L4 (Main Tranchée)"},~
+@6409 = ~{"IW6500", "(IwD2)  Tour de Solonor, L1 (Main Tranchée)"},~ // PVRZ ?
+@6410 = ~{"IW6501", "(IwD2)  Tour de Solonor, L2 (Main Tranchée)"},~
+@6411 = ~{"IW6502", "(IwD2)  Tour de Solonor, L3 (Main Tranchée)"},~
+@6412 = ~{"IW6503", "(IwD2)  Tour de Solonor, L4 (Main Tranchée)"},~ // PVRZ ?
+@6413 = ~{"IW6600", "(IwD2)  Tour de Corellon, L1 (Main Tranchée)"},~
+@6414 = ~{"IW6601", "(IwD2)  Tour de Corellon, L2 (Main Tranchée)"},~
+@6415 = ~{"IW6602", "(IwD2)  Tour de Corellon, L3 (Main Tranchée)"},~
+@6416 = ~{"IW6603", "(IwD2)  Tour de Corellon, L4 (Main Tranchée)"},~ // PVRZ ?
+@6417 = ~{"IW6700", "(IwD2)  Tour de Shevarash, L1 (Main Tranchée)"},~
+@6418 = ~{"IW6701", "(IwD2)  Tour de Shevarash, L2 (Main Tranchée)"},~
+@6419 = ~{"IW6702", "(IwD2)  Tour de Shevarash, L3 (Main Tranchée)"},~
+@6420 = ~{"IW6703", "(IwD2)  Tour de Shevarash, L4 (Main Tranchée)"},~
+@6421 = ~{"IW6800", "(IwD2)  Pont, Labelas / Sheverash, (Main Tranchée)"},~
 
 
 /*

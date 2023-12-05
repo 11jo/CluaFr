@@ -34,8 +34,8 @@ ACTION_IF (GAME_IS ~EET~) BEGIN
 	PRINT ~CheatsAreas pour EET~
 END
 ELSE ACTION_IF (GAME_IS ~BGEE~ AND NOT GAME_INCLUDES ~sod~) BEGIN
-    /*INCLUDE ~CluaFr/Lua/SoD/MapsFrCleanSoD.tph~  // CleanCheatsAreas pour BGEE
-	PRINT ~Cleaned CheatsAreas pour BGEE~*/
+    /* INCLUDE ~CluaFr/Lua/SoD/MapsFrCleanSoD.tph~  // CleanCheatsAreas pour BGEE
+	PRINT ~Cleaned CheatsAreas pour BGEE~ */
     INCLUDE ~CluaFr/Lua/BGEE/MapsFrBGEE.tph~  // CheatsAreas pour BGEE
 	PRINT ~CheatsAreas pour BGEE~
 END
@@ -57,14 +57,15 @@ END
 BEGIN @13 SUBCOMPONENT  @10
 DESIGNATED 13
 REQUIRE_PREDICATE GAME_IS ~BGEE BG2EE EET IWDEE~ @1
+// REQUIRE_PREDICATE NOT MOD_IS_INSTALLED ~INFINITY_UI.TP2~ ~0~ ~Infinity UI incompatibility~ 
 
 ACTION_IF (GAME_IS ~EET~) BEGIN
     INCLUDE ~CluaFr/Lua/EET/MapsFrEETALL.tph~ // CheatsAreas pour EET
 	PRINT ~CheatsAreas pour EET ALL~
 END
 ELSE ACTION_IF (GAME_IS ~BGEE~ AND NOT GAME_INCLUDES ~sod~) BEGIN
-    /*INCLUDE ~CluaFr/Lua/SoD/MapsFrCleanSoD.tph~  // CleanCheatsAreas pour BGEE
-	PRINT ~Cleaned CheatsAreas pour BGEE~*/
+    /* INCLUDE ~CluaFr/Lua/SoD/MapsFrCleanSoD.tph~  // CleanCheatsAreas pour BGEE
+	PRINT ~Cleaned CheatsAreas pour BGEE~ */
     INCLUDE ~CluaFr/Lua/BGEE/MapsFrBGEEALL.tph~  // CheatsAreas pour BGEE
 	PRINT ~CheatsAreas pour BGEE ALL~
 END
@@ -84,40 +85,100 @@ ELSE ACTION_IF (GAME_IS ~IWDEE~) BEGIN
 END
 
 
+// Infinity UI compatibility
+
+ACTION_IF (GAME_IS ~EET~ AND MOD_IS_INSTALLED ~infinity_ui.tp2~ 0) BEGIN
+
+    COPY_EXISTING ~bgee.lua~ ~override~
+        REPLACE_TEXTUALLY ~	{"  ", "        BALDUR'S GATE        "},~ ~	{"CLUAEET", "        BALDUR'S GATE        "},~
+        REPLACE_TEXTUALLY ~	{"  ", "        SIEGE OF DRAGONSPEAR        "},~ ~	{"CLUASoD", "        SIEGE OF DRAGONSPEAR        "},~
+        REPLACE_TEXTUALLY ~	{"  ", "        SHADOWS OF AMN        "},~ ~	{"CLUASoA", "        SHADOWS OF AMN        "},~
+        REPLACE_TEXTUALLY ~	{"  ", "        THRONE OF BHAAL        "},~ ~	{"CLUAToB", "        THRONE OF BHAAL        "},~
+    BUT_ONLY IF_EXISTS
+	
+    COPY_EXISTING ~UI.MENU~ ~override~
+        REPLACE_TEXTUALLY ~"BD0010"~ ~"CLUASoD"~
+        REPLACE_TEXTUALLY ~"BG0002"~ ~"CLUAEET"~
+    BUT_ONLY IF_EXISTS
+  END
+  
+ACTION_IF (GAME_IS ~BGEE~ AND NOT GAME_INCLUDES ~sod~ AND MOD_IS_INSTALLED ~infinity_ui.tp2~ 0) BEGIN
+
+    COPY_EXISTING ~bgee.lua~ ~override~
+        REPLACE_TEXTUALLY ~	{"  ", "        BALDUR'S GATE        "},~ ~	{"CLUABG", "        BALDUR'S GATE        "},~
+    BUT_ONLY IF_EXISTS
+	
+    COPY_EXISTING ~UI.MENU~ ~override~
+        REPLACE_TEXTUALLY ~"AR0002"~ ~"CLUABG"~
+    BUT_ONLY IF_EXISTS
+  END
+  
+ACTION_IF (GAME_IS ~BGEE~ AND GAME_INCLUDES ~SoD~ AND MOD_IS_INSTALLED ~infinity_ui.tp2~ 0) BEGIN
+
+    COPY_EXISTING ~bgee.lua~ ~override~
+        REPLACE_TEXTUALLY ~	{"  ", "        BALDUR'S GATE        "},~ ~	{"CLUABG", "        BALDUR'S GATE        "},~
+        REPLACE_TEXTUALLY ~	{"  ", "        SIEGE OF DRAGONSPEAR        "},~ ~	{"CLUASoD", "        SIEGE OF DRAGONSPEAR        "},~
+    BUT_ONLY IF_EXISTS
+	
+    COPY_EXISTING ~UI.MENU~ ~override~
+        REPLACE_TEXTUALLY ~"BD0010"~ ~"CLUASoD"~
+    BUT_ONLY IF_EXISTS
+  END
+  
+ACTION_IF (GAME_IS ~BG2EE~ AND MOD_IS_INSTALLED ~infinity_ui.tp2~ 0) BEGIN
+
+    COPY_EXISTING ~bgee.lua~ ~override~
+        REPLACE_TEXTUALLY ~	{"  ", "        SHADOWS OF AMN        "},~ ~	{"CLUASoA", "        SHADOWS OF AMN        "},~
+        REPLACE_TEXTUALLY ~	{"  ", "        THRONE OF BHAAL        "},~ ~	{"CLUAToB", "        THRONE OF BHAAL        "},~
+    BUT_ONLY IF_EXISTS
+	
+    COPY_EXISTING ~UI.MENU~ ~override~
+        REPLACE_TEXTUALLY ~"AR0011"~ ~"CLUASoA"~
+    BUT_ONLY IF_EXISTS
+  END
+  
+ACTION_IF (GAME_IS ~IWDEE~ AND MOD_IS_INSTALLED ~infinity_ui.tp2~ 0) BEGIN
+
+    COPY_EXISTING ~bgee.lua~ ~override~
+        REPLACE_TEXTUALLY ~	{"  ", "        ICEWIND DALE I        "},~ ~	{"CLUAIWD", "        ICEWIND DALE I        "},~
+        REPLACE_TEXTUALLY ~	{"  ", "        HEART OF WINTER        "},~ ~	{"CLUAHoW", "        HEART OF WINTER        "},~
+        REPLACE_TEXTUALLY ~	{"  ", "        TRIALS OF THE LUREMASTER        "}, ~ ~	{"CLUATotL", "        TRIALS OF THE LUREMASTER        "}, ~
+    BUT_ONLY IF_EXISTS
+	
+    COPY_EXISTING ~UI.MENU~ ~override~
+        REPLACE_TEXTUALLY ~"AR1000"~ ~"CLUAIWD"~
+    BUT_ONLY IF_EXISTS
+  END
+  
+
 BEGIN @11   // CheatsAreas pour les mods
 DESIGNATED 11
 
-  //ACTION_IF (FILE_EXISTS_IN_GAME ~CB3661.are~) BEGIN
   ACTION_IF (MOD_IS_INSTALLED ~SETUP-CTB.TP2~ ~0~) BEGIN
   INCLUDE ~CluaFr/Lua/Mods/Checkthebodies.tph~ // CheatsAreas pour Check the bodies
 	PRINT ~CheatsAreas pour Check the bodies~
 END
 
-  //ACTION_IF (FILE_EXISTS_IN_GAME ~CB3661.are~) BEGIN
   ACTION_IF (MOD_IS_INSTALLED ~SETUP-CTB.TP2~ ~1~) BEGIN
   INCLUDE ~CluaFr/Lua/Mods/CandlekeepChores.tph~ // CheatsAreas pour Check the bodies Candlekeep chores
 	PRINT ~CheatsAreas pour Candlekeep Chores~
 END
 
-  //ACTION_IF (FILE_EXISTS_IN_GAME ~ID9700.are~) BEGIN
   ACTION_IF (MOD_IS_INSTALLED ~A7-TotLM-BG2EE~ ~0~) BEGIN
   INCLUDE ~CluaFr/Lua/Mods/TrialsoftheLuremaster.tph~ // CheatsAreas pour Trials of the Luremaster
 	PRINT ~CheatsAreas pour Trials of the Luremaster~
 END
 
-  //ACTION_IF (FILE_EXISTS_IN_GAME ~A7#1FY.are~) BEGIN
   ACTION_IF (MOD_IS_INSTALLED ~A7-TESTYOURMETTLE.TP2~ ~0~) BEGIN
   INCLUDE ~CluaFr/Lua/Mods/TestYourMettle.tph~ // CheatsAreas pour Test Your Mettle
 	PRINT ~CheatsAreas pour Test Your Mettle~
 END
 
-  //ACTION_IF (FILE_EXISTS_IN_GAME ~ID1000.are~) BEGIN
   ACTION_IF (MOD_IS_INSTALLED ~SETUP-IWD1_EET.TP2~ ~1~) BEGIN
   INCLUDE ~CluaFr/Lua/Mods/IWD1_EET.tph~ // CheatsAreas pour IWD1_EET
 	PRINT ~CheatsAreas pour IWD1_EET~
 END
 
-  //ACTION_IF (FILE_EXISTS_IN_GAME ~IW1000.are~) BEGIN
   ACTION_IF (MOD_IS_INSTALLED ~SETUP-IWD2_EET.TP2~ ~0~) BEGIN
   INCLUDE ~CluaFr/Lua/Mods/IWD2_EET.tph~ // CheatsAreas pour IWD2_EET
 	PRINT ~CheatsAreas pour IWD2_EET~

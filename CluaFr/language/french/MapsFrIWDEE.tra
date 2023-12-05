@@ -10,7 +10,7 @@
 
 // CheatsAreas pour Icewind Dale EE
 	
-@3134 = ~{"AR1000", "    HAVREDEST,  (Prologue)"},~
+@3134 = ~{"AR1000", "        HAVREDEST,  (Prologue)"},~
 @3135 = ~{"AR1001", "(H)  Temple de Tempus (Prologue)"},~                                      
 @3136 = ~{"AR1002", "(H)  Maison 1 (Prologue)"},~                                              
 @3137 = ~{"AR1003", "(H)  Maison 2 (Prologue)"},~                                              
@@ -27,7 +27,7 @@
 @3148 = ~{"AR1014", "(H)  Maison 5 (Prologue)"},~                                              
 @3149 = ~{"AR1015", "(H)  Cellier du Berceau de l'hiver (Prologue)"},~                         
 @3150 = ~{"AR1016", "(H)  Comptoir de Pomab L2 (Prologue)"},~                                  
-@3151 = ~{"AR1100", "    HAVREDEST,  (Fin)"},~                                                            
+@3151 = ~{"AR1100", "        HAVREDEST,  (Fin)"},~                                                            
 @3152 = ~{"AR1101", "(H)  Temple de Tempus L1 (Fin)"},~                                        
 @3153 = ~{"AR1102", "(H)  Temple de Tempus L2, Dortoir (Fin)"},~                               
 @3154 = ~{"AR1103", "(H)  Temple de Tempus L3, Pomab (Fin)"},~                                 
@@ -44,7 +44,7 @@
 @3165 = ~{"AR2004", "(Ck)  Moulin en ruine"},~                                          
 @3166 = ~{"AR2005", "(Ck)  Moulin en ruine, Sous-sol"},~                                 
 @3167 = ~{"AR2006", "(Ck)  Moulin en ruine, Silo"},~                                     
-@3168 = ~{"AR2100", "    KULDAHAR"},~                                                                    
+@3168 = ~{"AR2100", "        KULDAHAR"},~                                                                    
 @3169 = ~{"AR2101", "(K)  Tour d'Orrick le Gris L1"},~                                          
 @3170 = ~{"AR2102", "(K)  Tour d'Orrick le Gris L2"},~                                          
 @3171 = ~{"AR2103", "(K)  Forge de Coulon"},~                                                   
